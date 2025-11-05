@@ -1,0 +1,1046 @@
+{
+  "version": "1.0.0",
+  "template": "legal",
+  "description": "CMS field mapping for Legal industry template - perfect for law firms and attorneys",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Law Firm Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "firm_name",
+              "label": "Law Firm Name",
+              "name": "firm_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Law Firm Name"
+            },
+            {
+              "key": "firm_tagline",
+              "label": "Firm Tagline",
+              "name": "firm_tagline",
+              "type": "text",
+              "default_value": "Justice, Integrity, Results"
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Office Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "office_hours",
+              "label": "Office Hours",
+              "name": "office_hours",
+              "type": "text",
+              "default_value": "Mon-Fri 8AM-6PM, Sat 9AM-2PM"
+            },
+            {
+              "key": "years_experience",
+              "label": "Years of Experience",
+              "name": "years_experience",
+              "type": "text",
+              "default_value": "25"
+            },
+            {
+              "key": "successful_cases",
+              "label": "Successful Cases",
+              "name": "successful_cases",
+              "type": "text",
+              "default_value": "1000"
+            },
+            {
+              "key": "rating",
+              "label": "Firm Rating",
+              "name": "rating",
+              "type": "text",
+              "default_value": "4.9"
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Firm Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "bar_admission_badge",
+              "label": "State Bar Badge",
+              "name": "bar_admission_badge",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "bbb_badge",
+              "label": "BBB Badge",
+              "name": "bbb_badge",
+              "type": "image",
+              "return_format": "url"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "linkedin_url",
+              "label": "LinkedIn URL",
+              "name": "linkedin_url",
+              "type": "url"
+            },
+            {
+              "key": "facebook_url",
+              "label": "Facebook URL",
+              "name": "facebook_url",
+              "type": "url"
+            },
+            {
+              "key": "twitter_url",
+              "label": "Twitter URL",
+              "name": "twitter_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Experienced Legal Representation You Can Trust"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_image",
+              "label": "Hero Image",
+              "name": "hero_image",
+              "type": "image",
+              "required": 1,
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Free Consultation"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "Our Services"
+            }
+          ]
+        },
+        {
+          "title": "Practice Areas",
+          "fields": [
+            {
+              "key": "practice_areas_title",
+              "label": "Practice Areas Section Title",
+              "name": "practice_areas_title",
+              "type": "text",
+              "default_value": "Practice Areas"
+            },
+            {
+              "key": "practice_areas_subtitle",
+              "label": "Practice Areas Subtitle",
+              "name": "practice_areas_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "practice_areas",
+              "label": "Practice Areas",
+              "name": "practice_areas",
+              "type": "repeater",
+              "required": 1,
+              "min": 3,
+              "max": 8,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "practice_title",
+                  "label": "Practice Area Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "practice_description",
+                  "label": "Practice Area Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "practice_icon",
+                  "label": "Practice Area Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "practice_link",
+                  "label": "Practice Area Link",
+                  "name": "link",
+                  "type": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Choose Us",
+          "fields": [
+            {
+              "key": "why_choose_title",
+              "label": "Why Choose Us Title",
+              "name": "why_choose_title",
+              "type": "text",
+              "default_value": "Why Choose Our Firm"
+            },
+            {
+              "key": "why_choose_subtitle",
+              "label": "Why Choose Us Subtitle",
+              "name": "why_choose_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "why_choose_image",
+              "label": "Why Choose Us Image",
+              "name": "why_choose_image",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "features",
+              "label": "Firm Features",
+              "name": "features",
+              "type": "repeater",
+              "min": 3,
+              "max": 6,
+              "sub_fields": [
+                {
+                  "key": "feature_title",
+                  "label": "Feature Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "feature_description",
+                  "label": "Feature Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 2,
+                  "required": 1
+                },
+                {
+                  "key": "feature_icon",
+                  "label": "Feature Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Attorneys",
+          "fields": [
+            {
+              "key": "attorneys_title",
+              "label": "Attorneys Section Title",
+              "name": "attorneys_title",
+              "type": "text",
+              "default_value": "Meet Our Attorneys"
+            },
+            {
+              "key": "attorneys_subtitle",
+              "label": "Attorneys Subtitle",
+              "name": "attorneys_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "attorneys",
+              "label": "Attorneys",
+              "name": "attorneys",
+              "type": "repeater",
+              "min": 1,
+              "max": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "attorney_name",
+                  "label": "Attorney Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "attorney_position",
+                  "label": "Position/Title",
+                  "name": "position",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "attorney_photo",
+                  "label": "Attorney Photo",
+                  "name": "photo",
+                  "type": "image",
+                  "return_format": "url",
+                  "required": 1
+                },
+                {
+                  "key": "attorney_bio",
+                  "label": "Attorney Bio",
+                  "name": "bio",
+                  "type": "textarea",
+                  "rows": 4,
+                  "required": 1
+                },
+                {
+                  "key": "attorney_credentials",
+                  "label": "Credentials",
+                  "name": "credentials",
+                  "type": "textarea",
+                  "rows": 3,
+                  "instructions": "One credential per line"
+                },
+                {
+                  "key": "attorney_profile_link",
+                  "label": "Profile Page Link",
+                  "name": "profile_link",
+                  "type": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Case Results",
+          "fields": [
+            {
+              "key": "case_results_title",
+              "label": "Case Results Title",
+              "name": "case_results_title",
+              "type": "text",
+              "default_value": "Case Results"
+            },
+            {
+              "key": "case_results_subtitle",
+              "label": "Case Results Subtitle",
+              "name": "case_results_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "case_results",
+              "label": "Case Results",
+              "name": "case_results",
+              "type": "repeater",
+              "min": 3,
+              "max": 8,
+              "sub_fields": [
+                {
+                  "key": "case_title",
+                  "label": "Case Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "case_description",
+                  "label": "Case Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "case_outcome",
+                  "label": "Case Outcome",
+                  "name": "outcome",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "case_category",
+                  "label": "Practice Area",
+                  "name": "category",
+                  "type": "text"
+                },
+                {
+                  "key": "case_icon",
+                  "label": "Case Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Testimonials",
+          "fields": [
+            {
+              "key": "testimonials_title",
+              "label": "Testimonials Title",
+              "name": "testimonials_title",
+              "type": "text",
+              "default_value": "Client Testimonials"
+            },
+            {
+              "key": "testimonials_subtitle",
+              "label": "Testimonials Subtitle",
+              "name": "testimonials_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "testimonials",
+              "label": "Testimonials",
+              "name": "testimonials",
+              "type": "repeater",
+              "min": 3,
+              "sub_fields": [
+                {
+                  "key": "testimonial_name",
+                  "label": "Client Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "testimonial_quote",
+                  "label": "Testimonial Quote",
+                  "name": "quote",
+                  "type": "textarea",
+                  "rows": 4,
+                  "required": 1
+                },
+                {
+                  "key": "testimonial_rating",
+                  "label": "Rating (1-5)",
+                  "name": "rating",
+                  "type": "number",
+                  "min": 1,
+                  "max": 5,
+                  "default_value": 5
+                },
+                {
+                  "key": "testimonial_case_type",
+                  "label": "Case Type",
+                  "name": "case_type",
+                  "type": "text"
+                },
+                {
+                  "key": "testimonial_avatar",
+                  "label": "Client Avatar",
+                  "name": "avatar",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Free Consultation",
+          "fields": [
+            {
+              "key": "consultation_title",
+              "label": "Consultation Title",
+              "name": "consultation_title",
+              "type": "text",
+              "default_value": "Free Initial Consultation"
+            },
+            {
+              "key": "consultation_subtitle",
+              "label": "Consultation Subtitle",
+              "name": "consultation_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "consultation_benefits",
+              "label": "Consultation Benefits",
+              "name": "consultation_benefits",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "benefit_text",
+                  "label": "Benefit Text",
+                  "name": "text",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            },
+            {
+              "key": "practice_area_options",
+              "label": "Practice Area Options",
+              "name": "practice_area_options",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "option_value",
+                  "label": "Option Value",
+                  "name": "value",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "option_label",
+                  "label": "Option Label",
+                  "name": "label",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Law Firm Info",
+          "id": "lawFirmInfo",
+          "fields": [
+            {
+              "name": "Firm Name",
+              "id": "firmName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Practice Area",
+          "id": "practiceArea",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Icon",
+              "id": "icon",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Link",
+              "id": "link",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Attorney",
+          "id": "attorney",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Position",
+              "id": "position",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Photo",
+              "id": "photo",
+              "type": "Link",
+              "linkType": "Asset",
+              "required": true
+            },
+            {
+              "name": "Bio",
+              "id": "bio",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Credentials",
+              "id": "credentials",
+              "type": "Text"
+            },
+            {
+              "name": "Profile Link",
+              "id": "profileLink",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Case Result",
+          "id": "caseResult",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Outcome",
+              "id": "outcome",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Category",
+              "id": "category",
+              "type": "Symbol"
+            },
+            {
+              "name": "Icon",
+              "id": "icon",
+              "type": "Link",
+              "linkType": "Asset"
+            }
+          ]
+        },
+        {
+          "name": "Testimonial",
+          "id": "testimonial",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Quote",
+              "id": "quote",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "id": "rating",
+              "type": "Integer",
+              "validations": [
+                {
+                  "in": [1, 2, 3, 4, 5]
+                }
+              ]
+            },
+            {
+              "name": "Case Type",
+              "id": "caseType",
+              "type": "Symbol"
+            },
+            {
+              "name": "Avatar",
+              "id": "avatar",
+              "type": "Link",
+              "linkType": "Asset"
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "law-firm-info",
+          "attributes": {
+            "firmName": {
+              "type": "string",
+              "required": true
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text",
+              "required": true
+            }
+          }
+        },
+        {
+          "name": "practice-area",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "icon": {
+              "type": "media",
+              "multiple": false
+            },
+            "link": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "attorney",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "position": {
+              "type": "string",
+              "required": true
+            },
+            "photo": {
+              "type": "media",
+              "multiple": false,
+              "required": true
+            },
+            "bio": {
+              "type": "text",
+              "required": true
+            },
+            "credentials": {
+              "type": "text"
+            },
+            "profileLink": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "case-result",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "outcome": {
+              "type": "string",
+              "required": true
+            },
+            "category": {
+              "type": "string"
+            },
+            "icon": {
+              "type": "media",
+              "multiple": false
+            }
+          }
+        },
+        {
+          "name": "testimonial",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "quote": {
+              "type": "text",
+              "required": true
+            },
+            "rating": {
+              "type": "integer",
+              "min": 1,
+              "max": 5,
+              "default": 5
+            },
+            "caseType": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "media",
+              "multiple": false
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Law Firm Info",
+          "fields": [
+            {
+              "name": "Firm Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Practice Areas",
+          "fields": [
+            {
+              "name": "Practice Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Practice Icon",
+              "type": "Image"
+            },
+            {
+              "name": "Practice Link",
+              "type": "Link"
+            }
+          ]
+        },
+        {
+          "name": "Attorneys",
+          "fields": [
+            {
+              "name": "Attorney Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Position",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Attorney Photo",
+              "type": "Image",
+              "required": true
+            },
+            {
+              "name": "Attorney Bio",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Credentials",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "Profile Link",
+              "type": "Link"
+            }
+          ]
+        },
+        {
+          "name": "Case Results",
+          "fields": [
+            {
+              "name": "Case Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Case Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Case Outcome",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Practice Area",
+              "type": "Plain text"
+            },
+            {
+              "name": "Case Icon",
+              "type": "Image"
+            }
+          ]
+        },
+        {
+          "name": "Client Testimonials",
+          "fields": [
+            {
+              "name": "Client Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Testimonial Quote",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "type": "Number",
+              "decimalPlaces": 0
+            },
+            {
+              "name": "Case Type",
+              "type": "Plain text"
+            },
+            {
+              "name": "Client Avatar",
+              "type": "Image"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "company_name": "Law Firm Info/firmName/firm_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "practice_areas": "Practice Areas/practice_areas/practiceAreas (array)",
+      "attorneys": "Attorneys/attorneys/attorneys (array)",
+      "case_results": "Case Results/case_results/caseResults (array)",
+      "testimonials": "Client Testimonials/testimonials/testimonials (array)"
+    },
+    "data_transformation": {
+      "practice_areas_array": "Map each practice area object to template practice area structure",
+      "attorneys_array": "Map each attorney object to template attorney structure",
+      "case_results_array": "Map each case result object to template case result structure",
+      "testimonials_array": "Map each testimonial object to template testimonial structure",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

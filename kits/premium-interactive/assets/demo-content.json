@@ -1,0 +1,411 @@
+{
+  "version": "1.0.0",
+  "template": "premium-interactive",
+  "description": "Demo content for Premium Interactive template - enterprise-level features with advanced interactivity",
+  "company": {
+    "name": "Nexus Platform",
+    "tagline": "The Future of Digital Transformation",
+    "description": "Enterprise-grade platform powering digital transformation for Fortune 500 companies worldwide. Advanced analytics, AI-driven insights, and seamless integrations.",
+    "location": "San Francisco, CA",
+    "year_established": "2018",
+    "phone": "+1-415-555-0123",
+    "phone_display": "(415) 555-0123",
+    "email": "enterprise@nexusplatform.com",
+    "address": "100 Market Street, Suite 500, San Francisco, CA 94105"
+  },
+  "branding": {
+    "logo": "/assets/images/logo.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#0f172a",
+    "secondary_color": "#1e293b",
+    "accent_color": "#06b6d4"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/nexus-platform",
+    "twitter": "https://twitter.com/nexusplatform",
+    "youtube": "https://youtube.com/@nexusplatform",
+    "github": "https://github.com/nexusplatform"
+  },
+  "hero": {
+    "title": "Transform Your Business with Enterprise Intelligence",
+    "subtitle": "Harness the power of AI-driven analytics, seamless integrations, and advanced automation to accelerate your digital transformation journey. Join 500+ enterprise organizations already leading their industries.",
+    "video": "/assets/videos/hero-platform-demo.mp4",
+    "poster": "/assets/images/hero-poster.jpg",
+    "primary_cta": "Configure Your Solution",
+    "secondary_cta": "Book Enterprise Demo",
+    "scroll_text": "Explore our platform",
+    "stats": [
+      {"value": "500", "label": "Enterprise Clients"},
+      {"value": "99.9", "label": "Uptime SLA"},
+      {"value": "24/7", "label": "Global Support"}
+    ]
+  },
+  "products": {
+    "title": "Enterprise Solutions",
+    "subtitle": "Comprehensive platforms designed for enterprise-scale operations",
+    "items": [
+      {
+        "id": "analytics-pro",
+        "name": "Analytics Pro",
+        "description": "Advanced business intelligence platform with AI-powered insights and predictive analytics.",
+        "image": "/assets/images/products/analytics-pro.jpg",
+        "badge": "Most Popular",
+        "features": ["Real-time Dashboards", "AI Predictions", "Custom Reports", "API Access"],
+        "price": "$299",
+        "period": "month"
+      },
+      {
+        "id": "workflow-automation",
+        "name": "Workflow Automation",
+        "description": "Streamline operations with intelligent automation and workflow orchestration.",
+        "image": "/assets/images/products/workflow-automation.jpg",
+        "features": ["Process Automation", "Integration Hub", "Smart Triggers", "Audit Trails"],
+        "price": "$199",
+        "period": "month"
+      },
+      {
+        "id": "collaboration-suite",
+        "name": "Collaboration Suite",
+        "description": "Unified workspace for teams with advanced communication and project management tools.",
+        "image": "/assets/images/products/collaboration-suite.jpg",
+        "features": ["Team Workspaces", "Video Conferencing", "File Sharing", "Task Management"],
+        "price": "$49",
+        "period": "user/month"
+      }
+    ]
+  },
+  "configurator": {
+    "title": "Build Your Perfect Solution",
+    "subtitle": "Customize your platform with our interactive configurator. Choose the features and integrations that matter most to your business.",
+    "options": [
+      {
+        "id": "plan",
+        "name": "Plan Type",
+        "type_select": true,
+        "values": [
+          {"value": "starter", "label": "Starter Plan - $99/month"},
+          {"value": "professional", "label": "Professional Plan - $299/month"},
+          {"value": "enterprise", "label": "Enterprise Plan - $999/month"}
+        ]
+      },
+      {
+        "id": "users",
+        "name": "User Count",
+        "type_select": true,
+        "values": [
+          {"value": "10", "label": "Up to 10 users"},
+          {"value": "50", "label": "Up to 50 users", "price": "50"},
+          {"value": "unlimited", "label": "Unlimited users", "price": "200"}
+        ]
+      },
+      {
+        "id": "integrations",
+        "name": "Integrations",
+        "type_select": true,
+        "values": [
+          {"value": "basic", "label": "Basic Integrations"},
+          {"value": "premium", "label": "Premium Integrations", "price": "100"},
+          {"value": "enterprise", "label": "Enterprise Integrations", "price": "300"}
+        ]
+      },
+      {
+        "id": "storage",
+        "name": "Storage",
+        "type_select": true,
+        "values": [
+          {"value": "100gb", "label": "100GB Storage"},
+          {"value": "1tb", "label": "1TB Storage", "price": "50"},
+          {"value": "unlimited", "label": "Unlimited Storage", "price": "150"}
+        ]
+      },
+      {
+        "id": "support",
+        "name": "Support Level",
+        "type_select": true,
+        "values": [
+          {"value": "standard", "label": "Standard Support"},
+          {"value": "premium", "label": "Premium Support", "price": "200"},
+          {"value": "dedicated", "label": "Dedicated Success Manager", "price": "500"}
+        ]
+      },
+      {
+        "id": "security",
+        "name": "Security Package",
+        "type_toggle": true,
+        "price": "150",
+        "label": "Advanced Security & Compliance"
+      },
+      {
+        "id": "training",
+        "name": "Training Package",
+        "type_toggle": true,
+        "price": "300",
+        "label": "Comprehensive Training & Onboarding"
+      }
+    ]
+  },
+  "features": {
+    "title": "Powerful Features for Enterprise Success",
+    "subtitle": "Everything you need to scale your business operations",
+    "items": [
+      {
+        "title": "AI-Powered Analytics",
+        "description": "Advanced machine learning algorithms provide predictive insights and automated reporting.",
+        "icon": "/assets/images/icons/ai-analytics.svg",
+        "interactive": true,
+        "demo_id": "analytics-demo"
+      },
+      {
+        "title": "Seamless Integrations",
+        "description": "Connect with 200+ business applications through our robust API and pre-built connectors.",
+        "icon": "/assets/images/icons/integrations.svg",
+        "interactive": true,
+        "demo_id": "integrations-demo"
+      },
+      {
+        "title": "Advanced Security",
+        "description": "Enterprise-grade security with end-to-end encryption, SSO, and compliance certifications.",
+        "icon": "/assets/images/icons/security.svg",
+        "interactive": false
+      },
+      {
+        "title": "Real-Time Collaboration",
+        "description": "Work together seamlessly with live editing, comments, and instant notifications.",
+        "icon": "/assets/images/icons/collaboration.svg",
+        "interactive": true,
+        "demo_id": "collaboration-demo"
+      },
+      {
+        "title": "Mobile Optimization",
+        "description": "Access your workspace anywhere with native mobile apps and responsive design.",
+        "icon": "/assets/images/icons/mobile.svg",
+        "interactive": false
+      },
+      {
+        "title": "24/7 Enterprise Support",
+        "description": "Dedicated support team available around the clock with guaranteed 1-hour response times.",
+        "icon": "/assets/images/icons/support.svg",
+        "interactive": false
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Flexible pricing designed to scale with your business growth",
+    "plans": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "description": "Perfect for small teams getting started",
+        "monthly_price": "99",
+        "annual_price": "79",
+        "popular": false,
+        "cta_text": "Start Free Trial",
+        "features": [
+          {"feature": "Up to 10 users", "included": true},
+          {"feature": "Basic analytics", "included": true},
+          {"feature": "Email support", "included": true},
+          {"feature": "API access", "included": true},
+          {"feature": "Advanced integrations", "included": false},
+          {"feature": "Dedicated support", "included": false},
+          {"feature": "Custom branding", "included": false}
+        ]
+      },
+      {
+        "id": "professional",
+        "name": "Professional",
+        "description": "Advanced features for growing businesses",
+        "monthly_price": "299",
+        "annual_price": "239",
+        "popular": true,
+        "cta_text": "Start Free Trial",
+        "features": [
+          {"feature": "Up to 50 users", "included": true},
+          {"feature": "Advanced analytics", "included": true},
+          {"feature": "Priority support", "included": true},
+          {"feature": "API access", "included": true},
+          {"feature": "Advanced integrations", "included": true},
+          {"feature": "Dedicated support", "included": false},
+          {"feature": "Custom branding", "included": false}
+        ]
+      },
+      {
+        "id": "enterprise",
+        "name": "Enterprise",
+        "description": "Full-featured solution for large organizations",
+        "monthly_price": "999",
+        "annual_price": "799",
+        "popular": false,
+        "cta_text": "Contact Sales",
+        "features": [
+          {"feature": "Unlimited users", "included": true},
+          {"feature": "Enterprise analytics", "included": true},
+          {"feature": "24/7 dedicated support", "included": true},
+          {"feature": "API access", "included": true},
+          {"feature": "Advanced integrations", "included": true},
+          {"feature": "Dedicated success manager", "included": true},
+          {"feature": "Custom branding", "included": true}
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resource Center",
+    "subtitle": "Everything you need to get the most out of our platform",
+    "items": [
+      {
+        "title": "Getting Started Guide",
+        "description": "Complete walkthrough for setting up your account and configuring your workspace.",
+        "icon": "/assets/images/icons/guide.svg",
+        "type": "Guide",
+        "size": "2.3 MB",
+        "gated": false,
+        "download_url": "/downloads/getting-started-guide.pdf"
+      },
+      {
+        "title": "API Documentation",
+        "description": "Comprehensive API reference with code examples and integration tutorials.",
+        "icon": "/assets/images/icons/api.svg",
+        "type": "Documentation",
+        "size": "5.7 MB",
+        "gated": false,
+        "download_url": "/downloads/api-documentation.pdf"
+      },
+      {
+        "title": "Security Whitepaper",
+        "description": "Detailed overview of our security measures and compliance certifications.",
+        "icon": "/assets/images/icons/security.svg",
+        "type": "Whitepaper",
+        "size": "1.8 MB",
+        "gated": true,
+        "id": "security-whitepaper"
+      },
+      {
+        "title": "Integration Playbook",
+        "description": "Step-by-step guides for integrating with popular business applications.",
+        "icon": "/assets/images/icons/integration.svg",
+        "type": "Playbook",
+        "size": "3.2 MB",
+        "gated": true,
+        "id": "integration-playbook"
+      },
+      {
+        "title": "ROI Calculator",
+        "description": "Interactive tool to calculate potential return on investment for your organization.",
+        "icon": "/assets/images/icons/calculator.svg",
+        "type": "Tool",
+        "size": "Web App",
+        "gated": false,
+        "download_url": "/tools/roi-calculator"
+      },
+      {
+        "title": "Case Study Library",
+        "description": "Success stories and detailed case studies from our enterprise clients.",
+        "icon": "/assets/images/icons/case-study.svg",
+        "type": "Case Studies",
+        "size": "8.4 MB",
+        "gated": true,
+        "id": "case-study-library"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Trusted by Industry Leaders",
+    "subtitle": "See what enterprise organizations say about our platform",
+    "items": [
+      {
+        "name": "Sarah Mitchell",
+        "company": "Global Tech Corp",
+        "role": "VP of Operations",
+        "avatar": "/assets/images/testimonials/sarah-mitchell.jpg",
+        "quote": "Nexus Platform transformed our entire operation. The AI insights alone saved us $2M in the first year. The implementation was seamless and the support team is exceptional."
+      },
+      {
+        "name": "David Chen",
+        "company": "Innovate Solutions",
+        "role": "CTO",
+        "avatar": "/assets/images/testimonials/david-chen.jpg",
+        "quote": "The integration capabilities are unmatched. We connected 15 different systems in under a week. The automation features have reduced our manual processes by 70%."
+      },
+      {
+        "name": "Jennifer Walsh",
+        "company": "Enterprise Dynamics",
+        "role": "Director of Digital Transformation",
+        "avatar": "/assets/images/testimonials/jennifer-walsh.jpg",
+        "quote": "As a Fortune 500 company, security and compliance are critical. Nexus Platform exceeded all our requirements while providing incredible functionality and user experience."
+      },
+      {
+        "name": "Marcus Rodriguez",
+        "company": "TechForward Inc",
+        "role": "Chief Information Officer",
+        "avatar": "/assets/images/testimonials/marcus-rodriguez.jpg",
+        "quote": "The scalability is impressive. We started with 50 users and now support 5,000+ employees globally. The platform grows with your business without missing a beat."
+      }
+    ],
+    "client_logos": [
+      {"logo": "/assets/images/logos/microsoft.svg", "company": "Microsoft"},
+      {"logo": "/assets/images/logos/google.svg", "company": "Google"},
+      {"logo": "/assets/images/logos/amazon.svg", "company": "Amazon"},
+      {"logo": "/assets/images/logos/salesforce.svg", "company": "Salesforce"},
+      {"logo": "/assets/images/logos/adobe.svg", "company": "Adobe"},
+      {"logo": "/assets/images/logos/slack.svg", "company": "Slack"}
+    ]
+  },
+  "contact": {
+    "title": "Ready to Transform Your Business?",
+    "description": "Join hundreds of enterprise organizations already using our platform to drive digital transformation. Schedule a personalized demo to see how we can help your business succeed.",
+    "interest_options": [
+      {"value": "platform-demo", "label": "Schedule Platform Demo"},
+      {"value": "consultation", "label": "Free Consultation"},
+      {"value": "pricing-discussion", "label": "Discuss Pricing"},
+      {"value": "technical-review", "label": "Technical Review"},
+      {"value": "partnership", "label": "Partnership Inquiry"},
+      {"value": "other", "label": "Other"}
+    ]
+  },
+  "footer": {
+    "description": "Enterprise-grade platform powering digital transformation for Fortune 500 companies worldwide. Advanced analytics, AI-driven insights, and seamless integrations.",
+    "services": [
+      {"name": "Analytics Pro", "url": "/products/analytics-pro"},
+      {"name": "Workflow Automation", "url": "/products/workflow-automation"},
+      {"name": "Collaboration Suite", "url": "/products/collaboration-suite"}
+    ]
+  },
+  "seo": {
+    "meta_description": "Enterprise platform for digital transformation. AI-powered analytics, workflow automation, and seamless integrations for Fortune 500 companies.",
+    "keywords": "enterprise software, digital transformation, business intelligence, workflow automation, AI analytics, enterprise platform",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "media_guidelines": {
+    "hero_video": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "50MB",
+      "format": "MP4, WebM"
+    },
+    "product_images": {
+      "dimensions": "600x400",
+      "aspect_ratio": "3:2",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "client_logos": {
+      "dimensions": "200x100",
+      "aspect_ratio": "2:1",
+      "max_size": "500KB",
+      "format": "SVG, PNG"
+    },
+    "testimonial_avatars": {
+      "dimensions": "100x100",
+      "aspect_ratio": "1:1",
+      "max_size": "300KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "300x100",
+      "aspect_ratio": "3:1",
+      "max_size": "200KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

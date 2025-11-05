@@ -1,0 +1,263 @@
+{
+  "version": "1.0.0",
+  "template": "legal",
+  "description": "Demo content for Legal industry template - perfect for law firms and attorneys",
+  "company": {
+    "name": "Thompson & Associates Law Firm",
+    "tagline": "Justice, Integrity, Results",
+    "description": "A full-service law firm providing comprehensive legal services with over 25 years of combined experience. We fight for justice and protect your rights.",
+    "location": "Downtown Legal District",
+    "year_established": "1998",
+    "phone": "+1-555-123-4567",
+    "phone_display": "(555) 123-4567",
+    "email": "info@thompsonlaw.com",
+    "address": "123 Justice Avenue, Suite 500, Downtown Legal District, NY 10001"
+  },
+  "branding": {
+    "logo": "/assets/images/logo-thompson-law.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#1e40af",
+    "secondary_color": "#374151",
+    "accent_color": "#dc2626"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/thompson-associates-law",
+    "facebook": "https://facebook.com/thompsonlawfirm",
+    "twitter": "https://twitter.com/thompsonlaw"
+  },
+  "hero": {
+    "title": "Experienced Legal Representation You Can Trust",
+    "subtitle": "Over 25 years of combined legal experience fighting for justice and protecting your rights. Free initial consultation available.",
+    "image": "/assets/images/law-office.jpg",
+    "alt": "Professional law office with legal books and scales of justice",
+    "primary_cta": "Free Consultation",
+    "secondary_cta": "Our Services"
+  },
+  "practice_areas": {
+    "title": "Practice Areas",
+    "subtitle": "Comprehensive legal services for individuals and businesses"
+  },
+  "practice_areas_data": [
+    {
+      "title": "Personal Injury",
+      "description": "Aggressive representation for accident victims seeking fair compensation for injuries, medical bills, and lost wages.",
+      "icon": "/assets/images/icons/personal-injury.svg",
+      "link": "/practice-areas/personal-injury"
+    },
+    {
+      "title": "Criminal Defense",
+      "description": "Dedicated criminal defense attorneys protecting your rights and freedom in all types of criminal cases.",
+      "icon": "/assets/images/icons/criminal-defense.svg",
+      "link": "/practice-areas/criminal-defense"
+    },
+    {
+      "title": "Family Law",
+      "description": "Compassionate guidance through divorce, child custody, support, and other family legal matters.",
+      "icon": "/assets/images/icons/family-law.svg",
+      "link": "/practice-areas/family-law"
+    },
+    {
+      "title": "Business Law",
+      "description": "Legal counsel for startups, corporations, contracts, and business transactions.",
+      "icon": "/assets/images/icons/business-law.svg",
+      "link": "/practice-areas/business-law"
+    },
+    {
+      "title": "Estate Planning",
+      "description": "Comprehensive estate planning including wills, trusts, and probate administration.",
+      "icon": "/assets/images/icons/estate-planning.svg",
+      "link": "/practice-areas/estate-planning"
+    },
+    {
+      "title": "Real Estate Law",
+      "description": "Expert guidance for property transactions, zoning, and real estate disputes.",
+      "icon": "/assets/images/icons/real-estate-law.svg",
+      "link": "/practice-areas/real-estate-law"
+    }
+  ],
+  "why_choose": {
+    "title": "Why Choose Thompson & Associates",
+    "subtitle": "Experience, integrity, and results-driven legal representation"
+  },
+  "features": [
+    {
+      "title": "25+ Years Experience",
+      "description": "Combined legal experience ensuring you get the best possible representation",
+      "icon": "/assets/images/icons/experience.svg"
+    },
+    {
+      "title": "Free Initial Consultation",
+      "description": "No obligation consultation to discuss your case and legal options",
+      "icon": "/assets/images/icons/consultation.svg"
+    },
+    {
+      "title": "Proven Track Record",
+      "description": "Successful case results and satisfied clients across all practice areas",
+      "icon": "/assets/images/icons/track-record.svg"
+    },
+    {
+      "title": "Personalized Attention",
+      "description": "Direct attorney access and personalized case management",
+      "icon": "/assets/images/icons/personalized.svg"
+    }
+  ],
+  "why_choose_image": "/assets/images/law-team.jpg",
+  "why_choose_alt": "Thompson & Associates legal team",
+  "attorneys": {
+    "title": "Meet Our Attorneys",
+    "subtitle": "Experienced legal professionals dedicated to your success"
+  },
+  "attorneys_data": [
+    {
+      "name": "Sarah Thompson",
+      "position": "Managing Partner",
+      "photo": "/assets/images/attorneys/sarah-thompson.jpg",
+      "bio": "Sarah has over 20 years of legal experience specializing in personal injury and business law. She is a graduate of Harvard Law School and has been recognized as a Super Lawyer for 10 consecutive years.",
+      "credentials": ["J.D. Harvard Law School", "Super Lawyer 2014-2024", "State Bar President 2018"],
+      "profile_link": "/attorneys/sarah-thompson"
+    },
+    {
+      "name": "Michael Rodriguez",
+      "position": "Senior Partner",
+      "photo": "/assets/images/attorneys/michael-rodriguez.jpg",
+      "bio": "Michael specializes in criminal defense and family law with 18 years of experience. He has successfully defended clients in over 500 criminal cases and is known for his courtroom expertise.",
+      "credentials": ["J.D. Yale Law School", "Board Certified Criminal Law", "AV Preeminent Rating"],
+      "profile_link": "/attorneys/michael-rodriguez"
+    },
+    {
+      "name": "Jennifer Chen",
+      "position": "Associate Attorney",
+      "photo": "/assets/images/attorneys/jennifer-chen.jpg",
+      "bio": "Jennifer focuses on estate planning and business law. With 8 years of experience, she helps families and businesses protect their assets and plan for the future.",
+      "credentials": ["J.D. Columbia Law School", "LL.M. Tax Law", "Certified Estate Planner"],
+      "profile_link": "/attorneys/jennifer-chen"
+    }
+  ],
+  "case_results": {
+    "title": "Case Results",
+    "subtitle": "Recent successful outcomes for our clients"
+  },
+  "case_results_data": [
+    {
+      "title": "Personal Injury Settlement",
+      "description": "Secured $2.3 million settlement for client injured in workplace accident",
+      "outcome": "$2.3M Settlement",
+      "category": "Personal Injury",
+      "icon": "/assets/images/icons/settlement.svg"
+    },
+    {
+      "title": "Criminal Case Dismissal",
+      "description": "Successfully had all charges dismissed in felony drug possession case",
+      "outcome": "Case Dismissed",
+      "category": "Criminal Defense",
+      "icon": "/assets/images/icons/dismissal.svg"
+    },
+    {
+      "title": "Divorce Settlement",
+      "description": "Favorable custody and property division in complex divorce case",
+      "outcome": "Favorable Settlement",
+      "category": "Family Law",
+      "icon": "/assets/images/icons/settlement.svg"
+    },
+    {
+      "title": "Business Contract Dispute",
+      "description": "Won summary judgment in $500K breach of contract lawsuit",
+      "outcome": "Summary Judgment",
+      "category": "Business Law",
+      "icon": "/assets/images/icons/judgment.svg"
+    }
+  ],
+  "testimonials": {
+    "title": "Client Testimonials",
+    "subtitle": "What our clients say about our legal services"
+  },
+  "testimonials_data": [
+    {
+      "name": "Robert Martinez",
+      "quote": "Sarah Thompson and her team were incredible. They handled my personal injury case with professionalism and got me the compensation I deserved. I highly recommend Thompson & Associates.",
+      "rating": 5,
+      "case_type": "Personal Injury",
+      "avatar": "/assets/images/testimonials/robert-martinez.jpg"
+    },
+    {
+      "name": "Lisa Johnson",
+      "quote": "Michael Rodriguez saved my life. Facing serious criminal charges, he was my rock throughout the entire process. The outcome was better than I could have hoped for.",
+      "rating": 5,
+      "case_type": "Criminal Defense",
+      "avatar": "/assets/images/testimonials/lisa-johnson.jpg"
+    },
+    {
+      "name": "David Chen",
+      "quote": "Jennifer Chen helped us navigate a complex business acquisition. Her expertise and attention to detail ensured everything went smoothly. Outstanding legal counsel.",
+      "rating": 5,
+      "case_type": "Business Law",
+      "avatar": "/assets/images/testimonials/david-chen.jpg"
+    }
+  ],
+  "consultation": {
+    "title": "Free Initial Consultation",
+    "subtitle": "Get expert legal advice with no obligation"
+  },
+  "consultation_benefits": [
+    {"text": "No obligation consultation"},
+    {"text": "Experienced attorney assessment"},
+    {"text": "Clear explanation of legal options"},
+    {"text": "Case strategy discussion"},
+    {"text": "Transparent fee discussion"}
+  ],
+  "practice_area_options": [
+    {"value": "personal-injury", "label": "Personal Injury"},
+    {"value": "criminal-defense", "label": "Criminal Defense"},
+    {"value": "family-law", "label": "Family Law"},
+    {"value": "business-law", "label": "Business Law"},
+    {"value": "estate-planning", "label": "Estate Planning"},
+    {"value": "real-estate", "label": "Real Estate Law"},
+    {"value": "other", "label": "Other Legal Matter"}
+  ],
+  "contact": {
+    "title": "Contact Thompson & Associates",
+    "description": "Ready to discuss your legal matter? Contact us today for a free consultation."
+  },
+  "footer": {
+    "description": "Experienced legal representation with integrity and results since 1998."
+  },
+  "seo": {
+    "meta_description": "Thompson & Associates Law Firm provides experienced legal representation in personal injury, criminal defense, family law, and business law. Free consultation available.",
+    "keywords": "lawyer, attorney, legal services, personal injury lawyer, criminal defense attorney, family law, business law, estate planning",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "additional_info": {
+    "years_experience": "25",
+    "successful_cases": "1000",
+    "rating": "4.9",
+    "office_hours": "Mon-Fri 8AM-6PM, Sat 9AM-2PM",
+    "bar_admission_badge": "/assets/images/badges/state-bar.png",
+    "bbb_badge": "/assets/images/badges/bbb.png"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "attorney_photos": {
+      "dimensions": "400x500",
+      "aspect_ratio": "4:5",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "practice_icons": {
+      "dimensions": "64x64",
+      "aspect_ratio": "1:1",
+      "max_size": "50KB",
+      "format": "SVG, PNG"
+    },
+    "logo": {
+      "dimensions": "200x80",
+      "aspect_ratio": "2.5:1",
+      "max_size": "100KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

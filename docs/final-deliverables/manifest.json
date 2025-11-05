@@ -1,0 +1,293 @@
+{
+  "version": "1.0.0",
+  "name": "Website Template Library",
+  "description": "Comprehensive website template library with 5 core kits and industry variants for non-technical customers",
+  "created": "2024-11-04",
+  "author": "Website Template Library Team",
+  "license": "MIT",
+
+  "templates": {
+    "kits": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "description": "Perfect for small businesses and startups. Clean, professional design with essential features.",
+        "type": "kit",
+        "features": [
+          "Lead Capture",
+          "Blog Integration",
+          "Contact Forms",
+          "Mobile Optimized",
+          "SEO Ready",
+          "Social Media Integration"
+        ],
+        "pages": ["home", "about", "services", "blog", "contact"],
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive"],
+        "difficulty": "Beginner",
+        "estimated_setup": "2-4 hours"
+      },
+      {
+        "id": "business",
+        "name": "Business",
+        "description": "Professional template for consulting firms and service businesses with advanced features.",
+        "type": "kit",
+        "features": [
+          "Pricing Tables",
+          "Case Studies",
+          "Team Profiles",
+          "Lead Generation",
+          "Advanced Analytics",
+          "Multi-language Support"
+        ],
+        "pages": ["home", "about", "services", "case-studies", "team", "pricing", "contact"],
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive", "Interactive Elements"],
+        "difficulty": "Intermediate",
+        "estimated_setup": "4-6 hours"
+      },
+      {
+        "id": "creative",
+        "name": "Creative",
+        "description": "Stunning portfolio template for designers, agencies, and creative professionals.",
+        "type": "kit",
+        "features": [
+          "Portfolio Gallery",
+          "Animations",
+          "Interactive Elements",
+          "Creative Layout",
+          "Client Showcases",
+          "Social Proof"
+        ],
+        "pages": ["home", "work", "about", "services", "testimonials", "process", "contact"],
+        "technologies": ["HTML5", "CSS3", "JavaScript", "GSAP Animations", "Responsive"],
+        "difficulty": "Intermediate",
+        "estimated_setup": "6-8 hours"
+      },
+      {
+        "id": "premium-interactive",
+        "name": "Premium Interactive",
+        "description": "Enterprise-grade template with advanced configurator, multi-language support, and gated content.",
+        "type": "kit",
+        "features": [
+          "Product Configurator",
+          "Multi-language Support",
+          "Gated Resources",
+          "Advanced Analytics",
+          "Enterprise Security",
+          "API Integrations"
+        ],
+        "pages": ["home", "products", "configurator", "features", "pricing", "resources", "testimonials", "contact"],
+        "technologies": ["HTML5", "CSS3", "JavaScript", "React Components", "API Integration", "Responsive"],
+        "difficulty": "Advanced",
+        "estimated_setup": "8-12 hours"
+      }
+    ],
+    "industries": [
+      {
+        "id": "contractors-trades",
+        "name": "Contractors & Trades",
+        "description": "Specialized template for construction, remodeling, and trade professionals.",
+        "type": "industry",
+        "target_industry": "Construction & Trades",
+        "features": [
+          "Project Gallery",
+          "Trust Badges",
+          "Quote Forms",
+          "License Display",
+          "Emergency Contact",
+          "Industry Certifications"
+        ],
+        "pages": ["home", "services", "projects", "about", "testimonials", "contact"],
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive"],
+        "difficulty": "Beginner",
+        "estimated_setup": "3-5 hours"
+      },
+      {
+        "id": "roofers-exterior",
+        "name": "Roofers & Exterior",
+        "description": "Complete roofing and exterior services template with emergency response features.",
+        "type": "industry",
+        "target_industry": "Roofing & Exterior",
+        "features": [
+          "Before/After Gallery",
+          "Seasonal Promotions",
+          "Pricing Guide",
+          "Emergency Response",
+          "Warranty Information",
+          "Local Service Areas"
+        ],
+        "pages": ["home", "services", "gallery", "seasonal", "pricing", "why-choose-us", "about", "contact"],
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive"],
+        "difficulty": "Intermediate",
+        "estimated_setup": "4-6 hours"
+      }
+    ]
+  },
+
+  "tools": {
+    "demo_importer": {
+      "name": "Demo Content Importer",
+      "description": "One-click demo content installation and template preview tool",
+      "features": [
+        "Instant template preview",
+        "Responsive testing",
+        "Demo content application",
+        "Template download",
+        "Cross-browser compatibility"
+      ],
+      "technologies": ["HTML5", "CSS3", "JavaScript", "Iframe API"],
+      "file": "tools/demo-importer/index.html"
+    },
+    "usability_tester": {
+      "name": "Usability Testing Framework",
+      "description": "Structured usability testing tool with feedback collection and analysis",
+      "features": [
+        "Template testing interface",
+        "Feedback collection system",
+        "Quantitative metrics",
+        "Qualitative analysis",
+        "Results export",
+        "Data persistence"
+      ],
+      "technologies": ["HTML5", "CSS3", "JavaScript", "localStorage API"],
+      "file": "tools/usability-tester/index.html"
+    }
+  },
+
+  "components": {
+    "core": [
+      {
+        "name": "Design Tokens",
+        "file": "components/core/design-tokens.json",
+        "description": "Centralized design system with colors, typography, and spacing"
+      },
+      {
+        "name": "Responsive Config",
+        "file": "components/core/responsive-config.json",
+        "description": "Responsive design configuration and breakpoints"
+      },
+      {
+        "name": "Hero Component",
+        "file": "components/core/hero.html",
+        "description": "Reusable hero section with video/image support"
+      },
+      {
+        "name": "Button System",
+        "file": "components/core/buttons.html",
+        "description": "Comprehensive button component library"
+      }
+    ]
+  },
+
+  "cms_integrations": {
+    "supported_platforms": ["WordPress", "Contentful", "Strapi", "Webflow"],
+    "field_mappings": "Available for all templates",
+    "acf_version_required": ">=5.0",
+    "custom_fields_count": "50+ per template"
+  },
+
+  "assets": {
+    "images": {
+      "format": ["JPG", "PNG", "WebP", "SVG"],
+      "optimization": "Compressed for web delivery",
+      "responsive": "Multiple sizes available"
+    },
+    "icons": {
+      "library": "Custom SVG icon set",
+      "categories": ["UI", "Services", "Social", "Navigation"],
+      "optimization": "Minified and optimized"
+    },
+    "fonts": {
+      "primary": "Inter (Google Fonts)",
+      "fallback": "System font stack",
+      "optimization": "WOFF2 format with fallbacks"
+    }
+  },
+
+  "documentation": {
+    "quick_start": "Available for each template",
+    "cms_integration": "Complete field mappings for all platforms",
+    "api_reference": "Component and utility documentation",
+    "best_practices": "Design and development guidelines"
+  },
+
+  "quality_assurance": {
+    "accessibility": {
+      "wcag_compliance": "WCAG 2.1 AA",
+      "screen_reader_tested": true,
+      "keyboard_navigation": true,
+      "color_contrast_ratio": ">=4.5:1"
+    },
+    "performance": {
+      "page_speed_score": ">=90",
+      "core_web_vitals": "Optimized",
+      "mobile_performance": "Optimized",
+      "image_optimization": "Automated"
+    },
+    "browser_support": {
+      "modern_browsers": "Full support",
+      "mobile_browsers": "Full support",
+      "legacy_support": "Graceful degradation"
+    },
+    "seo": {
+      "meta_tags": "Comprehensive",
+      "structured_data": "Schema.org markup",
+      "open_graph": "Social media optimization",
+      "robots_txt": "Search engine friendly"
+    }
+  },
+
+  "deployment": {
+    "static_hosting": ["Netlify", "Vercel", "GitHub Pages", "AWS S3"],
+    "cms_platforms": ["WordPress", "Contentful", "Strapi", "Webflow", "Squarespace"],
+    "custom_deployment": "Docker container available",
+    "ci_cd": "GitHub Actions workflow included"
+  },
+
+  "support": {
+    "documentation": "Comprehensive inline documentation",
+    "video_tutorials": "Step-by-step setup guides",
+    "community": "GitHub Discussions",
+    "professional_services": "Available for custom development"
+  },
+
+  "roadmap": {
+    "version_1_1": {
+      "features": [
+        "Additional industry templates",
+        "Advanced customization options",
+        "Performance monitoring dashboard"
+      ],
+      "release_date": "Q1 2025"
+    },
+    "version_1_2": {
+      "features": [
+        "Multi-language support expansion",
+        "Advanced analytics integration",
+        "Mobile app templates"
+      ],
+      "release_date": "Q2 2025"
+    }
+  },
+
+  "file_structure": {
+    "kits/": "Core template kits",
+    "industries/": "Industry-specific templates",
+    "components/": "Reusable components",
+    "tools/": "Development and testing tools",
+    "docs/": "Documentation and guides",
+    "assets/": "Shared assets and resources"
+  },
+
+  "system_requirements": {
+    "development": {
+      "node_version": ">=16.0",
+      "npm_version": ">=8.0",
+      "browser_support": "Modern browsers with ES6+"
+    },
+    "deployment": {
+      "web_server": "Any static file server",
+      "ssl_certificate": "Required for production",
+      "cdn": "Recommended for performance"
+    }
+  }
+}

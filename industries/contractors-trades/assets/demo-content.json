@@ -1,0 +1,288 @@
+{
+  "version": "1.0.0",
+  "template": "contractors-trades",
+  "description": "Demo content for Contractors & Trades template",
+  "company": {
+    "name": "ProCraft Contractors",
+    "tagline": "Building Dreams, One Project at a Time",
+    "description": "Professional contractors serving the community with quality craftsmanship and exceptional service.",
+    "location": "Springfield, IL",
+    "year_established": "2010",
+    "phone": "+1-555-123-4567",
+    "phone_display": "(555) 123-4567",
+    "email": "info@procroftcontractors.com",
+    "address": "123 Main Street, Springfield, IL 62701",
+    "license_number": "IL123456789",
+    "insurance_provider": "ABC Insurance"
+  },
+  "branding": {
+    "logo": "/assets/images/logo.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#1e40af",
+    "secondary_color": "#64748b",
+    "accent_color": "#f59e0b"
+  },
+  "social": {
+    "facebook": "https://facebook.com/procraftcontractors",
+    "instagram": "https://instagram.com/procraftcontractors",
+    "linkedin": "https://linkedin.com/company/procraftcontractors",
+    "youtube": "https://youtube.com/@procroftcontractors"
+  },
+  "hero": {
+    "title": "Expert Contractors You Can Trust",
+    "subtitle": "From kitchen remodels to complete home renovations, we deliver quality craftsmanship with over 10 years of experience. Licensed, insured, and guaranteed.",
+    "image": "/assets/images/hero-construction.jpg",
+    "alt": "Professional contractors working on a home renovation project",
+    "primary_cta_text": "Get Free Quote",
+    "primary_cta_url": "#quote",
+    "secondary_cta_text": "View Our Work",
+    "secondary_cta_url": "#projects",
+    "scroll_text": "Scroll to explore",
+    "trust_badges": {
+      "license": "/assets/images/badges/licensed-insured.png",
+      "warranty": "/assets/images/badges/warranty-guaranteed.png",
+      "rating": "/assets/images/badges/5-star-rating.png"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive contracting services for residential and commercial projects",
+    "items": [
+      {
+        "title": "Kitchen Remodeling",
+        "description": "Complete kitchen transformations with custom cabinets, countertops, and modern appliances.",
+        "image": "/assets/images/services/kitchen-remodel.jpg",
+        "link": "/services/kitchen-remodeling",
+        "features": ["Custom Cabinets", "Granite Countertops", "Appliance Installation", "Electrical Updates"]
+      },
+      {
+        "title": "Bathroom Renovations",
+        "description": "Luxury bathroom makeovers from simple updates to complete spa-like retreats.",
+        "image": "/assets/images/services/bathroom-renovation.jpg",
+        "link": "/services/bathroom-renovations",
+        "features": ["Tile Work", "Plumbing", "Vanity Installation", "Lighting Design"]
+      },
+      {
+        "title": "Home Additions",
+        "description": "Expand your living space with professionally designed and built room additions.",
+        "image": "/assets/images/services/home-addition.jpg",
+        "link": "/services/home-additions",
+        "features": ["Room Planning", "Foundation Work", "Roof Extensions", "Interior Finishing"]
+      },
+      {
+        "title": "Roofing & Siding",
+        "description": "Protect your home with expert roofing and siding installation and repairs.",
+        "image": "/assets/images/services/roofing-siding.jpg",
+        "link": "/services/roofing-siding",
+        "features": ["Roof Replacement", "Siding Installation", "Gutter Systems", "Storm Damage Repair"]
+      },
+      {
+        "title": "Deck & Patio Construction",
+        "description": "Create outdoor living spaces with custom decks, patios, and outdoor kitchens.",
+        "image": "/assets/images/services/deck-construction.jpg",
+        "link": "/services/deck-construction",
+        "features": ["Deck Design", "Permits & Planning", "Outdoor Kitchens", "Lighting & Drainage"]
+      },
+      {
+        "title": "Basement Finishing",
+        "description": "Transform unused basement space into functional living areas.",
+        "image": "/assets/images/services/basement-finishing.jpg",
+        "link": "/services/basement-finishing",
+        "features": ["Waterproofing", "Framing & Drywall", "Electrical Work", "Plumbing Installation"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Our Recent Projects",
+    "subtitle": "Showcasing our craftsmanship and attention to detail",
+    "categories": [
+      {"name": "Kitchens", "slug": "kitchens"},
+      {"name": "Bathrooms", "slug": "bathrooms"},
+      {"name": "Additions", "slug": "additions"},
+      {"name": "Roofing", "slug": "roofing"}
+    ],
+    "items": [
+      {
+        "title": "Modern Farmhouse Kitchen",
+        "description": "Complete kitchen renovation featuring custom white cabinets, quartz countertops, and stainless steel appliances.",
+        "image": "/assets/images/projects/modern-farmhouse-kitchen.jpg",
+        "category": "kitchens",
+        "category_name": "Kitchen Remodel",
+        "date": "March 2024",
+        "link": "/projects/modern-farmhouse-kitchen"
+      },
+      {
+        "title": "Luxury Master Bathroom",
+        "description": "Spa-inspired master bathroom with marble tile, double vanity, and walk-in shower.",
+        "image": "/assets/images/projects/luxury-master-bath.jpg",
+        "category": "bathrooms",
+        "category_name": "Bathroom Renovation",
+        "date": "February 2024",
+        "link": "/projects/luxury-master-bath"
+      },
+      {
+        "title": "Two-Story Addition",
+        "description": "Added 800 sq ft to this family home including a new master suite and family room.",
+        "image": "/assets/images/projects/two-story-addition.jpg",
+        "category": "additions",
+        "category_name": "Home Addition",
+        "date": "January 2024",
+        "link": "/projects/two-story-addition"
+      },
+      {
+        "title": "Complete Roof Replacement",
+        "description": "Replaced 25-year-old roof with architectural shingles and new gutter system.",
+        "image": "/assets/images/projects/roof-replacement.jpg",
+        "category": "roofing",
+        "category_name": "Roofing",
+        "date": "December 2023",
+        "link": "/projects/roof-replacement"
+      },
+      {
+        "title": "Outdoor Kitchen & Deck",
+        "description": "Custom outdoor kitchen with built-in grill, refrigerator, and expansive deck space.",
+        "image": "/assets/images/projects/outdoor-kitchen.jpg",
+        "category": "additions",
+        "category_name": "Deck Construction",
+        "date": "November 2023",
+        "link": "/projects/outdoor-kitchen"
+      },
+      {
+        "title": "Basement Game Room",
+        "description": "Finished basement transformed into entertainment space with wet bar and home theater.",
+        "image": "/assets/images/projects/basement-game-room.jpg",
+        "category": "additions",
+        "category_name": "Basement Finishing",
+        "date": "October 2023",
+        "link": "/projects/basement-game-room"
+      }
+    ]
+  },
+  "why_choose_us": {
+    "title": "Why Choose ProCraft Contractors?",
+    "subtitle": "Over 10 years of experience delivering exceptional results",
+    "image": "/assets/images/why-choose-us.jpg",
+    "alt": "Professional contractor team working on a project",
+    "features": [
+      {
+        "title": "Licensed & Insured",
+        "description": "Fully licensed contractors with comprehensive insurance coverage for your protection.",
+        "icon": "/assets/images/icons/license.svg"
+      },
+      {
+        "title": "Quality Guarantee",
+        "description": "We stand behind our work with comprehensive warranties on materials and craftsmanship.",
+        "icon": "/assets/images/icons/guarantee.svg"
+      },
+      {
+        "title": "Free Estimates",
+        "description": "Detailed project proposals at no cost, helping you make informed decisions.",
+        "icon": "/assets/images/icons/estimate.svg"
+      },
+      {
+        "title": "On-Time Completion",
+        "description": "Respecting your schedule with reliable project timelines and clear communication.",
+        "icon": "/assets/images/icons/clock.svg"
+      },
+      {
+        "title": "Local Expertise",
+        "description": "Deep knowledge of local building codes, materials, and contractor networks.",
+        "icon": "/assets/images/icons/location.svg"
+      },
+      {
+        "title": "Customer Satisfaction",
+        "description": "98% customer satisfaction rate with hundreds of happy homeowners.",
+        "icon": "/assets/images/icons/star.svg"
+      }
+    ]
+  },
+  "quote": {
+    "title": "Get Your Free Quote Today",
+    "subtitle": "Tell us about your project and we'll provide a detailed estimate within 24 hours",
+    "benefits": [
+      {"text": "Free, no-obligation estimates"},
+      {"text": "Detailed project proposals"},
+      {"text": "Transparent pricing"},
+      {"text": "Licensed professionals"},
+      {"text": "Comprehensive warranties"}
+    ],
+    "service_options": [
+      {"value": "kitchen-remodel", "label": "Kitchen Remodeling"},
+      {"value": "bathroom-renovation", "label": "Bathroom Renovation"},
+      {"value": "home-addition", "label": "Home Addition"},
+      {"value": "roofing-siding", "label": "Roofing & Siding"},
+      {"value": "deck-construction", "label": "Deck Construction"},
+      {"value": "basement-finishing", "label": "Basement Finishing"},
+      {"value": "other", "label": "Other Project"}
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Real reviews from satisfied homeowners",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "company": "Homeowner",
+        "avatar": "/assets/images/testimonials/sarah-johnson.jpg",
+        "rating": 5,
+        "quote": "ProCraft transformed our outdated kitchen into a modern masterpiece. Their attention to detail and professionalism was outstanding. The project was completed on time and within budget."
+      },
+      {
+        "name": "Mike Rodriguez",
+        "company": "Property Manager",
+        "avatar": "/assets/images/testimonials/mike-rodriguez.jpg",
+        "rating": 5,
+        "quote": "We've used ProCraft for multiple rental property renovations. Their quality work and reliable scheduling make them our go-to contractors. Highly recommended!"
+      },
+      {
+        "name": "Jennifer Chen",
+        "company": "Homeowner",
+        "avatar": "/assets/images/testimonials/jennifer-chen.jpg",
+        "rating": 5,
+        "quote": "The bathroom renovation exceeded our expectations. The team was clean, courteous, and the finished product is absolutely beautiful. Worth every penny!"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Professional contractors serving Springfield and surrounding areas with quality craftsmanship and exceptional service since 2010.",
+    "services": [
+      {"name": "Kitchen Remodeling", "url": "/services/kitchen-remodeling"},
+      {"name": "Bathroom Renovations", "url": "/services/bathroom-renovations"},
+      {"name": "Home Additions", "url": "/services/home-additions"},
+      {"name": "Roofing & Siding", "url": "/services/roofing-siding"},
+      {"name": "Deck Construction", "url": "/services/deck-construction"},
+      {"name": "Basement Finishing", "url": "/services/basement-finishing"}
+    ]
+  },
+  "seo": {
+    "meta_description": "Professional contractors in Springfield, IL specializing in kitchen remodeling, bathroom renovations, home additions, roofing, and more. Licensed, insured, and guaranteed.",
+    "keywords": "contractors Springfield IL, kitchen remodeling, bathroom renovation, home addition, roofing contractor, siding installation",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "service_images": {
+      "dimensions": "800x600",
+      "aspect_ratio": "4:3",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "project_images": {
+      "dimensions": "1200x800",
+      "aspect_ratio": "3:2",
+      "max_size": "1MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "300x100",
+      "aspect_ratio": "3:1",
+      "max_size": "200KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

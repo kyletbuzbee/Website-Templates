@@ -1,0 +1,276 @@
+{
+  "version": "1.0.0",
+  "template": "premium-interactive-restaurants",
+  "kit": "premium-interactive",
+  "industry": "restaurants",
+  "description": "CMS field mapping for Premium Interactive kit configured for Restaurants industry",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Restaurant Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "entity_name",
+              "label": "Restaurant Name",
+              "name": "entity_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Restaurant Name"
+            },
+            {
+              "key": "entity_tagline",
+              "label": "Restaurant Tagline",
+              "name": "entity_tagline",
+              "type": "text",
+              "default_value": "Restaurants"
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Business Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "facebook_url",
+              "label": "Facebook URL",
+              "name": "facebook_url",
+              "type": "url"
+            },
+            {
+              "key": "instagram_url",
+              "label": "Instagram URL",
+              "name": "instagram_url",
+              "type": "url"
+            },
+            {
+              "key": "linkedin_url",
+              "label": "LinkedIn URL",
+              "name": "linkedin_url",
+              "type": "url"
+            },
+            {
+              "key": "twitter_url",
+              "label": "Twitter URL",
+              "name": "twitter_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Welcome to Restaurant"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_image",
+              "label": "Hero Image",
+              "name": "hero_image",
+              "type": "image",
+              "required": 1,
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Make Reservation"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "Learn More"
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Restaurant Info",
+          "id": "entityInfo",
+          "fields": [
+            {
+              "name": "Restaurant Name",
+              "id": "entityName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "entity-info",
+          "attributes": {
+            "entityName": {
+              "type": "string",
+              "required": true
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text",
+              "required": true
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Restaurant Info",
+          "fields": [
+            {
+              "name": "Restaurant Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "entity_name": "Entity Info/entityName/entity_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "services": "Services/services/services (array)"
+    },
+    "data_transformation": {
+      "services_array": "Map each service object to template service structure",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

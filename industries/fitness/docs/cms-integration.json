@@ -1,0 +1,1242 @@
+{
+  "version": "1.0.0",
+  "template": "fitness",
+  "description": "CMS field mapping for Fitness industry template - perfect for gyms, fitness centers, and wellness facilities",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Fitness Center Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "gym_name",
+              "label": "Gym Name",
+              "name": "gym_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Fitness Center Name"
+            },
+            {
+              "key": "gym_tagline",
+              "label": "Gym Tagline",
+              "name": "gym_tagline",
+              "type": "text",
+              "default_value": "Reach Your Peak Potential"
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Gym Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hours",
+              "label": "Hours of Operation",
+              "name": "hours",
+              "type": "text",
+              "default_value": "Mon-Fri: 5AM-11PM, Sat-Sun: 7AM-8PM"
+            },
+            {
+              "key": "members_count",
+              "label": "Active Members Count",
+              "name": "members_count",
+              "type": "text",
+              "default_value": "2500"
+            },
+            {
+              "key": "classes_count",
+              "label": "Weekly Classes Count",
+              "name": "classes_count",
+              "type": "text",
+              "default_value": "50"
+            },
+            {
+              "key": "years_open",
+              "label": "Years Open",
+              "name": "years_open",
+              "type": "text",
+              "default_value": "15"
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Gym Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "instagram_url",
+              "label": "Instagram URL",
+              "name": "instagram_url",
+              "type": "url"
+            },
+            {
+              "key": "facebook_url",
+              "label": "Facebook URL",
+              "name": "facebook_url",
+              "type": "url"
+            },
+            {
+              "key": "twitter_url",
+              "label": "Twitter URL",
+              "name": "twitter_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Transform Your Body, Transform Your Life"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_image",
+              "label": "Hero Image",
+              "name": "hero_image",
+              "type": "image",
+              "required": 1,
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Start Your Journey"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "View Classes"
+            }
+          ]
+        },
+        {
+          "title": "Classes Section",
+          "fields": [
+            {
+              "key": "classes_title",
+              "label": "Classes Section Title",
+              "name": "classes_title",
+              "type": "text",
+              "default_value": "Featured Classes"
+            },
+            {
+              "key": "classes_subtitle",
+              "label": "Classes Section Subtitle",
+              "name": "classes_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "featured_classes",
+              "label": "Featured Classes",
+              "name": "featured_classes",
+              "type": "repeater",
+              "required": 1,
+              "min": 3,
+              "max": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "class_name",
+                  "label": "Class Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "class_description",
+                  "label": "Class Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "class_image",
+                  "label": "Class Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "class_difficulty",
+                  "label": "Difficulty Level",
+                  "name": "difficulty",
+                  "type": "select",
+                  "choices": {
+                    "Beginner": "Beginner",
+                    "Intermediate": "Intermediate",
+                    "Advanced": "Advanced",
+                    "All Levels": "All Levels"
+                  },
+                  "default_value": "All Levels"
+                },
+                {
+                  "key": "class_duration",
+                  "label": "Class Duration",
+                  "name": "duration",
+                  "type": "text",
+                  "default_value": "45 min"
+                },
+                {
+                  "key": "class_instructor",
+                  "label": "Instructor",
+                  "name": "instructor",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "class_schedule",
+                  "label": "Class Schedule",
+                  "name": "schedule",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "schedule_day",
+                      "label": "Day",
+                      "name": "day",
+                      "type": "text",
+                      "required": 1
+                    },
+                    {
+                      "key": "schedule_time",
+                      "label": "Time",
+                      "name": "time",
+                      "type": "text",
+                      "required": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Choose Us",
+          "fields": [
+            {
+              "key": "why_choose_title",
+              "label": "Why Choose Us Title",
+              "name": "why_choose_title",
+              "type": "text",
+              "default_value": "Why Choose Our Gym"
+            },
+            {
+              "key": "why_choose_subtitle",
+              "label": "Why Choose Us Subtitle",
+              "name": "why_choose_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "why_choose_image",
+              "label": "Why Choose Us Image",
+              "name": "why_choose_image",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "features",
+              "label": "Gym Features",
+              "name": "features",
+              "type": "repeater",
+              "min": 3,
+              "max": 6,
+              "sub_fields": [
+                {
+                  "key": "feature_title",
+                  "label": "Feature Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "feature_description",
+                  "label": "Feature Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 2,
+                  "required": 1
+                },
+                {
+                  "key": "feature_icon",
+                  "label": "Feature Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trainers",
+          "fields": [
+            {
+              "key": "trainers_title",
+              "label": "Trainers Section Title",
+              "name": "trainers_title",
+              "type": "text",
+              "default_value": "Meet Our Trainers"
+            },
+            {
+              "key": "trainers_subtitle",
+              "label": "Trainers Subtitle",
+              "name": "trainers_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "trainers",
+              "label": "Trainers",
+              "name": "trainers",
+              "type": "repeater",
+              "min": 1,
+              "max": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "trainer_name",
+                  "label": "Trainer Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "trainer_specialty",
+                  "label": "Specialty",
+                  "name": "specialty",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "trainer_photo",
+                  "label": "Trainer Photo",
+                  "name": "photo",
+                  "type": "image",
+                  "return_format": "url",
+                  "required": 1
+                },
+                {
+                  "key": "trainer_bio",
+                  "label": "Trainer Bio",
+                  "name": "bio",
+                  "type": "textarea",
+                  "rows": 4,
+                  "required": 1
+                },
+                {
+                  "key": "trainer_certifications",
+                  "label": "Certifications",
+                  "name": "certifications",
+                  "type": "textarea",
+                  "rows": 3,
+                  "instructions": "One certification per line"
+                },
+                {
+                  "key": "trainer_profile_link",
+                  "label": "Profile Page Link",
+                  "name": "profile_link",
+                  "type": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Facilities",
+          "fields": [
+            {
+              "key": "facilities_title",
+              "label": "Facilities Section Title",
+              "name": "facilities_title",
+              "type": "text",
+              "default_value": "Our Facilities"
+            },
+            {
+              "key": "facilities_subtitle",
+              "label": "Facilities Subtitle",
+              "name": "facilities_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "facilities",
+              "label": "Facilities",
+              "name": "facilities",
+              "type": "repeater",
+              "min": 3,
+              "max": 8,
+              "sub_fields": [
+                {
+                  "key": "facility_name",
+                  "label": "Facility Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "facility_description",
+                  "label": "Facility Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "facility_image",
+                  "label": "Facility Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url",
+                  "required": 1
+                },
+                {
+                  "key": "facility_features",
+                  "label": "Facility Features",
+                  "name": "features",
+                  "type": "textarea",
+                  "rows": 3,
+                  "instructions": "One feature per line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Memberships",
+          "fields": [
+            {
+              "key": "memberships_title",
+              "label": "Memberships Section Title",
+              "name": "memberships_title",
+              "type": "text",
+              "default_value": "Membership Plans"
+            },
+            {
+              "key": "memberships_subtitle",
+              "label": "Memberships Subtitle",
+              "name": "memberships_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "membership_plans",
+              "label": "Membership Plans",
+              "name": "membership_plans",
+              "type": "repeater",
+              "required": 1,
+              "min": 3,
+              "max": 4,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "plan_name",
+                  "label": "Plan Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_price",
+                  "label": "Monthly Price",
+                  "name": "price",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_period",
+                  "label": "Billing Period",
+                  "name": "period",
+                  "type": "text",
+                  "default_value": "per month"
+                },
+                {
+                  "key": "plan_popular",
+                  "label": "Most Popular Plan",
+                  "name": "popular",
+                  "type": "true_false",
+                  "default_value": 0
+                },
+                {
+                  "key": "plan_features",
+                  "label": "Plan Features",
+                  "name": "features",
+                  "type": "textarea",
+                  "rows": 4,
+                  "instructions": "One feature per line",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Testimonials",
+          "fields": [
+            {
+              "key": "testimonials_title",
+              "label": "Testimonials Title",
+              "name": "testimonials_title",
+              "type": "text",
+              "default_value": "Success Stories"
+            },
+            {
+              "key": "testimonials_subtitle",
+              "label": "Testimonials Subtitle",
+              "name": "testimonials_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "testimonials",
+              "label": "Testimonials",
+              "name": "testimonials",
+              "type": "repeater",
+              "min": 3,
+              "sub_fields": [
+                {
+                  "key": "testimonial_name",
+                  "label": "Member Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "testimonial_quote",
+                  "label": "Testimonial Quote",
+                  "name": "quote",
+                  "type": "textarea",
+                  "rows": 4,
+                  "required": 1
+                },
+                {
+                  "key": "testimonial_rating",
+                  "label": "Rating (1-5)",
+                  "name": "rating",
+                  "type": "number",
+                  "min": 1,
+                  "max": 5,
+                  "default_value": 5
+                },
+                {
+                  "key": "testimonial_goal",
+                  "label": "Fitness Goal",
+                  "name": "goal",
+                  "type": "text"
+                },
+                {
+                  "key": "testimonial_avatar",
+                  "label": "Member Avatar",
+                  "name": "avatar",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Join Now",
+          "fields": [
+            {
+              "key": "join_title",
+              "label": "Join Section Title",
+              "name": "join_title",
+              "type": "text",
+              "default_value": "Join Peak Performance Today"
+            },
+            {
+              "key": "join_subtitle",
+              "label": "Join Subtitle",
+              "name": "join_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "join_benefits",
+              "label": "Join Benefits",
+              "name": "join_benefits",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "benefit_text",
+                  "label": "Benefit Text",
+                  "name": "text",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            },
+            {
+              "key": "membership_options",
+              "label": "Membership Options",
+              "name": "membership_options",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "option_value",
+                  "label": "Option Value",
+                  "name": "value",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "option_label",
+                  "label": "Option Label",
+                  "name": "label",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Gym Info",
+          "id": "gymInfo",
+          "fields": [
+            {
+              "name": "Gym Name",
+              "id": "gymName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Fitness Class",
+          "id": "fitnessClass",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Image",
+              "id": "image",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Difficulty",
+              "id": "difficulty",
+              "type": "Symbol"
+            },
+            {
+              "name": "Duration",
+              "id": "duration",
+              "type": "Symbol"
+            },
+            {
+              "name": "Instructor",
+              "id": "instructor",
+              "type": "Symbol",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Trainer",
+          "id": "trainer",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Specialty",
+              "id": "specialty",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Photo",
+              "id": "photo",
+              "type": "Link",
+              "linkType": "Asset",
+              "required": true
+            },
+            {
+              "name": "Bio",
+              "id": "bio",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Certifications",
+              "id": "certifications",
+              "type": "Text"
+            },
+            {
+              "name": "Profile Link",
+              "id": "profileLink",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Facility",
+          "id": "facility",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Image",
+              "id": "image",
+              "type": "Link",
+              "linkType": "Asset",
+              "required": true
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Text"
+            }
+          ]
+        },
+        {
+          "name": "Membership Plan",
+          "id": "membershipPlan",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Price",
+              "id": "price",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Period",
+              "id": "period",
+              "type": "Symbol"
+            },
+            {
+              "name": "Popular",
+              "id": "popular",
+              "type": "Boolean"
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Testimonial",
+          "id": "testimonial",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Quote",
+              "id": "quote",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "id": "rating",
+              "type": "Integer",
+              "validations": [
+                {
+                  "in": [1, 2, 3, 4, 5]
+                }
+              ]
+            },
+            {
+              "name": "Goal",
+              "id": "goal",
+              "type": "Symbol"
+            },
+            {
+              "name": "Avatar",
+              "id": "avatar",
+              "type": "Link",
+              "linkType": "Asset"
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "gym-info",
+          "attributes": {
+            "gymName": {
+              "type": "string",
+              "required": true
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text",
+              "required": true
+            }
+          }
+        },
+        {
+          "name": "fitness-class",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "image": {
+              "type": "media",
+              "multiple": false
+            },
+            "difficulty": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "string"
+            },
+            "instructor": {
+              "type": "string",
+              "required": true
+            }
+          }
+        },
+        {
+          "name": "trainer",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "specialty": {
+              "type": "string",
+              "required": true
+            },
+            "photo": {
+              "type": "media",
+              "multiple": false,
+              "required": true
+            },
+            "bio": {
+              "type": "text",
+              "required": true
+            },
+            "certifications": {
+              "type": "text"
+            },
+            "profileLink": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "facility",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "image": {
+              "type": "media",
+              "multiple": false,
+              "required": true
+            },
+            "features": {
+              "type": "text"
+            }
+          }
+        },
+        {
+          "name": "membership-plan",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "price": {
+              "type": "string",
+              "required": true
+            },
+            "period": {
+              "type": "string"
+            },
+            "popular": {
+              "type": "boolean",
+              "default": false
+            },
+            "features": {
+              "type": "text",
+              "required": true
+            }
+          }
+        },
+        {
+          "name": "testimonial",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "quote": {
+              "type": "text",
+              "required": true
+            },
+            "rating": {
+              "type": "integer",
+              "min": 1,
+              "max": 5,
+              "default": 5
+            },
+            "goal": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "media",
+              "multiple": false
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Gym Info",
+          "fields": [
+            {
+              "name": "Gym Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Fitness Classes",
+          "fields": [
+            {
+              "name": "Class Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Class Image",
+              "type": "Image"
+            },
+            {
+              "name": "Difficulty",
+              "type": "Plain text"
+            },
+            {
+              "name": "Duration",
+              "type": "Plain text"
+            },
+            {
+              "name": "Instructor",
+              "type": "Plain text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Trainers",
+          "fields": [
+            {
+              "name": "Trainer Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Specialty",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Trainer Photo",
+              "type": "Image",
+              "required": true
+            },
+            {
+              "name": "Trainer Bio",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Certifications",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "Profile Link",
+              "type": "Link"
+            }
+          ]
+        },
+        {
+          "name": "Facilities",
+          "fields": [
+            {
+              "name": "Facility Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Facility Image",
+              "type": "Image",
+              "required": true
+            },
+            {
+              "name": "Features",
+              "type": "Multi-line text"
+            }
+          ]
+        },
+        {
+          "name": "Membership Plans",
+          "fields": [
+            {
+              "name": "Plan Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Price",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Period",
+              "type": "Plain text"
+            },
+            {
+              "name": "Popular",
+              "type": "Switch"
+            },
+            {
+              "name": "Features",
+              "type": "Multi-line text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Member Testimonials",
+          "fields": [
+            {
+              "name": "Member Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Testimonial Quote",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "type": "Number",
+              "decimalPlaces": 0
+            },
+            {
+              "name": "Fitness Goal",
+              "type": "Plain text"
+            },
+            {
+              "name": "Member Avatar",
+              "type": "Image"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "company_name": "Gym Info/gymName/gym_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "featured_classes": "Fitness Classes/featured_classes/featuredClasses (array)",
+      "trainers": "Trainers/trainers/trainers (array)",
+      "facilities": "Facilities/facilities/facilities (array)",
+      "membership_plans": "Membership Plans/membership_plans/membershipPlans (array)",
+      "testimonials": "Member Testimonials/testimonials/testimonials (array)"
+    },
+    "data_transformation": {
+      "classes_array": "Map each class object to template class structure",
+      "trainers_array": "Map each trainer object to template trainer structure",
+      "facilities_array": "Map each facility object to template facility structure",
+      "memberships_array": "Map each membership object to template membership structure",
+      "testimonials_array": "Map each testimonial object to template testimonial structure",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

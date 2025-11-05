@@ -1,0 +1,1155 @@
+{
+  "version": "1.0.0",
+  "template": "roofers-exterior",
+  "description": "CMS field mapping for Roofers & Exterior industry variant",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Company Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "company_name",
+              "label": "Company Name",
+              "name": "company_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Roofing Company"
+            },
+            {
+              "key": "company_tagline",
+              "label": "Company Tagline",
+              "name": "company_tagline",
+              "type": "text",
+              "default_value": "Protecting Homes, Enhancing Curb Appeal"
+            },
+            {
+              "key": "company_description",
+              "label": "Company Description",
+              "name": "company_description",
+              "type": "textarea",
+              "rows": 4,
+              "required": 1
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "emergency_phone",
+              "label": "Emergency Phone",
+              "name": "emergency_phone",
+              "type": "text"
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Business Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3
+            },
+            {
+              "key": "license_number",
+              "label": "License Number",
+              "name": "license_number",
+              "type": "text"
+            },
+            {
+              "key": "year_established",
+              "label": "Year Established",
+              "name": "year_established",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Company Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "primary_color",
+              "label": "Primary Color",
+              "name": "primary_color",
+              "type": "color_picker",
+              "default_value": "#1e40af"
+            },
+            {
+              "key": "secondary_color",
+              "label": "Secondary Color",
+              "name": "secondary_color",
+              "type": "color_picker",
+              "default_value": "#64748b"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "facebook_url",
+              "label": "Facebook URL",
+              "name": "facebook_url",
+              "type": "url"
+            },
+            {
+              "key": "instagram_url",
+              "label": "Instagram URL",
+              "name": "instagram_url",
+              "type": "url"
+            },
+            {
+              "key": "houzz_url",
+              "label": "Houzz URL",
+              "name": "houzz_url",
+              "type": "url"
+            },
+            {
+              "key": "yelp_url",
+              "label": "Yelp URL",
+              "name": "yelp_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Expert Roofing & Exterior Services You Can Trust"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_image",
+              "label": "Hero Image",
+              "name": "hero_image",
+              "type": "image",
+              "required": 1,
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Get Free Estimate"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "View Our Work"
+            }
+          ]
+        },
+        {
+          "title": "Services Section",
+          "fields": [
+            {
+              "key": "services_title",
+              "label": "Services Section Title",
+              "name": "services_title",
+              "type": "text",
+              "default_value": "Complete Exterior Solutions"
+            },
+            {
+              "key": "services_subtitle",
+              "label": "Services Section Subtitle",
+              "name": "services_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "services",
+              "label": "Services",
+              "name": "services",
+              "type": "repeater",
+              "required": 1,
+              "min": 3,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "service_title",
+                  "label": "Service Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "service_description",
+                  "label": "Service Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "service_image",
+                  "label": "Service Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "service_link",
+                  "label": "Service Page Link",
+                  "name": "link",
+                  "type": "url"
+                },
+                {
+                  "key": "service_features",
+                  "label": "Service Features",
+                  "name": "features",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "feature_text",
+                      "label": "Feature",
+                      "name": "feature",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Gallery Section",
+          "fields": [
+            {
+              "key": "gallery_title",
+              "label": "Gallery Section Title",
+              "name": "gallery_title",
+              "type": "text",
+              "default_value": "Before & After Gallery"
+            },
+            {
+              "key": "gallery_subtitle",
+              "label": "Gallery Section Subtitle",
+              "name": "gallery_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "gallery_categories",
+              "label": "Gallery Categories",
+              "name": "gallery_categories",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "category_name",
+                  "label": "Category Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "category_slug",
+                  "label": "Category Slug",
+                  "name": "slug",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            },
+            {
+              "key": "gallery_items",
+              "label": "Gallery Items",
+              "name": "gallery_items",
+              "type": "repeater",
+              "min": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "gallery_title",
+                  "label": "Project Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "gallery_description",
+                  "label": "Project Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "gallery_before_image",
+                  "label": "Before Image",
+                  "name": "before_image",
+                  "type": "image",
+                  "required": 1,
+                  "return_format": "url"
+                },
+                {
+                  "key": "gallery_after_image",
+                  "label": "After Image",
+                  "name": "after_image",
+                  "type": "image",
+                  "required": 1,
+                  "return_format": "url"
+                },
+                {
+                  "key": "gallery_category",
+                  "label": "Project Category",
+                  "name": "category",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "gallery_category_name",
+                  "label": "Category Display Name",
+                  "name": "category_name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "gallery_duration",
+                  "label": "Project Duration",
+                  "name": "duration",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Seasonal Promotions",
+          "fields": [
+            {
+              "key": "seasonal_title",
+              "label": "Seasonal Section Title",
+              "name": "seasonal_title",
+              "type": "text",
+              "default_value": "Seasonal Specials & Promotions"
+            },
+            {
+              "key": "seasonal_description",
+              "label": "Seasonal Description",
+              "name": "seasonal_description",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "seasonal_image",
+              "label": "Seasonal Image",
+              "name": "seasonal_image",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "seasonal_cta",
+              "label": "Seasonal CTA Text",
+              "name": "seasonal_cta",
+              "type": "text",
+              "default_value": "Claim Your Seasonal Savings"
+            },
+            {
+              "key": "seasonal_offers",
+              "label": "Seasonal Offers",
+              "name": "seasonal_offers",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "offer_title",
+                  "label": "Offer Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "offer_description",
+                  "label": "Offer Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 2,
+                  "required": 1
+                },
+                {
+                  "key": "offer_icon",
+                  "label": "Offer Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "offer_savings",
+                  "label": "Savings Text",
+                  "name": "savings",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pricing Guide",
+          "fields": [
+            {
+              "key": "pricing_title",
+              "label": "Pricing Section Title",
+              "name": "pricing_title",
+              "type": "text",
+              "default_value": "Transparent Pricing Guide"
+            },
+            {
+              "key": "pricing_subtitle",
+              "label": "Pricing Subtitle",
+              "name": "pricing_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "pricing_items",
+              "label": "Pricing Items",
+              "name": "pricing_items",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "pricing_service",
+                  "label": "Service Name",
+                  "name": "service",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "pricing_description",
+                  "label": "Service Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 2,
+                  "required": 1
+                },
+                {
+                  "key": "pricing_starting_price",
+                  "label": "Starting Price",
+                  "name": "starting_price",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "pricing_average_cost",
+                  "label": "Average Cost Range",
+                  "name": "average_cost",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "pricing_time_frame",
+                  "label": "Time Frame",
+                  "name": "time_frame",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Choose Us Section",
+          "fields": [
+            {
+              "key": "why_choose_us_title",
+              "label": "Why Choose Us Title",
+              "name": "why_choose_us_title",
+              "type": "text",
+              "default_value": "Why Choose Our Company?"
+            },
+            {
+              "key": "why_choose_us_subtitle",
+              "label": "Why Choose Us Subtitle",
+              "name": "why_choose_us_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "why_choose_us_image",
+              "label": "Why Choose Us Image",
+              "name": "why_choose_us_image",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "why_choose_us_features",
+              "label": "Why Choose Us Features",
+              "name": "why_choose_us_features",
+              "type": "repeater",
+              "min": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "feature_title",
+                  "label": "Feature Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "feature_description",
+                  "label": "Feature Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "feature_icon",
+                  "label": "Feature Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "About Section",
+          "fields": [
+            {
+              "key": "about_title",
+              "label": "About Section Title",
+              "name": "about_title",
+              "type": "text",
+              "default_value": "About Our Company"
+            },
+            {
+              "key": "about_description",
+              "label": "About Description",
+              "name": "about_description",
+              "type": "textarea",
+              "rows": 4,
+              "required": 1
+            },
+            {
+              "key": "about_image",
+              "label": "About Image",
+              "name": "about_image",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "about_stats",
+              "label": "About Statistics",
+              "name": "about_stats",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "stat_number",
+                  "label": "Statistic Number",
+                  "name": "number",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "stat_label",
+                  "label": "Statistic Label",
+                  "name": "label",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Company Info",
+          "id": "companyInfo",
+          "fields": [
+            {
+              "name": "Company Name",
+              "id": "companyName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Emergency Phone",
+              "id": "emergencyPhone",
+              "type": "Symbol"
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text"
+            },
+            {
+              "name": "License Number",
+              "id": "licenseNumber",
+              "type": "Symbol"
+            },
+            {
+              "name": "Year Established",
+              "id": "yearEstablished",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Service",
+          "id": "service",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Image",
+              "id": "image",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Link",
+              "id": "link",
+              "type": "Symbol"
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Array",
+              "items": {
+                "type": "Symbol"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Gallery Item",
+          "id": "galleryItem",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Before Image",
+              "id": "beforeImage",
+              "type": "Link",
+              "linkType": "Asset",
+              "required": true
+            },
+            {
+              "name": "After Image",
+              "id": "afterImage",
+              "type": "Link",
+              "linkType": "Asset",
+              "required": true
+            },
+            {
+              "name": "Category",
+              "id": "category",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Category Name",
+              "id": "categoryName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Duration",
+              "id": "duration",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Seasonal Offer",
+          "id": "seasonalOffer",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Icon",
+              "id": "icon",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Savings",
+              "id": "savings",
+              "type": "Symbol",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Pricing Item",
+          "id": "pricingItem",
+          "fields": [
+            {
+              "name": "Service",
+              "id": "service",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Starting Price",
+              "id": "startingPrice",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Average Cost",
+              "id": "averageCost",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Time Frame",
+              "id": "timeFrame",
+              "type": "Symbol",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "company-info",
+          "attributes": {
+            "companyName": {
+              "type": "string",
+              "required": true
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "emergencyPhone": {
+              "type": "string"
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text"
+            },
+            "licenseNumber": {
+              "type": "string"
+            },
+            "yearEstablished": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "service",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "image": {
+              "type": "media",
+              "multiple": false
+            },
+            "link": {
+              "type": "string"
+            },
+            "features": {
+              "type": "json"
+            }
+          }
+        },
+        {
+          "name": "gallery-item",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "beforeImage": {
+              "type": "media",
+              "multiple": false,
+              "required": true
+            },
+            "afterImage": {
+              "type": "media",
+              "multiple": false,
+              "required": true
+            },
+            "category": {
+              "type": "string",
+              "required": true
+            },
+            "categoryName": {
+              "type": "string",
+              "required": true
+            },
+            "duration": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "seasonal-offer",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "icon": {
+              "type": "media",
+              "multiple": false
+            },
+            "savings": {
+              "type": "string",
+              "required": true
+            }
+          }
+        },
+        {
+          "name": "pricing-item",
+          "attributes": {
+            "service": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "startingPrice": {
+              "type": "string",
+              "required": true
+            },
+            "averageCost": {
+              "type": "string",
+              "required": true
+            },
+            "timeFrame": {
+              "type": "string",
+              "required": true
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Company Info",
+          "fields": [
+            {
+              "name": "Company Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Emergency Phone",
+              "type": "Plain text"
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "License Number",
+              "type": "Plain text"
+            },
+            {
+              "name": "Year Established",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "fields": [
+            {
+              "name": "Service Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Service Image",
+              "type": "Image"
+            },
+            {
+              "name": "Service Link",
+              "type": "Link"
+            },
+            {
+              "name": "Service Features",
+              "type": "Multi-line text"
+            }
+          ]
+        },
+        {
+          "name": "Gallery Items",
+          "fields": [
+            {
+              "name": "Project Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Before Image",
+              "type": "Image",
+              "required": true
+            },
+            {
+              "name": "After Image",
+              "type": "Image",
+              "required": true
+            },
+            {
+              "name": "Category",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Category Display Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Project Duration",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Seasonal Offers",
+          "fields": [
+            {
+              "name": "Offer Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Offer Icon",
+              "type": "Image"
+            },
+            {
+              "name": "Savings Text",
+              "type": "Plain text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Pricing Guide",
+          "fields": [
+            {
+              "name": "Service Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Service Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Starting Price",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Average Cost Range",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Time Frame",
+              "type": "Plain text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "company_name": "Company/companyName/company_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "services": "Services/services/services (array)",
+      "gallery_items": "Gallery/gallery_items/galleryItems (array)",
+      "seasonal_offers": "Seasonal/seasonal_offers/seasonalOffers (array)",
+      "pricing_items": "Pricing/pricing_items/pricingItems (array)"
+    },
+    "data_transformation": {
+      "services_array": "Map each service object to template service structure with features array",
+      "gallery_before_after": "Convert before/after image pairs to gallery format",
+      "pricing_ranges": "Format pricing as starting/average ranges",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

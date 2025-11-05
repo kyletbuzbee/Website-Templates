@@ -1,0 +1,131 @@
+{
+  "version": "1.0.0",
+  "template": "minimal",
+  "description": "Demo content for Minimal template - the simplest option for getting online quickly",
+  "company": {
+    "name": "Simple Solutions",
+    "tagline": "Simple Solutions for Real Problems",
+    "description": "We provide straightforward solutions to help your business succeed.",
+    "location": "Anytown, USA",
+    "year_established": "2020",
+    "phone": "+1-555-123-4567",
+    "phone_display": "(555) 123-4567",
+    "email": "hello@simplesolutions.com",
+    "address": "123 Main Street, Anytown, USA 12345"
+  },
+  "branding": {
+    "logo": "/assets/images/logo.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#2563eb",
+    "secondary_color": "#64748b",
+    "accent_color": "#f59e0b"
+  },
+  "social": {
+    "facebook": "https://facebook.com/simplesolutions",
+    "instagram": "https://instagram.com/simplesolutions",
+    "linkedin": "https://linkedin.com/company/simplesolutions",
+    "twitter": "https://twitter.com/simplesolutions"
+  },
+  "hero": {
+    "title": "Simple Solutions for Your Business",
+    "subtitle": "Get your business online quickly with our straightforward approach to web design and digital solutions.",
+    "image": "/assets/images/hero-simple.jpg",
+    "alt": "Simple and clean business solutions",
+    "primary_cta": "Get Started",
+    "secondary_cta": "Learn More"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Everything you need to succeed online",
+    "items": [
+      {
+        "title": "Web Design",
+        "description": "Clean, professional websites that work on all devices.",
+        "icon": "/assets/images/icons/web-design.svg",
+        "link": "/services/web-design"
+      },
+      {
+        "title": "Digital Marketing",
+        "description": "Grow your online presence and reach more customers.",
+        "icon": "/assets/images/icons/digital-marketing.svg",
+        "link": "/services/digital-marketing"
+      },
+      {
+        "title": "Consulting",
+        "description": "Expert advice to help your business grow.",
+        "icon": "/assets/images/icons/consulting.svg",
+        "link": "/services/consulting"
+      },
+      {
+        "title": "Support",
+        "description": "Ongoing support to keep your business running smoothly.",
+        "icon": "/assets/images/icons/support.svg",
+        "link": "/services/support"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Simple Solutions",
+    "description": "We believe in keeping things simple. Our team focuses on delivering practical solutions that actually work for real businesses like yours. No complicated jargon, just results.",
+    "image": "/assets/images/about-team.jpg",
+    "alt": "Our focused team delivering simple solutions",
+    "cta": "Work With Us",
+    "stats": [
+      {"number": "200+", "label": "Happy Clients"},
+      {"number": "3", "label": "Years Experience"},
+      {"number": "99%", "label": "Uptime"},
+      {"number": "24/7", "label": "Support"}
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Ready to get started? Contact us today and let's discuss how we can help your business succeed.",
+    "service_options": [
+      {"value": "web-design", "label": "Web Design"},
+      {"value": "marketing", "label": "Digital Marketing"},
+      {"value": "consulting", "label": "Consulting"},
+      {"value": "support", "label": "Support"},
+      {"value": "other", "label": "Other Services"}
+    ]
+  },
+  "footer": {
+    "description": "Simple, effective solutions for modern businesses.",
+    "services": [
+      {"name": "Web Design", "url": "/services/web-design"},
+      {"name": "Digital Marketing", "url": "/services/digital-marketing"},
+      {"name": "Consulting", "url": "/services/consulting"},
+      {"name": "Support", "url": "/services/support"}
+    ]
+  },
+  "seo": {
+    "meta_description": "Simple business solutions including web design, digital marketing, and consulting services to help your company succeed online.",
+    "keywords": "web design, digital marketing, business consulting, simple solutions, small business",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "service_icons": {
+      "dimensions": "64x64",
+      "aspect_ratio": "1:1",
+      "max_size": "50KB",
+      "format": "SVG, PNG"
+    },
+    "about_image": {
+      "dimensions": "800x600",
+      "aspect_ratio": "4:3",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "200x80",
+      "aspect_ratio": "2.5:1",
+      "max_size": "100KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

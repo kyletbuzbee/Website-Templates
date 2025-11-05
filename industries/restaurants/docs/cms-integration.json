@@ -1,0 +1,793 @@
+{
+  "version": "1.0.0",
+  "template": "restaurants",
+  "description": "CMS field mapping for Restaurants industry template - perfect for restaurants, cafes, and dining establishments",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Restaurant Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "restaurant_name",
+              "label": "Restaurant Name",
+              "name": "restaurant_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Restaurant Name"
+            },
+            {
+              "key": "cuisine_type",
+              "label": "Cuisine Type",
+              "name": "cuisine_type",
+              "type": "text",
+              "default_value": "Italian"
+            },
+            {
+              "key": "restaurant_tagline",
+              "label": "Restaurant Tagline",
+              "name": "restaurant_tagline",
+              "type": "text",
+              "default_value": "Authentic Cuisine Since 1995"
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Restaurant Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "rating",
+              "label": "Star Rating",
+              "name": "rating",
+              "type": "text",
+              "default_value": "4.8"
+            },
+            {
+              "key": "price_range",
+              "label": "Price Range",
+              "name": "price_range",
+              "type": "select",
+              "choices": {
+                "$": "$ - Budget friendly",
+                "$$": "$$ - Moderate",
+                "$$$": "$$$ - Upscale",
+                "$$$$": "$$$$ - Fine dining"
+              },
+              "default_value": "$$$"
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Restaurant Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "facebook_url",
+              "label": "Facebook URL",
+              "name": "facebook_url",
+              "type": "url"
+            },
+            {
+              "key": "instagram_url",
+              "label": "Instagram URL",
+              "name": "instagram_url",
+              "type": "url"
+            },
+            {
+              "key": "tripadvisor_url",
+              "label": "TripAdvisor URL",
+              "name": "tripadvisor_url",
+              "type": "url"
+            },
+            {
+              "key": "yelp_url",
+              "label": "Yelp URL",
+              "name": "yelp_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Welcome to Our Restaurant"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_image",
+              "label": "Hero Image",
+              "name": "hero_image",
+              "type": "image",
+              "required": 1,
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Make Reservation"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "View Menu"
+            }
+          ]
+        },
+        {
+          "title": "Menu Section",
+          "fields": [
+            {
+              "key": "menu_title",
+              "label": "Menu Section Title",
+              "name": "menu_title",
+              "type": "text",
+              "default_value": "Featured Dishes"
+            },
+            {
+              "key": "menu_subtitle",
+              "label": "Menu Section Subtitle",
+              "name": "menu_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "featured_dishes",
+              "label": "Featured Dishes",
+              "name": "featured_dishes",
+              "type": "repeater",
+              "required": 1,
+              "min": 3,
+              "max": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "dish_name",
+                  "label": "Dish Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "dish_description",
+                  "label": "Dish Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "dish_image",
+                  "label": "Dish Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "dish_price",
+                  "label": "Dish Price",
+                  "name": "price",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "dish_tags",
+                  "label": "Dish Tags",
+                  "name": "tags",
+                  "type": "text",
+                  "instructions": "Comma-separated tags (e.g., Signature, Vegetarian, Gluten-free)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "About Section",
+          "fields": [
+            {
+              "key": "about_title",
+              "label": "About Section Title",
+              "name": "about_title",
+              "type": "text",
+              "default_value": "Our Story"
+            },
+            {
+              "key": "about_description",
+              "label": "About Description",
+              "name": "about_description",
+              "type": "textarea",
+              "rows": 4,
+              "required": 1
+            },
+            {
+              "key": "about_image",
+              "label": "About Image",
+              "name": "about_image",
+              "type": "image",
+              "return_format": "url"
+            }
+          ]
+        },
+        {
+          "title": "Restaurant Features",
+          "fields": [
+            {
+              "key": "restaurant_features",
+              "label": "Restaurant Features",
+              "name": "restaurant_features",
+              "type": "repeater",
+              "min": 3,
+              "max": 6,
+              "sub_fields": [
+                {
+                  "key": "feature_title",
+                  "label": "Feature Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "feature_description",
+                  "label": "Feature Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 2,
+                  "required": 1
+                },
+                {
+                  "key": "feature_icon",
+                  "label": "Feature Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Atmosphere Gallery",
+          "fields": [
+            {
+              "key": "atmosphere_title",
+              "label": "Atmosphere Section Title",
+              "name": "atmosphere_title",
+              "type": "text",
+              "default_value": "Experience Our Restaurant"
+            },
+            {
+              "key": "atmosphere_subtitle",
+              "label": "Atmosphere Subtitle",
+              "name": "atmosphere_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "atmosphere_images",
+              "label": "Atmosphere Images",
+              "name": "atmosphere_images",
+              "type": "repeater",
+              "min": 3,
+              "max": 6,
+              "sub_fields": [
+                {
+                  "key": "atmosphere_image",
+                  "label": "Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url",
+                  "required": 1
+                },
+                {
+                  "key": "atmosphere_alt",
+                  "label": "Alt Text",
+                  "name": "alt",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "atmosphere_title_text",
+                  "label": "Image Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hours & Reservations",
+          "fields": [
+            {
+              "key": "reservations_title",
+              "label": "Reservations Section Title",
+              "name": "reservations_title",
+              "type": "text",
+              "default_value": "Make a Reservation"
+            },
+            {
+              "key": "reservations_subtitle",
+              "label": "Reservations Subtitle",
+              "name": "reservations_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "restaurant_hours",
+              "label": "Hours of Operation",
+              "name": "restaurant_hours",
+              "type": "repeater",
+              "min": 7,
+              "sub_fields": [
+                {
+                  "key": "day",
+                  "label": "Day",
+                  "name": "day",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "time",
+                  "label": "Time",
+                  "name": "time",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reviews Section",
+          "fields": [
+            {
+              "key": "reviews_title",
+              "label": "Reviews Section Title",
+              "name": "reviews_title",
+              "type": "text",
+              "default_value": "What Our Guests Say"
+            },
+            {
+              "key": "reviews_subtitle",
+              "label": "Reviews Subtitle",
+              "name": "reviews_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "reviews",
+              "label": "Customer Reviews",
+              "name": "reviews",
+              "type": "repeater",
+              "min": 3,
+              "sub_fields": [
+                {
+                  "key": "review_name",
+                  "label": "Customer Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "review_quote",
+                  "label": "Review Quote",
+                  "name": "quote",
+                  "type": "textarea",
+                  "rows": 4,
+                  "required": 1
+                },
+                {
+                  "key": "review_rating",
+                  "label": "Rating (1-5)",
+                  "name": "rating",
+                  "type": "number",
+                  "min": 1,
+                  "max": 5,
+                  "default_value": 5
+                },
+                {
+                  "key": "review_source",
+                  "label": "Review Source",
+                  "name": "source",
+                  "type": "text",
+                  "default_value": "Google Reviews"
+                },
+                {
+                  "key": "review_avatar",
+                  "label": "Customer Avatar",
+                  "name": "avatar",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            },
+            {
+              "key": "reviews_link",
+              "label": "Reviews Page Link",
+              "name": "reviews_link",
+              "type": "url"
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Restaurant Info",
+          "id": "restaurantInfo",
+          "fields": [
+            {
+              "name": "Restaurant Name",
+              "id": "restaurantName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Cuisine Type",
+              "id": "cuisineType",
+              "type": "Symbol"
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Dish",
+          "id": "dish",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Image",
+              "id": "image",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Price",
+              "id": "price",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tags",
+              "id": "tags",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Review",
+          "id": "review",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Quote",
+              "id": "quote",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "id": "rating",
+              "type": "Integer",
+              "validations": [
+                {
+                  "in": [1, 2, 3, 4, 5]
+                }
+              ]
+            },
+            {
+              "name": "Source",
+              "id": "source",
+              "type": "Symbol"
+            },
+            {
+              "name": "Avatar",
+              "id": "avatar",
+              "type": "Link",
+              "linkType": "Asset"
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "restaurant-info",
+          "attributes": {
+            "restaurantName": {
+              "type": "string",
+              "required": true
+            },
+            "cuisineType": {
+              "type": "string"
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text",
+              "required": true
+            }
+          }
+        },
+        {
+          "name": "dish",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "image": {
+              "type": "media",
+              "multiple": false
+            },
+            "price": {
+              "type": "string",
+              "required": true
+            },
+            "tags": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "review",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "quote": {
+              "type": "text",
+              "required": true
+            },
+            "rating": {
+              "type": "integer",
+              "min": 1,
+              "max": 5,
+              "default": 5
+            },
+            "source": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "media",
+              "multiple": false
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Restaurant Info",
+          "fields": [
+            {
+              "name": "Restaurant Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Cuisine Type",
+              "type": "Plain text"
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Menu Items",
+          "fields": [
+            {
+              "name": "Dish Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Dish Image",
+              "type": "Image"
+            },
+            {
+              "name": "Price",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tags",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Customer Reviews",
+          "fields": [
+            {
+              "name": "Customer Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Review Quote",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "type": "Number",
+              "decimalPlaces": 0
+            },
+            {
+              "name": "Review Source",
+              "type": "Plain text"
+            },
+            {
+              "name": "Customer Avatar",
+              "type": "Image"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "company_name": "Restaurant Info/restaurantName/restaurant_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "featured_dishes": "Menu/featured_dishes/featuredDishes (array)",
+      "reviews": "Reviews/reviews/reviews (array)",
+      "hours": "Hours/restaurant_hours/restaurantHours (array)"
+    },
+    "data_transformation": {
+      "dishes_array": "Map each dish object to template dish structure",
+      "reviews_array": "Map each review object to template review structure",
+      "hours_array": "Map each hours object to template hours structure",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

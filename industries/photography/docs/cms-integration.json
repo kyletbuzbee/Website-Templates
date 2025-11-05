@@ -1,0 +1,107 @@
+{
+  "template": "photography",
+  "cms_platforms": ["wordpress", "contentful", "strapi", "webflow", "squarespace"],
+  "integration_type": "full",
+  "content_mapping": {
+    "hero": {
+      "title": "hero.title",
+      "subtitle": "hero.subtitle",
+      "image": "hero.image",
+      "primary_cta": "hero.primary_cta",
+      "secondary_cta": "hero.secondary_cta"
+    },
+    "about": {
+      "title": "about.title",
+      "description": "about.description",
+      "image": "about.image"
+    },
+    "portfolio": {
+      "title": "portfolio.title",
+      "subtitle": "portfolio.subtitle",
+      "featured_work": "featured_work[]"
+    },
+    "services": "services[]",
+    "testimonials": "testimonials[]",
+    "pricing": {
+      "title": "pricing.title",
+      "subtitle": "pricing.subtitle",
+      "packages": "packages[]"
+    },
+    "contact": {
+      "title": "contact.title",
+      "description": "contact.description"
+    }
+  },
+  "dynamic_content": {
+    "blog_posts": false,
+    "portfolio_items": true,
+    "testimonials": true,
+    "services": true,
+    "pricing": false
+  },
+  "custom_fields": {
+    "company_info": {
+      "name": "text",
+      "tagline": "text",
+      "description": "textarea",
+      "year_established": "number",
+      "specialties": "text"
+    },
+    "social_links": {
+      "instagram": "url",
+      "facebook": "url",
+      "pinterest": "url",
+      "linkedin": "url"
+    },
+    "contact_info": {
+      "phone": "tel",
+      "email": "email",
+      "address": "textarea"
+    },
+    "booking_settings": {
+      "availability": "json",
+      "response_time": "text",
+      "delivery_time": "text"
+    }
+  },
+  "media_collections": {
+    "portfolio_images": {
+      "type": "image",
+      "multiple": true,
+      "dimensions": "1200x800",
+      "max_size": "2MB"
+    },
+    "hero_images": {
+      "type": "image",
+      "multiple": false,
+      "dimensions": "1920x1080",
+      "max_size": "3MB"
+    },
+    "profile_images": {
+      "type": "image",
+      "multiple": false,
+      "dimensions": "400x400",
+      "max_size": "500KB"
+    }
+  },
+  "seo_fields": {
+    "meta_description": "textarea",
+    "keywords": "text",
+    "og_image": "image"
+  },
+  "workflows": {
+    "content_approval": false,
+    "scheduled_publishing": true,
+    "version_control": true
+  },
+  "api_endpoints": {
+    "booking_inquiry": "/api/photography/booking",
+    "portfolio_filter": "/api/photography/portfolio",
+    "contact_form": "/api/contact/photography"
+  },
+  "webhooks": {
+    "new_inquiry": "photography_inquiry_created",
+    "booking_request": "photography_booking_requested",
+    "portfolio_update": "photography_portfolio_updated"
+  }
+}

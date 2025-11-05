@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-11-04T19:31:54.542Z",
+  "issues": [
+    {
+      "template": "roofers-exterior",
+      "file": "industries\\roofers-exterior\\assets\\demo-content.json",
+      "type": "missing_images",
+      "details": "Missing images: hero.image, about.image"
+    },
+    {
+      "template": "restaurants",
+      "file": "industries\\restaurants\\assets\\demo-content.json",
+      "type": "missing_images",
+      "details": "Missing images: hero.image, about.image"
+    },
+    {
+      "template": "real-estate",
+      "file": "industries\\real-estate\\assets\\demo-content.json",
+      "type": "missing_images",
+      "details": "Missing images: hero.image, about.image"
+    },
+    {
+      "template": "legal",
+      "file": "industries\\legal\\assets\\demo-content.json",
+      "type": "missing_images",
+      "details": "Missing images: hero.image"
+    },
+    {
+      "template": "healthcare",
+      "file": "industries\\healthcare\\assets\\demo-content.json",
+      "type": "missing_images",
+      "details": "Missing images: hero.image"
+    },
+    {
+      "template": "fitness",
+      "file": "industries\\fitness\\assets\\demo-content.json",
+      "type": "missing_images",
+      "details": "Missing images: hero.image"
+    },
+    {
+      "template": "contractors-trades",
+      "file": "industries\\contractors-trades\\assets\\demo-content.json",
+      "type": "missing_images",
+      "details": "Missing images: hero.image"
+    }
+  ]
+}

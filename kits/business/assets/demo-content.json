@@ -1,0 +1,360 @@
+{
+  "version": "1.0.0",
+  "template": "business",
+  "description": "Demo content for Business template - professional services with advanced features",
+  "company": {
+    "name": "Stratagem Consulting",
+    "tagline": "Strategic Solutions for Business Growth",
+    "description": "Leading management consulting firm specializing in digital transformation, operational excellence, and strategic growth initiatives.",
+    "location": "New York, NY",
+    "year_established": "2008",
+    "phone": "+1-212-555-0123",
+    "phone_display": "(212) 555-0123",
+    "email": "info@stratagemconsulting.com",
+    "address": "350 5th Avenue, Suite 1500, New York, NY 10118",
+    "hours": "9:00 AM - 6:00 PM EST"
+  },
+  "branding": {
+    "logo": "/assets/images/logo.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#1e293b",
+    "secondary_color": "#64748b",
+    "accent_color": "#3b82f6"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/stratagem-consulting",
+    "twitter": "https://twitter.com/stratagemconsult",
+    "facebook": "https://facebook.com/stratagemconsulting",
+    "instagram": "https://instagram.com/stratagemconsulting"
+  },
+  "hero": {
+    "title": "Transform Your Business with Strategic Excellence",
+    "subtitle": "We partner with Fortune 500 companies and growing businesses to drive digital transformation, optimize operations, and accelerate growth through data-driven strategies and innovative solutions.",
+    "image": "/assets/images/hero-business-professional.jpg",
+    "alt": "Professional business consultants working together in modern office",
+    "primary_cta": "Schedule Consultation",
+    "secondary_cta": "Request Demo",
+    "clients_served": "500",
+    "years_experience": "15",
+    "success_rate": "98"
+  },
+  "services": {
+    "title": "Our Consulting Services",
+    "subtitle": "Comprehensive solutions tailored to your industry's unique challenges",
+    "items": [
+      {
+        "title": "Digital Transformation",
+        "description": "Modernize your business operations with cutting-edge technology solutions and digital strategies.",
+        "icon": "/assets/images/icons/digital-transformation.svg",
+        "link": "/services/digital-transformation",
+        "modal_type": "consultation",
+        "features": [
+          "Technology Assessment & Planning",
+          "Digital Strategy Development",
+          "Process Automation",
+          "Cloud Migration Services",
+          "Change Management Support"
+        ]
+      },
+      {
+        "title": "Operational Excellence",
+        "description": "Streamline operations and improve efficiency with proven methodologies and best practices.",
+        "icon": "/assets/images/icons/operational-excellence.svg",
+        "link": "/services/operational-excellence",
+        "modal_type": "consultation",
+        "features": [
+          "Process Optimization",
+          "Lean Six Sigma Implementation",
+          "Performance Metrics Dashboard",
+          "Quality Management Systems",
+          "Continuous Improvement Programs"
+        ]
+      },
+      {
+        "title": "Strategic Growth",
+        "description": "Develop and execute growth strategies to expand market share and increase profitability.",
+        "icon": "/assets/images/icons/strategic-growth.svg",
+        "link": "/services/strategic-growth",
+        "modal_type": "demo",
+        "features": [
+          "Market Analysis & Research",
+          "Competitive Intelligence",
+          "Growth Strategy Development",
+          "M&A Advisory Services",
+          "Partnership Development"
+        ]
+      },
+      {
+        "title": "Financial Consulting",
+        "description": "Optimize financial performance with expert analysis and strategic financial planning.",
+        "icon": "/assets/images/icons/financial-consulting.svg",
+        "link": "/services/financial-consulting",
+        "modal_type": "consultation",
+        "features": [
+          "Financial Performance Analysis",
+          "Cost Optimization Strategies",
+          "Budget Planning & Forecasting",
+          "Risk Management",
+          "Capital Structure Optimization"
+        ]
+      },
+      {
+        "title": "Technology Solutions",
+        "description": "Implement innovative technology solutions to enhance productivity and competitive advantage.",
+        "icon": "/assets/images/icons/technology-solutions.svg",
+        "link": "/services/technology-solutions",
+        "modal_type": "demo",
+        "features": [
+          "Custom Software Development",
+          "System Integration",
+          "Data Analytics Platforms",
+          "Cybersecurity Solutions",
+          "IT Infrastructure Modernization"
+        ]
+      },
+      {
+        "title": "Change Management",
+        "description": "Guide your organization through complex transformations with expert change management support.",
+        "icon": "/assets/images/icons/change-management.svg",
+        "link": "/services/change-management",
+        "modal_type": "consultation",
+        "features": [
+          "Change Strategy Development",
+          "Stakeholder Engagement",
+          "Communication Planning",
+          "Training Program Design",
+          "Resistance Management"
+        ]
+      }
+    ]
+  },
+  "case_studies": {
+    "title": "Success Stories",
+    "subtitle": "Real results from our consulting engagements",
+    "items": [
+      {
+        "title": "Manufacturing Giant Achieves 40% Cost Reduction",
+        "description": "Helped a Fortune 500 manufacturing company optimize operations and reduce costs through digital transformation initiatives.",
+        "image": "/assets/images/case-studies/manufacturing-optimization.jpg",
+        "category": "Operational Excellence",
+        "link": "/case-studies/manufacturing-optimization",
+        "metrics": [
+          {"value": "40%", "label": "Cost Reduction"},
+          {"value": "25%", "label": "Efficiency Increase"},
+          {"value": "$2.3M", "label": "Annual Savings"}
+        ]
+      },
+      {
+        "title": "Retail Chain Doubles Online Sales",
+        "description": "Transformed a regional retail chain's e-commerce platform, resulting in significant revenue growth and market expansion.",
+        "image": "/assets/images/case-studies/retail-digital-transformation.jpg",
+        "category": "Digital Transformation",
+        "link": "/case-studies/retail-digital-transformation",
+        "metrics": [
+          {"value": "200%", "label": "Online Sales Growth"},
+          {"value": "35%", "label": "Customer Acquisition"},
+          {"value": "4.8★", "label": "Customer Satisfaction"}
+        ]
+      },
+      {
+        "title": "Healthcare Provider Improves Patient Outcomes",
+        "description": "Implemented comprehensive operational improvements that enhanced patient care quality and reduced wait times.",
+        "image": "/assets/images/case-studies/healthcare-optimization.jpg",
+        "category": "Process Improvement",
+        "link": "/case-studies/healthcare-optimization",
+        "metrics": [
+          {"value": "30%", "label": "Reduced Wait Times"},
+          {"value": "95%", "label": "Patient Satisfaction"},
+          {"value": "25%", "label": "Cost per Patient Reduction"}
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Flexible engagement models designed to meet your specific needs and budget",
+    "plans": [
+      {
+        "name": "Consultation Package",
+        "price": "2,500",
+        "period": "month",
+        "description": "Perfect for ongoing strategic guidance and implementation support",
+        "popular": false,
+        "modal_type": "consultation",
+        "cta_text": "Start Consultation",
+        "features": [
+          {"feature": "Monthly Strategy Sessions", "included": true},
+          {"feature": "Implementation Support", "included": true},
+          {"feature": "Progress Reporting", "included": true},
+          {"feature": "Email Support", "included": true},
+          {"feature": "Dedicated Account Manager", "included": false},
+          {"feature": "On-site Consulting", "included": false}
+        ]
+      },
+      {
+        "name": "Transformation Program",
+        "price": "15,000",
+        "period": "month",
+        "description": "Comprehensive transformation program with full implementation support",
+        "popular": true,
+        "modal_type": "demo",
+        "cta_text": "Schedule Demo",
+        "features": [
+          {"feature": "Monthly Strategy Sessions", "included": true},
+          {"feature": "Implementation Support", "included": true},
+          {"feature": "Progress Reporting", "included": true},
+          {"feature": "Email Support", "included": true},
+          {"feature": "Dedicated Account Manager", "included": true},
+          {"feature": "On-site Consulting", "included": true}
+        ]
+      },
+      {
+        "name": "Project-Based",
+        "price": "Custom",
+        "description": "Tailored solutions for specific projects and one-time initiatives",
+        "popular": false,
+        "modal_type": "consultation",
+        "cta_text": "Discuss Project",
+        "features": [
+          {"feature": "Project Scoping", "included": true},
+          {"feature": "Custom Solution Design", "included": true},
+          {"feature": "Full Implementation", "included": true},
+          {"feature": "Training & Handover", "included": true},
+          {"feature": "Ongoing Support", "included": false},
+          {"feature": "SLA Guarantees", "included": false}
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long do consulting engagements typically last?",
+        "answer": "Engagement duration varies based on project scope and complexity. Most transformation programs range from 6-18 months, while consultation packages can be month-to-month."
+      },
+      {
+        "question": "Do you offer payment plans or financing options?",
+        "answer": "Yes, we offer flexible payment terms and can work with financing partners for larger transformation programs. Contact us to discuss payment options."
+      },
+      {
+        "question": "What is included in the monthly consultation package?",
+        "answer": "The consultation package includes monthly strategy sessions, implementation support, progress reporting, and email support to ensure continuous guidance and success."
+      },
+      {
+        "question": "Can we switch between pricing plans?",
+        "answer": "Absolutely. We understand business needs evolve, and we offer flexible options to upgrade or downgrade your plan as your requirements change."
+      }
+    ]
+  },
+  "team": {
+    "title": "Meet Our Experts",
+    "subtitle": "Experienced consultants with proven track records of driving business transformation",
+    "members": [
+      {
+        "name": "Dr. Sarah Mitchell",
+        "role": "Managing Partner & CEO",
+        "photo": "/assets/images/team/sarah-mitchell.jpg",
+        "bio": "Former McKinsey partner with 20+ years of experience leading digital transformations for Fortune 500 companies.",
+        "social": [
+          {"platform": "linkedin", "url": "https://linkedin.com/in/sarah-mitchell", "icon": "/assets/images/icons/linkedin.svg"}
+        ]
+      },
+      {
+        "name": "Marcus Johnson",
+        "role": "VP of Digital Transformation",
+        "photo": "/assets/images/team/marcus-johnson.jpg",
+        "bio": "Technology leader who has successfully implemented digital strategies for 50+ organizations across multiple industries.",
+        "social": [
+          {"platform": "linkedin", "url": "https://linkedin.com/in/marcus-johnson", "icon": "/assets/images/icons/linkedin.svg"},
+          {"platform": "twitter", "url": "https://twitter.com/marcusjohnson", "icon": "/assets/images/icons/twitter.svg"}
+        ]
+      },
+      {
+        "name": "Dr. Elena Rodriguez",
+        "role": "Director of Operational Excellence",
+        "photo": "/assets/images/team/elena-rodriguez.jpg",
+        "bio": "Lean Six Sigma Master Black Belt with expertise in process optimization and organizational change management.",
+        "social": [
+          {"platform": "linkedin", "url": "https://linkedin.com/in/elena-rodriguez", "icon": "/assets/images/icons/linkedin.svg"}
+        ]
+      },
+      {
+        "name": "David Chen",
+        "role": "Senior Strategy Consultant",
+        "photo": "/assets/images/team/david-chen.jpg",
+        "bio": "Former Bain consultant specializing in growth strategy, competitive analysis, and market expansion initiatives.",
+        "social": [
+          {"platform": "linkedin", "url": "https://linkedin.com/in/david-chen", "icon": "/assets/images/icons/linkedin.svg"},
+          {"platform": "twitter", "url": "https://twitter.com/davidchenstrat", "icon": "/assets/images/icons/twitter.svg"}
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Join hundreds of successful companies that have accelerated their growth with our strategic consulting services.",
+    "features": [
+      {"text": "Free initial consultation"},
+      {"text": "Customized strategy development"},
+      {"text": "Proven implementation methods"},
+      {"text": "Ongoing support and optimization"}
+    ]
+  },
+  "contact": {
+    "service_options": [
+      {"value": "digital-transformation", "label": "Digital Transformation"},
+      {"value": "operational-excellence", "label": "Operational Excellence"},
+      {"value": "strategic-growth", "label": "Strategic Growth"},
+      {"value": "financial-consulting", "label": "Financial Consulting"},
+      {"value": "technology-solutions", "label": "Technology Solutions"},
+      {"value": "change-management", "label": "Change Management"},
+      {"value": "other", "label": "Other Services"}
+    ]
+  },
+  "footer": {
+    "description": "Leading management consulting firm helping businesses achieve transformative growth through strategic excellence and innovative solutions.",
+    "services": [
+      {"name": "Digital Transformation", "url": "/services/digital-transformation"},
+      {"name": "Operational Excellence", "url": "/services/operational-excellence"},
+      {"name": "Strategic Growth", "url": "/services/strategic-growth"},
+      {"name": "Financial Consulting", "url": "/services/financial-consulting"},
+      {"name": "Technology Solutions", "url": "/services/technology-solutions"},
+      {"name": "Change Management", "url": "/services/change-management"}
+    ]
+  },
+  "seo": {
+    "meta_description": "Professional management consulting services for digital transformation, operational excellence, and strategic growth. Trusted by Fortune 500 companies.",
+    "keywords": "management consulting, digital transformation, operational excellence, strategic growth, business consulting, management consultants",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "case_study_images": {
+      "dimensions": "800x600",
+      "aspect_ratio": "4:3",
+      "max_size": "1MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "team_photos": {
+      "dimensions": "400x400",
+      "aspect_ratio": "1:1",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "service_icons": {
+      "dimensions": "80x80",
+      "aspect_ratio": "1:1",
+      "max_size": "50KB",
+      "format": "SVG, PNG"
+    },
+    "logo": {
+      "dimensions": "250x80",
+      "aspect_ratio": "3.125:1",
+      "max_size": "150KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A/B Testing & Template Customization Demo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .demo-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .demo-header h1 {
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+
+        .demo-header p {
+            color: #718096;
+            font-size: 18px;
+        }
+
+        .demo-section {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .demo-section h2 {
+            color: #1a202c;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e1e5e9;
+            padding-bottom: 10px;
+        }
+
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .demo-card {
+            border: 1px solid #e1e5e9;
+            border-radius: 6px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+
+        .demo-card h3 {
+            margin-top: 0;
+            color: #2d3748;
+        }
+
+        .demo-card p {
+            color: #718096;
+            margin-bottom: 15px;
+        }
+
+        .demo-button {
+            background: #3182ce;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .demo-button:hover {
+            background: #2c5282;
+        }
+
+        .demo-button.secondary {
+            background: #e2e8f0;
+            color: #4a5568;
+        }
+
+        .demo-button.secondary:hover {
+            background: #cbd5e0;
+        }
+
+        .demo-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-active { background: #c6f6d5; color: #276749; }
+        .status-inactive { background: #fed7d7; color: #c53030; }
+        .status-loading { background: #fef5e7; color: #d69e2e; }
+
+        .demo-template {
+            border: 1px solid #e1e5e9;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            background: white;
+        }
+
+        .template-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .template-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .customizable-element {
+            border: 2px dashed #3182ce;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+            background: #f7fafc;
+            position: relative;
+        }
+
+        .customizable-element::after {
+            content: attr(data-customizable);
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            background: #3182ce;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .hero-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .hero-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: #718096;
+            margin-bottom: 20px;
+        }
+
+        .hero-button {
+            background: #3182ce;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #3182ce;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #718096;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .experiment-results {
+            margin-top: 20px;
+        }
+
+        .variant-result {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            margin: 5px 0;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        .variant-name {
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .variant-metrics {
+            display: flex;
+            gap: 15px;
+            font-size: 14px;
+            color: #718096;
+        }
+
+        .floating-controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .control-panel {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            min-width: 300px;
+        }
+
+        .control-panel h3 {
+            margin-top: 0;
+            color: #1a202c;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        .control-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #4a5568;
+            font-size: 14px;
+        }
+
+        .control-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #e1e5e9;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .color-picker {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .color-preview {
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+            border: 2px solid #e1e5e9;
+            cursor: pointer;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #c6f6d5;
+            color: #276749;
+            padding: 12px 20px;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            z-index: 1001;
+            font-weight: 500;
+            max-width: 300px;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="demo-header">
+            <h1>A/B Testing & Template Customization Demo</h1>
+            <p>Phase 3 features demonstration - Interactive A/B testing and live template customization</p>
+        </div>
+
+        <!-- A/B Testing Section -->
+        <div class="demo-section">
+            <h2>🧪 A/B Testing Framework</h2>
+
+            <div class="demo-grid">
+                <div class="demo-card">
+                    <h3>Experiment Management</h3>
+                    <p>Create and manage A/B test experiments with traffic splitting and conversion tracking.</p>
+                    <button class="demo-button" onclick="showABTestingPanel()">Open A/B Testing</button>
+                </div>
+
+                <div class="demo-card">
+                    <h3>Statistical Analysis</h3>
+                    <p>Real-time statistical significance testing with confidence intervals and winner determination.</p>
+                    <div class="demo-status status-active">Active</div>
+                </div>
+
+                <div class="demo-card">
+                    <h3>Conversion Tracking</h3>
+                    <p>Track user interactions and conversions across different experiment variants.</p>
+                    <button class="demo-button secondary" onclick="simulateConversion()">Simulate Conversion</button>
+                </div>
+            </div>
+
+            <div id="experiment-results" class="experiment-results">
+                <h3>Active Experiments</h3>
+                <div id="experiments-list">
+                    <p style="color: #718096; font-style: italic;">No active experiments. Click "Open A/B Testing" to create one.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Template Customization Section -->
+        <div class="demo-section">
+            <h2>🎨 Template Customization</h2>
+
+            <div class="demo-grid">
+                <div class="demo-card">
+                    <h3>Live Preview</h3>
+                    <p>Real-time customization with instant visual feedback and undo/redo functionality.</p>
+                    <button class="demo-button" onclick="enableCustomizationMode()">Enable Customization</button>
+                </div>
+
+                <div class="demo-card">
+                    <h3>Theme Editor</h3>
+                    <p>Customize colors, typography, spacing, and layout with CSS variable manipulation.</p>
+                    <div class="demo-status status-inactive">Inactive</div>
+                </div>
+
+                <div class="demo-card">
+                    <h3>Component Configurator</h3>
+                    <p>Edit component content, styles, and behavior with drag-and-drop interface.</p>
+                    <button class="demo-button secondary" onclick="showComponentEditor()">Edit Components</button>
+                </div>
+            </div>
+
+            <!-- Demo Template -->
+            <div class="demo-template">
+                <div class="template-header">
+                    <div class="template-title">Demo Restaurant Template</div>
+                    <div class="demo-status status-loading" id="customization-status">Ready</div>
+                </div>
+
+                <div class="hero-section customizable-element" data-customizable="hero-main" data-component-type="hero">
+                    <h1 class="hero-title">Welcome to Our Restaurant</h1>
+                    <p class="hero-subtitle">Experience the finest dining with exceptional service and ambiance</p>
+                    <button class="hero-button">Make a Reservation</button>
+                </div>
+
+                <div class="customizable-element" data-customizable="features-section" data-component-type="text">
+                    <h2>Why Choose Us?</h2>
+                    <p>Fresh ingredients, expertly prepared dishes, and unforgettable dining experiences await you at our restaurant.</p>
+                </div>
+
+                <div class="customizable-element" data-customizable="cta-button" data-component-type="button">
+                    <button class="hero-button">Order Online Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistics Section -->
+        <div class="demo-section">
+            <h2>📊 System Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-value" id="experiments-count">0</span>
+                    <span class="stat-label">Experiments</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="conversions-count">0</span>
+                    <span class="stat-label">Conversions</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="customizations-count">0</span>
+                    <span class="stat-label">Customizations</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="templates-count">12</span>
+                    <span class="stat-label">Templates</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Controls -->
+    <div class="floating-controls" id="floating-controls" style="display: none;">
+        <div class="control-panel" id="customization-panel">
+            <h3>Quick Customization</h3>
+
+            <div class="control-group">
+                <label>Primary Color</label>
+                <div class="color-picker">
+                    <div class="color-preview" id="primary-color-preview" style="background: #3182ce;" onclick="pickColor('primary')"></div>
+                    <input type="color" id="primary-color-input" value="#3182ce" style="display: none;">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Font Size</label>
+                <input type="range" class="control-input" id="font-size-slider" min="14" max="24" value="16" oninput="updateFontSize(this.value)">
+            </div>
+
+            <div class="control-group">
+                <label>Hero Title</label>
+                <input type="text" class="control-input" id="hero-title-input" value="Welcome to Our Restaurant" oninput="updateHeroTitle(this.value)">
+            </div>
+
+            <button class="demo-button" onclick="applyCustomizations()">Apply Changes</button>
+            <button class="demo-button secondary" onclick="resetCustomizations()">Reset</button>
+        </div>
+    </div>
+
+    <!-- Load Scripts -->
+    <script type="module" src="../src/analytics/analytics.js"></script>
+    <script type="module" src="../src/ab-testing/ab-testing.js"></script>
+    <script type="module" src="../src/ab-testing/ui.js"></script>
+    <script type="module" src="../src/ab-testing/integration.js"></script>
+    <script type="module" src="../src/customization/customization.js"></script>
+    <script type="module" src="../src/customization/ui.js"></script>
+    <script type="module" src="../src/customization/integration.js"></script>
+
+    <script>
+        // Demo state
+        let demoExperiments = [];
+        let customizationEnabled = false;
+
+        // Initialize demo
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('A/B Testing & Customization Demo initialized');
+
+            // Create sample experiment
+            setTimeout(() => {
+                createSampleExperiment();
+            }, 1000);
+        });
+
+        // Create sample A/B test experiment
+        function createSampleExperiment() {
+            if (window.abTestingManager) {
+                const experiment = window.abTestingManager.createExperiment({
+                    name: 'Demo Hero Button Color Test',
+                    description: 'Testing different button colors for better conversion rates',
+                    variants: [
+                        { id: 'variant_0', name: 'Blue Button', description: 'Current blue button' },
+                        { id: 'variant_1', name: 'Green Button', description: 'Green button for testing' }
+                    ],
+                    trafficAllocation: 50,
+                    goals: ['purchase_initiated', 'demo_requested'],
+                    targetPages: ['/demo']
+                });
+
+                window.abTestingManager.startExperiment(experiment.id);
+                demoExperiments.push(experiment);
+
+                updateExperimentDisplay();
+                updateStats();
+
+                showNotification('Sample A/B experiment created and started!', 'success');
+            }
+        }
+
+        // Show A/B testing panel
+        function showABTestingPanel() {
+            if (window.abTestingUI) {
+                window.abTestingUI.show();
+            } else {
+                showNotification('A/B Testing UI not loaded', 'error');
+            }
+        }
+
+        // Simulate conversion
+        function simulateConversion() {
+            if (window.abTestingManager && demoExperiments.length > 0) {
+                const experiment = demoExperiments[0];
+                window.abTestingManager.trackConversion(experiment.id, 'purchase_initiated');
+                updateExperimentDisplay();
+                updateStats();
+                showNotification('Conversion simulated!', 'success');
+            }
+        }
+
+        // Update experiment display
+        function updateExperimentDisplay() {
+            const container = document.getElementById('experiments-list');
+            if (!window.abTestingManager || demoExperiments.length === 0) return;
+
+            const experiment = demoExperiments[0];
+            const results = window.abTestingManager.getExperimentResults(experiment.id);
+
+            container.innerHTML = `
+                <div class="variant-result">
+                    <span class="variant-name">${experiment.name}</span>
+                    <div class="variant-metrics">
+                        <span>A: ${results.variantA.visitors} visitors (${results.variantA.conversionRate.toFixed(1)}%)</span>
+                        <span>B: ${results.variantB.visitors} visitors (${results.variantB.conversionRate.toFixed(1)}%)</span>
+                        ${results.statisticalSignificance ? `<span style="color: #38a169;">✓ Significant</span>` : '<span style="color: #d69e2e;">⋯ Testing</span>'}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Enable customization mode
+        function enableCustomizationMode() {
+            customizationEnabled = !customizationEnabled;
+
+            if (customizationEnabled) {
+                document.getElementById('floating-controls').style.display = 'flex';
+                document.getElementById('customization-status').textContent = 'Customization Active';
+                document.getElementById('customization-status').className = 'demo-status status-active';
+
+                // Load template for customization
+                if (window.customizationManager) {
+                    window.customizationManager.loadTemplate('demo-restaurant-template', {
+                        id: 'demo-restaurant-template',
+                        name: 'Demo Restaurant Template',
+                        category: 'restaurants'
+                    });
+                }
+
+                showNotification('Customization mode enabled!', 'success');
+            } else {
+                document.getElementById('floating-controls').style.display = 'none';
+                document.getElementById('customization-status').textContent = 'Ready';
+                document.getElementById('customization-status').className = 'demo-status status-inactive';
+
+                if (window.customizationManager) {
+                    window.customizationManager.disablePreviewMode();
+                }
+
+                showNotification('Customization mode disabled', 'info');
+            }
+        }
+
+        // Show component editor
+        function showComponentEditor() {
+            if (window.customizationUI) {
+                window.customizationUI.show('demo-restaurant-template');
+            } else {
+                showNotification('Customization UI not loaded', 'error');
+            }
+        }
+
+        // Color picker
+        function pickColor(type) {
+            const input = document.getElementById(`${type}-color-input`);
+            const preview = document.getElementById(`${type}-color-preview`);
+
+            input.click();
+
+            input.addEventListener('change', function() {
+                preview.style.background = this.value;
+
+                if (window.customizationManager) {
+                    if (type === 'primary') {
+                        window.customizationManager.updateCSSVariable('--primary-color', this.value);
+                    }
+                }
+            });
+        }
+
+        // Update font size
+        function updateFontSize(size) {
+            if (window.customizationManager) {
+                window.customizationManager.updateCSSVariable('--base-font-size', size + 'px');
+            }
+        }
+
+        // Update hero title
+        function updateHeroTitle(title) {
+            const heroTitle = document.querySelector('.hero-title');
+            if (heroTitle) {
+                heroTitle.textContent = title;
+            }
+
+            if (window.customizationManager) {
+                window.customizationManager.updateComponent('hero-main', { title });
+            }
+        }
+
+        // Apply customizations
+        function applyCustomizations() {
+            if (window.customizationManager) {
+                window.customizationManager.saveCustomizations();
+                updateStats();
+                showNotification('Customizations applied!', 'success');
+            }
+        }
+
+        // Reset customizations
+        function resetCustomizations() {
+            if (window.customizationManager) {
+                window.customizationManager.resetCustomizations();
+                showNotification('Customizations reset', 'info');
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            document.getElementById('experiments-count').textContent = demoExperiments.length;
+            document.getElementById('conversions-count').textContent =
+                demoExperiments.reduce((sum, exp) => {
+                    if (window.abTestingManager) {
+                        const results = window.abTestingManager.getExperimentResults(exp.id);
+                        return sum + results.variantA.conversions + results.variantB.conversions;
+                    }
+                    return sum;
+                }, 0);
+
+            if (window.customizationManager) {
+                const customizations = window.customizationManager.customizations.size;
+                document.getElementById('customizations-count').textContent = customizations;
+            }
+        }
+
+        // Show notification
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.className = 'notification';
+            notification.style.background = type === 'success' ? '#c6f6d5' : type === 'error' ? '#fed7d7' : '#bee3f8';
+            notification.style.color = type === 'success' ? '#276749' : type === 'error' ? '#c53030' : '#2c5282';
+            notification.textContent = message;
+
+            document.body.appendChild(notification);
+
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.parentNode.removeChild(notification);
+                }
+            }, 3000);
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Ctrl+Shift+A for A/B testing
+            if (e.ctrlKey && e.shiftKey && e.key === 'A') {
+                e.preventDefault();
+                showABTestingPanel();
+            }
+
+            // Ctrl+Shift+C for customization
+            if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+                e.preventDefault();
+                enableCustomizationMode();
+            }
+        });
+
+        // Update stats periodically
+        setInterval(updateStats, 5000);
+    </script>
+</body>
+</html>

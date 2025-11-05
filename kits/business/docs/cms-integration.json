@@ -1,0 +1,1088 @@
+{
+  "version": "1.0.0",
+  "template": "business",
+  "description": "CMS field mapping for Business template - professional services with advanced features",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Company Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "company_name",
+              "label": "Company Name",
+              "name": "company_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Company Name"
+            },
+            {
+              "key": "company_tagline",
+              "label": "Company Tagline",
+              "name": "company_tagline",
+              "type": "text",
+              "default_value": "Strategic Solutions for Business Growth"
+            },
+            {
+              "key": "company_description",
+              "label": "Company Description",
+              "name": "company_description",
+              "type": "textarea",
+              "rows": 4,
+              "required": 1
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Business Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3
+            },
+            {
+              "key": "year_established",
+              "label": "Year Established",
+              "name": "year_established",
+              "type": "text"
+            },
+            {
+              "key": "business_hours",
+              "label": "Business Hours",
+              "name": "business_hours",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Company Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "primary_color",
+              "label": "Primary Color",
+              "name": "primary_color",
+              "type": "color_picker",
+              "default_value": "#1e293b"
+            },
+            {
+              "key": "secondary_color",
+              "label": "Secondary Color",
+              "name": "secondary_color",
+              "type": "color_picker",
+              "default_value": "#64748b"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "linkedin_url",
+              "label": "LinkedIn URL",
+              "name": "linkedin_url",
+              "type": "url"
+            },
+            {
+              "key": "twitter_url",
+              "label": "Twitter URL",
+              "name": "twitter_url",
+              "type": "url"
+            },
+            {
+              "key": "facebook_url",
+              "label": "Facebook URL",
+              "name": "facebook_url",
+              "type": "url"
+            },
+            {
+              "key": "instagram_url",
+              "label": "Instagram URL",
+              "name": "instagram_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Transform Your Business with Strategic Excellence"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_image",
+              "label": "Hero Image",
+              "name": "hero_image",
+              "type": "image",
+              "required": 1,
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Schedule Consultation"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "Request Demo"
+            },
+            {
+              "key": "hero_clients_served",
+              "label": "Clients Served Number",
+              "name": "hero_clients_served",
+              "type": "text",
+              "default_value": "500"
+            },
+            {
+              "key": "hero_years_experience",
+              "label": "Years Experience",
+              "name": "hero_years_experience",
+              "type": "text",
+              "default_value": "15"
+            },
+            {
+              "key": "hero_success_rate",
+              "label": "Success Rate",
+              "name": "hero_success_rate",
+              "type": "text",
+              "default_value": "98"
+            }
+          ]
+        },
+        {
+          "title": "Services Section",
+          "fields": [
+            {
+              "key": "services_title",
+              "label": "Services Section Title",
+              "name": "services_title",
+              "type": "text",
+              "default_value": "Our Consulting Services"
+            },
+            {
+              "key": "services_subtitle",
+              "label": "Services Section Subtitle",
+              "name": "services_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "services",
+              "label": "Services",
+              "name": "services",
+              "type": "repeater",
+              "required": 1,
+              "min": 3,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "service_title",
+                  "label": "Service Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "service_description",
+                  "label": "Service Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "service_icon",
+                  "label": "Service Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "service_link",
+                  "label": "Service Page Link",
+                  "name": "link",
+                  "type": "url"
+                },
+                {
+                  "key": "service_modal_type",
+                  "label": "Modal Type",
+                  "name": "modal_type",
+                  "type": "select",
+                  "choices": {
+                    "consultation": "Consultation",
+                    "demo": "Demo"
+                  }
+                },
+                {
+                  "key": "service_features",
+                  "label": "Service Features",
+                  "name": "features",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "feature_text",
+                      "label": "Feature",
+                      "name": "feature",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Case Studies Section",
+          "fields": [
+            {
+              "key": "case_studies_title",
+              "label": "Case Studies Section Title",
+              "name": "case_studies_title",
+              "type": "text",
+              "default_value": "Success Stories"
+            },
+            {
+              "key": "case_studies_subtitle",
+              "label": "Case Studies Subtitle",
+              "name": "case_studies_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "case_studies",
+              "label": "Case Studies",
+              "name": "case_studies",
+              "type": "repeater",
+              "min": 3,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "case_study_title",
+                  "label": "Case Study Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "case_study_description",
+                  "label": "Case Study Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "case_study_image",
+                  "label": "Case Study Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "case_study_category",
+                  "label": "Category",
+                  "name": "category",
+                  "type": "text"
+                },
+                {
+                  "key": "case_study_link",
+                  "label": "Case Study Link",
+                  "name": "link",
+                  "type": "url"
+                },
+                {
+                  "key": "case_study_metrics",
+                  "label": "Performance Metrics",
+                  "name": "metrics",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "metric_value",
+                      "label": "Value",
+                      "name": "value",
+                      "type": "text",
+                      "required": 1
+                    },
+                    {
+                      "key": "metric_label",
+                      "label": "Label",
+                      "name": "label",
+                      "type": "text",
+                      "required": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pricing Section",
+          "fields": [
+            {
+              "key": "pricing_title",
+              "label": "Pricing Section Title",
+              "name": "pricing_title",
+              "type": "text",
+              "default_value": "Transparent Pricing"
+            },
+            {
+              "key": "pricing_subtitle",
+              "label": "Pricing Subtitle",
+              "name": "pricing_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "pricing_plans",
+              "label": "Pricing Plans",
+              "name": "pricing_plans",
+              "type": "repeater",
+              "min": 3,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "plan_name",
+                  "label": "Plan Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_price",
+                  "label": "Price",
+                  "name": "price",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_period",
+                  "label": "Billing Period",
+                  "name": "period",
+                  "type": "text"
+                },
+                {
+                  "key": "plan_description",
+                  "label": "Plan Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 2,
+                  "required": 1
+                },
+                {
+                  "key": "plan_popular",
+                  "label": "Most Popular Plan",
+                  "name": "popular",
+                  "type": "true_false",
+                  "default_value": 0
+                },
+                {
+                  "key": "plan_modal_type",
+                  "label": "Modal Type",
+                  "name": "modal_type",
+                  "type": "select",
+                  "choices": {
+                    "consultation": "Consultation",
+                    "demo": "Demo"
+                  }
+                },
+                {
+                  "key": "plan_cta_text",
+                  "label": "CTA Text",
+                  "name": "cta_text",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_features",
+                  "label": "Plan Features",
+                  "name": "features",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "feature_text",
+                      "label": "Feature",
+                      "name": "feature",
+                      "type": "text",
+                      "required": 1
+                    },
+                    {
+                      "key": "feature_included",
+                      "label": "Included",
+                      "name": "included",
+                      "type": "true_false",
+                      "default_value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "pricing_faqs",
+              "label": "Pricing FAQs",
+              "name": "pricing_faqs",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "faq_question",
+                  "label": "Question",
+                  "name": "question",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "faq_answer",
+                  "label": "Answer",
+                  "name": "answer",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Team Section",
+          "fields": [
+            {
+              "key": "team_title",
+              "label": "Team Section Title",
+              "name": "team_title",
+              "type": "text",
+              "default_value": "Meet Our Experts"
+            },
+            {
+              "key": "team_subtitle",
+              "label": "Team Subtitle",
+              "name": "team_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "team_members",
+              "label": "Team Members",
+              "name": "team_members",
+              "type": "repeater",
+              "min": 4,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "member_name",
+                  "label": "Member Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "member_role",
+                  "label": "Role/Title",
+                  "name": "role",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "member_photo",
+                  "label": "Photo",
+                  "name": "photo",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "member_bio",
+                  "label": "Bio",
+                  "name": "bio",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "member_social",
+                  "label": "Social Links",
+                  "name": "social",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "social_platform",
+                      "label": "Platform",
+                      "name": "platform",
+                      "type": "select",
+                      "choices": {
+                        "linkedin": "LinkedIn",
+                        "twitter": "Twitter",
+                        "facebook": "Facebook",
+                        "instagram": "Instagram"
+                      }
+                    },
+                    {
+                      "key": "social_url",
+                      "label": "URL",
+                      "name": "url",
+                      "type": "url",
+                      "required": 1
+                    },
+                    {
+                      "key": "social_icon",
+                      "label": "Icon",
+                      "name": "icon",
+                      "type": "image",
+                      "return_format": "url"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Company Info",
+          "id": "companyInfo",
+          "fields": [
+            {
+              "name": "Company Name",
+              "id": "companyName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text"
+            },
+            {
+              "name": "Year Established",
+              "id": "yearEstablished",
+              "type": "Symbol"
+            },
+            {
+              "name": "Business Hours",
+              "id": "businessHours",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Service",
+          "id": "service",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Icon",
+              "id": "icon",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Link",
+              "id": "link",
+              "type": "Symbol"
+            },
+            {
+              "name": "Modal Type",
+              "id": "modalType",
+              "type": "Symbol",
+              "validations": [
+                {
+                  "in": ["consultation", "demo"]
+                }
+              ]
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Array",
+              "items": {
+                "type": "Symbol"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Case Study",
+          "id": "caseStudy",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Image",
+              "id": "image",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Category",
+              "id": "category",
+              "type": "Symbol"
+            },
+            {
+              "name": "Link",
+              "id": "link",
+              "type": "Symbol"
+            },
+            {
+              "name": "Metrics",
+              "id": "metrics",
+              "type": "Array",
+              "items": {
+                "type": "Link",
+                "linkType": "Entry"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Pricing Plan",
+          "id": "pricingPlan",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Price",
+              "id": "price",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Period",
+              "id": "period",
+              "type": "Symbol"
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Popular",
+              "id": "popular",
+              "type": "Boolean"
+            },
+            {
+              "name": "Modal Type",
+              "id": "modalType",
+              "type": "Symbol"
+            },
+            {
+              "name": "CTA Text",
+              "id": "ctaText",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Array",
+              "items": {
+                "type": "Link",
+                "linkType": "Entry"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "company-info",
+          "attributes": {
+            "companyName": {
+              "type": "string",
+              "required": true
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text"
+            },
+            "yearEstablished": {
+              "type": "string"
+            },
+            "businessHours": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "service",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "icon": {
+              "type": "media",
+              "multiple": false
+            },
+            "link": {
+              "type": "string"
+            },
+            "modalType": {
+              "type": "enumeration",
+              "enum": ["consultation", "demo"]
+            },
+            "features": {
+              "type": "json"
+            }
+          }
+        },
+        {
+          "name": "case-study",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "image": {
+              "type": "media",
+              "multiple": false
+            },
+            "category": {
+              "type": "string"
+            },
+            "link": {
+              "type": "string"
+            },
+            "metrics": {
+              "type": "json"
+            }
+          }
+        },
+        {
+          "name": "pricing-plan",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "price": {
+              "type": "string",
+              "required": true
+            },
+            "period": {
+              "type": "string"
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "popular": {
+              "type": "boolean",
+              "default": false
+            },
+            "modalType": {
+              "type": "enumeration",
+              "enum": ["consultation", "demo"]
+            },
+            "ctaText": {
+              "type": "string",
+              "required": true
+            },
+            "features": {
+              "type": "json"
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Company Info",
+          "fields": [
+            {
+              "name": "Company Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "Year Established",
+              "type": "Plain text"
+            },
+            {
+              "name": "Business Hours",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "fields": [
+            {
+              "name": "Service Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Service Icon",
+              "type": "Image"
+            },
+            {
+              "name": "Service Link",
+              "type": "Link"
+            },
+            {
+              "name": "Modal Type",
+              "type": "Plain text"
+            },
+            {
+              "name": "Service Features",
+              "type": "Multi-line text"
+            }
+          ]
+        },
+        {
+          "name": "Case Studies",
+          "fields": [
+            {
+              "name": "Case Study Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Case Study Image",
+              "type": "Image"
+            },
+            {
+              "name": "Category",
+              "type": "Plain text"
+            },
+            {
+              "name": "Case Study Link",
+              "type": "Link"
+            },
+            {
+              "name": "Performance Metrics",
+              "type": "Multi-line text"
+            }
+          ]
+        },
+        {
+          "name": "Pricing Plans",
+          "fields": [
+            {
+              "name": "Plan Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Price",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Billing Period",
+              "type": "Plain text"
+            },
+            {
+              "name": "Plan Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Most Popular",
+              "type": "Switch"
+            },
+            {
+              "name": "Modal Type",
+              "type": "Plain text"
+            },
+            {
+              "name": "CTA Text",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Plan Features",
+              "type": "Multi-line text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "company_name": "Company/companyName/company_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "services": "Services/services/services (array)",
+      "case_studies": "Case Studies/case_studies/caseStudies (array)",
+      "pricing_plans": "Pricing/pricing_plans/pricingPlans (array)",
+      "team_members": "Team/team_members/teamMembers (array)"
+    },
+    "data_transformation": {
+      "services_array": "Map each service object to template service structure with features array",
+      "pricing_features": "Convert features array to included/excluded format",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "version": "1.0.0",
+  "template": "starter",
+  "description": "CMS field mapping for Starter template - perfect for small businesses",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Company Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "company_name",
+              "label": "Company Name",
+              "name": "company_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Company Name"
+            },
+            {
+              "key": "company_tagline",
+              "label": "Company Tagline",
+              "name": "company_tagline",
+              "type": "text",
+              "default_value": "Your Success is Our Mission"
+            },
+            {
+              "key": "company_description",
+              "label": "Company Description",
+              "name": "company_description",
+              "type": "textarea",
+              "rows": 4,
+              "required": 1
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Business Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3
+            },
+            {
+              "key": "year_established",
+              "label": "Year Established",
+              "name": "year_established",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Company Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "primary_color",
+              "label": "Primary Color",
+              "name": "primary_color",
+              "type": "color_picker",
+              "default_value": "#2563eb"
+            },
+            {
+              "key": "secondary_color",
+              "label": "Secondary Color",
+              "name": "secondary_color",
+              "type": "color_picker",
+              "default_value": "#64748b"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "facebook_url",
+              "label": "Facebook URL",
+              "name": "facebook_url",
+              "type": "url"
+            },
+            {
+              "key": "instagram_url",
+              "label": "Instagram URL",
+              "name": "instagram_url",
+              "type": "url"
+            },
+            {
+              "key": "linkedin_url",
+              "label": "LinkedIn URL",
+              "name": "linkedin_url",
+              "type": "url"
+            },
+            {
+              "key": "twitter_url",
+              "label": "Twitter URL",
+              "name": "twitter_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Grow Your Business with Professional Solutions"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_image",
+              "label": "Hero Image",
+              "name": "hero_image",
+              "type": "image",
+              "required": 1,
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Get Started Today"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "Learn More"
+            }
+          ]
+        },
+        {
+          "title": "Services Section",
+          "fields": [
+            {
+              "key": "services_title",
+              "label": "Services Section Title",
+              "name": "services_title",
+              "type": "text",
+              "default_value": "Our Services"
+            },
+            {
+              "key": "services_subtitle",
+              "label": "Services Section Subtitle",
+              "name": "services_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "services",
+              "label": "Services",
+              "name": "services",
+              "type": "repeater",
+              "required": 1,
+              "min": 3,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "service_title",
+                  "label": "Service Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "service_description",
+                  "label": "Service Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "service_icon",
+                  "label": "Service Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "service_link",
+                  "label": "Service Page Link",
+                  "name": "link",
+                  "type": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "About Section",
+          "fields": [
+            {
+              "key": "about_title",
+              "label": "About Section Title",
+              "name": "about_title",
+              "type": "text",
+              "default_value": "About Our Company"
+            },
+            {
+              "key": "about_description",
+              "label": "About Description",
+              "name": "about_description",
+              "type": "textarea",
+              "rows": 4,
+              "required": 1
+            },
+            {
+              "key": "about_image",
+              "label": "About Image",
+              "name": "about_image",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "about_cta",
+              "label": "About CTA Text",
+              "name": "about_cta",
+              "type": "text",
+              "default_value": "Learn More About Us"
+            },
+            {
+              "key": "about_stats",
+              "label": "About Statistics",
+              "name": "about_stats",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "stat_number",
+                  "label": "Statistic Number",
+                  "name": "number",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "stat_label",
+                  "label": "Statistic Label",
+                  "name": "label",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Testimonials Section",
+          "fields": [
+            {
+              "key": "testimonials_title",
+              "label": "Testimonials Section Title",
+              "name": "testimonials_title",
+              "type": "text",
+              "default_value": "What Our Clients Say"
+            },
+            {
+              "key": "testimonials_subtitle",
+              "label": "Testimonials Subtitle",
+              "name": "testimonials_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "testimonials",
+              "label": "Testimonials",
+              "name": "testimonials",
+              "type": "repeater",
+              "min": 3,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "testimonial_name",
+                  "label": "Customer Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "testimonial_company",
+                  "label": "Customer Company",
+                  "name": "company",
+                  "type": "text"
+                },
+                {
+                  "key": "testimonial_quote",
+                  "label": "Testimonial Quote",
+                  "name": "quote",
+                  "type": "textarea",
+                  "rows": 4,
+                  "required": 1
+                },
+                {
+                  "key": "testimonial_rating",
+                  "label": "Rating (1-5)",
+                  "name": "rating",
+                  "type": "number",
+                  "min": 1,
+                  "max": 5,
+                  "default_value": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Blog Section",
+          "fields": [
+            {
+              "key": "blog_title",
+              "label": "Blog Section Title",
+              "name": "blog_title",
+              "type": "text",
+              "default_value": "Latest Insights"
+            },
+            {
+              "key": "blog_subtitle",
+              "label": "Blog Subtitle",
+              "name": "blog_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "blog_posts",
+              "label": "Blog Posts",
+              "name": "blog_posts",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "post_title",
+                  "label": "Post Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "post_excerpt",
+                  "label": "Post Excerpt",
+                  "name": "excerpt",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "post_image",
+                  "label": "Post Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "post_category",
+                  "label": "Post Category",
+                  "name": "category",
+                  "type": "text"
+                },
+                {
+                  "key": "post_date",
+                  "label": "Post Date",
+                  "name": "date",
+                  "type": "date_picker",
+                  "return_format": "F j, Y"
+                },
+                {
+                  "key": "post_read_time",
+                  "label": "Read Time (minutes)",
+                  "name": "read_time",
+                  "type": "number",
+                  "min": 1
+                },
+                {
+                  "key": "post_link",
+                  "label": "Post Link",
+                  "name": "link",
+                  "type": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Call-to-Action Section",
+          "fields": [
+            {
+              "key": "cta_title",
+              "label": "CTA Title",
+              "name": "cta_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Ready to Grow Your Business?"
+            },
+            {
+              "key": "cta_subtitle",
+              "label": "CTA Subtitle",
+              "name": "cta_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "cta_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "cta_primary_cta",
+              "type": "text",
+              "default_value": "Start Your Success Story"
+            },
+            {
+              "key": "cta_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "cta_secondary_cta",
+              "type": "text",
+              "default_value": "Call (555) 123-4567"
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Company Info",
+          "id": "companyInfo",
+          "fields": [
+            {
+              "name": "Company Name",
+              "id": "companyName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text"
+            },
+            {
+              "name": "Year Established",
+              "id": "yearEstablished",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Service",
+          "id": "service",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Icon",
+              "id": "icon",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Link",
+              "id": "link",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Testimonial",
+          "id": "testimonial",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Company",
+              "id": "company",
+              "type": "Symbol"
+            },
+            {
+              "name": "Quote",
+              "id": "quote",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "id": "rating",
+              "type": "Integer",
+              "validations": [
+                {
+                  "in": [1, 2, 3, 4, 5]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "company-info",
+          "attributes": {
+            "companyName": {
+              "type": "string",
+              "required": true
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text"
+            },
+            "yearEstablished": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "service",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "icon": {
+              "type": "media",
+              "multiple": false
+            },
+            "link": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "testimonial",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "company": {
+              "type": "string"
+            },
+            "quote": {
+              "type": "text",
+              "required": true
+            },
+            "rating": {
+              "type": "integer",
+              "min": 1,
+              "max": 5,
+              "default": 5
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Company Info",
+          "fields": [
+            {
+              "name": "Company Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "Year Established",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "fields": [
+            {
+              "name": "Service Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Service Icon",
+              "type": "Image"
+            },
+            {
+              "name": "Service Link",
+              "type": "Link"
+            }
+          ]
+        },
+        {
+          "name": "Testimonials",
+          "fields": [
+            {
+              "name": "Customer Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Customer Company",
+              "type": "Plain text"
+            },
+            {
+              "name": "Testimonial Quote",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "type": "Number",
+              "decimalPlaces": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "company_name": "Company/companyName/company_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "services": "Services/services/services (array)",
+      "testimonials": "Testimonials/testimonials/testimonials (array)",
+      "blog_posts": "Blog/blog_posts/blogPosts (array)"
+    },
+    "data_transformation": {
+      "services_array": "Map each service object to template service structure",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "version": "1.0.0",
+  "template": "retail-ecommerce",
+  "description": "Demo content for Retail & E-commerce industry template - perfect for online stores, retail shops, and e-commerce businesses",
+  "company": {
+    "name": "Urban Style Boutique",
+    "tagline": "Curated Fashion for Modern Living",
+    "description": "Discover unique fashion pieces, accessories, and lifestyle products at Urban Style Boutique. Quality products, competitive prices, and exceptional customer service.",
+    "location": "Fashion District",
+    "year_established": "2018",
+    "phone": "+1-555-987-6543",
+    "phone_display": "(555) 987-6543",
+    "email": "hello@urbanstyle.com",
+    "address": "456 Fashion Avenue, Style District, NY 10002",
+    "business_type": "Fashion Retail"
+  },
+  "branding": {
+    "logo": "/assets/images/logo-urbanstyle.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#FF6B6B",
+    "secondary_color": "#4ECDC4",
+    "accent_color": "#45B7D1"
+  },
+  "social": {
+    "facebook": "https://facebook.com/urbanstyleboutique",
+    "instagram": "https://instagram.com/urbanstyleboutique",
+    "pinterest": "https://pinterest.com/urbanstyleboutique",
+    "tiktok": "https://tiktok.com/@urbanstyleboutique"
+  },
+  "hero": {
+    "title": "Welcome to Urban Style",
+    "subtitle": "Discover curated fashion and lifestyle products that express your unique style. Quality pieces, competitive prices, fast shipping.",
+    "image": "/assets/images/store-interior.jpg",
+    "alt": "Modern boutique interior with fashion displays",
+    "primary_cta": "Shop Now",
+    "secondary_cta": "View Collections"
+  },
+  "products": {
+    "title": "Featured Products",
+    "subtitle": "Handpicked items from our latest collections"
+  },
+  "featured_products": [
+    {
+      "name": "Vintage Denim Jacket",
+      "description": "Classic vintage-inspired denim jacket with modern fit. Perfect for layering and everyday style.",
+      "image": "/assets/images/products/denim-jacket.jpg",
+      "price": "89",
+      "original_price": "120",
+      "tags": ["Denim", "Jacket", "Vintage", "Sale"],
+      "category": "Outerwear"
+    },
+    {
+      "name": "Minimalist Watch",
+      "description": "Elegant minimalist watch with stainless steel case and leather strap. Timeless design meets modern functionality.",
+      "image": "/assets/images/products/minimal-watch.jpg",
+      "price": "145",
+      "tags": ["Accessories", "Watch", "Minimalist", "Luxury"],
+      "category": "Accessories"
+    },
+    {
+      "name": "Organic Cotton Tee",
+      "description": "Soft organic cotton t-shirt in classic fit. Comfortable, sustainable, and versatile for any occasion.",
+      "image": "/assets/images/products/organic-tee.jpg",
+      "price": "32",
+      "tags": ["Basics", "Organic", "Cotton", "Sustainable"],
+      "category": "Tops"
+    },
+    {
+      "name": "Leather Crossbody Bag",
+      "description": "Genuine leather crossbody bag with adjustable strap. Perfect for everyday use with elegant styling.",
+      "image": "/assets/images/products/leather-bag.jpg",
+      "price": "78",
+      "tags": ["Bags", "Leather", "Accessories", "Handmade"],
+      "category": "Bags"
+    }
+  ],
+  "about": {
+    "title": "Our Story",
+    "description": "Urban Style Boutique was founded with a passion for curating unique fashion pieces that help people express their individual style. We believe fashion should be accessible, sustainable, and personal.",
+    "image": "/assets/images/founder.jpg",
+    "alt": "Founder of Urban Style Boutique"
+  },
+  "features": [
+    {
+      "title": "Quality Products",
+      "description": "Carefully selected items from trusted designers and manufacturers",
+      "icon": "/assets/images/icons/quality.svg"
+    },
+    {
+      "title": "Fast Shipping",
+      "description": "Free shipping on orders over $50 with fast delivery options",
+      "icon": "/assets/images/icons/shipping.svg"
+    },
+    {
+      "title": "Easy Returns",
+      "description": "30-day return policy with hassle-free exchanges",
+      "icon": "/assets/images/icons/returns.svg"
+    },
+    {
+      "title": "Style Advice",
+      "description": "Personal styling advice and outfit inspiration",
+      "icon": "/assets/images/icons/style.svg"
+    }
+  ],
+  "collections": {
+    "title": "Shop Collections",
+    "subtitle": "Explore our curated collections for every style and occasion"
+  },
+  "collections_data": [
+    {
+      "name": "New Arrivals",
+      "description": "Latest pieces fresh from the runway",
+      "image": "/assets/images/collections/new-arrivals.jpg",
+      "link": "/collections/new-arrivals"
+    },
+    {
+      "name": "Summer Essentials",
+      "description": "Light, breezy pieces for warm weather",
+      "image": "/assets/images/collections/summer.jpg",
+      "link": "/collections/summer-essentials"
+    },
+    {
+      "name": "Workwear",
+      "description": "Professional pieces for the modern workplace",
+      "image": "/assets/images/collections/workwear.jpg",
+      "link": "/collections/workwear"
+    },
+    {
+      "name": "Accessories",
+      "description": "Complete your look with our accessory collection",
+      "image": "/assets/images/collections/accessories.jpg",
+      "link": "/collections/accessories"
+    }
+  ],
+  "policies": {
+    "shipping": {
+      "title": "Shipping Information",
+      "content": "Free shipping on orders over $50. Standard delivery 3-5 business days. Express options available."
+    },
+    "returns": {
+      "title": "Returns & Exchanges",
+      "content": "30-day return policy. Items must be unworn with tags attached. Free return shipping."
+    },
+    "size_guide": {
+      "title": "Size Guide",
+      "content": "Detailed size measurements and fit information available for all products."
+    }
+  },
+  "contact": {
+    "title": "Contact Urban Style",
+    "description": "Have questions about our products or need styling advice? We're here to help!"
+  },
+  "footer": {
+    "description": "Curated fashion and lifestyle products for the modern individual since 2018."
+  },
+  "seo": {
+    "meta_description": "Shop unique fashion and lifestyle products at Urban Style Boutique. Quality clothing, accessories, and home goods with fast shipping and easy returns.",
+    "keywords": "fashion boutique, online shopping, clothing store, accessories, lifestyle products, fashion retail",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "additional_info": {
+    "customer_reviews": "4.9",
+    "total_products": "500+",
+    "shipping_time": "3-5 days",
+    "return_policy": "30 days",
+    "customer_service": "24/7 support"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "product_images": {
+      "dimensions": "800x800",
+      "aspect_ratio": "1:1",
+      "max_size": "1MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "collection_images": {
+      "dimensions": "600x600",
+      "aspect_ratio": "1:1",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "200x80",
+      "aspect_ratio": "2.5:1",
+      "max_size": "100KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "version": "1.0.0",
+  "template": "starter",
+  "description": "Demo content for Starter template - perfect for small businesses",
+  "company": {
+    "name": "Acme Solutions",
+    "tagline": "Your Success is Our Mission",
+    "description": "We help small businesses grow and succeed with professional services tailored to your needs.",
+    "location": "Anytown, USA",
+    "year_established": "2015",
+    "phone": "+1-555-123-4567",
+    "phone_display": "(555) 123-4567",
+    "email": "hello@acmesolutions.com",
+    "address": "123 Business Ave, Anytown, USA 12345"
+  },
+  "branding": {
+    "logo": "/assets/images/logo.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#2563eb",
+    "secondary_color": "#64748b",
+    "accent_color": "#f59e0b"
+  },
+  "social": {
+    "facebook": "https://facebook.com/acmesolutions",
+    "instagram": "https://instagram.com/acmesolutions",
+    "linkedin": "https://linkedin.com/company/acmesolutions",
+    "twitter": "https://twitter.com/acmesolutions"
+  },
+  "hero": {
+    "title": "Grow Your Business with Professional Solutions",
+    "subtitle": "From startup to success, we provide the tools, expertise, and support your business needs to thrive in today's competitive market.",
+    "image": "/assets/images/hero-business-growth.jpg",
+    "alt": "Business professionals working together on growth strategies",
+    "primary_cta": "Get Started Today",
+    "secondary_cta": "Learn More"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions designed for small business success",
+    "items": [
+      {
+        "title": "Business Consulting",
+        "description": "Strategic guidance to optimize your operations and drive growth.",
+        "icon": "/assets/images/icons/consulting.svg",
+        "link": "/services/business-consulting"
+      },
+      {
+        "title": "Digital Marketing",
+        "description": "Increase your online presence and attract more customers.",
+        "icon": "/assets/images/icons/digital-marketing.svg",
+        "link": "/services/digital-marketing"
+      },
+      {
+        "title": "Financial Planning",
+        "description": "Expert financial advice to secure your business future.",
+        "icon": "/assets/images/icons/financial-planning.svg",
+        "link": "/services/financial-planning"
+      },
+      {
+        "title": "Technology Solutions",
+        "description": "Modern tools and systems to streamline your operations.",
+        "icon": "/assets/images/icons/technology.svg",
+        "link": "/services/technology-solutions"
+      },
+      {
+        "title": "HR Support",
+        "description": "Human resources solutions for growing businesses.",
+        "icon": "/assets/images/icons/hr-support.svg",
+        "link": "/services/hr-support"
+      },
+      {
+        "title": "Legal Services",
+        "description": "Business law expertise to protect and grow your company.",
+        "icon": "/assets/images/icons/legal-services.svg",
+        "link": "/services/legal-services"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Acme Solutions",
+    "description": "Founded in 2015, Acme Solutions has been helping small businesses achieve their goals through personalized, professional services. Our team of experts brings decades of combined experience to every project, ensuring your success is our top priority.",
+    "image": "/assets/images/about-team.jpg",
+    "alt": "Our professional team working together",
+    "cta": "Learn More About Us",
+    "stats": [
+      {"number": "500+", "label": "Businesses Helped"},
+      {"number": "98%", "label": "Client Satisfaction"},
+      {"number": "10+", "label": "Years Experience"},
+      {"number": "24/7", "label": "Support Available"}
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real stories from businesses we've helped succeed",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "company": "Johnson's Bakery",
+        "quote": "Acme Solutions transformed our small bakery into a thriving local business. Their marketing strategies increased our customer base by 300% in just 6 months.",
+        "rating": 5
+      },
+      {
+        "name": "Mike Chen",
+        "company": "TechStart Solutions",
+        "quote": "The technology solutions provided by Acme helped us scale from 5 to 50 employees seamlessly. Their expertise is unmatched.",
+        "rating": 5
+      },
+      {
+        "name": "Jennifer Davis",
+        "company": "Davis Accounting",
+        "quote": "Working with Acme Solutions was a game-changer for our practice. Their financial planning guidance helped us expand into new markets.",
+        "rating": 5
+      },
+      {
+        "name": "Robert Wilson",
+        "company": "Wilson Construction",
+        "quote": "The business consulting services provided clear direction for our growth. We've seen consistent improvement in all areas of our operation.",
+        "rating": 5
+      }
+    ]
+  },
+  "blog": {
+    "title": "Latest Insights",
+    "subtitle": "Tips, trends, and strategies for small business success",
+    "posts": [
+      {
+        "title": "5 Digital Marketing Strategies for Small Businesses in 2024",
+        "excerpt": "Discover the most effective digital marketing tactics that deliver real results for small businesses with limited budgets.",
+        "image": "/assets/images/blog/digital-marketing-2024.jpg",
+        "category": "Marketing",
+        "date": "Dec 15, 2024",
+        "read_time": "5",
+        "link": "/blog/digital-marketing-strategies-2024"
+      },
+      {
+        "title": "Financial Planning Essentials Every Business Owner Should Know",
+        "excerpt": "Learn the fundamental financial planning principles that can protect and grow your small business investment.",
+        "image": "/assets/images/blog/financial-planning-essentials.jpg",
+        "category": "Finance",
+        "date": "Dec 10, 2024",
+        "read_time": "7",
+        "link": "/blog/financial-planning-essentials"
+      },
+      {
+        "title": "Building a Strong Company Culture in Small Teams",
+        "excerpt": "Create a positive work environment that attracts top talent and improves productivity in your small business.",
+        "image": "/assets/images/blog/company-culture.jpg",
+        "category": "Management",
+        "date": "Dec 5, 2024",
+        "read_time": "6",
+        "link": "/blog/building-company-culture"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Grow Your Business?",
+    "subtitle": "Join hundreds of successful small businesses that have transformed their operations with our expert guidance.",
+    "primary_cta": "Start Your Success Story",
+    "secondary_cta": "Call (555) 123-4567"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Ready to take your business to the next level? Contact us today for a free consultation and discover how we can help you achieve your goals.",
+    "service_options": [
+      {"value": "consulting", "label": "Business Consulting"},
+      {"value": "marketing", "label": "Digital Marketing"},
+      {"value": "financial", "label": "Financial Planning"},
+      {"value": "technology", "label": "Technology Solutions"},
+      {"value": "hr", "label": "HR Support"},
+      {"value": "legal", "label": "Legal Services"},
+      {"value": "other", "label": "Other Services"}
+    ]
+  },
+  "footer": {
+    "description": "Empowering small businesses to achieve their full potential through professional services and expert guidance.",
+    "services": [
+      {"name": "Business Consulting", "url": "/services/business-consulting"},
+      {"name": "Digital Marketing", "url": "/services/digital-marketing"},
+      {"name": "Financial Planning", "url": "/services/financial-planning"},
+      {"name": "Technology Solutions", "url": "/services/technology-solutions"},
+      {"name": "HR Support", "url": "/services/hr-support"},
+      {"name": "Legal Services", "url": "/services/legal-services"}
+    ]
+  },
+  "seo": {
+    "meta_description": "Professional business solutions for small companies. Consulting, marketing, financial planning, and technology services to help your business grow and succeed.",
+    "keywords": "small business consulting, digital marketing, financial planning, business solutions, small business services",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "service_icons": {
+      "dimensions": "64x64",
+      "aspect_ratio": "1:1",
+      "max_size": "50KB",
+      "format": "SVG, PNG"
+    },
+    "blog_images": {
+      "dimensions": "800x450",
+      "aspect_ratio": "16:9",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "200x80",
+      "aspect_ratio": "2.5:1",
+      "max_size": "100KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

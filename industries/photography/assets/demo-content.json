@@ -1,0 +1,242 @@
+{
+  "version": "1.0.0",
+  "template": "photography",
+  "description": "Demo content for Photography industry template - perfect for photographers, studios, and photography services",
+  "company": {
+    "name": "Lens & Light Photography",
+    "tagline": "Capturing Life's Beautiful Moments Since 2010",
+    "description": "Professional photography services specializing in weddings, portraits, events, and commercial photography with a passion for storytelling through images.",
+    "location": "Creative District",
+    "year_established": "2010",
+    "phone": "+1-555-987-6543",
+    "phone_display": "(555) 987-6543",
+    "email": "hello@lensandlight.com",
+    "address": "456 Art Street, Creative District, NY 10002",
+    "specialties": "Weddings, Portraits, Events, Commercial"
+  },
+  "branding": {
+    "logo": "/assets/images/logo-lens-light.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#2D3748",
+    "secondary_color": "#4A5568",
+    "accent_color": "#E53E3E"
+  },
+  "social": {
+    "instagram": "https://instagram.com/lensandlightphoto",
+    "facebook": "https://facebook.com/lensandlightphotography",
+    "pinterest": "https://pinterest.com/lensandlight",
+    "linkedin": "https://linkedin.com/company/lens-and-light-photography"
+  },
+  "hero": {
+    "title": "Lens & Light Photography",
+    "subtitle": "Professional photography services that capture the essence of your most precious moments. From intimate portraits to grand celebrations.",
+    "image": "/assets/images/photography-hero.jpg",
+    "alt": "Beautiful wedding photography with golden hour lighting",
+    "primary_cta": "View Portfolio",
+    "secondary_cta": "Book Consultation"
+  },
+  "portfolio": {
+    "title": "Featured Work",
+    "subtitle": "Explore our diverse portfolio of photography styles and specializations"
+  },
+  "featured_work": [
+    {
+      "title": "Romantic Garden Wedding",
+      "description": "Intimate outdoor ceremony captured during golden hour with natural lighting and candid moments.",
+      "image": "/assets/images/portfolio/wedding-garden.jpg",
+      "category": "Weddings",
+      "featured": true
+    },
+    {
+      "title": "Corporate Headshots",
+      "description": "Professional executive portraits for LinkedIn and company websites with studio lighting.",
+      "image": "/assets/images/portfolio/corporate-headshots.jpg",
+      "category": "Commercial",
+      "featured": true
+    },
+    {
+      "title": "Newborn Photography",
+      "description": "Gentle, natural newborn portraits in the comfort of your home with soft, warm lighting.",
+      "image": "/assets/images/portfolio/newborn-session.jpg",
+      "category": "Portraits",
+      "featured": true
+    },
+    {
+      "title": "Product Photography",
+      "description": "Commercial product shots for e-commerce with clean backgrounds and professional lighting.",
+      "image": "/assets/images/portfolio/product-studio.jpg",
+      "category": "Commercial",
+      "featured": true
+    }
+  ],
+  "services": [
+    {
+      "name": "Wedding Photography",
+      "description": "Complete wedding day coverage from getting ready to the last dance, including engagement sessions.",
+      "price": "Starting at $2,500",
+      "features": ["Full Day Coverage", "Engagement Session", "Online Gallery", "Print Release"],
+      "icon": "/assets/images/icons/camera-wedding.svg"
+    },
+    {
+      "name": "Portrait Sessions",
+      "description": "Professional headshots, family portraits, and individual photography in studio or on location.",
+      "price": "Starting at $150",
+      "features": ["Studio Lighting", "Multiple Outfits", "Online Gallery", "Print Options"],
+      "icon": "/assets/images/icons/camera-portrait.svg"
+    },
+    {
+      "name": "Event Photography",
+      "description": "Corporate events, parties, and celebrations captured with professional equipment and editing.",
+      "price": "Starting at $500",
+      "features": ["Event Coverage", "Same-Day Preview", "High-Resolution", "Rush Service"],
+      "icon": "/assets/images/icons/camera-event.svg"
+    },
+    {
+      "name": "Commercial Photography",
+      "description": "Product photography, real estate, and commercial services for businesses and marketing.",
+      "price": "Starting at $300",
+      "features": ["Studio Setup", "Location Shoots", "Retouching", "Usage Rights"],
+      "icon": "/assets/images/icons/camera-commercial.svg"
+    }
+  ],
+  "about": {
+    "title": "About Lens & Light",
+    "description": "With over a decade of experience, we specialize in capturing authentic moments and creating timeless images. Our approach combines technical expertise with artistic vision to tell your unique story.",
+    "image": "/assets/images/about-photographer.jpg",
+    "alt": "Professional photographer with camera gear"
+  },
+  "process": [
+    {
+      "step": "01",
+      "title": "Consultation",
+      "description": "We discuss your vision, timeline, and specific photography needs to create a customized plan."
+    },
+    {
+      "step": "02",
+      "title": "Planning",
+      "description": "Detailed planning including location scouting, lighting setup, and timeline coordination."
+    },
+    {
+      "step": "03",
+      "title": "Capture",
+      "description": "Professional photography session with state-of-the-art equipment and expert techniques."
+    },
+    {
+      "step": "04",
+      "title": "Editing & Delivery",
+      "description": "Careful post-processing and delivery of high-resolution images in an online gallery."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Emily & Michael Chen",
+      "quote": "Our wedding photos exceeded our expectations! Every moment was captured beautifully, and the attention to detail was incredible. We couldn't be happier with our choice.",
+      "rating": 5,
+      "service": "Wedding Photography",
+      "avatar": "/assets/images/testimonials/emily-michael.jpg"
+    },
+    {
+      "name": "Sarah Johnson",
+      "quote": "Professional, punctual, and incredibly talented. The headshots turned out amazing and have really helped my personal branding. Highly recommend!",
+      "rating": 5,
+      "service": "Corporate Headshots",
+      "avatar": "/assets/images/testimonials/sarah.jpg"
+    },
+    {
+      "name": "TechStart Inc.",
+      "quote": "Outstanding commercial photography for our product launch. The images were exactly what we needed for our marketing campaign. Great communication throughout.",
+      "rating": 5,
+      "service": "Commercial Photography",
+      "avatar": "/assets/images/testimonials/techstart.jpg"
+    }
+  ],
+  "pricing": {
+    "title": "Photography Packages",
+    "subtitle": "Transparent pricing with no hidden fees"
+  },
+  "packages": [
+    {
+      "name": "Essential",
+      "description": "Perfect for small events and simple sessions",
+      "price": "$350",
+      "features": ["1 Hour Session", "25 Edited Photos", "Online Gallery", "Basic Retouching"],
+      "popular": false
+    },
+    {
+      "name": "Professional",
+      "description": "Most popular choice for weddings and important events",
+      "price": "$850",
+      "features": ["3 Hour Session", "75 Edited Photos", "Online Gallery", "Advanced Retouching", "Print Release"],
+      "popular": true
+    },
+    {
+      "name": "Premium",
+      "description": "Complete coverage with all the bells and whistles",
+      "price": "$1,500",
+      "features": ["Full Day Coverage", "150+ Edited Photos", "Online Gallery", "Professional Retouching", "Print Release", "Engagement Session"],
+      "popular": false
+    }
+  ],
+  "contact": {
+    "title": "Let's Create Something Beautiful",
+    "description": "Ready to capture your special moments? Get in touch to discuss your photography needs and book your session."
+  },
+  "booking": {
+    "title": "Book Your Session",
+    "description": "Check availability and schedule your photography session"
+  },
+  "availability": [
+    {"day": "Monday", "available": true},
+    {"day": "Tuesday", "available": true},
+    {"day": "Wednesday", "available": true},
+    {"day": "Thursday", "available": true},
+    {"day": "Friday", "available": true},
+    {"day": "Saturday", "available": true},
+    {"day": "Sunday", "available": false}
+  ],
+  "footer": {
+    "description": "Professional photography services capturing life's beautiful moments since 2010."
+  },
+  "seo": {
+    "meta_description": "Professional photography services in NYC. Wedding, portrait, event, and commercial photography. Capturing life's beautiful moments with artistic vision and technical excellence.",
+    "keywords": "photography, wedding photographer, portrait photography, event photography, commercial photography, NYC photographer",
+    "og_image": "/assets/images/og-image-photography.jpg"
+  },
+  "additional_info": {
+    "rating": "4.9",
+    "response_time": "< 2 hours",
+    "delivery_time": "1-2 weeks",
+    "payment": "50% deposit, balance due before delivery",
+    "travel_fee": "$50 within city limits",
+    "cancellation": "24-hour notice required",
+    "rescheduling": "Free rescheduling up to 48 hours",
+    "experience": "10+ years",
+    "equipment": "Professional DSLR, studio lighting, drones"
+  },
+  "media_guidelines": {
+    "portfolio_images": {
+      "dimensions": "1200x800",
+      "aspect_ratio": "3:2",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "3MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "profile_image": {
+      "dimensions": "400x400",
+      "aspect_ratio": "1:1",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "200x80",
+      "aspect_ratio": "2.5:1",
+      "max_size": "100KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

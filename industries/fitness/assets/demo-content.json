@@ -1,0 +1,322 @@
+{
+  "version": "1.0.0",
+  "template": "fitness",
+  "description": "Demo content for Fitness industry template - perfect for gyms, fitness centers, and wellness facilities",
+  "company": {
+    "name": "Peak Performance Fitness",
+    "tagline": "Reach Your Peak Potential",
+    "description": "State-of-the-art fitness facility offering group classes, personal training, and wellness programs designed to help you achieve your fitness goals.",
+    "location": "Downtown Fitness District",
+    "year_established": "2010",
+    "phone": "+1-555-123-4567",
+    "phone_display": "(555) 123-4567",
+    "email": "info@peakperformance.com",
+    "address": "456 Fitness Boulevard, Downtown Fitness District, NY 10001"
+  },
+  "branding": {
+    "logo": "/assets/images/logo-peak-performance.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#10b981",
+    "secondary_color": "#374151",
+    "accent_color": "#f59e0b"
+  },
+  "social": {
+    "instagram": "https://instagram.com/peakperformancefit",
+    "facebook": "https://facebook.com/peakperformancefitness",
+    "twitter": "https://twitter.com/peakfitness"
+  },
+  "hero": {
+    "title": "Transform Your Body, Transform Your Life",
+    "subtitle": "Join our community of fitness enthusiasts and achieve your goals with expert guidance, state-of-the-art equipment, and motivating group classes.",
+    "image": "/assets/images/gym-interior.jpg",
+    "alt": "Modern gym interior with exercise equipment",
+    "primary_cta": "Start Your Journey",
+    "secondary_cta": "View Classes"
+  },
+  "classes": {
+    "title": "Featured Classes",
+    "subtitle": "Energizing group fitness classes for all levels and goals"
+  },
+  "featured_classes": [
+    {
+      "name": "HIIT Blast",
+      "description": "High-intensity interval training that burns calories and builds strength in just 45 minutes.",
+      "image": "/assets/images/classes/hiit.jpg",
+      "difficulty": "Advanced",
+      "duration": "45 min",
+      "instructor": "Sarah M.",
+      "schedule": [
+        {"day": "Mon", "time": "6:00 AM"},
+        {"day": "Wed", "time": "7:00 PM"},
+        {"day": "Fri", "time": "6:00 AM"}
+      ]
+    },
+    {
+      "name": "Yoga Flow",
+      "description": "Mindful yoga practice combining breath work, meditation, and gentle movement for stress relief.",
+      "image": "/assets/images/classes/yoga.jpg",
+      "difficulty": "All Levels",
+      "duration": "60 min",
+      "instructor": "Mike R.",
+      "schedule": [
+        {"day": "Tue", "time": "8:00 AM"},
+        {"day": "Thu", "time": "6:30 PM"},
+        {"day": "Sat", "time": "10:00 AM"}
+      ]
+    },
+    {
+      "name": "Strength Training",
+      "description": "Comprehensive strength training program using free weights and machines for muscle building.",
+      "image": "/assets/images/classes/strength.jpg",
+      "difficulty": "Intermediate",
+      "duration": "50 min",
+      "instructor": "Alex K.",
+      "schedule": [
+        {"day": "Mon", "time": "5:30 PM"},
+        {"day": "Wed", "time": "6:00 PM"},
+        {"day": "Fri", "time": "5:30 PM"}
+      ]
+    },
+    {
+      "name": "Spin Cycling",
+      "description": "High-energy indoor cycling class set to motivating music for cardiovascular fitness.",
+      "image": "/assets/images/classes/spin.jpg",
+      "difficulty": "All Levels",
+      "duration": "45 min",
+      "instructor": "Jamie L.",
+      "schedule": [
+        {"day": "Tue", "time": "6:00 PM"},
+        {"day": "Thu", "time": "7:00 AM"},
+        {"day": "Sat", "time": "8:00 AM"}
+      ]
+    }
+  ],
+  "why_choose": {
+    "title": "Why Choose Peak Performance",
+    "subtitle": "Experience the difference with our comprehensive fitness approach"
+  },
+  "features": [
+    {
+      "title": "Expert Trainers",
+      "description": "Certified personal trainers with years of experience helping members reach their goals",
+      "icon": "/assets/images/icons/trainers.svg"
+    },
+    {
+      "title": "Modern Equipment",
+      "description": "State-of-the-art fitness equipment from top brands for optimal workout results",
+      "icon": "/assets/images/icons/equipment.svg"
+    },
+    {
+      "title": "Group Classes",
+      "description": "Motivating group fitness classes for all fitness levels and interests",
+      "icon": "/assets/images/icons/classes.svg"
+    },
+    {
+      "title": "Nutrition Guidance",
+      "description": "Optional nutrition coaching to complement your fitness journey",
+      "icon": "/assets/images/icons/nutrition.svg"
+    }
+  ],
+  "why_choose_image": "/assets/images/trainer-with-client.jpg",
+  "why_choose_alt": "Personal trainer working with a client",
+  "trainers": {
+    "title": "Meet Our Trainers",
+    "subtitle": "Expert fitness professionals dedicated to your success"
+  },
+  "trainers_data": [
+    {
+      "name": "Sarah Martinez",
+      "specialty": "HIIT & Strength Training",
+      "photo": "/assets/images/trainers/sarah-martinez.jpg",
+      "bio": "Sarah is a certified personal trainer with 8 years of experience specializing in high-intensity training and strength programs. She helps clients build muscle, lose fat, and improve overall fitness.",
+      "certifications": ["NASM-CPT", "FMS", "Precision Nutrition"],
+      "profile_link": "/trainers/sarah-martinez"
+    },
+    {
+      "name": "Mike Rodriguez",
+      "specialty": "Yoga & Mindfulness",
+      "photo": "/assets/images/trainers/mike-rodriguez.jpg",
+      "bio": "Mike brings 10 years of yoga teaching experience to Peak Performance. His classes focus on building strength, flexibility, and mental clarity through mindful movement practices.",
+      "certifications": ["RYT-500", "Meditation Teacher", "Anatomy Specialist"],
+      "profile_link": "/trainers/mike-rodriguez"
+    },
+    {
+      "name": "Alex Kim",
+      "specialty": "Strength & Conditioning",
+      "photo": "/assets/images/trainers/alex-kim.jpg",
+      "bio": "Alex specializes in strength training and athletic performance. With a background in sports science, he creates customized programs for athletes and fitness enthusiasts alike.",
+      "certifications": ["CSCS", "USAW", "Corrective Exercise"],
+      "profile_link": "/trainers/alex-kim"
+    }
+  ],
+  "facilities": {
+    "title": "Our Facilities",
+    "subtitle": "State-of-the-art equipment and amenities for your fitness journey"
+  },
+  "facilities_data": [
+    {
+      "name": "Strength Training Area",
+      "description": "Complete free weights section with dumbbells, barbells, and functional training equipment.",
+      "image": "/assets/images/facilities/strength-area.jpg",
+      "features": ["Free Weights", "Cable Machines", "Functional Training", "Olympic Lifting Platform"]
+    },
+    {
+      "name": "Cardio Zone",
+      "description": "Extensive cardio equipment including treadmills, ellipticals, bikes, and rowing machines.",
+      "image": "/assets/images/facilities/cardio-zone.jpg",
+      "features": ["Treadmills", "Ellipticals", "Stationary Bikes", "Rowing Machines", "Stair Climbers"]
+    },
+    {
+      "name": "Group Fitness Studio",
+      "description": "Dedicated studio space for yoga, pilates, and group fitness classes with premium sound system.",
+      "image": "/assets/images/facilities/group-studio.jpg",
+      "features": ["Yoga Classes", "Pilates Reformer", "Dance Studio", "Premium Sound System"]
+    },
+    {
+      "name": "Recovery Lounge",
+      "description": "Relaxation area with massage chairs, sauna, and recovery tools for post-workout recovery.",
+      "image": "/assets/images/facilities/recovery-lounge.jpg",
+      "features": ["Massage Chairs", "Sauna", "Foam Rolling", "Stretching Area", "Recovery Drinks"]
+    }
+  ],
+  "memberships": {
+    "title": "Membership Plans",
+    "subtitle": "Flexible membership options to fit your lifestyle and budget"
+  },
+  "membership_plans": [
+    {
+      "name": "Basic Membership",
+      "price": "29",
+      "period": "per month",
+      "popular": false,
+      "features": [
+        "24/7 gym access",
+        "Cardio equipment",
+        "Strength training area",
+        "Locker rooms & showers",
+        "Free fitness assessment"
+      ]
+    },
+    {
+      "name": "Premium Membership",
+      "price": "49",
+      "period": "per month",
+      "popular": true,
+      "features": [
+        "All Basic features",
+        "Unlimited group classes",
+        "2 personal training sessions/month",
+        "Nutrition consultation",
+        "Towel service",
+        "Sauna access"
+      ]
+    },
+    {
+      "name": "VIP Membership",
+      "price": "79",
+      "period": "per month",
+      "popular": false,
+      "features": [
+        "All Premium features",
+        "Unlimited personal training",
+        "Massage therapy sessions",
+        "Recovery lounge access",
+        "Guest privileges",
+        "Priority class booking"
+      ]
+    }
+  ],
+  "testimonials": {
+    "title": "Success Stories",
+    "subtitle": "Real transformations from our fitness community"
+  },
+  "testimonials_data": [
+    {
+      "name": "Jennifer Walsh",
+      "quote": "Peak Performance completely changed my life! I lost 40 pounds and gained so much confidence. The trainers are amazing and the community is so supportive.",
+      "rating": 5,
+      "goal": "Weight Loss",
+      "avatar": "/assets/images/testimonials/jennifer-walsh.jpg"
+    },
+    {
+      "name": "David Chen",
+      "quote": "The group classes are incredible! I've never felt more motivated. Sarah's HIIT classes are challenging but so rewarding. Best decision I ever made!",
+      "rating": 5,
+      "goal": "Build Strength",
+      "avatar": "/assets/images/testimonials/david-chen.jpg"
+    },
+    {
+      "name": "Maria Rodriguez",
+      "quote": "As a busy mom, finding time for fitness was hard until I joined Peak Performance. The flexible scheduling and amazing childcare made it possible.",
+      "rating": 5,
+      "goal": "Overall Fitness",
+      "avatar": "/assets/images/testimonials/maria-rodriguez.jpg"
+    }
+  ],
+  "join": {
+    "title": "Join Peak Performance Today",
+    "subtitle": "Take the first step towards your fitness goals"
+  },
+  "join_benefits": [
+    {"text": "Free fitness assessment"},
+    {"text": "Personalized workout plan"},
+    {"text": "Access to all facilities"},
+    {"text": "Community support"},
+    {"text": "Expert guidance"}
+  ],
+  "membership_options": [
+    {"value": "basic", "label": "Basic Membership - $29/month"},
+    {"value": "premium", "label": "Premium Membership - $49/month"},
+    {"value": "vip", "label": "VIP Membership - $79/month"}
+  ],
+  "contact": {
+    "title": "Visit Peak Performance",
+    "description": "Ready to start your fitness journey? Visit us today or contact us to learn more about our programs and facilities."
+  },
+  "footer": {
+    "description": "Empowering fitness transformations since 2010 with expert guidance, modern facilities, and a supportive community."
+  },
+  "seo": {
+    "meta_description": "Peak Performance Fitness offers state-of-the-art gym facilities, expert personal training, group classes, and wellness programs in downtown. Join today!",
+    "keywords": "gym, fitness center, personal training, group classes, workout, strength training, yoga, HIIT, downtown fitness",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "additional_info": {
+    "members_count": "2500",
+    "classes_count": "50",
+    "years_open": "15",
+    "hours": "Mon-Fri: 5AM-11PM, Sat-Sun: 7AM-8PM"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "class_images": {
+      "dimensions": "600x400",
+      "aspect_ratio": "3:2",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "trainer_photos": {
+      "dimensions": "400x500",
+      "aspect_ratio": "4:5",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "facility_images": {
+      "dimensions": "800x600",
+      "aspect_ratio": "4:3",
+      "max_size": "1MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "200x80",
+      "aspect_ratio": "2.5:1",
+      "max_size": "100KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

@@ -1,0 +1,1550 @@
+{
+  "version": "1.0.0",
+  "template": "premium-interactive",
+  "description": "CMS field mapping for Premium Interactive template - enterprise-level features with advanced interactivity",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Company Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "company_name",
+              "label": "Company Name",
+              "name": "company_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Enterprise Platform"
+            },
+            {
+              "key": "company_tagline",
+              "label": "Company Tagline",
+              "name": "company_tagline",
+              "type": "text",
+              "default_value": "The Future of Digital Transformation"
+            },
+            {
+              "key": "company_description",
+              "label": "Company Description",
+              "name": "company_description",
+              "type": "textarea",
+              "rows": 4,
+              "required": 1
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Business Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3
+            },
+            {
+              "key": "year_established",
+              "label": "Year Established",
+              "name": "year_established",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Company Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "primary_color",
+              "label": "Primary Color",
+              "name": "primary_color",
+              "type": "color_picker",
+              "default_value": "#0f172a"
+            },
+            {
+              "key": "secondary_color",
+              "label": "Secondary Color",
+              "name": "secondary_color",
+              "type": "color_picker",
+              "default_value": "#1e293b"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "linkedin_url",
+              "label": "LinkedIn URL",
+              "name": "linkedin_url",
+              "type": "url"
+            },
+            {
+              "key": "twitter_url",
+              "label": "Twitter URL",
+              "name": "twitter_url",
+              "type": "url"
+            },
+            {
+              "key": "youtube_url",
+              "label": "YouTube URL",
+              "name": "youtube_url",
+              "type": "url"
+            },
+            {
+              "key": "github_url",
+              "label": "GitHub URL",
+              "name": "github_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Transform Your Business with Enterprise Intelligence"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_video",
+              "label": "Hero Video",
+              "name": "hero_video",
+              "type": "file",
+              "return_format": "url"
+            },
+            {
+              "key": "hero_poster",
+              "label": "Hero Video Poster",
+              "name": "hero_poster",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Configure Your Solution"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "Book Enterprise Demo"
+            },
+            {
+              "key": "hero_scroll_text",
+              "label": "Scroll Indicator Text",
+              "name": "hero_scroll_text",
+              "type": "text",
+              "default_value": "Explore our platform"
+            },
+            {
+              "key": "hero_stats",
+              "label": "Hero Statistics",
+              "name": "hero_stats",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "stat_value",
+                  "label": "Statistic Value",
+                  "name": "value",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "stat_label",
+                  "label": "Statistic Label",
+                  "name": "label",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Products Section",
+          "fields": [
+            {
+              "key": "products_title",
+              "label": "Products Section Title",
+              "name": "products_title",
+              "type": "text",
+              "default_value": "Enterprise Solutions"
+            },
+            {
+              "key": "products_subtitle",
+              "label": "Products Section Subtitle",
+              "name": "products_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "products",
+              "label": "Products",
+              "name": "products",
+              "type": "repeater",
+              "min": 3,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "product_id",
+                  "label": "Product ID",
+                  "name": "id",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "product_name",
+                  "label": "Product Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "product_description",
+                  "label": "Product Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "product_image",
+                  "label": "Product Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "product_badge",
+                  "label": "Product Badge",
+                  "name": "badge",
+                  "type": "text"
+                },
+                {
+                  "key": "product_features",
+                  "label": "Product Features",
+                  "name": "features",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "feature_text",
+                      "label": "Feature",
+                      "name": "feature",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "key": "product_price",
+                  "label": "Product Price",
+                  "name": "price",
+                  "type": "text"
+                },
+                {
+                  "key": "product_period",
+                  "label": "Billing Period",
+                  "name": "period",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Configurator Section",
+          "fields": [
+            {
+              "key": "configurator_title",
+              "label": "Configurator Section Title",
+              "name": "configurator_title",
+              "type": "text",
+              "default_value": "Build Your Perfect Solution"
+            },
+            {
+              "key": "configurator_subtitle",
+              "label": "Configurator Subtitle",
+              "name": "configurator_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "configurator_options",
+              "label": "Configurator Options",
+              "name": "configurator_options",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "option_id",
+                  "label": "Option ID",
+                  "name": "id",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "option_name",
+                  "label": "Option Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "option_type_select",
+                  "label": "Is Select Type",
+                  "name": "type_select",
+                  "type": "true_false",
+                  "default_value": 1
+                },
+                {
+                  "key": "option_type_toggle",
+                  "label": "Is Toggle Type",
+                  "name": "type_toggle",
+                  "type": "true_false",
+                  "default_value": 0
+                },
+                {
+                  "key": "option_values",
+                  "label": "Option Values",
+                  "name": "values",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "value_value",
+                      "label": "Value",
+                      "name": "value",
+                      "type": "text",
+                      "required": 1
+                    },
+                    {
+                      "key": "value_label",
+                      "label": "Label",
+                      "name": "label",
+                      "type": "text",
+                      "required": 1
+                    },
+                    {
+                      "key": "value_price",
+                      "label": "Additional Price",
+                      "name": "price",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "key": "option_price",
+                  "label": "Option Price",
+                  "name": "price",
+                  "type": "text"
+                },
+                {
+                  "key": "option_label",
+                  "label": "Option Label",
+                  "name": "label",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Features Section",
+          "fields": [
+            {
+              "key": "features_title",
+              "label": "Features Section Title",
+              "name": "features_title",
+              "type": "text",
+              "default_value": "Powerful Features for Enterprise Success"
+            },
+            {
+              "key": "features_subtitle",
+              "label": "Features Subtitle",
+              "name": "features_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "features",
+              "label": "Features",
+              "name": "features",
+              "type": "repeater",
+              "min": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "feature_title",
+                  "label": "Feature Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "feature_description",
+                  "label": "Feature Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "feature_icon",
+                  "label": "Feature Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "feature_interactive",
+                  "label": "Has Interactive Demo",
+                  "name": "interactive",
+                  "type": "true_false",
+                  "default_value": 0
+                },
+                {
+                  "key": "feature_demo_id",
+                  "label": "Demo ID",
+                  "name": "demo_id",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pricing Section",
+          "fields": [
+            {
+              "key": "pricing_title",
+              "label": "Pricing Section Title",
+              "name": "pricing_title",
+              "type": "text",
+              "default_value": "Choose Your Plan"
+            },
+            {
+              "key": "pricing_subtitle",
+              "label": "Pricing Subtitle",
+              "name": "pricing_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "pricing_plans",
+              "label": "Pricing Plans",
+              "name": "pricing_plans",
+              "type": "repeater",
+              "min": 3,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "plan_id",
+                  "label": "Plan ID",
+                  "name": "id",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_name",
+                  "label": "Plan Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_description",
+                  "label": "Plan Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 2,
+                  "required": 1
+                },
+                {
+                  "key": "plan_monthly_price",
+                  "label": "Monthly Price",
+                  "name": "monthly_price",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_annual_price",
+                  "label": "Annual Price",
+                  "name": "annual_price",
+                  "type": "text"
+                },
+                {
+                  "key": "plan_popular",
+                  "label": "Most Popular Plan",
+                  "name": "popular",
+                  "type": "true_false",
+                  "default_value": 0
+                },
+                {
+                  "key": "plan_cta_text",
+                  "label": "CTA Text",
+                  "name": "cta_text",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "plan_features",
+                  "label": "Plan Features",
+                  "name": "features",
+                  "type": "repeater",
+                  "sub_fields": [
+                    {
+                      "key": "feature_text",
+                      "label": "Feature",
+                      "name": "feature",
+                      "type": "text",
+                      "required": 1
+                    },
+                    {
+                      "key": "feature_included",
+                      "label": "Included",
+                      "name": "included",
+                      "type": "true_false",
+                      "default_value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Resources Section",
+          "fields": [
+            {
+              "key": "resources_title",
+              "label": "Resources Section Title",
+              "name": "resources_title",
+              "type": "text",
+              "default_value": "Resource Center"
+            },
+            {
+              "key": "resources_subtitle",
+              "label": "Resources Subtitle",
+              "name": "resources_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "resources",
+              "label": "Resources",
+              "name": "resources",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "resource_title",
+                  "label": "Resource Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "resource_description",
+                  "label": "Resource Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "resource_icon",
+                  "label": "Resource Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "resource_type",
+                  "label": "Resource Type",
+                  "name": "type",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "resource_size",
+                  "label": "File Size",
+                  "name": "size",
+                  "type": "text"
+                },
+                {
+                  "key": "resource_gated",
+                  "label": "Requires Registration",
+                  "name": "gated",
+                  "type": "true_false",
+                  "default_value": 0
+                },
+                {
+                  "key": "resource_id",
+                  "label": "Resource ID",
+                  "name": "id",
+                  "type": "text"
+                },
+                {
+                  "key": "resource_download_url",
+                  "label": "Download URL",
+                  "name": "download_url",
+                  "type": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Testimonials Section",
+          "fields": [
+            {
+              "key": "testimonials_title",
+              "label": "Testimonials Section Title",
+              "name": "testimonials_title",
+              "type": "text",
+              "default_value": "Trusted by Industry Leaders"
+            },
+            {
+              "key": "testimonials_subtitle",
+              "label": "Testimonials Subtitle",
+              "name": "testimonials_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "testimonials",
+              "label": "Testimonials",
+              "name": "testimonials",
+              "type": "repeater",
+              "min": 4,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "testimonial_name",
+                  "label": "Client Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "testimonial_company",
+                  "label": "Client Company",
+                  "name": "company",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "testimonial_role",
+                  "label": "Client Role",
+                  "name": "role",
+                  "type": "text"
+                },
+                {
+                  "key": "testimonial_avatar",
+                  "label": "Client Avatar",
+                  "name": "avatar",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "testimonial_quote",
+                  "label": "Testimonial Quote",
+                  "name": "quote",
+                  "type": "textarea",
+                  "rows": 4,
+                  "required": 1
+                }
+              ]
+            },
+            {
+              "key": "client_logos",
+              "label": "Client Logos",
+              "name": "client_logos",
+              "type": "repeater",
+              "sub_fields": [
+                {
+                  "key": "logo_image",
+                  "label": "Logo Image",
+                  "name": "logo",
+                  "type": "image",
+                  "return_format": "url",
+                  "required": 1
+                },
+                {
+                  "key": "logo_company",
+                  "label": "Company Name",
+                  "name": "company",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Company Info",
+          "id": "companyInfo",
+          "fields": [
+            {
+              "name": "Company Name",
+              "id": "companyName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text"
+            },
+            {
+              "name": "Year Established",
+              "id": "yearEstablished",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Product",
+          "id": "product",
+          "fields": [
+            {
+              "name": "Product ID",
+              "id": "productId",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Image",
+              "id": "image",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Badge",
+              "id": "badge",
+              "type": "Symbol"
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Array",
+              "items": {
+                "type": "Symbol"
+              }
+            },
+            {
+              "name": "Price",
+              "id": "price",
+              "type": "Symbol"
+            },
+            {
+              "name": "Period",
+              "id": "period",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Configurator Option",
+          "id": "configuratorOption",
+          "fields": [
+            {
+              "name": "Option ID",
+              "id": "optionId",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Type Select",
+              "id": "typeSelect",
+              "type": "Boolean"
+            },
+            {
+              "name": "Type Toggle",
+              "id": "typeToggle",
+              "type": "Boolean"
+            },
+            {
+              "name": "Values",
+              "id": "values",
+              "type": "Array",
+              "items": {
+                "type": "Link",
+                "linkType": "Entry"
+              }
+            },
+            {
+              "name": "Price",
+              "id": "price",
+              "type": "Symbol"
+            },
+            {
+              "name": "Label",
+              "id": "label",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Feature",
+          "id": "feature",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Icon",
+              "id": "icon",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Interactive",
+              "id": "interactive",
+              "type": "Boolean"
+            },
+            {
+              "name": "Demo ID",
+              "id": "demoId",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Pricing Plan",
+          "id": "pricingPlan",
+          "fields": [
+            {
+              "name": "Plan ID",
+              "id": "planId",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Monthly Price",
+              "id": "monthlyPrice",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Annual Price",
+              "id": "annualPrice",
+              "type": "Symbol"
+            },
+            {
+              "name": "Popular",
+              "id": "popular",
+              "type": "Boolean"
+            },
+            {
+              "name": "CTA Text",
+              "id": "ctaText",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Array",
+              "items": {
+                "type": "Link",
+                "linkType": "Entry"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "id": "resource",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Icon",
+              "id": "icon",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Type",
+              "id": "type",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Size",
+              "id": "size",
+              "type": "Symbol"
+            },
+            {
+              "name": "Gated",
+              "id": "gated",
+              "type": "Boolean"
+            },
+            {
+              "name": "Resource ID",
+              "id": "resourceId",
+              "type": "Symbol"
+            },
+            {
+              "name": "Download URL",
+              "id": "downloadUrl",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Testimonial",
+          "id": "testimonial",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Company",
+              "id": "company",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Role",
+              "id": "role",
+              "type": "Symbol"
+            },
+            {
+              "name": "Avatar",
+              "id": "avatar",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Quote",
+              "id": "quote",
+              "type": "Text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "company-info",
+          "attributes": {
+            "companyName": {
+              "type": "string",
+              "required": true
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text"
+            },
+            "yearEstablished": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "product",
+          "attributes": {
+            "productId": {
+              "type": "string",
+              "required": true
+            },
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "image": {
+              "type": "media",
+              "multiple": false
+            },
+            "badge": {
+              "type": "string"
+            },
+            "features": {
+              "type": "json"
+            },
+            "price": {
+              "type": "string"
+            },
+            "period": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "configurator-option",
+          "attributes": {
+            "optionId": {
+              "type": "string",
+              "required": true
+            },
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "typeSelect": {
+              "type": "boolean",
+              "default": true
+            },
+            "typeToggle": {
+              "type": "boolean",
+              "default": false
+            },
+            "values": {
+              "type": "json"
+            },
+            "price": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "feature",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "icon": {
+              "type": "media",
+              "multiple": false
+            },
+            "interactive": {
+              "type": "boolean",
+              "default": false
+            },
+            "demoId": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "pricing-plan",
+          "attributes": {
+            "planId": {
+              "type": "string",
+              "required": true
+            },
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "monthlyPrice": {
+              "type": "string",
+              "required": true
+            },
+            "annualPrice": {
+              "type": "string"
+            },
+            "popular": {
+              "type": "boolean",
+              "default": false
+            },
+            "ctaText": {
+              "type": "string",
+              "required": true
+            },
+            "features": {
+              "type": "json"
+            }
+          }
+        },
+        {
+          "name": "resource",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "icon": {
+              "type": "media",
+              "multiple": false
+            },
+            "type": {
+              "type": "string",
+              "required": true
+            },
+            "size": {
+              "type": "string"
+            },
+            "gated": {
+              "type": "boolean",
+              "default": false
+            },
+            "resourceId": {
+              "type": "string"
+            },
+            "downloadUrl": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "testimonial",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "company": {
+              "type": "string",
+              "required": true
+            },
+            "role": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "media",
+              "multiple": false
+            },
+            "quote": {
+              "type": "text",
+              "required": true
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Company Info",
+          "fields": [
+            {
+              "name": "Company Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "Year Established",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Products",
+          "fields": [
+            {
+              "name": "Product ID",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Product Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Product Image",
+              "type": "Image"
+            },
+            {
+              "name": "Badge",
+              "type": "Plain text"
+            },
+            {
+              "name": "Product Features",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "Price",
+              "type": "Plain text"
+            },
+            {
+              "name": "Billing Period",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Configurator Options",
+          "fields": [
+            {
+              "name": "Option ID",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Option Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Type Select",
+              "type": "Switch"
+            },
+            {
+              "name": "Type Toggle",
+              "type": "Switch"
+            },
+            {
+              "name": "Option Values",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "Price",
+              "type": "Plain text"
+            },
+            {
+              "name": "Label",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Features",
+          "fields": [
+            {
+              "name": "Feature Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Feature Icon",
+              "type": "Image"
+            },
+            {
+              "name": "Interactive",
+              "type": "Switch"
+            },
+            {
+              "name": "Demo ID",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Pricing Plans",
+          "fields": [
+            {
+              "name": "Plan ID",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Plan Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Plan Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Monthly Price",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Annual Price",
+              "type": "Plain text"
+            },
+            {
+              "name": "Most Popular",
+              "type": "Switch"
+            },
+            {
+              "name": "CTA Text",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Plan Features",
+              "type": "Multi-line text"
+            }
+          ]
+        },
+        {
+          "name": "Resources",
+          "fields": [
+            {
+              "name": "Resource Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Resource Icon",
+              "type": "Image"
+            },
+            {
+              "name": "Type",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Size",
+              "type": "Plain text"
+            },
+            {
+              "name": "Requires Registration",
+              "type": "Switch"
+            },
+            {
+              "name": "Resource ID",
+              "type": "Plain text"
+            },
+            {
+              "name": "Download URL",
+              "type": "Link"
+            }
+          ]
+        },
+        {
+          "name": "Testimonials",
+          "fields": [
+            {
+              "name": "Client Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Client Company",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Client Role",
+              "type": "Plain text"
+            },
+            {
+              "name": "Client Avatar",
+              "type": "Image"
+            },
+            {
+              "name": "Testimonial Quote",
+              "type": "Multi-line text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "company_name": "Company/companyName/company_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "products": "Products/products/products (array)",
+      "configurator_options": "Configurator/configurator_options/configuratorOptions (array)",
+      "features": "Features/features/features (array)",
+      "pricing_plans": "Pricing/pricing_plans/pricingPlans (array)",
+      "resources": "Resources/resources/resources (array)",
+      "testimonials": "Testimonials/testimonials/testimonials (array)"
+    },
+    "data_transformation": {
+      "products_array": "Map each product object to template product structure with features array",
+      "configurator_options": "Convert option values to structured format for interactive configurator",
+      "pricing_features": "Convert features array to included/excluded format",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

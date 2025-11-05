@@ -1,0 +1,1275 @@
+{
+  "version": "1.0.0",
+  "template": "real-estate",
+  "description": "CMS field mapping for Real Estate industry template - perfect for real estate agencies, brokers, and property management companies",
+  "cms_mappings": {
+    "wordpress": {
+      "name": "WordPress",
+      "acf_version": ">=5.0",
+      "field_groups": [
+        {
+          "title": "Agency Information",
+          "location": [
+            {
+              "param": "page_template",
+              "operator": "==",
+              "value": "page-home.php"
+            }
+          ],
+          "fields": [
+            {
+              "key": "agency_name",
+              "label": "Agency Name",
+              "name": "agency_name",
+              "type": "text",
+              "required": 1,
+              "default_value": "Your Agency Name"
+            },
+            {
+              "key": "agency_tagline",
+              "label": "Agency Tagline",
+              "name": "agency_tagline",
+              "type": "text",
+              "default_value": "Your Trusted Real Estate Partner"
+            },
+            {
+              "key": "license_number",
+              "label": "License Number",
+              "name": "license_number",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "name": "phone",
+              "type": "text",
+              "required": 1
+            },
+            {
+              "key": "email",
+              "label": "Email Address",
+              "name": "email",
+              "type": "email",
+              "required": 1
+            },
+            {
+              "key": "address",
+              "label": "Agency Address",
+              "name": "address",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "service_area",
+              "label": "Service Area",
+              "name": "service_area",
+              "type": "text",
+              "default_value": "Metropolitan Area"
+            },
+            {
+              "key": "year_established",
+              "label": "Year Established",
+              "name": "year_established",
+              "type": "number",
+              "default_value": 2008
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "fields": [
+            {
+              "key": "logo",
+              "label": "Agency Logo",
+              "name": "logo",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "favicon",
+              "label": "Favicon",
+              "name": "favicon",
+              "type": "image",
+              "return_format": "url"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "fields": [
+            {
+              "key": "facebook_url",
+              "label": "Facebook URL",
+              "name": "facebook_url",
+              "type": "url"
+            },
+            {
+              "key": "instagram_url",
+              "label": "Instagram URL",
+              "name": "instagram_url",
+              "type": "url"
+            },
+            {
+              "key": "linkedin_url",
+              "label": "LinkedIn URL",
+              "name": "linkedin_url",
+              "type": "url"
+            },
+            {
+              "key": "zillow_url",
+              "label": "Zillow Profile URL",
+              "name": "zillow_url",
+              "type": "url"
+            },
+            {
+              "key": "realtor_url",
+              "label": "Realtor.com Profile URL",
+              "name": "realtor_url",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "title": "Hero Section",
+          "fields": [
+            {
+              "key": "hero_title",
+              "label": "Hero Title",
+              "name": "hero_title",
+              "type": "text",
+              "required": 1,
+              "default_value": "Find Your Dream Home"
+            },
+            {
+              "key": "hero_subtitle",
+              "label": "Hero Subtitle",
+              "name": "hero_subtitle",
+              "type": "textarea",
+              "rows": 3,
+              "required": 1
+            },
+            {
+              "key": "hero_image",
+              "label": "Hero Image",
+              "name": "hero_image",
+              "type": "image",
+              "required": 1,
+              "return_format": "url"
+            },
+            {
+              "key": "hero_primary_cta",
+              "label": "Primary CTA Text",
+              "name": "hero_primary_cta",
+              "type": "text",
+              "default_value": "Search Properties"
+            },
+            {
+              "key": "hero_secondary_cta",
+              "label": "Secondary CTA Text",
+              "name": "hero_secondary_cta",
+              "type": "text",
+              "default_value": "Contact Agent"
+            }
+          ]
+        },
+        {
+          "title": "Property Listings",
+          "fields": [
+            {
+              "key": "properties_title",
+              "label": "Properties Section Title",
+              "name": "properties_title",
+              "type": "text",
+              "default_value": "Featured Properties"
+            },
+            {
+              "key": "properties_subtitle",
+              "label": "Properties Section Subtitle",
+              "name": "properties_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "featured_properties",
+              "label": "Featured Properties",
+              "name": "featured_properties",
+              "type": "repeater",
+              "required": 1,
+              "min": 3,
+              "max": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "property_title",
+                  "label": "Property Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "property_address",
+                  "label": "Property Address",
+                  "name": "address",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "property_price",
+                  "label": "Property Price",
+                  "name": "price",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "bedrooms",
+                  "label": "Bedrooms",
+                  "name": "bedrooms",
+                  "type": "number",
+                  "required": 1
+                },
+                {
+                  "key": "bathrooms",
+                  "label": "Bathrooms",
+                  "name": "bathrooms",
+                  "type": "number",
+                  "required": 1
+                },
+                {
+                  "key": "sqft",
+                  "label": "Square Footage",
+                  "name": "sqft",
+                  "type": "number",
+                  "required": 1
+                },
+                {
+                  "key": "property_type",
+                  "label": "Property Type",
+                  "name": "property_type",
+                  "type": "select",
+                  "choices": {
+                    "house": "Single Family Home",
+                    "condo": "Condominium",
+                    "townhouse": "Townhouse",
+                    "apartment": "Apartment",
+                    "commercial": "Commercial",
+                    "land": "Land"
+                  },
+                  "required": 1
+                },
+                {
+                  "key": "property_status",
+                  "label": "Property Status",
+                  "name": "status",
+                  "type": "select",
+                  "choices": {
+                    "for_sale": "For Sale",
+                    "pending": "Pending",
+                    "sold": "Sold"
+                  },
+                  "default_value": "for_sale"
+                },
+                {
+                  "key": "property_image",
+                  "label": "Property Image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url",
+                  "required": 1
+                },
+                {
+                  "key": "property_description",
+                  "label": "Property Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "property_features",
+                  "label": "Property Features",
+                  "name": "features",
+                  "type": "textarea",
+                  "rows": 2,
+                  "instructions": "Comma-separated features (e.g., Pool, Garage, Garden)"
+                },
+                {
+                  "key": "listing_agent",
+                  "label": "Listing Agent",
+                  "name": "agent",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Agent Profiles",
+          "fields": [
+            {
+              "key": "agents_title",
+              "label": "Agents Section Title",
+              "name": "agents_title",
+              "type": "text",
+              "default_value": "Meet Our Expert Agents"
+            },
+            {
+              "key": "agents_subtitle",
+              "label": "Agents Section Subtitle",
+              "name": "agents_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "agent_profiles",
+              "label": "Agent Profiles",
+              "name": "agent_profiles",
+              "type": "repeater",
+              "min": 3,
+              "max": 6,
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "agent_name",
+                  "label": "Agent Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "agent_title",
+                  "label": "Agent Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "agent_image",
+                  "label": "Agent Photo",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "url",
+                  "required": 1
+                },
+                {
+                  "key": "agent_bio",
+                  "label": "Agent Bio",
+                  "name": "bio",
+                  "type": "textarea",
+                  "rows": 3,
+                  "required": 1
+                },
+                {
+                  "key": "agent_phone",
+                  "label": "Agent Phone",
+                  "name": "phone",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "agent_email",
+                  "label": "Agent Email",
+                  "name": "email",
+                  "type": "email",
+                  "required": 1
+                },
+                {
+                  "key": "agent_specialties",
+                  "label": "Agent Specialties",
+                  "name": "specialties",
+                  "type": "textarea",
+                  "rows": 2,
+                  "instructions": "Comma-separated specialties"
+                },
+                {
+                  "key": "sales_closed",
+                  "label": "Sales Closed",
+                  "name": "sales_closed",
+                  "type": "number"
+                },
+                {
+                  "key": "years_experience",
+                  "label": "Years Experience",
+                  "name": "years_experience",
+                  "type": "number"
+                },
+                {
+                  "key": "avg_sale_price",
+                  "label": "Average Sale Price",
+                  "name": "avg_sale_price",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Services Section",
+          "fields": [
+            {
+              "key": "services_title",
+              "label": "Services Section Title",
+              "name": "services_title",
+              "type": "text",
+              "default_value": "Our Real Estate Services"
+            },
+            {
+              "key": "services_subtitle",
+              "label": "Services Section Subtitle",
+              "name": "services_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "service_offerings",
+              "label": "Service Offerings",
+              "name": "service_offerings",
+              "type": "repeater",
+              "min": 3,
+              "max": 6,
+              "sub_fields": [
+                {
+                  "key": "service_title",
+                  "label": "Service Title",
+                  "name": "title",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "service_description",
+                  "label": "Service Description",
+                  "name": "description",
+                  "type": "textarea",
+                  "rows": 2,
+                  "required": 1
+                },
+                {
+                  "key": "service_icon",
+                  "label": "Service Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "service_features",
+                  "label": "Service Features",
+                  "name": "features",
+                  "type": "textarea",
+                  "rows": 3,
+                  "instructions": "Bullet points of service features"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Testimonials Section",
+          "fields": [
+            {
+              "key": "testimonials_title",
+              "label": "Testimonials Section Title",
+              "name": "testimonials_title",
+              "type": "text",
+              "default_value": "What Our Clients Say"
+            },
+            {
+              "key": "testimonials_subtitle",
+              "label": "Testimonials Subtitle",
+              "name": "testimonials_subtitle",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "key": "client_reviews",
+              "label": "Client Reviews",
+              "name": "client_reviews",
+              "type": "repeater",
+              "min": 3,
+              "sub_fields": [
+                {
+                  "key": "client_name",
+                  "label": "Client Name",
+                  "name": "name",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "client_quote",
+                  "label": "Client Quote",
+                  "name": "quote",
+                  "type": "textarea",
+                  "rows": 4,
+                  "required": 1
+                },
+                {
+                  "key": "client_rating",
+                  "label": "Rating (1-5)",
+                  "name": "rating",
+                  "type": "number",
+                  "min": 1,
+                  "max": 5,
+                  "default_value": 5
+                },
+                {
+                  "key": "property_type",
+                  "label": "Property Type",
+                  "name": "property_type",
+                  "type": "text"
+                },
+                {
+                  "key": "client_avatar",
+                  "label": "Client Avatar",
+                  "name": "avatar",
+                  "type": "image",
+                  "return_format": "url"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "About Section",
+          "fields": [
+            {
+              "key": "about_title",
+              "label": "About Section Title",
+              "name": "about_title",
+              "type": "text",
+              "default_value": "About Our Agency"
+            },
+            {
+              "key": "about_description",
+              "label": "About Description",
+              "name": "about_description",
+              "type": "textarea",
+              "rows": 4,
+              "required": 1
+            },
+            {
+              "key": "about_image",
+              "label": "About Image",
+              "name": "about_image",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "agency_stats",
+              "label": "Agency Statistics",
+              "name": "agency_stats",
+              "type": "repeater",
+              "min": 3,
+              "max": 6,
+              "sub_fields": [
+                {
+                  "key": "stat_label",
+                  "label": "Statistic Label",
+                  "name": "label",
+                  "type": "text",
+                  "required": 1
+                },
+                {
+                  "key": "stat_value",
+                  "label": "Statistic Value",
+                  "name": "value",
+                  "type": "text",
+                  "required": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contentful": {
+      "name": "Contentful",
+      "content_types": [
+        {
+          "name": "Agency Info",
+          "id": "agencyInfo",
+          "fields": [
+            {
+              "name": "Agency Name",
+              "id": "agencyName",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "id": "tagline",
+              "type": "Symbol"
+            },
+            {
+              "name": "License Number",
+              "id": "licenseNumber",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Service Area",
+              "id": "serviceArea",
+              "type": "Symbol"
+            },
+            {
+              "name": "Year Established",
+              "id": "yearEstablished",
+              "type": "Integer"
+            }
+          ]
+        },
+        {
+          "name": "Property",
+          "id": "property",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "id": "address",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Price",
+              "id": "price",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Bedrooms",
+              "id": "bedrooms",
+              "type": "Integer",
+              "required": true
+            },
+            {
+              "name": "Bathrooms",
+              "id": "bathrooms",
+              "type": "Integer",
+              "required": true
+            },
+            {
+              "name": "Square Footage",
+              "id": "sqft",
+              "type": "Integer",
+              "required": true
+            },
+            {
+              "name": "Property Type",
+              "id": "propertyType",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Status",
+              "id": "status",
+              "type": "Symbol"
+            },
+            {
+              "name": "Image",
+              "id": "image",
+              "type": "Link",
+              "linkType": "Asset",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Symbol"
+            },
+            {
+              "name": "Agent",
+              "id": "agent",
+              "type": "Symbol",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Agent",
+          "id": "agent",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Image",
+              "id": "image",
+              "type": "Link",
+              "linkType": "Asset",
+              "required": true
+            },
+            {
+              "name": "Bio",
+              "id": "bio",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "id": "phone",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "id": "email",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Specialties",
+              "id": "specialties",
+              "type": "Symbol"
+            },
+            {
+              "name": "Sales Closed",
+              "id": "salesClosed",
+              "type": "Integer"
+            },
+            {
+              "name": "Years Experience",
+              "id": "yearsExperience",
+              "type": "Integer"
+            },
+            {
+              "name": "Average Sale Price",
+              "id": "avgSalePrice",
+              "type": "Symbol"
+            }
+          ]
+        },
+        {
+          "name": "Service",
+          "id": "service",
+          "fields": [
+            {
+              "name": "Title",
+              "id": "title",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "id": "description",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Icon",
+              "id": "icon",
+              "type": "Link",
+              "linkType": "Asset"
+            },
+            {
+              "name": "Features",
+              "id": "features",
+              "type": "Text"
+            }
+          ]
+        },
+        {
+          "name": "Testimonial",
+          "id": "testimonial",
+          "fields": [
+            {
+              "name": "Name",
+              "id": "name",
+              "type": "Symbol",
+              "required": true
+            },
+            {
+              "name": "Quote",
+              "id": "quote",
+              "type": "Text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "id": "rating",
+              "type": "Integer",
+              "validations": [
+                {
+                  "in": [1, 2, 3, 4, 5]
+                }
+              ]
+            },
+            {
+              "name": "Property Type",
+              "id": "propertyType",
+              "type": "Symbol"
+            },
+            {
+              "name": "Avatar",
+              "id": "avatar",
+              "type": "Link",
+              "linkType": "Asset"
+            }
+          ]
+        }
+      ]
+    },
+    "strapi": {
+      "name": "Strapi",
+      "content_types": [
+        {
+          "name": "agency-info",
+          "attributes": {
+            "agencyName": {
+              "type": "string",
+              "required": true
+            },
+            "tagline": {
+              "type": "string"
+            },
+            "licenseNumber": {
+              "type": "string",
+              "required": true
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "address": {
+              "type": "text",
+              "required": true
+            },
+            "serviceArea": {
+              "type": "string"
+            },
+            "yearEstablished": {
+              "type": "integer"
+            }
+          }
+        },
+        {
+          "name": "property",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "address": {
+              "type": "string",
+              "required": true
+            },
+            "price": {
+              "type": "string",
+              "required": true
+            },
+            "bedrooms": {
+              "type": "integer",
+              "required": true
+            },
+            "bathrooms": {
+              "type": "integer",
+              "required": true
+            },
+            "sqft": {
+              "type": "integer",
+              "required": true
+            },
+            "propertyType": {
+              "type": "enumeration",
+              "enum": ["house", "condo", "townhouse", "apartment", "commercial", "land"],
+              "required": true
+            },
+            "status": {
+              "type": "enumeration",
+              "enum": ["for_sale", "pending", "sold"],
+              "default": "for_sale"
+            },
+            "image": {
+              "type": "media",
+              "multiple": false,
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "features": {
+              "type": "string"
+            },
+            "agent": {
+              "type": "string",
+              "required": true
+            }
+          }
+        },
+        {
+          "name": "agent",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "image": {
+              "type": "media",
+              "multiple": false,
+              "required": true
+            },
+            "bio": {
+              "type": "text",
+              "required": true
+            },
+            "phone": {
+              "type": "string",
+              "required": true
+            },
+            "email": {
+              "type": "email",
+              "required": true
+            },
+            "specialties": {
+              "type": "string"
+            },
+            "salesClosed": {
+              "type": "integer"
+            },
+            "yearsExperience": {
+              "type": "integer"
+            },
+            "avgSalePrice": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "service",
+          "attributes": {
+            "title": {
+              "type": "string",
+              "required": true
+            },
+            "description": {
+              "type": "text",
+              "required": true
+            },
+            "icon": {
+              "type": "media",
+              "multiple": false
+            },
+            "features": {
+              "type": "text"
+            }
+          }
+        },
+        {
+          "name": "testimonial",
+          "attributes": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "quote": {
+              "type": "text",
+              "required": true
+            },
+            "rating": {
+              "type": "integer",
+              "min": 1,
+              "max": 5,
+              "default": 5
+            },
+            "propertyType": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "media",
+              "multiple": false
+            }
+          }
+        }
+      ]
+    },
+    "webflow": {
+      "name": "Webflow",
+      "collections": [
+        {
+          "name": "Agency Info",
+          "fields": [
+            {
+              "name": "Agency Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Tagline",
+              "type": "Plain text"
+            },
+            {
+              "name": "License Number",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Service Area",
+              "type": "Plain text"
+            },
+            {
+              "name": "Year Established",
+              "type": "Number",
+              "decimalPlaces": 0
+            }
+          ]
+        },
+        {
+          "name": "Properties",
+          "fields": [
+            {
+              "name": "Property Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Address",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Price",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Bedrooms",
+              "type": "Number",
+              "decimalPlaces": 0,
+              "required": true
+            },
+            {
+              "name": "Bathrooms",
+              "type": "Number",
+              "decimalPlaces": 0,
+              "required": true
+            },
+            {
+              "name": "Square Footage",
+              "type": "Number",
+              "decimalPlaces": 0,
+              "required": true
+            },
+            {
+              "name": "Property Type",
+              "type": "Option",
+              "options": ["Single Family Home", "Condominium", "Townhouse", "Apartment", "Commercial", "Land"],
+              "required": true
+            },
+            {
+              "name": "Status",
+              "type": "Option",
+              "options": ["For Sale", "Pending", "Sold"],
+              "default": "For Sale"
+            },
+            {
+              "name": "Property Image",
+              "type": "Image",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Features",
+              "type": "Multi-line text"
+            },
+            {
+              "name": "Listing Agent",
+              "type": "Plain text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "Agents",
+          "fields": [
+            {
+              "name": "Agent Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Agent Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Agent Photo",
+              "type": "Image",
+              "required": true
+            },
+            {
+              "name": "Bio",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Phone",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Email",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Specialties",
+              "type": "Plain text"
+            },
+            {
+              "name": "Sales Closed",
+              "type": "Number",
+              "decimalPlaces": 0
+            },
+            {
+              "name": "Years Experience",
+              "type": "Number",
+              "decimalPlaces": 0
+            },
+            {
+              "name": "Average Sale Price",
+              "type": "Plain text"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "fields": [
+            {
+              "name": "Service Title",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Description",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Service Icon",
+              "type": "Image"
+            },
+            {
+              "name": "Features",
+              "type": "Multi-line text"
+            }
+          ]
+        },
+        {
+          "name": "Testimonials",
+          "fields": [
+            {
+              "name": "Client Name",
+              "type": "Plain text",
+              "required": true
+            },
+            {
+              "name": "Quote",
+              "type": "Multi-line text",
+              "required": true
+            },
+            {
+              "name": "Rating",
+              "type": "Number",
+              "decimalPlaces": 0
+            },
+            {
+              "name": "Property Type",
+              "type": "Plain text"
+            },
+            {
+              "name": "Client Avatar",
+              "type": "Image"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "field_mapping_guide": {
+    "template_variables": {
+      "company_name": "Agency Info/agencyName/agency_name",
+      "hero_title": "Hero/hero_title/heroTitle",
+      "featured_properties": "Properties/featured_properties/featuredProperties (array)",
+      "agent_profiles": "Agents/agent_profiles/agentProfiles (array)",
+      "testimonials": "Testimonials/client_reviews/testimonials (array)"
+    },
+    "data_transformation": {
+      "properties_array": "Map each property object to template property structure",
+      "agents_array": "Map each agent object to template agent structure",
+      "testimonials_array": "Map each testimonial object to template testimonial structure",
+      "image_urls": "Convert CMS image references to full URLs",
+      "social_links": "Convert social media fields to social object"
+    }
+  },
+  "implementation_notes": {
+    "wordpress": "Use ACF plugin for advanced custom fields. Create field groups as shown above.",
+    "contentful": "Create content types in Contentful dashboard. Use the GraphQL API for data fetching.",
+    "strapi": "Create content types in Strapi admin panel. Use REST or GraphQL API.",
+    "webflow": "Create collections in Webflow designer. Use Webflow's CMS API for dynamic content."
+  }
+}

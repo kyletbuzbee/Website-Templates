@@ -1,0 +1,325 @@
+{
+  "version": "1.0.0",
+  "template": "healthcare",
+  "description": "Demo content for Healthcare industry variant - medical practices, clinics, and healthcare providers",
+  "company": {
+    "name": "Wellness Medical Center",
+    "tagline": "Caring for Your Health, Every Step of the Way",
+    "description": "Comprehensive healthcare services with compassionate care and cutting-edge medical technology. Serving our community with excellence in patient care since 2010.",
+    "location": "Springfield, IL",
+    "year_established": "2010",
+    "phone": "+1-217-555-0123",
+    "phone_display": "(217) 555-0123",
+    "emergency_phone": "+1-217-555-0911",
+    "email": "info@wellnessmedical.com",
+    "address": "123 Healthcare Drive, Springfield, IL 62701",
+    "license_number": "IL123456789"
+  },
+  "branding": {
+    "logo": "/assets/images/logo.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#059669",
+    "secondary_color": "#64748b",
+    "accent_color": "#06b6d4"
+  },
+  "social": {
+    "facebook": "https://facebook.com/wellnessmedical",
+    "instagram": "https://instagram.com/wellnessmedical",
+    "linkedin": "https://linkedin.com/company/wellness-medical-center",
+    "youtube": "https://youtube.com/@wellnessmedical"
+  },
+  "hero": {
+    "title": "Your Health is Our Priority",
+    "subtitle": "Experience compassionate, comprehensive healthcare with our team of dedicated medical professionals. From routine checkups to specialized treatments, we're here for you and your family.",
+    "image": "/assets/images/hero-medical-team.jpg",
+    "alt": "Medical professionals in a modern healthcare facility",
+    "primary_cta": "Schedule Appointment",
+    "secondary_cta": "Meet Our Doctors"
+  },
+  "services": {
+    "title": "Medical Services",
+    "subtitle": "Comprehensive healthcare services tailored to your needs",
+    "items": [
+      {
+        "title": "Primary Care",
+        "description": "Comprehensive primary healthcare services for patients of all ages, from preventive care to chronic disease management.",
+        "image": "/assets/images/services/primary-care.jpg",
+        "link": "/services/primary-care",
+        "features": [
+          "Annual Physicals",
+          "Preventive Care",
+          "Chronic Disease Management",
+          "Health Screenings"
+        ]
+      },
+      {
+        "title": "Pediatrics",
+        "description": "Specialized care for infants, children, and adolescents with a focus on growth, development, and wellness.",
+        "image": "/assets/images/services/pediatrics.jpg",
+        "link": "/services/pediatrics",
+        "features": [
+          "Well Child Visits",
+          "Immunizations",
+          "Developmental Screenings",
+          "Sports Physicals"
+        ]
+      },
+      {
+        "title": "Women's Health",
+        "description": "Comprehensive women's healthcare including gynecology, obstetrics, and preventive screenings.",
+        "image": "/assets/images/services/womens-health.jpg",
+        "link": "/services/womens-health",
+        "features": [
+          "Annual Exams",
+          "Prenatal Care",
+          "Mammograms",
+          "Family Planning"
+        ]
+      },
+      {
+        "title": "Cardiology",
+        "description": "Advanced cardiac care with state-of-the-art diagnostics and treatment for heart conditions.",
+        "image": "/assets/images/services/cardiology.jpg",
+        "link": "/services/cardiology",
+        "features": [
+          "EKG & Stress Testing",
+          "Heart Disease Prevention",
+          "Blood Pressure Management",
+          "Cholesterol Screening"
+        ]
+      },
+      {
+        "title": "Orthopedics",
+        "description": "Expert orthopedic care for bones, joints, and muscles with both surgical and non-surgical treatments.",
+        "image": "/assets/images/services/orthopedics.jpg",
+        "link": "/services/orthopedics",
+        "features": [
+          "Joint Pain Treatment",
+          "Sports Medicine",
+          "Fracture Care",
+          "Physical Therapy"
+        ]
+      },
+      {
+        "title": "Laboratory Services",
+        "description": "On-site laboratory testing with fast, accurate results for comprehensive diagnostic services.",
+        "image": "/assets/images/services/laboratory.jpg",
+        "link": "/services/laboratory",
+        "features": [
+          "Blood Tests",
+          "Urine Analysis",
+          "Microbiology",
+          "Same-Day Results"
+        ]
+      }
+    ]
+  },
+  "insurance": {
+    "title": "Accepted Insurance",
+    "subtitle": "We accept most major insurance plans to make healthcare accessible",
+    "providers": [
+      {"name": "Blue Cross Blue Shield", "logo": "/assets/images/insurance/blue-cross.svg"},
+      {"name": "Aetna", "logo": "/assets/images/insurance/aetna.svg"},
+      {"name": "United Healthcare", "logo": "/assets/images/insurance/united.svg"},
+      {"name": "Humana", "logo": "/assets/images/insurance/humana.svg"},
+      {"name": "Cigna", "logo": "/assets/images/insurance/cigna.svg"},
+      {"name": "Medicare", "logo": "/assets/images/insurance/medicare.svg"}
+    ],
+    "note": "Insurance acceptance may vary. Please contact our office to confirm coverage."
+  },
+  "doctors": {
+    "title": "Meet Our Medical Team",
+    "subtitle": "Experienced healthcare professionals dedicated to your well-being",
+    "members": [
+      {
+        "name": "Dr. Sarah Mitchell",
+        "role": "Family Medicine Physician",
+        "photo": "/assets/images/doctors/sarah-mitchell.jpg",
+        "bio": "Board-certified family medicine physician with 15+ years of experience in comprehensive primary care.",
+        "specialties": ["Family Medicine", "Preventive Care", "Chronic Disease Management"],
+        "education": "MD, University of Illinois",
+        "languages": ["English", "Spanish"]
+      },
+      {
+        "name": "Dr. Michael Chen",
+        "role": "Pediatrician",
+        "photo": "/assets/images/doctors/michael-chen.jpg",
+        "bio": "Dedicated pediatrician specializing in child health and development with a gentle, patient-centered approach.",
+        "specialties": ["Pediatrics", "Adolescent Medicine", "Developmental Pediatrics"],
+        "education": "MD, Northwestern University",
+        "languages": ["English", "Mandarin"]
+      },
+      {
+        "name": "Dr. Jennifer Walsh",
+        "role": "OB/GYN",
+        "photo": "/assets/images/doctors/jennifer-walsh.jpg",
+        "bio": "Compassionate OB/GYN providing comprehensive women's healthcare with expertise in high-risk pregnancies.",
+        "specialties": ["Obstetrics", "Gynecology", "Reproductive Health"],
+        "education": "MD, University of Chicago",
+        "languages": ["English"]
+      },
+      {
+        "name": "Dr. Robert Johnson",
+        "role": "Cardiologist",
+        "photo": "/assets/images/doctors/robert-johnson.jpg",
+        "bio": "Interventional cardiologist with advanced training in minimally invasive cardiac procedures.",
+        "specialties": ["Interventional Cardiology", "Heart Disease", "Preventive Cardiology"],
+        "education": "MD, Mayo Clinic",
+        "languages": ["English"]
+      }
+    ]
+  },
+  "patient_resources": {
+    "title": "Patient Resources",
+    "subtitle": "Helpful information and tools for our patients",
+    "resources": [
+      {
+        "title": "Patient Portal",
+        "description": "Access your medical records, test results, and appointment scheduling online.",
+        "icon": "/assets/images/icons/patient-portal.svg",
+        "link": "/patient-portal",
+        "featured": true
+      },
+      {
+        "title": "Health Library",
+        "description": "Educational articles and resources about health conditions and wellness.",
+        "icon": "/assets/images/icons/health-library.svg",
+        "link": "/health-library",
+        "featured": false
+      },
+      {
+        "title": "Appointment Scheduling",
+        "description": "Book appointments online 24/7 with our convenient scheduling system.",
+        "icon": "/assets/images/icons/appointment.svg",
+        "link": "/schedule-appointment",
+        "featured": true
+      },
+      {
+        "title": "Bill Pay",
+        "description": "Secure online payment portal for medical bills and statements.",
+        "icon": "/assets/images/icons/bill-pay.svg",
+        "link": "/bill-pay",
+        "featured": false
+      },
+      {
+        "title": "Prescription Refills",
+        "description": "Request prescription refills online through our patient portal.",
+        "icon": "/assets/images/icons/prescription.svg",
+        "link": "/prescription-refills",
+        "featured": false
+      },
+      {
+        "title": "Forms & Documents",
+        "description": "Download patient forms, insurance information, and medical documents.",
+        "icon": "/assets/images/icons/forms.svg",
+        "link": "/forms-documents",
+        "featured": false
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Patient Testimonials",
+    "subtitle": "What our patients say about their experience at Wellness Medical Center",
+    "items": [
+      {
+        "name": "Mary Thompson",
+        "quote": "Dr. Mitchell has been our family doctor for 8 years. Her compassionate care and medical expertise are outstanding. The entire staff is professional and caring.",
+        "rating": 5
+      },
+      {
+        "name": "David Rodriguez",
+        "quote": "The cardiology department saved my life. Dr. Johnson's quick diagnosis and treatment prevented what could have been a major heart attack. Forever grateful.",
+        "rating": 5
+      },
+      {
+        "name": "Lisa Chen",
+        "quote": "As a busy mom, I appreciate the convenient online appointment scheduling and the friendly pediatric team. My kids actually look forward to their checkups!",
+        "rating": 5
+      },
+      {
+        "name": "James Wilson",
+        "quote": "The laboratory services are fast and accurate. I get my test results quickly, and the online portal makes it easy to track my health data.",
+        "rating": 5
+      }
+    ]
+  },
+  "emergency": {
+    "title": "Emergency Care",
+    "description": "For medical emergencies, please call 911 immediately or go to the nearest emergency room.",
+    "phone": "911",
+    "urgent_care": {
+      "title": "Urgent Care Center",
+      "address": "456 Medical Plaza, Springfield, IL 62701",
+      "phone": "(217) 555-0432",
+      "hours": "Open 24/7"
+    },
+    "after_hours": {
+      "title": "After Hours Care",
+      "phone": "(217) 555-0911",
+      "description": "For non-emergency medical needs after regular business hours"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We're here to help with all your healthcare needs. Contact our office to schedule an appointment or ask questions about our services.",
+    "service_options": [
+      {"value": "primary-care", "label": "Primary Care"},
+      {"value": "pediatrics", "label": "Pediatrics"},
+      {"value": "womens-health", "label": "Women's Health"},
+      {"value": "cardiology", "label": "Cardiology"},
+      {"value": "orthopedics", "label": "Orthopedics"},
+      {"value": "laboratory", "label": "Laboratory Services"},
+      {"value": "appointment", "label": "Schedule Appointment"},
+      {"value": "billing", "label": "Billing Questions"},
+      {"value": "other", "label": "Other"}
+    ]
+  },
+  "footer": {
+    "description": "Wellness Medical Center - Comprehensive healthcare services with compassionate care. Serving Springfield and surrounding communities since 2010.",
+    "services": [
+      {"name": "Primary Care", "url": "/services/primary-care"},
+      {"name": "Pediatrics", "url": "/services/pediatrics"},
+      {"name": "Women's Health", "url": "/services/womens-health"},
+      {"name": "Cardiology", "url": "/services/cardiology"},
+      {"name": "Orthopedics", "url": "/services/orthopedics"},
+      {"name": "Laboratory Services", "url": "/services/laboratory"}
+    ]
+  },
+  "seo": {
+    "meta_description": "Wellness Medical Center - Comprehensive healthcare services in Springfield, IL. Primary care, pediatrics, cardiology, orthopedics. Schedule appointment online.",
+    "keywords": "medical center Springfield, primary care doctor, pediatrician, cardiologist, women's health, laboratory services, healthcare Illinois",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "doctor_photos": {
+      "dimensions": "400x400",
+      "aspect_ratio": "1:1",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "service_images": {
+      "dimensions": "600x400",
+      "aspect_ratio": "3:2",
+      "max_size": "800KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "insurance_logos": {
+      "dimensions": "200x100",
+      "aspect_ratio": "2:1",
+      "max_size": "100KB",
+      "format": "SVG, PNG"
+    },
+    "logo": {
+      "dimensions": "300x100",
+      "aspect_ratio": "3:1",
+      "max_size": "200KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

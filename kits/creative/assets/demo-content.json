@@ -1,0 +1,317 @@
+{
+  "version": "1.0.0",
+  "template": "creative",
+  "description": "Demo content for Creative template - portfolios, agencies, and creative professionals",
+  "company": {
+    "name": "Studio Eleven",
+    "tagline": "Where Creativity Meets Strategy",
+    "description": "Award-winning creative agency specializing in brand identity, digital experiences, and innovative design solutions that drive business growth.",
+    "location": "Portland, OR",
+    "year_established": "2012",
+    "phone": "+1-503-555-0123",
+    "phone_display": "(503) 555-0123",
+    "email": "hello@studioeleven.com",
+    "address": "123 Creative District, Portland, OR 97201"
+  },
+  "branding": {
+    "logo": "/assets/images/logo.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#6366f1",
+    "secondary_color": "#ec4899",
+    "accent_color": "#06b6d4"
+  },
+  "social": {
+    "instagram": "https://instagram.com/studioeleven",
+    "dribbble": "https://dribbble.com/studioeleven",
+    "behance": "https://behance.net/studioeleven",
+    "linkedin": "https://linkedin.com/company/studioeleven"
+  },
+  "hero": {
+    "title": "Crafting Digital Experiences That Matter",
+    "subtitle": "We blend strategic thinking with creative excellence to build brands that resonate, websites that convert, and experiences that inspire. Let's create something extraordinary together.",
+    "image": "/assets/images/hero-creative-studio.jpg",
+    "alt": "Creative studio workspace with designers collaborating on projects",
+    "primary_cta": "View Our Work",
+    "secondary_cta": "Start a Project",
+    "scroll_text": "Discover our process"
+  },
+  "work": {
+    "title": "Featured Work",
+    "subtitle": "A curated selection of our most impactful projects",
+    "categories": [
+      {"name": "Branding", "slug": "branding"},
+      {"name": "Web Design", "slug": "web-design"},
+      {"name": "Digital Marketing", "slug": "digital-marketing"},
+      {"name": "Photography", "slug": "photography"}
+    ],
+    "items": [
+      {
+        "title": "Urban Coffee Co. Rebrand",
+        "image": "/assets/images/work/urban-coffee-rebrand.jpg",
+        "category": "branding",
+        "category_name": "Branding",
+        "link": "/work/urban-coffee-rebrand"
+      },
+      {
+        "title": "TechFlow SaaS Platform",
+        "image": "/assets/images/work/techflow-platform.jpg",
+        "category": "web-design",
+        "category_name": "Web Design",
+        "link": "/work/techflow-platform"
+      },
+      {
+        "title": "Mountain Resort Campaign",
+        "image": "/assets/images/work/mountain-resort-campaign.jpg",
+        "category": "digital-marketing",
+        "category_name": "Digital Marketing",
+        "link": "/work/mountain-resort-campaign"
+      },
+      {
+        "title": "Lifestyle Brand Photography",
+        "image": "/assets/images/work/lifestyle-brand-photography.jpg",
+        "category": "photography",
+        "category_name": "Photography",
+        "link": "/work/lifestyle-brand-photography"
+      },
+      {
+        "title": "Financial App UI/UX",
+        "image": "/assets/images/work/financial-app-ui.jpg",
+        "category": "web-design",
+        "category_name": "Web Design",
+        "link": "/work/financial-app-ui"
+      },
+      {
+        "title": "Restaurant Identity System",
+        "image": "/assets/images/work/restaurant-identity.jpg",
+        "category": "branding",
+        "category_name": "Branding",
+        "link": "/work/restaurant-identity"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Studio Eleven",
+    "description": "Founded in 2012, Studio Eleven has evolved from a small design shop into a full-service creative agency. Our multidisciplinary team combines strategic thinking with artistic vision to deliver work that not only looks beautiful but drives real business results.",
+    "image": "/assets/images/about-studio-team.jpg",
+    "alt": "Studio Eleven creative team in modern workspace",
+    "stats": [
+      {"number": "150+", "label": "Projects Completed"},
+      {"number": "50+", "label": "Happy Clients"},
+      {"number": "12+", "label": "Team Members"},
+      {"number": "25+", "label": "Awards Won"}
+    ],
+    "skills": [
+      {"name": "Brand Strategy", "percentage": 95},
+      {"name": "Digital Design", "percentage": 90},
+      {"name": "Web Development", "percentage": 85},
+      {"name": "Photography", "percentage": 88},
+      {"name": "Content Creation", "percentage": 92},
+      {"name": "Marketing", "percentage": 87}
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive creative solutions for modern businesses",
+    "items": [
+      {
+        "title": "Brand Identity",
+        "description": "Complete brand identity systems that tell your story and connect with your audience.",
+        "icon": "/assets/images/icons/brand-identity.svg",
+        "link": "/services/brand-identity",
+        "features": [
+          "Logo Design",
+          "Brand Guidelines",
+          "Visual Identity",
+          "Brand Strategy"
+        ]
+      },
+      {
+        "title": "Web Design & Development",
+        "description": "Custom websites that combine stunning design with powerful functionality.",
+        "icon": "/assets/images/icons/web-design.svg",
+        "link": "/services/web-design",
+        "features": [
+          "Responsive Design",
+          "E-commerce Solutions",
+          "CMS Integration",
+          "Performance Optimization"
+        ]
+      },
+      {
+        "title": "Digital Marketing",
+        "description": "Data-driven marketing campaigns that increase visibility and drive conversions.",
+        "icon": "/assets/images/icons/digital-marketing.svg",
+        "link": "/services/digital-marketing",
+        "features": [
+          "Social Media Strategy",
+          "Content Marketing",
+          "SEO Optimization",
+          "Email Campaigns"
+        ]
+      },
+      {
+        "title": "Photography & Video",
+        "description": "Professional photography and videography that captures your brand's essence.",
+        "icon": "/assets/images/icons/photography.svg",
+        "link": "/services/photography",
+        "features": [
+          "Product Photography",
+          "Brand Storytelling",
+          "Commercial Video",
+          "Social Media Content"
+        ]
+      },
+      {
+        "title": "Print Design",
+        "description": "Traditional print materials that complement your digital presence.",
+        "icon": "/assets/images/icons/print-design.svg",
+        "link": "/services/print-design",
+        "features": [
+          "Business Cards",
+          "Brochures & Flyers",
+          "Packaging Design",
+          "Signage Systems"
+        ]
+      },
+      {
+        "title": "Content Strategy",
+        "description": "Strategic content creation that engages audiences and builds brand authority.",
+        "icon": "/assets/images/icons/content-strategy.svg",
+        "link": "/services/content-strategy",
+        "features": [
+          "Content Planning",
+          "Copywriting",
+          "Blog Strategy",
+          "Social Content"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Client Love",
+    "subtitle": "What our clients say about working with Studio Eleven",
+    "items": [
+      {
+        "name": "Sarah Chen",
+        "company": "Urban Coffee Co.",
+        "avatar": "/assets/images/testimonials/sarah-chen.jpg",
+        "quote": "Studio Eleven transformed our brand from a local coffee shop to a recognized regional brand. Their creativity and strategic thinking exceeded our expectations."
+      },
+      {
+        "name": "Marcus Rodriguez",
+        "company": "TechFlow Inc.",
+        "avatar": "/assets/images/testimonials/marcus-rodriguez.jpg",
+        "quote": "The website they designed not only looks incredible but has increased our conversion rate by 40%. Their attention to user experience is unmatched."
+      },
+      {
+        "name": "Jennifer Walsh",
+        "company": "Mountain Resort Group",
+        "avatar": "/assets/images/testimonials/jennifer-walsh.jpg",
+        "quote": "Their marketing campaign revitalized our brand and brought in bookings we never thought possible. The ROI has been incredible."
+      },
+      {
+        "name": "David Park",
+        "company": "Innovate Labs",
+        "avatar": "/assets/images/testimonials/david-park.jpg",
+        "quote": "Working with Studio Eleven feels like having an entire creative department. Their ideas are fresh, execution is flawless, and results speak for themselves."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Process",
+    "subtitle": "How we turn ideas into extraordinary results",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery & Strategy",
+        "description": "We dive deep into understanding your business, goals, and audience to develop a comprehensive strategy.",
+        "icon": "/assets/images/icons/discovery.svg"
+      },
+      {
+        "number": "02",
+        "title": "Design & Creation",
+        "description": "Our creative team brings the strategy to life with innovative designs and compelling content.",
+        "icon": "/assets/images/icons/design.svg"
+      },
+      {
+        "number": "03",
+        "title": "Development & Testing",
+        "description": "We build robust, scalable solutions and rigorously test every element for optimal performance.",
+        "icon": "/assets/images/icons/development.svg"
+      },
+      {
+        "number": "04",
+        "title": "Launch & Optimization",
+        "description": "We launch your project and continuously optimize for maximum impact and ROI.",
+        "icon": "/assets/images/icons/launch.svg"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Create Something Amazing?",
+    "subtitle": "Let's collaborate on a project that showcases your unique vision and drives real business results.",
+    "primary_cta": "Start Your Project",
+    "secondary_cta": "Call (503) 555-0123"
+  },
+  "contact": {
+    "title": "Let's Create Together",
+    "description": "Have a project in mind? We'd love to hear about it. Send us a message and let's start a conversation about bringing your vision to life.",
+    "project_types": [
+      {"value": "branding", "label": "Brand Identity"},
+      {"value": "web-design", "label": "Web Design"},
+      {"value": "marketing", "label": "Digital Marketing"},
+      {"value": "photography", "label": "Photography"},
+      {"value": "print", "label": "Print Design"},
+      {"value": "content", "label": "Content Strategy"},
+      {"value": "other", "label": "Other Project"}
+    ]
+  },
+  "footer": {
+    "description": "Award-winning creative agency crafting digital experiences that drive business growth and inspire audiences worldwide.",
+    "services": [
+      {"name": "Brand Identity", "url": "/services/brand-identity"},
+      {"name": "Web Design", "url": "/services/web-design"},
+      {"name": "Digital Marketing", "url": "/services/digital-marketing"},
+      {"name": "Photography", "url": "/services/photography"},
+      {"name": "Print Design", "url": "/services/print-design"},
+      {"name": "Content Strategy", "url": "/services/content-strategy"}
+    ]
+  },
+  "seo": {
+    "meta_description": "Creative agency specializing in brand identity, web design, digital marketing, and photography. Award-winning studio crafting experiences that drive results.",
+    "keywords": "creative agency, brand design, web design, digital marketing, photography, graphic design, Portland Oregon",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "work_images": {
+      "dimensions": "800x600",
+      "aspect_ratio": "4:3",
+      "max_size": "1MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "service_icons": {
+      "dimensions": "80x80",
+      "aspect_ratio": "1:1",
+      "max_size": "50KB",
+      "format": "SVG, PNG"
+    },
+    "team_photos": {
+      "dimensions": "300x300",
+      "aspect_ratio": "1:1",
+      "max_size": "300KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "200x80",
+      "aspect_ratio": "2.5:1",
+      "max_size": "150KB",
+      "format": "PNG, SVG"
+    }
+  }
+}

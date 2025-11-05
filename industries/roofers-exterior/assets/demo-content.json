@@ -1,0 +1,340 @@
+{
+  "version": "1.0.0",
+  "template": "roofers-exterior",
+  "description": "Demo content for Roofers & Exterior industry variant",
+  "company": {
+    "name": "Summit Roofing & Exteriors",
+    "tagline": "Protecting Homes, Enhancing Curb Appeal",
+    "description": "Full-service roofing and exterior remodeling company serving the community with quality craftsmanship and storm-resistant solutions.",
+    "location": "Denver, CO",
+    "year_established": "2005",
+    "phone": "+1-303-555-0123",
+    "phone_display": "(303) 555-0123",
+    "emergency_phone": "+1-303-555-0911",
+    "email": "info@summitroofing.com",
+    "address": "456 Mountain View Drive, Denver, CO 80202",
+    "license_number": "CO123456789"
+  },
+  "branding": {
+    "logo": "/assets/images/logo.png",
+    "favicon": "/assets/images/favicon.ico",
+    "primary_color": "#1e40af",
+    "secondary_color": "#64748b",
+    "accent_color": "#dc2626"
+  },
+  "social": {
+    "facebook": "https://facebook.com/summitroofing",
+    "instagram": "https://instagram.com/summitroofing",
+    "houzz": "https://houzz.com/pro/summitroofing",
+    "yelp": "https://yelp.com/biz/summit-roofing-denver"
+  },
+  "hero": {
+    "title": "Expert Roofing & Exterior Services You Can Trust",
+    "subtitle": "From storm-damaged roofs to complete exterior makeovers, we deliver quality craftsmanship with 20+ years of experience. Licensed, insured, and backed by lifetime warranties.",
+    "image": "/assets/images/hero-roofing-exterior.jpg",
+    "alt": "Professional roofing contractors working on a home exterior project",
+    "primary_cta": "Get Free Estimate",
+    "secondary_cta": "View Our Work"
+  },
+  "services": {
+    "title": "Complete Exterior Solutions",
+    "subtitle": "Professional roofing, siding, and exterior services for your home",
+    "items": [
+      {
+        "title": "Roof Replacement",
+        "description": "Complete roof replacement with premium materials and expert installation for maximum protection.",
+        "image": "/assets/images/services/roof-replacement.jpg",
+        "link": "/services/roof-replacement",
+        "features": ["Architectural Shingles", "Lifetime Warranty", "Storm Damage Repair", "Gutter Installation"]
+      },
+      {
+        "title": "Siding Installation",
+        "description": "Beautiful, durable siding that protects your home and enhances its curb appeal.",
+        "image": "/assets/images/services/siding-installation.jpg",
+        "link": "/services/siding-installation",
+        "features": ["Vinyl & Fiber Cement", "Color Matching", "Insulation Benefits", "Low Maintenance"]
+      },
+      {
+        "title": "Exterior Painting",
+        "description": "Professional exterior painting that protects and beautifies your home's exterior.",
+        "image": "/assets/images/services/exterior-painting.jpg",
+        "link": "/services/exterior-painting",
+        "features": ["Premium Paint", "Surface Preparation", "Color Consultation", "Weather Protection"]
+      },
+      {
+        "title": "Window Replacement",
+        "description": "Energy-efficient windows that improve comfort, reduce energy costs, and enhance your home's value.",
+        "image": "/assets/images/services/window-replacement.jpg",
+        "link": "/services/window-replacement",
+        "features": ["Energy Efficient", "Sound Reduction", "Low-E Glass", "Lifetime Warranty"]
+      },
+      {
+        "title": "Deck Construction",
+        "description": "Custom deck design and construction for outdoor living spaces.",
+        "image": "/assets/images/services/deck-construction.jpg",
+        "link": "/services/deck-construction",
+        "features": ["Custom Design", "Pressure-Treated Wood", "Stain & Seal", "Safety Railings"]
+      },
+      {
+        "title": "Storm Damage Repair",
+        "description": "Emergency storm damage repair and restoration services available 24/7.",
+        "image": "/assets/images/services/storm-damage.jpg",
+        "link": "/services/storm-damage-repair",
+        "features": ["24/7 Emergency Service", "Insurance Claims", "Temporary Repairs", "Full Restoration"]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Before & After Gallery",
+    "subtitle": "See the transformation our exterior work creates",
+    "categories": [
+      {"name": "Roofing", "slug": "roofing"},
+      {"name": "Siding", "slug": "siding"},
+      {"name": "Painting", "slug": "painting"},
+      {"name": "Windows", "slug": "windows"}
+    ],
+    "items": [
+      {
+        "title": "Complete Roof & Siding Makeover",
+        "description": "Replaced damaged roof and installed new vinyl siding for complete exterior transformation.",
+        "before_image": "/assets/images/gallery/before-roof-siding.jpg",
+        "after_image": "/assets/images/gallery/after-roof-siding.jpg",
+        "category": "roofing",
+        "category_name": "Roofing & Siding",
+        "duration": "2 weeks"
+      },
+      {
+        "title": "Storm Damage Roof Repair",
+        "description": "Emergency repair of hail-damaged roof with architectural shingles and new gutters.",
+        "before_image": "/assets/images/gallery/before-storm-damage.jpg",
+        "after_image": "/assets/images/gallery/after-storm-damage.jpg",
+        "category": "roofing",
+        "category_name": "Roofing",
+        "duration": "3 days"
+      },
+      {
+        "title": "Exterior House Painting",
+        "description": "Complete exterior paint job with color-matched trim and professional finish.",
+        "before_image": "/assets/images/gallery/before-house-paint.jpg",
+        "after_image": "/assets/images/gallery/after-house-paint.jpg",
+        "category": "painting",
+        "category_name": "Painting",
+        "duration": "1 week"
+      },
+      {
+        "title": "Window Replacement Project",
+        "description": "Replaced 12 outdated windows with energy-efficient models and new exterior trim.",
+        "before_image": "/assets/images/gallery/before-windows.jpg",
+        "after_image": "/assets/images/gallery/after-windows.jpg",
+        "category": "windows",
+        "category_name": "Windows",
+        "duration": "1 week"
+      },
+      {
+        "title": "Deck Construction & Staining",
+        "description": "Built custom 400 sq ft deck with composite materials and professional staining.",
+        "before_image": "/assets/images/gallery/before-deck.jpg",
+        "after_image": "/assets/images/gallery/after-deck.jpg",
+        "category": "deck",
+        "category_name": "Deck Construction",
+        "duration": "2 weeks"
+      },
+      {
+        "title": "Siding Replacement",
+        "description": "Replaced damaged wood siding with durable fiber cement siding and new trim.",
+        "before_image": "/assets/images/gallery/before-siding.jpg",
+        "after_image": "/assets/images/gallery/after-siding.jpg",
+        "category": "siding",
+        "category_name": "Siding",
+        "duration": "10 days"
+      }
+    ]
+  },
+  "seasonal": {
+    "title": "Seasonal Specials & Promotions",
+    "description": "Take advantage of our current seasonal offers and save on exterior improvements!",
+    "image": "/assets/images/seasonal-promo.jpg",
+    "alt": "Seasonal exterior improvement promotions",
+    "cta": "Claim Your Seasonal Savings",
+    "offers": [
+      {
+        "title": "Spring Roof Special",
+        "description": "Complete roof inspection and repair discounts. Protect your home before summer storms.",
+        "icon": "/assets/images/icons/spring-roof.svg",
+        "savings": "Save up to $500"
+      },
+      {
+        "title": "Summer Siding Deal",
+        "description": "Special pricing on siding replacement and exterior painting through August.",
+        "icon": "/assets/images/icons/summer-siding.svg",
+        "savings": "20% off installation"
+      },
+      {
+        "title": "Fall Gutter Special",
+        "description": "Gutter cleaning, repair, and replacement at discounted rates before winter.",
+        "icon": "/assets/images/icons/fall-gutter.svg",
+        "savings": "Free gutter guards"
+      },
+      {
+        "title": "Winter Window Savings",
+        "description": "Energy-efficient window replacement with special financing through December.",
+        "icon": "/assets/images/icons/winter-windows.svg",
+        "savings": "0% interest financing"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Transparent Pricing Guide",
+    "subtitle": "Honest pricing for quality exterior work - no hidden fees, guaranteed",
+    "items": [
+      {
+        "service": "Roof Replacement",
+        "description": "Complete tear-off and replacement with architectural shingles",
+        "starting_price": "$8,500",
+        "average_cost": "$12,000 - $18,000",
+        "time_frame": "1-2 weeks"
+      },
+      {
+        "service": "Siding Installation",
+        "description": "Vinyl or fiber cement siding replacement with trim",
+        "starting_price": "$6,500",
+        "average_cost": "$9,000 - $15,000",
+        "time_frame": "7-10 days"
+      },
+      {
+        "service": "Exterior Painting",
+        "description": "Complete exterior paint job with primer and caulk",
+        "starting_price": "$3,500",
+        "average_cost": "$5,000 - $8,000",
+        "time_frame": "5-7 days"
+      },
+      {
+        "service": "Window Replacement",
+        "description": "Energy-efficient vinyl windows (per window)",
+        "starting_price": "$450",
+        "average_cost": "$600 - $900",
+        "time_frame": "1-2 days"
+      },
+      {
+        "service": "Deck Construction",
+        "description": "Pressure-treated wood deck with railings",
+        "starting_price": "$8,000",
+        "average_cost": "$12,000 - $20,000",
+        "time_frame": "2-3 weeks"
+      },
+      {
+        "service": "Storm Damage Repair",
+        "description": "Emergency roof repair and tarping",
+        "starting_price": "$500",
+        "average_cost": "$1,000 - $3,000",
+        "time_frame": "1-3 days"
+      }
+    ]
+  },
+  "why_choose_us": {
+    "title": "Why Choose Summit Roofing?",
+    "subtitle": "20+ years of protecting homes and exceeding expectations",
+    "image": "/assets/images/why-choose-us.jpg",
+    "alt": "Professional roofing team at work",
+    "features": [
+      {
+        "title": "Licensed & Insured",
+        "description": "Fully licensed roofing contractors with comprehensive liability and workers' compensation insurance.",
+        "icon": "/assets/images/icons/license.svg"
+      },
+      {
+        "title": "Lifetime Warranty",
+        "description": "Industry-leading warranties on materials and workmanship - we stand behind our work.",
+        "icon": "/assets/images/icons/warranty.svg"
+      },
+      {
+        "title": "Storm Response Team",
+        "description": "24/7 emergency response for storm damage - we're here when you need us most.",
+        "icon": "/assets/images/icons/emergency.svg"
+      },
+      {
+        "title": "Local Expertise",
+        "description": "Deep knowledge of local building codes, weather patterns, and material durability.",
+        "icon": "/assets/images/icons/location.svg"
+      },
+      {
+        "title": "Free Inspections",
+        "description": "Complimentary roof and exterior inspections with detailed reports and recommendations.",
+        "icon": "/assets/images/icons/inspection.svg"
+      },
+      {
+        "title": "Financing Available",
+        "description": "Flexible financing options and payment plans to make quality improvements affordable.",
+        "icon": "/assets/images/icons/financing.svg"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Summit Roofing & Exteriors",
+    "description": "Since 2005, Summit Roofing has been the trusted choice for homeowners seeking quality exterior improvements. Our team of certified roofing professionals combines decades of experience with modern techniques to deliver exceptional results. We're not just contractors - we're your partners in protecting and enhancing your most valuable investment.",
+    "image": "/assets/images/about-team.jpg",
+    "alt": "Summit Roofing professional team",
+    "stats": [
+      {"number": "15,000+", "label": "Roofs Installed"},
+      {"number": "98%", "label": "Customer Satisfaction"},
+      {"number": "20+", "label": "Years Experience"},
+      {"number": "24/7", "label": "Emergency Service"}
+    ]
+  },
+  "contact": {
+    "title": "Get Your Free Estimate Today",
+    "description": "Ready to protect and beautify your home's exterior? Contact us for a free, no-obligation estimate. Our experts will assess your needs and provide transparent pricing with no pressure.",
+    "service_options": [
+      {"value": "roof-replacement", "label": "Roof Replacement"},
+      {"value": "siding-installation", "label": "Siding Installation"},
+      {"value": "exterior-painting", "label": "Exterior Painting"},
+      {"value": "window-replacement", "label": "Window Replacement"},
+      {"value": "deck-construction", "label": "Deck Construction"},
+      {"value": "storm-damage", "label": "Storm Damage Repair"},
+      {"value": "inspection", "label": "Free Inspection"},
+      {"value": "other", "label": "Other Services"}
+    ]
+  },
+  "footer": {
+    "description": "Denver's trusted roofing and exterior specialists since 2005. Protecting homes and enhancing curb appeal with quality craftsmanship and lifetime warranties.",
+    "services": [
+      {"name": "Roof Replacement", "url": "/services/roof-replacement"},
+      {"name": "Siding Installation", "url": "/services/siding-installation"},
+      {"name": "Exterior Painting", "url": "/services/exterior-painting"},
+      {"name": "Window Replacement", "url": "/services/window-replacement"},
+      {"name": "Deck Construction", "url": "/services/deck-construction"},
+      {"name": "Storm Damage Repair", "url": "/services/storm-damage-repair"}
+    ]
+  },
+  "seo": {
+    "meta_description": "Professional roofing and exterior services in Denver, CO. Roof replacement, siding, painting, windows. Licensed, insured, lifetime warranty. Free estimates.",
+    "keywords": "roofing contractor Denver, siding installation, exterior painting, window replacement, storm damage repair, roof replacement Colorado",
+    "og_image": "/assets/images/og-image.jpg"
+  },
+  "media_guidelines": {
+    "hero_image": {
+      "dimensions": "1920x1080",
+      "aspect_ratio": "16:9",
+      "max_size": "2MB",
+      "format": "JPG, PNG, WebP"
+    },
+    "before_after_images": {
+      "dimensions": "600x400",
+      "aspect_ratio": "3:2",
+      "max_size": "800KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "service_images": {
+      "dimensions": "800x600",
+      "aspect_ratio": "4:3",
+      "max_size": "500KB",
+      "format": "JPG, PNG, WebP"
+    },
+    "logo": {
+      "dimensions": "300x100",
+      "aspect_ratio": "3:1",
+      "max_size": "200KB",
+      "format": "PNG, SVG"
+    }
+  }
+}
