@@ -1,0 +1,22 @@
+{
+  "name": "production-ready-templates",
+  "version": "1.0.0",
+  "description": "Production-ready website templates with automated asset distribution",
+  "type": "module",
+  "scripts": {
+    "distribute-assets": "node scripts/distribute-assets.js",
+    "test-pipeline": "node scripts/test-pipeline.js",
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "lint": "npm run lint"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "sharp": "^0.33.3"
+  },
+  "devDependencies": {},
+  "keywords": ["templates", "website", "automation", "assets"],
+  "author": "",
+  "license": "ISC"
+}

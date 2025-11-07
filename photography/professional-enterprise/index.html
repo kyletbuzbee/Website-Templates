@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Enterprise Photography Services - Elite Photography Studio</title>
+    <meta name="description" content="Leading professional photography studio providing comprehensive visual solutions, from corporate portraits to commercial photography services. Award-winning photographers with decades of experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">EliteLens Studio</a>
+            <ul class="nav-links">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Professional Photography Excellence</h1>
+            <p>Capturing moments that matter with artistic vision and technical mastery. Over 20 years of award-winning photography serving discerning clients worldwide.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Awards Won</div>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Book Consultation</a>
+                <a href="#portfolio" class="secondary-button">View Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Portfolio</h2>
+            <p class="section-subtitle">Showcasing our finest work across various photography disciplines</p>
+
+            <!-- Portfolio Filter -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="event">Events</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="corporate">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop" alt="Executive Corporate Portrait" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Executive Leadership Series</h3>
+                        <p>Corporate headshots for Fortune 500 executives</p>
+                        <span class="portfolio-category">Corporate</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=600&h=400&fit=crop" alt="Professional Portrait Session" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Professional Portraiture</h3>
+                        <p>High-end portrait photography for business professionals</p>
+                        <span class="portfolio-category">Portrait</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop" alt="Commercial Product Photography" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Product Showcase</h3>
+                        <p>E-commerce product photography for luxury brands</p>
+                        <span class="portfolio-category">Commercial</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="event">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop" alt="Wedding Photography" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Destination Wedding</h3>
+                        <p>Cinematic wedding photography in exotic locations</p>
+                        <span class="portfolio-category">Events</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="corporate">
+                    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop" alt="Corporate Event Photography" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Conference</h3>
+                        <p>Event photography for international business summit</p>
+                        <span class="portfolio-category">Corporate</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait">
+                    <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&h=400&fit=crop" alt="Family Portrait Session" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Family Heritage</h3>
+                        <p>Multi-generational family portrait photography</p>
+                        <span class="portfolio-category">Portrait</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Professional Photography Services</h2>
+            <p class="section-subtitle">Comprehensive visual solutions tailored to your needs</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📸</div>
+                    <h3>Corporate Photography</h3>
+                    <p>Professional headshots, team photos, and corporate event coverage for businesses of all sizes.</p>
+                    <ul class="service-features">
+                        <li>Executive Portraits</li>
+                        <li>Team Photography</li>
+                        <li>Office Environments</li>
+                        <li>Event Coverage</li>
+                    </ul>
+                    <div class="service-price">Starting at $500</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎭</div>
+                    <h3>Portrait Photography</h3>
+                    <p>High-end portrait sessions in studio or on location, perfect for professionals and families.</p>
+                    <ul class="service-features">
+                        <li>Studio Sessions</li>
+                        <li>Location Shoots</li>
+                        <li>Professional Retouching</li>
+                        <li>Multiple Outfits</li>
+                    </ul>
+                    <div class="service-price">Starting at $300</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏪</div>
+                    <h3>Commercial Photography</h3>
+                    <p>Product photography, architectural shots, and commercial imaging for marketing materials.</p>
+                    <ul class="service-features">
+                        <li>Product Photography</li>
+                        <li>Architecture</li>
+                        <li>Food & Beverage</li>
+                        <li>Real Estate</li>
+                    </ul>
+                    <div class="service-price">Starting at $750</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎊</div>
+                    <h3>Event Photography</h3>
+                    <p>Complete event documentation including weddings, corporate events, and special occasions.</p>
+                    <ul class="service-features">
+                        <li>Wedding Photography</li>
+                        <li>Corporate Events</li>
+                        <li>Social Events</li>
+                        <li>Same-Day Edits</li>
+                    </ul>
+                    <div class="service-price">Starting at $1,500</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Photo Editing & Retouching</h3>
+                    <p>Professional photo editing, color correction, and digital enhancement services.</p>
+                    <ul class="service-features">
+                        <li>Color Correction</li>
+                        <li>Retouching</li>
+                        <li>Background Removal</li>
+                        <li>Digital Enhancement</li>
+                    </ul>
+                    <div class="service-price">Starting at $25/image</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📹</div>
+                    <h3>Videography Services</h3>
+                    <p>Professional video production including commercials, interviews, and event videography.</p>
+                    <ul class="service-features">
+                        <li>Commercial Videos</li>
+                        <li>Interviews</li>
+                        <li>Event Coverage</li>
+                        <li>Post-Production</li>
+                    </ul>
+                    <div class="service-price">Starting at $2,000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Excellence in Visual Storytelling</h2>
+                    <p>EliteLens Studio has been at the forefront of professional photography for over two decades. Our award-winning team combines artistic vision with technical expertise to deliver exceptional results that exceed expectations. We serve clients ranging from Fortune 500 companies to discerning individuals who demand nothing less than perfection.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <h4>Award-Winning Photography</h4>
+                            <p>Recognized internationally with over 50 photography awards and published in leading industry magazines.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>State-of-the-Art Equipment</h4>
+                            <p>Latest professional cameras, lighting equipment, and digital workflow for unparalleled image quality.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Client-Centric Approach</h4>
+                            <p>Personalized service with dedicated project managers ensuring your vision becomes reality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=600&h=400&fit=crop" alt="EliteLens professional photography studio" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Meet Our Expert Photographers</h2>
+            <p class="section-subtitle">Award-winning photographers with decades of combined experience</p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop" alt="Sarah Mitchell - Lead Photographer" loading="lazy">
+                    <div class="member-info">
+                        <h3>Sarah Mitchell</h3>
+                        <p class="member-title">Lead Photographer & Studio Director</p>
+                        <p class="member-bio">With 20+ years of experience, Sarah specializes in corporate and portrait photography. Her work has been featured in National Geographic and won multiple international awards.</p>
+                        <div class="member-credentials">
+                            <span class="credential">PPA Master Photographer</span>
+                            <span class="credential">WPPI Award Winner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop" alt="Michael Chen - Commercial Photographer" loading="lazy">
+                    <div class="member-info">
+                        <h3>Michael Chen</h3>
+                        <p class="member-title">Commercial & Product Photographer</p>
+                        <p class="member-bio">Michael brings 15 years of commercial photography experience, specializing in product and architectural photography for luxury brands worldwide.</p>
+                        <div class="member-credentials">
+                            <span class="credential">ASMP Member</span>
+                            <span class="credential">Adobe Certified</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop" alt="Emily Rodriguez - Event Photographer" loading="lazy">
+                    <div class="member-info">
+                        <h3>Emily Rodriguez</h3>
+                        <p class="member-title">Event & Wedding Photographer</p>
+                        <p class="member-bio">Emily has captured over 500 weddings and events with her photojournalistic style and attention to emotional storytelling.</p>
+                        <div class="member-credentials">
+                            <span class="credential">WPPI Certified</span>
+                            <span class="credential">Knot Hall of Fame</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"EliteLens transformed our company branding with stunning executive portraits. Their professional approach and attention to detail exceeded our expectations. The entire team was impressed with the final results."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=80&h=80&fit=crop" alt="Jennifer Walsh, CEO" loading="lazy">
+                        <div>
+                            <div class="author-name">Jennifer Walsh</div>
+                            <div class="author-title">CEO, TechStart Solutions</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Working with EliteLens for our product catalog was a game-changer. Their commercial photography elevated our brand and increased our sales conversions significantly. Highly professional and creative team."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop" alt="Robert Kim" loading="lazy">
+                        <div>
+                            <div class="author-name">Robert Kim</div>
+                            <div class="author-title">Marketing Director, Luxe Brands</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Our wedding photos by EliteLens are absolutely breathtaking. They captured every special moment with such artistry and professionalism. We couldn't be happier with our choice of photographer."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&h=80&fit=crop" alt="Maria Gonzalez" loading="lazy">
+                        <div>
+                            <div class="author-name">Maria Gonzalez</div>
+                            <div class="author-title">Bride</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Book Your Photography Session</h2>
+                <p>Ready to capture your vision? Contact our team to discuss your photography needs and schedule a consultation.</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                                <p class="contact-note">Mon-Fri: 9AM-6PM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@elitelens.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Studio Address</h4>
+                                <p>123 Photography Plaza<br>Creative District, CA 90210</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="serviceType">Service Type</label>
+                                <select id="serviceType" name="serviceType">
+                                    <option value="">Select service</option>
+                                    <option value="corporate">Corporate Photography</option>
+                                    <option value="portrait">Portrait Session</option>
+                                    <option value="commercial">Commercial/Product</option>
+                                    <option value="event">Event Photography</option>
+                                    <option value="wedding">Wedding Photography</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select range</option>
+                                    <option value="under-1000">Under $1,000</option>
+                                    <option value="1000-3000">$1,000 - $3,000</option>
+                                    <option value="3000-5000">$3,000 - $5,000</option>
+                                    <option value="over-5000">Over $5,000</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectDetails">Project Details *</label>
+                            <textarea id="projectDetails" name="projectDetails" rows="5" placeholder="Please describe your photography needs, timeline, and any specific requirements..." required></textarea>
+                        </div>
+                        <div class="form-consent">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="consent" required>
+                                I agree to receive communications from EliteLens Studio regarding my inquiry. I understand that this is a consultation request and not a confirmed booking.
+                            </label>
+                        </div>
+                        <button type="submit" class="cta-button">Request Consultation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EliteLens Studio</h3>
+                    <p>Award-winning professional photography studio serving clients worldwide with artistic excellence and technical mastery since 1999.</p>
+                    <div class="accreditation">
+                        <p>🏆 PPA Master Photographers</p>
+                        <p>⭐ WPPI Award Winners</p>
+                        <p>🎖️ ASMP Professional Members</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Corporate Photography</a></li>
+                        <li><a href="#services">Portrait Photography</a></li>
+                        <li><a href="#services">Commercial Photography</a></li>
+                        <li><a href="#services">Event Photography</a></li>
+                        <li><a href="#services">Photo Editing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Portfolio</h4>
+                    <ul>
+                        <li><a href="#portfolio">Corporate</a></li>
+                        <li><a href="#portfolio">Portraits</a></li>
+                        <li><a href="#portfolio">Commercial</a></li>
+                        <li><a href="#portfolio">Events</a></li>
+                        <li><a href="#portfolio">Weddings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Photography Tips</a></li>
+                        <li><a href="#">Client Resources</a></li>
+                        <li><a href="#">Pricing Guide</a></li>
+                        <li><a href="#">Booking Policies</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                    <div class="newsletter">
+                        <h5>Photography Newsletter</h5>
+                        <p>Get photography tips and behind-the-scenes content.</p>
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="newsletter-button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EliteLens Studio. All rights reserved. | Professional Photography Services | Terms of Service | Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox for Portfolio Images -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

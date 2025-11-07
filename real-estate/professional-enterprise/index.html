@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Enterprise Real Estate Services - Premier Realty Group</title>
+    <meta name="description" content="Leading professional real estate services providing comprehensive property solutions, expert market analysis, and dedicated client representation across residential and commercial markets.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="../../../assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">Premier Realty Group</a>
+            <ul class="nav-links">
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#agents">Agents</a></li>
+                <li><a href="#market">Market</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Professional Real Estate Excellence</h1>
+            <p>Your trusted partner in real estate success. With over 20 years of experience and a proven track record, we deliver exceptional results in buying, selling, and investing in real estate.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">$2.5B+</div>
+                    <div class="stat-label">Properties Sold</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#properties" class="cta-button">Browse Properties</a>
+                <a href="#contact" class="secondary-button">Get Free Valuation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Properties Section -->
+    <section id="properties" class="featured-properties">
+        <div class="container">
+            <h2 class="section-title">Featured Properties</h2>
+            <p class="section-subtitle">Discover exceptional properties in prime locations</p>
+
+            <!-- Property Filters -->
+            <div class="property-filters">
+                <button class="filter-btn active" data-filter="all">All Properties</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="luxury">Luxury</button>
+                <button class="filter-btn" data-filter="investment">Investment</button>
+            </div>
+
+            <div class="properties-grid">
+                <div class="property-card" data-category="luxury">
+                    <div class="property-image">
+                        <img src="../../../assets/images/luxury-home-1.png" alt="Luxury Modern Estate" loading="lazy">
+                        <div class="property-status">For Sale</div>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">$4,250,000</div>
+                        <h3>Luxury Modern Estate</h3>
+                        <div class="property-details">
+                            <span>🏠 5 Beds</span>
+                            <span>🛁 4.5 Baths</span>
+                            <span>📐 6,800 Sq Ft</span>
+                            <span>📍 Beverly Hills</span>
+                        </div>
+                        <p>Stunning contemporary estate featuring panoramic city views, infinity pool, and premium finishes throughout.</p>
+                        <div class="property-features">
+                            <span>🏊‍♂️ Pool</span>
+                            <span>🏔️ City Views</span>
+                            <span>🏢 3-Car Garage</span>
+                            <span>🏡 Smart Home</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card" data-category="commercial">
+                    <div class="property-image">
+                        <img src="../../../assets/images/commercial-building-1.png" alt="Downtown Office Building" loading="lazy">
+                        <div class="property-status">For Lease</div>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">$8.50/sq ft/year</div>
+                        <h3>Downtown Office Building</h3>
+                        <div class="property-details">
+                            <span>🏢 15 Floors</span>
+                            <span>📐 150,000 Sq Ft</span>
+                            <span>🚇 Metro Access</span>
+                            <span>📍 Financial District</span>
+                        </div>
+                        <p>Prime downtown office space with modern amenities, 24/7 security, and direct metro access.</p>
+                        <div class="property-features">
+                            <span>🏢 Class A Building</span>
+                            <span>🅿️ Parking</span>
+                            <span>🏋️‍♂️ Fitness Center</span>
+                            <span>🍽️ Food Court</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card" data-category="residential">
+                    <div class="property-image">
+                        <img src="../../../assets/images/suburban-home-1.png" alt="Charming Suburban Home" loading="lazy">
+                        <div class="property-status">For Sale</div>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">$895,000</div>
+                        <h3>Charming Suburban Home</h3>
+                        <div class="property-details">
+                            <span>🏠 4 Beds</span>
+                            <span>🛁 3 Baths</span>
+                            <span>📐 2,800 Sq Ft</span>
+                            <span>🏫 Top Schools</span>
+                        </div>
+                        <p>Beautiful family home in excellent school district with updated kitchen, hardwood floors, and private backyard.</p>
+                        <div class="property-features">
+                            <span>🏫 Award-Winning Schools</span>
+                            <span>🅿️ 2-Car Garage</span>
+                            <span>🌳 Mature Landscaping</span>
+                            <span>🛠️ Updated Kitchen</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card" data-category="investment">
+                    <div class="property-image">
+                        <img src="../../../assets/images/apartment-complex-1.png" alt="Multi-Family Investment" loading="lazy">
+                        <div class="property-status">Investment Opportunity</div>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">$2,750,000</div>
+                        <h3>Multi-Family Investment Property</h3>
+                        <div class="property-details">
+                            <span>🏢 24 Units</span>
+                            <span>📈 8.2% Cap Rate</span>
+                            <span>🏙️ Urban Location</span>
+                            <span>📍 Midtown</span>
+                        </div>
+                        <p>Well-maintained apartment complex with strong rental history and excellent cash flow potential.</p>
+                        <div class="property-features">
+                            <span>💰 Strong NOI</span>
+                            <span>🔧 Well Maintained</span>
+                            <span>📊 95% Occupancy</span>
+                            <span>🚇 Public Transit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Comprehensive Real Estate Services</h2>
+            <p class="section-subtitle">Expert guidance through every step of your real estate journey</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Residential Sales</h3>
+                    <p>Expert representation for buying and selling homes, condos, and townhouses with personalized marketing strategies.</p>
+                    <ul class="service-features">
+                        <li>Market Analysis</li>
+                        <li>Professional Photography</li>
+                        <li>Virtual Tours</li>
+                        <li>Negotiation Support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Commercial Real Estate</h3>
+                    <p>Specialized services for office buildings, retail spaces, industrial properties, and investment portfolios.</p>
+                    <ul class="service-features">
+                        <li>Property Valuation</li>
+                        <li>Lease Negotiation</li>
+                        <li>Investment Analysis</li>
+                        <li>Due Diligence</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Property Management</h3>
+                    <p>Comprehensive property management services including tenant screening, maintenance, and financial reporting.</p>
+                    <ul class="service-features">
+                        <li>Tenant Screening</li>
+                        <li>Maintenance Coordination</li>
+                        <li>Financial Reporting</li>
+                        <li>Legal Compliance</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>Investment Consulting</h3>
+                    <p>Strategic investment advice for real estate portfolios, market analysis, and wealth-building strategies.</p>
+                    <ul class="service-features">
+                        <li>Market Research</li>
+                        <li>Risk Assessment</li>
+                        <li>Portfolio Strategy</li>
+                        <li>Tax Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Home Staging</h3>
+                    <p>Professional staging services to maximize your property's appeal and selling price.</p>
+                    <ul class="service-features">
+                        <li>Design Consultation</li>
+                        <li>Furniture Rental</li>
+                        <li>Photography Staging</li>
+                        <li>Virtual Staging</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Market Analysis</h3>
+                    <p>Comprehensive market research and analysis to help you make informed real estate decisions.</p>
+                    <ul class="service-features">
+                        <li>Comparable Sales</li>
+                        <li>Market Trends</li>
+                        <li>Investment Returns</li>
+                        <li>Area Reports</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>25 Years of Real Estate Excellence</h2>
+                    <p>Premier Realty Group has been the trusted name in real estate for over two decades. Our team of licensed professionals combines market expertise with personalized service to deliver exceptional results for every client. We pride ourselves on integrity, innovation, and unparalleled dedication to your real estate success.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <h4>Market Leadership</h4>
+                            <p>Consistently ranked among the top real estate firms with over $2.5 billion in successful transactions.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Client-First Approach</h4>
+                            <p>Every client receives personalized attention and strategies tailored to their unique goals and needs.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Technology Integration</h4>
+                            <p>Cutting-edge tools and platforms for virtual tours, market analysis, and seamless transactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="../../../assets/images/real-estate-team-professional.png" alt="Premier Realty Group professional team" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agents Section -->
+    <section id="agents" class="agents">
+        <div class="container">
+            <h2 class="section-title">Meet Our Expert Agents</h2>
+            <p class="section-subtitle">Licensed professionals with proven track records in real estate success</p>
+            <div class="agents-grid">
+                <div class="agent-card">
+                    <img src="../../../assets/images/agent-profile-1.png" alt="Sarah Mitchell - Senior Broker" loading="lazy">
+                    <div class="agent-info">
+                        <h3>Sarah Mitchell</h3>
+                        <p class="agent-title">Senior Broker & Founder</p>
+                        <p class="agent-credentials">MBA, CRS, ABR • 20+ Years Experience</p>
+                        <p class="agent-bio">Sarah founded Premier Realty Group with a vision to revolutionize the real estate industry through technology and exceptional service. She has personally closed over $500 million in transactions.</p>
+                        <div class="agent-stats">
+                            <div class="stat">
+                                <span class="stat-number">$500M+</span>
+                                <span class="stat-label">Sales Volume</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">200+</span>
+                                <span class="stat-label">Homes Sold</span>
+                            </div>
+                        </div>
+                        <div class="agent-contact">
+                            <a href="mailto:smitchell@premierrealty.com">Email</a> |
+                            <a href="tel:+1-555-0101">Call</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="agent-card">
+                    <img src="../../../assets/images/agent-profile-2.png" alt="Michael Rodriguez - Commercial Specialist" loading="lazy">
+                    <div class="agent-info">
+                        <h3>Michael Rodriguez</h3>
+                        <p class="agent-title">Commercial Real Estate Specialist</p>
+                        <p class="agent-credentials">CCIM, SIOR • 15+ Years Experience</p>
+                        <p class="agent-bio">Michael specializes in commercial real estate with expertise in office buildings, retail spaces, and industrial properties. He has negotiated leases worth over $100 million.</p>
+                        <div class="agent-stats">
+                            <div class="stat">
+                                <span class="stat-number">$100M+</span>
+                                <span class="stat-label">Lease Value</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Commercial Deals</span>
+                            </div>
+                        </div>
+                        <div class="agent-contact">
+                            <a href="mailto:mrodriguez@premierrealty.com">Email</a> |
+                            <a href="tel:+1-555-0102">Call</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="agent-card">
+                    <img src="../../../assets/images/agent-profile-3.png" alt="Jennifer Chen - Luxury Specialist" loading="lazy">
+                    <div class="agent-info">
+                        <h3>Jennifer Chen</h3>
+                        <p class="agent-title">Luxury Real Estate Specialist</p>
+                        <p class="agent-credentials">LUXE, SRES • 12+ Years Experience</p>
+                        <p class="agent-bio">Jennifer focuses exclusively on luxury properties, having sold homes priced from $2M to $25M. She provides white-glove service to discerning clients worldwide.</p>
+                        <div class="agent-stats">
+                            <div class="stat">
+                                <span class="stat-number">$150M+</span>
+                                <span class="stat-label">Luxury Sales</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">25+</span>
+                                <span class="stat-label">Luxury Homes</span>
+                            </div>
+                        </div>
+                        <div class="agent-contact">
+                            <a href="mailto:jchen@premierrealty.com">Email</a> |
+                            <a href="tel:+1-555-0103">Call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Analysis Section -->
+    <section id="market" class="market-analysis">
+        <div class="container">
+            <h2 class="section-title">Market Insights & Analysis</h2>
+            <p class="section-subtitle">Stay informed with the latest real estate market trends and data</p>
+            <div class="market-grid">
+                <div class="market-card">
+                    <h3>📈 Market Trends</h3>
+                    <p>Current market analysis shows strong demand with limited inventory driving competitive bidding wars in most price ranges.</p>
+                    <div class="market-stats">
+                        <div class="market-stat">
+                            <span class="stat-number">3.2%</span>
+                            <span class="stat-label">Avg Price Increase</span>
+                        </div>
+                        <div class="market-stat">
+                            <span class="stat-number">18 Days</span>
+                            <span class="stat-label">Avg Days on Market</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>🏠 Inventory Report</h3>
+                    <p>Current inventory levels are 25% below historical averages, creating a seller's market across most property types.</p>
+                    <div class="market-stats">
+                        <div class="market-stat">
+                            <span class="stat-number">1,247</span>
+                            <span class="stat-label">Active Listings</span>
+                        </div>
+                        <div class="market-stat">
+                            <span class="stat-number">6.8 Months</span>
+                            <span class="stat-label">Inventory Supply</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>💰 Investment Opportunities</h3>
+                    <p>Commercial real estate continues to show strong returns with industrial and multifamily properties leading the way.</p>
+                    <div class="market-stats">
+                        <div class="market-stat">
+                            <span class="stat-number">7.2%</span>
+                            <span class="stat-label">Avg Cap Rate</span>
+                        </div>
+                        <div class="market-stat">
+                            <span class="stat-number">8.5%</span>
+                            <span class="stat-label">Annual Returns</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Success Stories</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Sarah Mitchell helped us find our dream home in just two weeks! Her market knowledge and negotiation skills saved us $50,000 and got us into our perfect neighborhood. We couldn't be happier with the entire process."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../../assets/images/client-testimonial-1.png" alt="Jennifer Walsh, Homeowner" loading="lazy">
+                        <div>
+                            <div class="author-name">Jennifer Walsh</div>
+                            <div class="author-title">Homeowner, Beverly Hills</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Michael Rodriguez handled our commercial property acquisition flawlessly. His expertise in commercial real estate and attention to detail ensured we got the best possible terms. Highly recommend for any commercial transaction."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../../assets/images/client-testimonial-2.png" alt="Robert Kim, CEO" loading="lazy">
+                        <div>
+                            <div class="author-name">Robert Kim</div>
+                            <div class="author-title">CEO, TechStart Solutions</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Jennifer Chen sold our luxury estate for 15% above asking price in just 10 days! Her luxury market expertise and professional marketing approach delivered exceptional results. Truly world-class service."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../../assets/images/client-testimonial-3.png" alt="Maria Gonzalez" loading="lazy">
+                        <div>
+                            <div class="author-name">Maria Gonzalez</div>
+                            <div class="author-title">Property Seller</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Get Your Free Property Valuation</h2>
+                <p>Discover the true value of your property with our comprehensive market analysis. Get started with a free, no-obligation consultation.</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                                <p class="contact-note">Mon-Fri: 8AM-8PM, Sat-Sun: 9AM-5PM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@premierrealty.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Main Office</h4>
+                                <p>123 Realty Plaza, Suite 1000<br>Business District, CA 90210</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 8:00 PM<br>Saturday: 9:00 AM - 5:00 PM<br>Sunday: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="valuationForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="propertyType">Property Type</label>
+                                <select id="propertyType" name="propertyType">
+                                    <option value="">Select property type</option>
+                                    <option value="single-family">Single Family Home</option>
+                                    <option value="condo">Condominium</option>
+                                    <option value="townhouse">Townhouse</option>
+                                    <option value="multi-family">Multi-Family</option>
+                                    <option value="commercial">Commercial</option>
+                                    <option value="land">Land</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="serviceType">Service Needed</label>
+                                <select id="serviceType" name="serviceType">
+                                    <option value="">Select service</option>
+                                    <option value="valuation">Property Valuation</option>
+                                    <option value="selling">Selling My Home</option>
+                                    <option value="buying">Buying a Home</option>
+                                    <option value="investment">Investment Analysis</option>
+                                    <option value="consultation">General Consultation</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="propertyAddress">Property Address</label>
+                            <input type="text" id="propertyAddress" name="propertyAddress" placeholder="Street address, city, state, zip">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Please provide any additional details about your property or real estate needs..."></textarea>
+                        </div>
+                        <div class="form-consent">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="consent" required>
+                                I agree to receive communications from Premier Realty Group regarding my inquiry. I understand that this consultation is free and confidential.
+                            </label>
+                        </div>
+                        <button type="submit" class="cta-button">Get Free Valuation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Premier Realty Group</h3>
+                    <p>Leading professional real estate services with over 25 years of experience. Your trusted partner for buying, selling, and investing in real estate.</p>
+                    <div class="accreditation">
+                        <p>🏆 Top 1% of Real Estate Professionals</p>
+                        <p>⭐ 5-Star Zillow Reviews</p>
+                        <p>🏅 Multi-Million Dollar Club</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Residential Sales</a></li>
+                        <li><a href="#services">Commercial Real Estate</a></li>
+                        <li><a href="#services">Property Management</a></li>
+                        <li><a href="#services">Investment Consulting</a></li>
+                        <li><a href="#services">Market Analysis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Properties</h4>
+                    <ul>
+                        <li><a href="#properties">Featured Listings</a></li>
+                        <li><a href="#properties">Residential</a></li>
+                        <li><a href="#properties">Commercial</a></li>
+                        <li><a href="#properties">Luxury Homes</a></li>
+                        <li><a href="#properties">Investment Properties</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Market Reports</a></li>
+                        <li><a href="#">Buyer Guide</a></li>
+                        <li><a href="#">Seller Guide</a></li>
+                        <li><a href="#">Mortgage Calculator</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                        <a href="#" aria-label="Zillow">🏠</a>
+                    </div>
+                    <div class="newsletter">
+                        <h5>Market Updates</h5>
+                        <p>Get the latest real estate market insights.</p>
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="newsletter-button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Premier Realty Group. All rights reserved. | Licensed Real Estate Professionals | Equal Housing Opportunity | Terms of Service | Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

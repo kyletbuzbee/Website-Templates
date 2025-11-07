@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Market - Premium Products for Modern Living</title>
+    <meta name="description" content="Discover premium products for modern living at Urban Market. Curated selection of home goods, fashion, electronics, and lifestyle essentials with fast shipping.">
+    <meta property="og:title" content="Urban Market - Premium Products for Modern Living">
+    <meta property="og:description" content="Discover premium products for modern living at Urban Market. Curated selection of home goods, fashion, electronics, and lifestyle essentials with fast shipping.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=630&fit=crop">
+    <meta property="og:url" content="https://urbanmarket.com">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <p>🚚 Free shipping on orders over $100 • 🎉 Summer Sale: Up to 40% off • ⭐ Premium quality guaranteed</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Urban Market</h1>
+                    <span class="logo-tagline">Premium Products for Modern Living</span>
+                </div>
+                <div class="nav-actions">
+                    <div class="nav-icons">
+                        <a href="#" class="nav-icon cart-icon" aria-label="Shopping cart">
+                            🛒
+                            <span class="cart-badge">0</span>
+                        </a>
+                        <a href="#" class="nav-icon account-icon" aria-label="My account">
+                            👤
+                        </a>
+                    </div>
+                    <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#categories" class="nav-link">Categories</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h2 class="hero-title">
+                        Curated for
+                        <span class="hero-accent">Modern Living</span>
+                    </h2>
+                    <p class="hero-subtitle">Discover premium products that enhance your lifestyle. From home essentials to fashion must-haves, we curate the best products for discerning customers who value quality and style.</p>
+
+                    <div class="hero-actions">
+                        <a href="#products" class="btn btn-primary">Shop Now</a>
+                        <a href="#categories" class="btn btn-secondary">Browse Categories</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Products</h2>
+                    <p class="section-subtitle">Handpicked selections from our premium collection</p>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop" alt="Modern ceramic vase" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Ceramic Decor Vase</h3>
+                            <p class="product-description">Handcrafted ceramic vase with minimalist design, perfect for modern home decor.</p>
+                            <div class="product-price">$89</div>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="ceramic-vase">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop" alt="Wireless earbuds" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Premium Wireless Earbuds</h3>
+                            <p class="product-description">High-quality wireless earbuds with noise cancellation and 30-hour battery life.</p>
+                            <div class="product-price">$199</div>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="wireless-earbuds">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop" alt="Organic cotton sweater" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Organic Cotton Sweater</h3>
+                            <p class="product-description">Sustainable organic cotton sweater with comfortable fit and timeless style.</p>
+                            <div class="product-price">$129</div>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="cotton-sweater">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Smart home hub" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Smart Home Hub</h3>
+                            <p class="product-description">Voice-controlled smart home hub compatible with all major smart devices.</p>
+                            <div class="product-price">$149</div>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="smart-hub">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop" alt="Wellness diffuser" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Aromatherapy Diffuser</h3>
+                            <p class="product-description">Essential oil diffuser with LED lighting and timer function for wellness and relaxation.</p>
+                            <div class="product-price">$79</div>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="aromatherapy-diffuser">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop" alt="Designer coffee maker" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Designer Coffee Maker</h3>
+                            <p class="product-description">Premium coffee maker with programmable settings and sleek modern design.</p>
+                            <div class="product-price">$299</div>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="coffee-maker">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Our Story</h2>
+                        <p class="about-description">Urban Market was born from a simple idea: quality products shouldn't be hard to find. We believe that everyone deserves access to beautifully designed, well-made items that enhance their daily lives. Our curated selection focuses on sustainability, craftsmanship, and innovation.</p>
+                        <p class="about-description">We partner with artisans, designers, and manufacturers who share our commitment to excellence. Every product in our collection is carefully selected for its quality, functionality, and aesthetic appeal. We're not just selling products – we're helping you create a lifestyle you love.</p>
+                    </div>
+                    <div class="about-image">
+                        <div class="about-image">
+              <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop" alt="Modern retail boutique with curated lifestyle products" loading="lazy">
+            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Shop by Category</h2>
+                    <p class="section-subtitle">Explore our carefully curated collections</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Urban Market has transformed how I shop. The quality of products and the attention to detail is unmatched. Every purchase feels special and well-considered."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-name">Alex Thompson</div>
+                            <div class="author-title">Loyal Customer</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"The customer service is exceptional, and the products are exactly as described. Urban Market sets the standard for online shopping experiences."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-name">Maria Rodriguez</div>
+                            <div class="author-title">Repeat Buyer</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Finally found a store that understands modern design and quality. The shipping was fast and the packaging was beautiful. Will definitely shop here again!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-name">James Chen</div>
+                            <div class="author-title">New Customer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">Questions about our products or need assistance?</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3>Customer Service</h3>
+                            <p>Our dedicated customer service team is here to help with any questions about our products, orders, or returns. We pride ourselves on providing exceptional support and ensuring your shopping experience is seamless.</p>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-icon">📞</div>
+                                    <div class="contact-text">
+                                        <div class="contact-label">Phone</div>
+                                        <div class="contact-value">(555) 123-4567</div>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-text">
+                                        <div class="contact-label">Email</div>
+                                        <div class="contact-value">hello@urbanmarket.com</div>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">📍</div>
+                                    <div class="contact-text">
+                                        <div class="contact-label">Address</div>
+                                        <div class="contact-value">789 Commerce Street, Downtown</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="contact-form" action="#" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" class="form-input" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="inquiryType" class="form-label">Inquiry Type</label>
+                                <select id="inquiryType" name="inquiryType" class="form-select">
+                                    <option value="">Select inquiry type</option>
+                                    <option value="order">Order Status</option>
+                                    <option value="product">Product Information</option>
+                                    <option value="return">Returns & Exchanges</option>
+                                    <option value="shipping">Shipping Information</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="orderNumber" class="form-label">Order Number (if applicable)</label>
+                                <input type="text" id="orderNumber" name="orderNumber" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="3" required placeholder="How can we help you today?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Urban Market</h3>
+                    <p>Curating premium products for modern living since 2018. Quality, style, and sustainability in every selection.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Shop</h4>
+                        <ul>
+                            <li><a href="#products">All Products</a></li>
+                            <li><a href="#categories">Categories</a></li>
+                            <li><a href="#products">New Arrivals</a></li>
+                            <li><a href="#products">Sale</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#contact">Shipping Info</a></li>
+                            <li><a href="#contact">Returns</a></li>
+                            <li><a href="#contact">Size Guide</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#about">Sustainability</a></li>
+                            <li><a href="#contact">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Secure Payments</h4>
+                        <div class="payment-methods">
+                            <span class="payment-icon" title="Visa">💳</span>
+                            <span class="payment-icon" title="Mastercard">💳</span>
+                            <span class="payment-icon" title="PayPal">🅿️</span>
+                            <span class="payment-icon" title="Apple Pay">📱</span>
+                            <span class="payment-icon" title="Stripe">⚡</span>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram" class="social-link">📷</a>
+                            <a href="#" aria-label="Facebook" class="social-link">📘</a>
+                            <a href="#" aria-label="Pinterest" class="social-link">📌</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Urban Market. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
