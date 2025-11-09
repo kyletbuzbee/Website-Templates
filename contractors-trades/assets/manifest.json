@@ -1,0 +1,3186 @@
+{
+  "version": "1.0.0",
+  "industry": "contractors-trades",
+  "generated": "2025-11-09T07:39:37.027Z",
+  "images": {
+    "contractors-trades-icon-12732834": {
+      "original": "contractors-trades-icon-12732834.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10396,
+        "webp": 6864
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-15991342": {
+      "original": "contractors-trades-icon-15991342.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9017,
+        "webp": 10626
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-15991391": {
+      "original": "contractors-trades-icon-15991391.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10021,
+        "webp": 11728
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-15991452": {
+      "original": "contractors-trades-icon-15991452.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9283,
+        "webp": 10958
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-15991498": {
+      "original": "contractors-trades-icon-15991498.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10155,
+        "webp": 11614
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-4749750": {
+      "original": "contractors-trades-icon-4749750.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8852,
+        "webp": 9704
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-6844786": {
+      "original": "contractors-trades-icon-6844786.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8019,
+        "webp": 9568
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractor-icon-blueprint": {
+      "original": "contractors-trades-icon-contractor-icon-blueprint.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 14289,
+        "webp": 8710
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "contractors-trades-icon-contractor-icon-contractorbadge": {
+      "original": "contractors-trades-icon-contractor-icon-contractorbadge.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 15211,
+        "webp": 7312
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "contractors-trades-icon-contractor-icon-electrical": {
+      "original": "contractors-trades-icon-contractor-icon-electrical.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 12286,
+        "webp": 13298
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "contractors-trades-icon-contractor-icon-pipes": {
+      "original": "contractors-trades-icon-contractor-icon-pipes.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 12584,
+        "webp": 6310
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "contractors-trades-icon-contractor-icon-toolbox": {
+      "original": "contractors-trades-icon-contractor-icon-toolbox.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 18571,
+        "webp": 13630
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "contractors-trades-icon-contractors-icon-blueprint": {
+      "original": "contractors-trades-icon-contractors-icon-blueprint.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 23595,
+        "webp": 16260
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "contractors-trades-icon-contractors-icon-hardhat": {
+      "original": "contractors-trades-icon-contractors-icon-hardhat.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 12999,
+        "webp": 9926
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-10": {
+      "original": "contractors-trades-icon-contractors-icons-services-10.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9986,
+        "webp": 9704
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-11": {
+      "original": "contractors-trades-icon-contractors-icons-services-11.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6021,
+        "webp": 5072
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-12": {
+      "original": "contractors-trades-icon-contractors-icons-services-12.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5980,
+        "webp": 4014
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-13": {
+      "original": "contractors-trades-icon-contractors-icons-services-13.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6860,
+        "webp": 7574
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-14": {
+      "original": "contractors-trades-icon-contractors-icons-services-14.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5751,
+        "webp": 4414
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-15": {
+      "original": "contractors-trades-icon-contractors-icons-services-15.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5048,
+        "webp": 3646
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-16": {
+      "original": "contractors-trades-icon-contractors-icons-services-16.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5732,
+        "webp": 5022
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-163": {
+      "original": "contractors-trades-icon-contractors-icons-services-163.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 16540,
+        "webp": 13210
+      },
+      "dimensions": {
+        "width": 792,
+        "height": 732
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-164": {
+      "original": "contractors-trades-icon-contractors-icons-services-164.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 950,
+        "webp": 484
+      },
+      "dimensions": {
+        "width": 66,
+        "height": 66
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-165": {
+      "original": "contractors-trades-icon-contractors-icons-services-165.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 16095,
+        "webp": 13324
+      },
+      "dimensions": {
+        "width": 793,
+        "height": 732
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-167": {
+      "original": "contractors-trades-icon-contractors-icons-services-167.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3158,
+        "webp": 5334
+      },
+      "dimensions": {
+        "width": 400,
+        "height": 57
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-168": {
+      "original": "contractors-trades-icon-contractors-icons-services-168.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10321,
+        "webp": 6942
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-169": {
+      "original": "contractors-trades-icon-contractors-icons-services-169.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6342,
+        "webp": 5880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-17": {
+      "original": "contractors-trades-icon-contractors-icons-services-17.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5667,
+        "webp": 4550
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-170": {
+      "original": "contractors-trades-icon-contractors-icons-services-170.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8202,
+        "webp": 5606
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-171": {
+      "original": "contractors-trades-icon-contractors-icons-services-171.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6234,
+        "webp": 4952
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-172": {
+      "original": "contractors-trades-icon-contractors-icons-services-172.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3886,
+        "webp": 2436
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-173": {
+      "original": "contractors-trades-icon-contractors-icons-services-173.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9140,
+        "webp": 8956
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-174": {
+      "original": "contractors-trades-icon-contractors-icons-services-174.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5602,
+        "webp": 5454
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-175": {
+      "original": "contractors-trades-icon-contractors-icons-services-175.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6333,
+        "webp": 4362
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-176": {
+      "original": "contractors-trades-icon-contractors-icons-services-176.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9986,
+        "webp": 9704
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-177": {
+      "original": "contractors-trades-icon-contractors-icons-services-177.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6021,
+        "webp": 5072
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-178": {
+      "original": "contractors-trades-icon-contractors-icons-services-178.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5980,
+        "webp": 4014
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-179": {
+      "original": "contractors-trades-icon-contractors-icons-services-179.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6860,
+        "webp": 7574
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-18": {
+      "original": "contractors-trades-icon-contractors-icons-services-18.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3162,
+        "webp": 2838
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-180": {
+      "original": "contractors-trades-icon-contractors-icons-services-180.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5751,
+        "webp": 4414
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-181": {
+      "original": "contractors-trades-icon-contractors-icons-services-181.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5048,
+        "webp": 3646
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-182": {
+      "original": "contractors-trades-icon-contractors-icons-services-182.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5732,
+        "webp": 5022
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-183": {
+      "original": "contractors-trades-icon-contractors-icons-services-183.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5667,
+        "webp": 4550
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-184": {
+      "original": "contractors-trades-icon-contractors-icons-services-184.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3162,
+        "webp": 2838
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-185": {
+      "original": "contractors-trades-icon-contractors-icons-services-185.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2931,
+        "webp": 2502
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-186": {
+      "original": "contractors-trades-icon-contractors-icons-services-186.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7070,
+        "webp": 5680
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-187": {
+      "original": "contractors-trades-icon-contractors-icons-services-187.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2528,
+        "webp": 1032
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-188": {
+      "original": "contractors-trades-icon-contractors-icons-services-188.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6677,
+        "webp": 9074
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-189": {
+      "original": "contractors-trades-icon-contractors-icons-services-189.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10558,
+        "webp": 7688
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-19": {
+      "original": "contractors-trades-icon-contractors-icons-services-19.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2931,
+        "webp": 2502
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-190": {
+      "original": "contractors-trades-icon-contractors-icons-services-190.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4929,
+        "webp": 4498
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-191": {
+      "original": "contractors-trades-icon-contractors-icons-services-191.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4596,
+        "webp": 2426
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-192": {
+      "original": "contractors-trades-icon-contractors-icons-services-192.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 12330,
+        "webp": 11286
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-193": {
+      "original": "contractors-trades-icon-contractors-icons-services-193.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5691,
+        "webp": 5174
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-194": {
+      "original": "contractors-trades-icon-contractors-icons-services-194.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10316,
+        "webp": 9252
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-195": {
+      "original": "contractors-trades-icon-contractors-icons-services-195.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 13128,
+        "webp": 13482
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-196": {
+      "original": "contractors-trades-icon-contractors-icons-services-196.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5973,
+        "webp": 5136
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-197": {
+      "original": "contractors-trades-icon-contractors-icons-services-197.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10323,
+        "webp": 7922
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-198": {
+      "original": "contractors-trades-icon-contractors-icons-services-198.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7591,
+        "webp": 5570
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-199": {
+      "original": "contractors-trades-icon-contractors-icons-services-199.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6219,
+        "webp": 4456
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-2": {
+      "original": "contractors-trades-icon-contractors-icons-services-2.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10321,
+        "webp": 6942
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-20": {
+      "original": "contractors-trades-icon-contractors-icons-services-20.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7070,
+        "webp": 5680
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-200": {
+      "original": "contractors-trades-icon-contractors-icons-services-200.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5514,
+        "webp": 3924
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-201": {
+      "original": "contractors-trades-icon-contractors-icons-services-201.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7112,
+        "webp": 7276
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-202": {
+      "original": "contractors-trades-icon-contractors-icons-services-202.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10394,
+        "webp": 9410
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-203": {
+      "original": "contractors-trades-icon-contractors-icons-services-203.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7862,
+        "webp": 7892
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-204": {
+      "original": "contractors-trades-icon-contractors-icons-services-204.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7806,
+        "webp": 6688
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-205": {
+      "original": "contractors-trades-icon-contractors-icons-services-205.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5596,
+        "webp": 3446
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-206": {
+      "original": "contractors-trades-icon-contractors-icons-services-206.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6667,
+        "webp": 4926
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-207": {
+      "original": "contractors-trades-icon-contractors-icons-services-207.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7895,
+        "webp": 5554
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-208": {
+      "original": "contractors-trades-icon-contractors-icons-services-208.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5825,
+        "webp": 4618
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-209": {
+      "original": "contractors-trades-icon-contractors-icons-services-209.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7505,
+        "webp": 5536
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-21": {
+      "original": "contractors-trades-icon-contractors-icons-services-21.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2528,
+        "webp": 1032
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-210": {
+      "original": "contractors-trades-icon-contractors-icons-services-210.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2631,
+        "webp": 1458
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-211": {
+      "original": "contractors-trades-icon-contractors-icons-services-211.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2624,
+        "webp": 1700
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-212": {
+      "original": "contractors-trades-icon-contractors-icons-services-212.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4297,
+        "webp": 4504
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-213": {
+      "original": "contractors-trades-icon-contractors-icons-services-213.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5738,
+        "webp": 3822
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-214": {
+      "original": "contractors-trades-icon-contractors-icons-services-214.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5956,
+        "webp": 5098
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-215": {
+      "original": "contractors-trades-icon-contractors-icons-services-215.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8326,
+        "webp": 7374
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-216": {
+      "original": "contractors-trades-icon-contractors-icons-services-216.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5996,
+        "webp": 2906
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-217": {
+      "original": "contractors-trades-icon-contractors-icons-services-217.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8073,
+        "webp": 6264
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-218": {
+      "original": "contractors-trades-icon-contractors-icons-services-218.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10771,
+        "webp": 6926
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-219": {
+      "original": "contractors-trades-icon-contractors-icons-services-219.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7786,
+        "webp": 6262
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-22": {
+      "original": "contractors-trades-icon-contractors-icons-services-22.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6677,
+        "webp": 9074
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-220": {
+      "original": "contractors-trades-icon-contractors-icons-services-220.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6481,
+        "webp": 4206
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-221": {
+      "original": "contractors-trades-icon-contractors-icons-services-221.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7363,
+        "webp": 5518
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-222": {
+      "original": "contractors-trades-icon-contractors-icons-services-222.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 11213,
+        "webp": 10598
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-223": {
+      "original": "contractors-trades-icon-contractors-icons-services-223.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9319,
+        "webp": 7112
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-224": {
+      "original": "contractors-trades-icon-contractors-icons-services-224.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7514,
+        "webp": 5342
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-225": {
+      "original": "contractors-trades-icon-contractors-icons-services-225.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4235,
+        "webp": 4080
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-226": {
+      "original": "contractors-trades-icon-contractors-icons-services-226.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6826,
+        "webp": 4496
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-227": {
+      "original": "contractors-trades-icon-contractors-icons-services-227.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10129,
+        "webp": 8270
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-228": {
+      "original": "contractors-trades-icon-contractors-icons-services-228.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6627,
+        "webp": 5872
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-229": {
+      "original": "contractors-trades-icon-contractors-icons-services-229.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9477,
+        "webp": 7264
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-23": {
+      "original": "contractors-trades-icon-contractors-icons-services-23.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10558,
+        "webp": 7688
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-230": {
+      "original": "contractors-trades-icon-contractors-icons-services-230.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6162,
+        "webp": 4512
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-231": {
+      "original": "contractors-trades-icon-contractors-icons-services-231.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5885,
+        "webp": 4706
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-232": {
+      "original": "contractors-trades-icon-contractors-icons-services-232.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5708,
+        "webp": 4598
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-233": {
+      "original": "contractors-trades-icon-contractors-icons-services-233.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9439,
+        "webp": 7146
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-234": {
+      "original": "contractors-trades-icon-contractors-icons-services-234.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7743,
+        "webp": 6070
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-235": {
+      "original": "contractors-trades-icon-contractors-icons-services-235.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5648,
+        "webp": 3894
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-236": {
+      "original": "contractors-trades-icon-contractors-icons-services-236.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6014,
+        "webp": 4148
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-237": {
+      "original": "contractors-trades-icon-contractors-icons-services-237.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2906,
+        "webp": 1782
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-238": {
+      "original": "contractors-trades-icon-contractors-icons-services-238.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4380,
+        "webp": 2564
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-239": {
+      "original": "contractors-trades-icon-contractors-icons-services-239.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6497,
+        "webp": 4880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-24": {
+      "original": "contractors-trades-icon-contractors-icons-services-24.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4929,
+        "webp": 4498
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-240": {
+      "original": "contractors-trades-icon-contractors-icons-services-240.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8742,
+        "webp": 3866
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-241": {
+      "original": "contractors-trades-icon-contractors-icons-services-241.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3186,
+        "webp": 3296
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-242": {
+      "original": "contractors-trades-icon-contractors-icons-services-242.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10997,
+        "webp": 10740
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-243": {
+      "original": "contractors-trades-icon-contractors-icons-services-243.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8203,
+        "webp": 6020
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-244": {
+      "original": "contractors-trades-icon-contractors-icons-services-244.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5619,
+        "webp": 3250
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-245": {
+      "original": "contractors-trades-icon-contractors-icons-services-245.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6269,
+        "webp": 4528
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-246": {
+      "original": "contractors-trades-icon-contractors-icons-services-246.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6082,
+        "webp": 3848
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-247": {
+      "original": "contractors-trades-icon-contractors-icons-services-247.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7014,
+        "webp": 6706
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-248": {
+      "original": "contractors-trades-icon-contractors-icons-services-248.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5654,
+        "webp": 4016
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-249": {
+      "original": "contractors-trades-icon-contractors-icons-services-249.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6858,
+        "webp": 4956
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-25": {
+      "original": "contractors-trades-icon-contractors-icons-services-25.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4596,
+        "webp": 2426
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-250": {
+      "original": "contractors-trades-icon-contractors-icons-services-250.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5254,
+        "webp": 4432
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-251": {
+      "original": "contractors-trades-icon-contractors-icons-services-251.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9220,
+        "webp": 8296
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-252": {
+      "original": "contractors-trades-icon-contractors-icons-services-252.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8355,
+        "webp": 7484
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-253": {
+      "original": "contractors-trades-icon-contractors-icons-services-253.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7864,
+        "webp": 5894
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-254": {
+      "original": "contractors-trades-icon-contractors-icons-services-254.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9704,
+        "webp": 10648
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-255": {
+      "original": "contractors-trades-icon-contractors-icons-services-255.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6607,
+        "webp": 6014
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-256": {
+      "original": "contractors-trades-icon-contractors-icons-services-256.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7900,
+        "webp": 5568
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-257": {
+      "original": "contractors-trades-icon-contractors-icons-services-257.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7738,
+        "webp": 5336
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-258": {
+      "original": "contractors-trades-icon-contractors-icons-services-258.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5304,
+        "webp": 4430
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-259": {
+      "original": "contractors-trades-icon-contractors-icons-services-259.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7394,
+        "webp": 5278
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-26": {
+      "original": "contractors-trades-icon-contractors-icons-services-26.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 12330,
+        "webp": 11286
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-260": {
+      "original": "contractors-trades-icon-contractors-icons-services-260.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6209,
+        "webp": 5340
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-261": {
+      "original": "contractors-trades-icon-contractors-icons-services-261.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5889,
+        "webp": 5354
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-262": {
+      "original": "contractors-trades-icon-contractors-icons-services-262.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10422,
+        "webp": 7240
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-263": {
+      "original": "contractors-trades-icon-contractors-icons-services-263.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9167,
+        "webp": 9262
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-265": {
+      "original": "contractors-trades-icon-contractors-icons-services-265.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 1508,
+        "webp": 922
+      },
+      "dimensions": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-27": {
+      "original": "contractors-trades-icon-contractors-icons-services-27.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5691,
+        "webp": 5174
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-28": {
+      "original": "contractors-trades-icon-contractors-icons-services-28.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10316,
+        "webp": 9252
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-29": {
+      "original": "contractors-trades-icon-contractors-icons-services-29.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 13128,
+        "webp": 13482
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-3": {
+      "original": "contractors-trades-icon-contractors-icons-services-3.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6342,
+        "webp": 5880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-30": {
+      "original": "contractors-trades-icon-contractors-icons-services-30.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5973,
+        "webp": 5136
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-31": {
+      "original": "contractors-trades-icon-contractors-icons-services-31.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10323,
+        "webp": 7922
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-32": {
+      "original": "contractors-trades-icon-contractors-icons-services-32.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7591,
+        "webp": 5570
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-33": {
+      "original": "contractors-trades-icon-contractors-icons-services-33.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6219,
+        "webp": 4456
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-34": {
+      "original": "contractors-trades-icon-contractors-icons-services-34.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5514,
+        "webp": 3924
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-35": {
+      "original": "contractors-trades-icon-contractors-icons-services-35.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7112,
+        "webp": 7276
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-36": {
+      "original": "contractors-trades-icon-contractors-icons-services-36.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10394,
+        "webp": 9410
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-37": {
+      "original": "contractors-trades-icon-contractors-icons-services-37.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7862,
+        "webp": 7892
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-38": {
+      "original": "contractors-trades-icon-contractors-icons-services-38.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7806,
+        "webp": 6688
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-39": {
+      "original": "contractors-trades-icon-contractors-icons-services-39.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5596,
+        "webp": 3446
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-4": {
+      "original": "contractors-trades-icon-contractors-icons-services-4.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8202,
+        "webp": 5606
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-40": {
+      "original": "contractors-trades-icon-contractors-icons-services-40.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6667,
+        "webp": 4926
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-41": {
+      "original": "contractors-trades-icon-contractors-icons-services-41.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7895,
+        "webp": 5554
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-42": {
+      "original": "contractors-trades-icon-contractors-icons-services-42.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5825,
+        "webp": 4618
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-43": {
+      "original": "contractors-trades-icon-contractors-icons-services-43.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7505,
+        "webp": 5536
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-44": {
+      "original": "contractors-trades-icon-contractors-icons-services-44.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2631,
+        "webp": 1458
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-45": {
+      "original": "contractors-trades-icon-contractors-icons-services-45.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2624,
+        "webp": 1700
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-46": {
+      "original": "contractors-trades-icon-contractors-icons-services-46.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4297,
+        "webp": 4504
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-47": {
+      "original": "contractors-trades-icon-contractors-icons-services-47.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5738,
+        "webp": 3822
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-48": {
+      "original": "contractors-trades-icon-contractors-icons-services-48.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5956,
+        "webp": 5098
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-49": {
+      "original": "contractors-trades-icon-contractors-icons-services-49.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8326,
+        "webp": 7374
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-5": {
+      "original": "contractors-trades-icon-contractors-icons-services-5.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6234,
+        "webp": 4952
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-50": {
+      "original": "contractors-trades-icon-contractors-icons-services-50.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5996,
+        "webp": 2906
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-51": {
+      "original": "contractors-trades-icon-contractors-icons-services-51.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8073,
+        "webp": 6264
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-52": {
+      "original": "contractors-trades-icon-contractors-icons-services-52.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10771,
+        "webp": 6926
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-53": {
+      "original": "contractors-trades-icon-contractors-icons-services-53.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7786,
+        "webp": 6262
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-54": {
+      "original": "contractors-trades-icon-contractors-icons-services-54.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6481,
+        "webp": 4206
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-55": {
+      "original": "contractors-trades-icon-contractors-icons-services-55.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7363,
+        "webp": 5518
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-56": {
+      "original": "contractors-trades-icon-contractors-icons-services-56.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 11213,
+        "webp": 10598
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-57": {
+      "original": "contractors-trades-icon-contractors-icons-services-57.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9319,
+        "webp": 7112
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-58": {
+      "original": "contractors-trades-icon-contractors-icons-services-58.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7514,
+        "webp": 5342
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-59": {
+      "original": "contractors-trades-icon-contractors-icons-services-59.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4235,
+        "webp": 4080
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-6": {
+      "original": "contractors-trades-icon-contractors-icons-services-6.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3886,
+        "webp": 2436
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-60": {
+      "original": "contractors-trades-icon-contractors-icons-services-60.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6826,
+        "webp": 4496
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-61": {
+      "original": "contractors-trades-icon-contractors-icons-services-61.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10129,
+        "webp": 8270
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-62": {
+      "original": "contractors-trades-icon-contractors-icons-services-62.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6627,
+        "webp": 5872
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-63": {
+      "original": "contractors-trades-icon-contractors-icons-services-63.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9477,
+        "webp": 7264
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-64": {
+      "original": "contractors-trades-icon-contractors-icons-services-64.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6162,
+        "webp": 4512
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-65": {
+      "original": "contractors-trades-icon-contractors-icons-services-65.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5885,
+        "webp": 4706
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-66": {
+      "original": "contractors-trades-icon-contractors-icons-services-66.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5708,
+        "webp": 4598
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-67": {
+      "original": "contractors-trades-icon-contractors-icons-services-67.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9439,
+        "webp": 7146
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-68": {
+      "original": "contractors-trades-icon-contractors-icons-services-68.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7743,
+        "webp": 6070
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-69": {
+      "original": "contractors-trades-icon-contractors-icons-services-69.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5648,
+        "webp": 3894
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-7": {
+      "original": "contractors-trades-icon-contractors-icons-services-7.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9140,
+        "webp": 8956
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-70": {
+      "original": "contractors-trades-icon-contractors-icons-services-70.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6014,
+        "webp": 4148
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-71": {
+      "original": "contractors-trades-icon-contractors-icons-services-71.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2906,
+        "webp": 1782
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-72": {
+      "original": "contractors-trades-icon-contractors-icons-services-72.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4380,
+        "webp": 2564
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-73": {
+      "original": "contractors-trades-icon-contractors-icons-services-73.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6497,
+        "webp": 4880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-74": {
+      "original": "contractors-trades-icon-contractors-icons-services-74.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8742,
+        "webp": 3866
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-75": {
+      "original": "contractors-trades-icon-contractors-icons-services-75.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3186,
+        "webp": 3296
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-76": {
+      "original": "contractors-trades-icon-contractors-icons-services-76.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10997,
+        "webp": 10740
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-77": {
+      "original": "contractors-trades-icon-contractors-icons-services-77.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8203,
+        "webp": 6020
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-78": {
+      "original": "contractors-trades-icon-contractors-icons-services-78.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5619,
+        "webp": 3250
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-79": {
+      "original": "contractors-trades-icon-contractors-icons-services-79.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6269,
+        "webp": 4528
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-8": {
+      "original": "contractors-trades-icon-contractors-icons-services-8.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5602,
+        "webp": 5454
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-80": {
+      "original": "contractors-trades-icon-contractors-icons-services-80.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6082,
+        "webp": 3848
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-81": {
+      "original": "contractors-trades-icon-contractors-icons-services-81.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7014,
+        "webp": 6706
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-82": {
+      "original": "contractors-trades-icon-contractors-icons-services-82.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5654,
+        "webp": 4016
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-83": {
+      "original": "contractors-trades-icon-contractors-icons-services-83.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6858,
+        "webp": 4956
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-84": {
+      "original": "contractors-trades-icon-contractors-icons-services-84.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5254,
+        "webp": 4432
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-85": {
+      "original": "contractors-trades-icon-contractors-icons-services-85.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9220,
+        "webp": 8296
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-86": {
+      "original": "contractors-trades-icon-contractors-icons-services-86.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8355,
+        "webp": 7484
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-87": {
+      "original": "contractors-trades-icon-contractors-icons-services-87.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7864,
+        "webp": 5894
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-88": {
+      "original": "contractors-trades-icon-contractors-icons-services-88.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9704,
+        "webp": 10648
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-89": {
+      "original": "contractors-trades-icon-contractors-icons-services-89.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6607,
+        "webp": 6014
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-9": {
+      "original": "contractors-trades-icon-contractors-icons-services-9.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6333,
+        "webp": 4362
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-90": {
+      "original": "contractors-trades-icon-contractors-icons-services-90.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7900,
+        "webp": 5568
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-91": {
+      "original": "contractors-trades-icon-contractors-icons-services-91.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7738,
+        "webp": 5336
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-92": {
+      "original": "contractors-trades-icon-contractors-icons-services-92.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5304,
+        "webp": 4430
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-93": {
+      "original": "contractors-trades-icon-contractors-icons-services-93.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7394,
+        "webp": 5278
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-94": {
+      "original": "contractors-trades-icon-contractors-icons-services-94.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6209,
+        "webp": 5340
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-95": {
+      "original": "contractors-trades-icon-contractors-icons-services-95.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5889,
+        "webp": 5354
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-96": {
+      "original": "contractors-trades-icon-contractors-icons-services-96.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10422,
+        "webp": 7240
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-97": {
+      "original": "contractors-trades-icon-contractors-icons-services-97.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9167,
+        "webp": 9262
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    }
+  },
+  "stats": {
+    "totalImages": 422,
+    "totalSize": 2816835,
+    "formats": {
+      "jpeg": {
+        "count": 211,
+        "totalSize": 1554965
+      },
+      "webp": {
+        "count": 211,
+        "totalSize": 1261870
+      }
+    }
+  }
+}

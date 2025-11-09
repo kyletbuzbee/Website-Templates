@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "industry": "photography",
+  "generated": "2025-11-09T07:39:38.012Z",
+  "images": {
+    "photography-hero-road": {
+      "original": "photography-hero-road.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 1671442,
+        "webp": 1116416
+      },
+      "dimensions": {
+        "width": 4554,
+        "height": 3039
+      }
+    },
+    "photography-hero-seamless": {
+      "original": "photography-hero-seamless.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9440,
+        "webp": 8878
+      },
+      "dimensions": {
+        "width": 183,
+        "height": 275
+      }
+    },
+    "photography-ideas-trippy": {
+      "original": "photography-ideas-trippy.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 7146,
+        "webp": 5348
+      },
+      "dimensions": {
+        "width": 278,
+        "height": 181
+      }
+    }
+  },
+  "stats": {
+    "totalImages": 6,
+    "totalSize": 2818670,
+    "formats": {
+      "jpeg": {
+        "count": 3,
+        "totalSize": 1688028
+      },
+      "webp": {
+        "count": 3,
+        "totalSize": 1130642
+      }
+    }
+  }
+}

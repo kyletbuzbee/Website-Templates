@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "industry": "roofing",
+  "generated": "2025-11-09T07:39:38.050Z",
+  "images": {
+    "roofing-": {
+      "original": "roofing-.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3024
+      },
+      "dimensions": {
+        "width": 225,
+        "height": 225
+      }
+    },
+    "roofing-about-certified-team": {
+      "original": "roofing-about-certified-team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 29832
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    },
+    "roofing-crew-residential": {
+      "original": "roofing-crew-residential.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9825,
+        "webp": 8932
+      },
+      "dimensions": {
+        "width": 231,
+        "height": 218
+      }
+    },
+    "roofing-gallery-before-after": {
+      "original": "roofing-gallery-before-after.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 54347,
+        "webp": 35520
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    },
+    "roofing-hero-professional-crew": {
+      "original": "roofing-hero-professional-crew.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 103808,
+        "webp": 82420
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    },
+    "roofing-image-": {
+      "original": "roofing-image-.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8582,
+        "webp": 6628
+      },
+      "dimensions": {
+        "width": 275,
+        "height": 183
+      }
+    },
+    "roofing-logo-homehero": {
+      "original": "roofing-logo-homehero.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4888,
+        "webp": 3024
+      },
+      "dimensions": {
+        "width": 225,
+        "height": 225
+      }
+    },
+    "roofing-team-members-photoshoot": {
+      "original": "roofing-team-members-photoshoot.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10674,
+        "webp": 9612
+      },
+      "dimensions": {
+        "width": 275,
+        "height": 183
+      }
+    }
+  },
+  "stats": {
+    "totalImages": 14,
+    "totalSize": 371116,
+    "formats": {
+      "webp": {
+        "count": 8,
+        "totalSize": 178992
+      },
+      "jpeg": {
+        "count": 6,
+        "totalSize": 192124
+      }
+    }
+  }
+}

@@ -79,9 +79,36 @@ npm run preview
 
 ## 🎨 Asset Management
 
-### Automated Asset Pipeline
+### Comprehensive Asset Pipeline
 
-The project includes an intelligent asset pipeline that automatically processes and distributes images.
+The project features an **enterprise-grade automated asset pipeline** with intelligent processing, manifest generation, and template auto-updates.
+
+#### 🚀 Key Features
+
+- **9 Industry Auto-Detection** - Automatically recognizes all industry folders
+- **Intelligent Format Selection** - SVG for icons, WebP/AVIF/JPEG for photos
+- **Duplicate Prevention** - Skips processing of existing optimized assets
+- **Asset Manifests** - JSON metadata for all optimized images
+- **Template Auto-Update** - Converts `<img>` tags to modern `<picture>` elements
+- **Build Integration** - Assets processed automatically during builds
+
+#### 📁 Asset Organization
+
+Images are automatically organized by industry:
+```
+├── contractors-trades/assets/
+│   ├── manifest.json          # Asset metadata
+│   └── images/               # Optimized images
+│       ├── contractors-trades-hero-1.webp
+│       ├── contractors-trades-hero-1.jpeg
+│       └── contractors-trades-hero-1.avif
+├── fitness/assets/
+│   ├── manifest.json
+│   └── images/
+└── [other industries...]
+```
+
+### 🎯 Asset Distribution System
 
 #### Naming Convention
 
@@ -95,26 +122,107 @@ Name your source images using this format:
 - `fitness-about-trainer-team.png` → `fitness/assets/images/`
 - `legal-hero-courtroom.webp` → `legal/assets/images/`
 
-#### Usage
+#### Quick Start
 
 ```bash
-# Place images in the drop zone
-# (copy images to _raw_assets/ folder)
+# 1. Place images in the drop zone
+cp your-images/* _raw_assets/
 
-# Run asset distribution
+# 2. Process and distribute assets
 npm run distribute-assets
 
-# Or run advanced optimization
-npm run optimize-assets
+# 3. Update templates with optimized images
+npm run update-templates
+
+# Or do everything at once
+npm run build:full
 ```
 
-### Manual Asset Optimization
-
-For advanced optimization with WebP/AVIF conversion:
+#### Advanced Usage
 
 ```bash
-npm run optimize-assets -- --input _raw_assets --output assets --quality 80
+# Process specific industry only
+npm run distribute-assets -- --industry roofing
+
+# Rename icons from subfolders first
+npm run assets:rename-icons
+
+# Full asset pipeline
+npm run assets:build
+
+# Manual optimization with custom settings
+npm run optimize-assets -- --quality 90 --concurrency 2
 ```
+
+### 📋 Asset Manifests
+
+Each industry gets a comprehensive manifest file:
+
+```json
+{
+  "version": "1.0.0",
+  "industry": "healthcare",
+  "generated": "2025-11-08T22:57:39.000Z",
+  "images": {
+    "hero-1": {
+      "original": "healthcare-hero-1.jpg",
+      "formats": ["webp", "jpeg", "avif"],
+      "sizes": {
+        "webp": 245680,
+        "jpeg": 312450,
+        "avif": 198320
+      },
+      "dimensions": {"width": 1920, "height": 1080}
+    }
+  },
+  "stats": {
+    "totalImages": 45,
+    "totalSize": "12.3MB",
+    "spaceSaved": "34%"
+  }
+}
+```
+
+### 🎨 Template Auto-Update
+
+Templates are automatically updated to use modern `<picture>` elements:
+
+**Before:**
+```html
+<img src="assets/images/hero-1.jpg" alt="Hero">
+```
+
+**After:**
+```html
+<picture>
+  <source srcset="assets/images/healthcare-hero-1.avif" type="image/avif">
+  <source srcset="assets/images/healthcare-hero-1.webp" type="image/webp">
+  <img src="assets/images/healthcare-hero-1.jpeg" alt="Hero" loading="lazy">
+</picture>
+```
+
+### 🏗️ Build Integration
+
+Assets are automatically processed during builds:
+
+```bash
+# Standard build (includes asset processing)
+npm run build
+
+# Full build with template updates
+npm run build:full
+
+# Deploy preparation (includes all quality checks)
+npm run deploy:prepare
+```
+
+### 📊 Performance Benefits
+
+- **Modern Formats**: AVIF/WebP for 30-50% smaller file sizes
+- **Lazy Loading**: Automatic `loading="lazy"` attributes
+- **Responsive Images**: Multiple formats for optimal delivery
+- **Duplicate Prevention**: No wasted processing time
+- **Build Optimization**: Assets processed once, reused everywhere
 
 ## 🧩 Component System
 

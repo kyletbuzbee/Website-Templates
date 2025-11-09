@@ -1,0 +1,88 @@
+[
+  {
+    "path": "/*",
+    "resourceSizes": [
+      {
+        "resourceType": "total",
+        "budget": 500
+      },
+      {
+        "resourceType": "script",
+        "budget": 200
+      },
+      {
+        "resourceType": "stylesheet",
+        "budget": 50
+      },
+      {
+        "resourceType": "image",
+        "budget": 200
+      },
+      {
+        "resourceType": "font",
+        "budget": 50
+      },
+      {
+        "resourceType": "document",
+        "budget": 20
+      }
+    ],
+    "resourceCounts": [
+      {
+        "resourceType": "total",
+        "budget": 50
+      }
+    ]
+  },
+  {
+    "path": "/healthcare/minimal-creative/index.html",
+    "resourceSizes": [
+      {
+        "resourceType": "total",
+        "budget": 400
+      },
+      {
+        "resourceType": "script",
+        "budget": 150
+      },
+      {
+        "resourceType": "image",
+        "budget": 150
+      }
+    ]
+  },
+  {
+    "path": "/fitness/professional-enterprise/index.html",
+    "resourceSizes": [
+      {
+        "resourceType": "total",
+        "budget": 600
+      },
+      {
+        "resourceType": "script",
+        "budget": 250
+      },
+      {
+        "resourceType": "image",
+        "budget": 250
+      }
+    ]
+  },
+  {
+    "path": "/contractors-trades/business-professional/index.html",
+    "resourceSizes": [
+      {
+        "resourceType": "total",
+        "budget": 700
+      },
+      {
+        "resourceType": "script",
+        "budget": 300
+      },
+      {
+        "resourceType": "image",
+        "budget": 300
+      }
+    ]
+  }
+]

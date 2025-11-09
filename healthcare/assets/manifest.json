@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "industry": "healthcare",
+  "generated": "2025-11-09T07:39:37.980Z",
+  "images": {
+    "healthcare-facilities-x-ray": {
+      "original": "healthcare-facilities-x-ray.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 772329,
+        "webp": 327320
+      },
+      "dimensions": {
+        "width": 3000,
+        "height": 3750
+      }
+    },
+    "healthcare-hero-medical-equipment": {
+      "original": "healthcare-hero-medical-equipment.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 223088,
+        "webp": 100558
+      },
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      }
+    },
+    "healthcare-hero-medical-team": {
+      "original": "healthcare-hero-medical-team.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 190023,
+        "webp": 88564
+      },
+      "dimensions": {
+        "width": 3000,
+        "height": 2055
+      }
+    },
+    "healthcare-hero-patient-care": {
+      "original": "healthcare-hero-patient-care.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 322858,
+        "webp": 135364
+      },
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      }
+    },
+    "healthcare-hero-team-scrubs": {
+      "original": "healthcare-hero-team-scrubs.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 822035,
+        "webp": 398332
+      },
+      "dimensions": {
+        "width": 3000,
+        "height": 3000
+      }
+    },
+    "healthcare-hero-waiting-room": {
+      "original": "healthcare-hero-waiting-room.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 26216,
+        "webp": 16208
+      },
+      "dimensions": {
+        "width": 612,
+        "height": 408
+      }
+    },
+    "healthcare-services-cardiology": {
+      "original": "healthcare-services-cardiology.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 493744,
+        "webp": 230530
+      },
+      "dimensions": {
+        "width": 3000,
+        "height": 2159
+      }
+    },
+    "healthcare-services-primary-care": {
+      "original": "healthcare-services-primary-care.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 26572,
+        "webp": 15156
+      },
+      "dimensions": {
+        "width": 612,
+        "height": 408
+      }
+    },
+    "healthcare-team-cardiology": {
+      "original": "healthcare-team-cardiology.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 27111,
+        "webp": 16704
+      },
+      "dimensions": {
+        "width": 612,
+        "height": 408
+      }
+    },
+    "healthcare-team-orthopedics": {
+      "original": "healthcare-team-orthopedics.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 19773,
+        "webp": 9906
+      },
+      "dimensions": {
+        "width": 612,
+        "height": 323
+      }
+    }
+  },
+  "stats": {
+    "totalImages": 20,
+    "totalSize": 4262391,
+    "formats": {
+      "jpeg": {
+        "count": 10,
+        "totalSize": 2923749
+      },
+      "webp": {
+        "count": 10,
+        "totalSize": 1338642
+      }
+    }
+  }
+}

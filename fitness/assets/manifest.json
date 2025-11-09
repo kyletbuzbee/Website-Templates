@@ -1,0 +1,531 @@
+{
+  "version": "1.0.0",
+  "industry": "fitness",
+  "generated": "2025-11-09T07:39:37.850Z",
+  "images": {
+    "fitness-classes-pilates": {
+      "original": "fitness-classes-pilates.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 47188,
+        "webp": 29760
+      },
+      "dimensions": {
+        "width": 724,
+        "height": 483
+      }
+    },
+    "fitness-equipment-cable-machine": {
+      "original": "fitness-equipment-cable-machine.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3625823,
+        "webp": 4555928
+      },
+      "dimensions": {
+        "width": 5184,
+        "height": 3456
+      }
+    },
+    "fitness-equipment-free-weights": {
+      "original": "fitness-equipment-free-weights.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4743333,
+        "webp": 5398158
+      },
+      "dimensions": {
+        "width": 6720,
+        "height": 4480
+      }
+    },
+    "fitness-equipment-functional-training": {
+      "original": "fitness-equipment-functional-training.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 192594,
+        "webp": 112040
+      },
+      "dimensions": {
+        "width": 3125,
+        "height": 3125
+      }
+    },
+    "fitness-equipment-treadmill": {
+      "original": "fitness-equipment-treadmill.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 1760721,
+        "webp": 1005150
+      },
+      "dimensions": {
+        "width": 6016,
+        "height": 4016
+      }
+    },
+    "fitness-equipment-weight-rack": {
+      "original": "fitness-equipment-weight-rack.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 658335,
+        "webp": 271584
+      },
+      "dimensions": {
+        "width": 3000,
+        "height": 4498
+      }
+    },
+    "fitness-equipment": {
+      "original": "fitness-equipment.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 192594,
+        "webp": 112040
+      },
+      "dimensions": {
+        "width": 3125,
+        "height": 3125
+      }
+    },
+    "fitness-hero-group-class": {
+      "original": "fitness-hero-group-class.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 123205,
+        "webp": 107180
+      },
+      "dimensions": {
+        "width": 1000,
+        "height": 669
+      }
+    },
+    "fitness-hero-gym-interior": {
+      "original": "fitness-hero-gym-interior.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2179463,
+        "webp": 1112346
+      },
+      "dimensions": {
+        "width": 5067,
+        "height": 7597
+      }
+    },
+    "fitness-hero-strength-training": {
+      "original": "fitness-hero-strength-training.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 732151,
+        "webp": 361102
+      },
+      "dimensions": {
+        "width": 3836,
+        "height": 2874
+      }
+    },
+    "fitness-hero": {
+      "original": "fitness-hero.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 732151,
+        "webp": 361102
+      },
+      "dimensions": {
+        "width": 3836,
+        "height": 2874
+      }
+    },
+    "fitness-hero1": {
+      "original": "fitness-hero1.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 1249223,
+        "webp": 696294
+      },
+      "dimensions": {
+        "width": 3126,
+        "height": 4744
+      }
+    },
+    "fitness-icon-11743981": {
+      "original": "fitness-icon-11743981.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8187,
+        "webp": 8332
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-11829034": {
+      "original": "fitness-icon-11829034.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5852,
+        "webp": 5756
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-11829055": {
+      "original": "fitness-icon-11829055.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5718,
+        "webp": 4760
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-11829057": {
+      "original": "fitness-icon-11829057.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5117,
+        "webp": 4208
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-1664755": {
+      "original": "fitness-icon-1664755.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 516,
+        "webp": 3404
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-17278526": {
+      "original": "fitness-icon-17278526.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9102,
+        "webp": 6934
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-17278568": {
+      "original": "fitness-icon-17278568.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5962,
+        "webp": 5998
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-1850617": {
+      "original": "fitness-icon-1850617.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 6307,
+        "webp": 4424
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-3445548": {
+      "original": "fitness-icon-3445548.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 2532,
+        "webp": 1268
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-5108899": {
+      "original": "fitness-icon-5108899.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4178,
+        "webp": 2158
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-8086162": {
+      "original": "fitness-icon-8086162.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 5067,
+        "webp": 3322
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-icon-bike": {
+      "original": "fitness-icon-bike.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 10892,
+        "webp": 7962
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "fitness-icon-detailedtreadmill": {
+      "original": "fitness-icon-detailedtreadmill.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 11377,
+        "webp": 13142
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "fitness-icon-personontreadmill": {
+      "original": "fitness-icon-personontreadmill.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 9435,
+        "webp": 8076
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "fitness-icon-treadmill": {
+      "original": "fitness-icon-treadmill.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 8594,
+        "webp": 5018
+      },
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "fitness-icon-yogamat": {
+      "original": "fitness-icon-yogamat.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 516,
+        "webp": 4010
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "fitness-team-generic-1": {
+      "original": "fitness-team-generic-1.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 123205,
+        "webp": 107180
+      },
+      "dimensions": {
+        "width": 1000,
+        "height": 669
+      }
+    },
+    "fitness-team-generic-2": {
+      "original": "fitness-team-generic-2.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 233111,
+        "webp": 121758
+      },
+      "dimensions": {
+        "width": 2112,
+        "height": 1188
+      }
+    },
+    "fitness-team-generic-3": {
+      "original": "fitness-team-generic-3.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 47188,
+        "webp": 29760
+      },
+      "dimensions": {
+        "width": 724,
+        "height": 483
+      }
+    },
+    "fitness-team-generic-4": {
+      "original": "fitness-team-generic-4.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 256834,
+        "webp": 140634
+      },
+      "dimensions": {
+        "width": 2048,
+        "height": 1049
+      }
+    },
+    "fitness-trainers-certified-crossfit": {
+      "original": "fitness-trainers-certified-crossfit.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 256834,
+        "webp": 140634
+      },
+      "dimensions": {
+        "width": 2048,
+        "height": 1049
+      }
+    },
+    "fitness-training-cardio-equipment": {
+      "original": "fitness-training-cardio-equipment.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 1249223,
+        "webp": 696294
+      },
+      "dimensions": {
+        "width": 3126,
+        "height": 4744
+      }
+    }
+  },
+  "stats": {
+    "totalImages": 68,
+    "totalSize": 33950244,
+    "formats": {
+      "jpeg": {
+        "count": 34,
+        "totalSize": 18502528
+      },
+      "webp": {
+        "count": 34,
+        "totalSize": 15447716
+      }
+    }
+  }
+}

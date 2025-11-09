@@ -1,23 +1,25 @@
 #!/usr/bin/env node
 
 /**
- * Enterprise Asset Optimization Script
- * Parallel processing with AVIF support and comprehensive error handling
+ * Enhanced Asset Optimization Script
+ * Intelligent format conversion with content-type detection
+ * PNG icons → SVG (scalable vectors)
+ * PNG photos → JPEG + WebP/AVIF (optimal compression)
  */
 
-const fs = require('fs').promises;
-const path = require('path');
-const os = require('os');
-const { exec } = require('child_process');
-const util = require('util');
+import fs from 'fs/promises';
+import path from 'path';
+import os from 'os';
+import { exec } from 'child_process';
+import util from 'util';
 const execAsync = util.promisify(exec);
 
-// Dynamic import for p-limit (ES modules)
+// Global variables for dynamic imports
 let pLimit;
-(async () => {
-    const { default: limitFactory } = await import('p-limit');
-    pLimit = limitFactory;
-})();
+let sharp;
+let analyzeImageContent;
+let convertPngToSvg;
+let imageAnalysisAvailable = false;
 
 class AssetOptimizer {
     constructor(options = {}) {
@@ -42,13 +44,33 @@ class AssetOptimizer {
     }
 
     /**
-     * Initialize concurrency limiter
+     * Initialize dependencies and concurrency limiter
      */
     async initialize() {
+        // Load dependencies if not already loaded
         if (!pLimit) {
             const { default: limitFactory } = await import('p-limit');
             pLimit = limitFactory;
         }
+
+        if (!sharp) {
+            sharp = (await import('sharp')).default;
+        }
+
+        // Try to import image analysis utilities (fallback if not available)
+        if (!imageAnalysisAvailable) {
+            try {
+                const imageAnalysis = await import('../src/utils/image-analysis.js');
+                analyzeImageContent = imageAnalysis.analyzeImageContent;
+                convertPngToSvg = imageAnalysis.convertPngToSvg;
+                imageAnalysisAvailable = true;
+                console.log('✅ Image analysis utilities loaded');
+            } catch (error) {
+                console.log('⚠️  Image analysis utilities not available, using fallback processing');
+                imageAnalysisAvailable = false;
+            }
+        }
+
         this.limit = pLimit(this.concurrency);
     }
 
@@ -158,7 +180,7 @@ class AssetOptimizer {
     }
 
     /**
-     * Process a single image file
+     * Process a single image file with intelligent format selection
      */
     async processImage(inputPath) {
         const relativePath = path.relative(this.inputDir, inputPath);
@@ -174,29 +196,52 @@ class AssetOptimizer {
             inputPath,
             relativePath,
             originalSize,
+            contentType: 'unknown',
             outputs: [],
             totalOptimizedSize: 0
         };
 
-        // Process each format
-        for (const format of this.formats) {
+        // Process image (with or without analysis)
+        if (imageAnalysisAvailable) {
             try {
-                const outputPath = await this.convertImage(inputPath, baseName, format);
-                if (outputPath) {
-                    const outputStats = await fs.stat(outputPath);
-                    const optimizedSize = outputStats.size;
+                // Analyze image content to determine optimal formats
+                const analysis = await analyzeImageContent(inputPath);
+                results.contentType = analysis.analysis.contentType;
+                results.analysis = analysis;
 
-                    results.outputs.push({
-                        format,
-                        path: outputPath,
-                        size: optimizedSize
-                    });
+                console.log(`🔍 ${relativePath}: Detected as ${analysis.analysis.contentType} (${analysis.recommendations.reason})`);
 
-                    results.totalOptimizedSize += optimizedSize;
+                // Use intelligent format selection based on content type
+                const formatsToUse = this.getIntelligentFormats(analysis);
+
+                // Process each recommended format
+                for (const format of formatsToUse) {
+                    try {
+                        const outputPath = await this.convertImageIntelligent(inputPath, baseName, format, analysis);
+                        if (outputPath) {
+                            const outputStats = await fs.stat(outputPath);
+                            const optimizedSize = outputStats.size;
+
+                            results.outputs.push({
+                                format,
+                                path: outputPath,
+                                size: optimizedSize
+                            });
+
+                            results.totalOptimizedSize += optimizedSize;
+                        }
+                    } catch (error) {
+                        console.warn(`⚠️  Failed to convert ${inputPath} to ${format}:`, error.message);
+                    }
                 }
-            } catch (error) {
-                console.warn(`⚠️  Failed to convert ${inputPath} to ${format}:`, error.message);
+            } catch (analysisError) {
+                console.warn(`⚠️  Analysis failed for ${relativePath}, using basic processing:`, analysisError.message);
+                await this.processImageBasic(inputPath, baseName, results);
             }
+        } else {
+            // Basic processing without analysis
+            console.log(`🔄 Processing (basic): ${relativePath}`);
+            await this.processImageBasic(inputPath, baseName, results);
         }
 
         if (results.outputs.length > 0) {
@@ -279,6 +324,125 @@ class AssetOptimizer {
             } catch (fallbackError) {
                 throw new Error(`AVIF conversion failed: ${fallbackError.message}`);
             }
+        }
+    }
+
+    /**
+     * Get intelligent format selection based on image analysis
+     */
+    getIntelligentFormats(analysis) {
+        const { recommendations } = analysis;
+
+        // Use recommended formats, but filter based on available formats
+        let formatsToUse = recommendations.formats.filter(format =>
+            this.formats.includes(format) || format === 'svg' || format === 'jpeg'
+        );
+
+        // Ensure we have at least one format
+        if (formatsToUse.length === 0) {
+            formatsToUse = analysis.analysis.isIcon ? ['webp', 'avif'] : ['jpeg', 'webp', 'avif'];
+        }
+
+        return formatsToUse;
+    }
+
+    /**
+     * Convert image with intelligent format handling
+     */
+    async convertImageIntelligent(inputPath, baseName, format, analysis) {
+        const outputDir = path.dirname(path.join(this.outputDir, path.relative(this.inputDir, inputPath)));
+        await fs.mkdir(outputDir, { recursive: true });
+
+        const outputPath = path.join(outputDir, `${baseName}.${format}`);
+
+        // Skip if output already exists and is newer than input
+        try {
+            const [inputStats, outputStats] = await Promise.all([
+                fs.stat(inputPath),
+                fs.stat(outputPath)
+            ]);
+
+            if (outputStats.mtime > inputStats.mtime) {
+                return outputPath; // Already up to date
+            }
+        } catch {
+            // Output doesn't exist, continue with conversion
+        }
+
+        switch (format) {
+            case 'svg':
+                // Special handling for SVG conversion from PNG icons
+                if (analysis.metadata.format === 'png' && analysis.analysis.isIcon) {
+                    const success = await convertPngToSvg(inputPath, outputPath);
+                    if (success) {
+                        return outputPath;
+                    } else {
+                        throw new Error('SVG conversion failed');
+                    }
+                } else {
+                    throw new Error('SVG conversion only supported for PNG icons');
+                }
+            case 'jpeg':
+                await this.convertToJPEG(inputPath, outputPath);
+                break;
+            case 'webp':
+                await this.convertToWebP(inputPath, outputPath);
+                break;
+            case 'avif':
+                await this.convertToAVIF(inputPath, outputPath);
+                break;
+            default:
+                throw new Error(`Unsupported format: ${format}`);
+        }
+
+        return outputPath;
+    }
+
+    /**
+     * Basic image processing when advanced analysis is not available
+     */
+    async processImageBasic(inputPath, baseName, results) {
+        results.contentType = 'photo'; // Default assumption
+
+        // Create multiple formats for better browser support
+        const formats = ['webp', 'jpeg']; // Basic fallback formats
+
+        for (const format of formats) {
+            try {
+                const outputPath = await this.convertImage(inputPath, baseName, format);
+                if (outputPath) {
+                    const outputStats = await fs.stat(outputPath);
+                    const optimizedSize = outputStats.size;
+
+                    results.outputs.push({
+                        format,
+                        path: outputPath,
+                        size: optimizedSize
+                    });
+
+                    results.totalOptimizedSize += optimizedSize;
+                }
+            } catch (error) {
+                console.warn(`  ⚠️  Failed to create ${format} version:`, error.message);
+            }
+        }
+    }
+
+    /**
+     * Convert image to JPEG format
+     */
+    async convertToJPEG(inputPath, outputPath) {
+        try {
+            // Use sharp for JPEG conversion with optimization
+            await sharp(inputPath)
+                .jpeg({
+                    quality: this.quality,
+                    mozjpeg: true
+                })
+                .toFile(outputPath);
+        } catch {
+            // Fallback to ImageMagick
+            await execAsync(`magick "${inputPath}" -quality ${this.quality} "${outputPath}"`);
         }
     }
 
@@ -397,11 +561,12 @@ Examples:
 }
 
 // Run if called directly
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
+    console.log('🚀 Starting optimize-assets script...');
     main().catch(error => {
         console.error('Fatal error:', error);
         process.exit(1);
     });
 }
 
-module.exports = AssetOptimizer;
+export default AssetOptimizer;

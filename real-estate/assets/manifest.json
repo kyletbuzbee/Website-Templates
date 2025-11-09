@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "industry": "real-estate",
+  "generated": "2025-11-09T07:39:38.028Z",
+  "images": {
+    "real-estate-forsale-home": {
+      "original": "real-estate-forsale-home.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 1368116,
+        "webp": 753468
+      },
+      "dimensions": {
+        "width": 4512,
+        "height": 3008
+      }
+    },
+    "real-estate-portfolio-newbuild": {
+      "original": "real-estate-portfolio-newbuild.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4052209,
+        "webp": 2821592
+      },
+      "dimensions": {
+        "width": 6505,
+        "height": 4337
+      }
+    },
+    "real-estate-portfolio-outdoorpatio": {
+      "original": "real-estate-portfolio-outdoorpatio.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 3731512,
+        "webp": 2410984
+      },
+      "dimensions": {
+        "width": 6720,
+        "height": 4480
+      }
+    },
+    "real-estate-portfolio-pool": {
+      "original": "real-estate-portfolio-pool.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 4390003,
+        "webp": 3390794
+      },
+      "dimensions": {
+        "width": 6720,
+        "height": 4480
+      }
+    }
+  },
+  "stats": {
+    "totalImages": 8,
+    "totalSize": 22918678,
+    "formats": {
+      "jpeg": {
+        "count": 4,
+        "totalSize": 13541840
+      },
+      "webp": {
+        "count": 4,
+        "totalSize": 9376838
+      }
+    }
+  }
+}
