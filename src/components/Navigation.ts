@@ -28,7 +28,9 @@ class Navigation extends HTMLElement {
 
   private parseLinks(): Array<{ text: string; href: string }> {
     const linksAttr = this.getAttribute('links');
-    if (!linksAttr) return [];
+    if (!linksAttr) {
+      return [];
+    }
 
     try {
       return JSON.parse(linksAttr);

@@ -1,8 +1,94 @@
 {
   "version": "1.0.0",
   "industry": "contractors-trades",
-  "generated": "2025-11-09T07:39:37.027Z",
+  "generated": "2025-11-10T07:38:55.163Z",
   "images": {
+    "client-person-testimonial-2_avatar_3": {
+      "original": "client-person-testimonial-2_avatar_3.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "contact-icon-email": {
+      "original": "contact-icon-email.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 309
+      },
+      "dimensions": null
+    },
+    "contact-icon-location": {
+      "original": "contact-icon-location.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 276
+      },
+      "dimensions": null
+    },
+    "contact-icon-phone": {
+      "original": "contact-icon-phone.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 484
+      },
+      "dimensions": null
+    },
+    "contractors-trades--hvac-airconditioning": {
+      "original": "contractors-trades--hvac-airconditioning.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 1264214,
+        "webp": 659496
+      },
+      "dimensions": {
+        "width": 2955,
+        "height": 4432
+      }
+    },
+    "contractors-trades--projects-swinginghammer": {
+      "original": "contractors-trades--projects-swinginghammer.jpg",
+      "formats": [
+        "jpeg",
+        "webp"
+      ],
+      "sizes": {
+        "jpeg": 1044068,
+        "webp": 588906
+      },
+      "dimensions": {
+        "width": 3648,
+        "height": 5472
+      }
+    },
+    "contractors-trades--projects-swinginghammer_work": {
+      "original": "contractors-trades--projects-swinginghammer_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 25036
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "contractors-trades-icon-12732834": {
       "original": "contractors-trades-icon-12732834.jpg",
       "formats": [
@@ -142,10 +228,12 @@
       "original": "contractors-trades-icon-contractor-icon-electrical.jpg",
       "formats": [
         "jpeg",
+        "svg",
         "webp"
       ],
       "sizes": {
         "jpeg": 12286,
+        "svg": 351,
         "webp": 13298
       },
       "dimensions": {
@@ -172,10 +260,12 @@
       "original": "contractors-trades-icon-contractor-icon-toolbox.jpg",
       "formats": [
         "jpeg",
+        "svg",
         "webp"
       ],
       "sizes": {
         "jpeg": 18571,
+        "svg": 351,
         "webp": 13630
       },
       "dimensions": {
@@ -202,10 +292,12 @@
       "original": "contractors-trades-icon-contractors-icon-hardhat.jpg",
       "formats": [
         "jpeg",
+        "svg",
         "webp"
       ],
       "sizes": {
         "jpeg": 12999,
+        "svg": 392,
         "webp": 9926
       },
       "dimensions": {
@@ -228,6 +320,119 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-100": {
+      "original": "contractors-trades-icon-contractors-icons-services-100.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 728
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-101": {
+      "original": "contractors-trades-icon-contractors-icons-services-101.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 587
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-102": {
+      "original": "contractors-trades-icon-contractors-icons-services-102.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 765
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-103": {
+      "original": "contractors-trades-icon-contractors-icons-services-103.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 522
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-104": {
+      "original": "contractors-trades-icon-contractors-icons-services-104.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 449
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-105": {
+      "original": "contractors-trades-icon-contractors-icons-services-105.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 634
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-106": {
+      "original": "contractors-trades-icon-contractors-icons-services-106.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 346
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-107": {
+      "original": "contractors-trades-icon-contractors-icons-services-107.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 848
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-108": {
+      "original": "contractors-trades-icon-contractors-icons-services-108.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 817
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-109": {
+      "original": "contractors-trades-icon-contractors-icons-services-109.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 894
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-10_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-10_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7110
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-11": {
       "original": "contractors-trades-icon-contractors-icons-services-11.jpg",
       "formats": [
@@ -237,6 +442,119 @@
       "sizes": {
         "jpeg": 6021,
         "webp": 5072
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-110": {
+      "original": "contractors-trades-icon-contractors-icons-services-110.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 680
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-111": {
+      "original": "contractors-trades-icon-contractors-icons-services-111.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1607
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-112": {
+      "original": "contractors-trades-icon-contractors-icons-services-112.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 901
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-113": {
+      "original": "contractors-trades-icon-contractors-icons-services-113.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 452
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-114": {
+      "original": "contractors-trades-icon-contractors-icons-services-114.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 453
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-115": {
+      "original": "contractors-trades-icon-contractors-icons-services-115.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 363
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-116": {
+      "original": "contractors-trades-icon-contractors-icons-services-116.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 4991
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-117": {
+      "original": "contractors-trades-icon-contractors-icons-services-117.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 2245
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-118": {
+      "original": "contractors-trades-icon-contractors-icons-services-118.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1231
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-119": {
+      "original": "contractors-trades-icon-contractors-icons-services-119.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1086
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-11_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-11_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3334
       },
       "dimensions": {
         "width": 256,
@@ -258,6 +576,119 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-120": {
+      "original": "contractors-trades-icon-contractors-icons-services-120.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 959
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-121": {
+      "original": "contractors-trades-icon-contractors-icons-services-121.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 554
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-122": {
+      "original": "contractors-trades-icon-contractors-icons-services-122.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 981
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-123": {
+      "original": "contractors-trades-icon-contractors-icons-services-123.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 2272
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-124": {
+      "original": "contractors-trades-icon-contractors-icons-services-124.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1080
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-125": {
+      "original": "contractors-trades-icon-contractors-icons-services-125.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 347
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-126": {
+      "original": "contractors-trades-icon-contractors-icons-services-126.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1030
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-127": {
+      "original": "contractors-trades-icon-contractors-icons-services-127.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 360
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-128": {
+      "original": "contractors-trades-icon-contractors-icons-services-128.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 601
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-129": {
+      "original": "contractors-trades-icon-contractors-icons-services-129.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 588
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-12_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-12_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3534
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-13": {
       "original": "contractors-trades-icon-contractors-icons-services-13.jpg",
       "formats": [
@@ -267,6 +698,119 @@
       "sizes": {
         "jpeg": 6860,
         "webp": 7574
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-130": {
+      "original": "contractors-trades-icon-contractors-icons-services-130.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 940
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-131": {
+      "original": "contractors-trades-icon-contractors-icons-services-131.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 421
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-132": {
+      "original": "contractors-trades-icon-contractors-icons-services-132.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1058
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-133": {
+      "original": "contractors-trades-icon-contractors-icons-services-133.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 5031
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-134": {
+      "original": "contractors-trades-icon-contractors-icons-services-134.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 398
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-135": {
+      "original": "contractors-trades-icon-contractors-icons-services-135.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 814
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-136": {
+      "original": "contractors-trades-icon-contractors-icons-services-136.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 910
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-137": {
+      "original": "contractors-trades-icon-contractors-icons-services-137.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1781
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-138": {
+      "original": "contractors-trades-icon-contractors-icons-services-138.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 777
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-139": {
+      "original": "contractors-trades-icon-contractors-icons-services-139.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 483
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-13_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-13_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4974
       },
       "dimensions": {
         "width": 256,
@@ -288,6 +832,119 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-140": {
+      "original": "contractors-trades-icon-contractors-icons-services-140.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 859
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-141": {
+      "original": "contractors-trades-icon-contractors-icons-services-141.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 808
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-142": {
+      "original": "contractors-trades-icon-contractors-icons-services-142.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1848
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-143": {
+      "original": "contractors-trades-icon-contractors-icons-services-143.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 727
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-144": {
+      "original": "contractors-trades-icon-contractors-icons-services-144.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1285
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-145": {
+      "original": "contractors-trades-icon-contractors-icons-services-145.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 834
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-146": {
+      "original": "contractors-trades-icon-contractors-icons-services-146.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 621
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-147": {
+      "original": "contractors-trades-icon-contractors-icons-services-147.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 489
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-148": {
+      "original": "contractors-trades-icon-contractors-icons-services-148.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1257
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-149": {
+      "original": "contractors-trades-icon-contractors-icons-services-149.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1446
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-14_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-14_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3596
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-15": {
       "original": "contractors-trades-icon-contractors-icons-services-15.jpg",
       "formats": [
@@ -297,6 +954,119 @@
       "sizes": {
         "jpeg": 5048,
         "webp": 3646
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-150": {
+      "original": "contractors-trades-icon-contractors-icons-services-150.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 692
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-151": {
+      "original": "contractors-trades-icon-contractors-icons-services-151.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1371
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-152": {
+      "original": "contractors-trades-icon-contractors-icons-services-152.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 890
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-153": {
+      "original": "contractors-trades-icon-contractors-icons-services-153.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 656
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-154": {
+      "original": "contractors-trades-icon-contractors-icons-services-154.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 698
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-155": {
+      "original": "contractors-trades-icon-contractors-icons-services-155.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1016
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-156": {
+      "original": "contractors-trades-icon-contractors-icons-services-156.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 428
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-157": {
+      "original": "contractors-trades-icon-contractors-icons-services-157.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 609
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-158": {
+      "original": "contractors-trades-icon-contractors-icons-services-158.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1087
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-159": {
+      "original": "contractors-trades-icon-contractors-icons-services-159.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 588
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-15_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-15_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3432
       },
       "dimensions": {
         "width": 256,
@@ -318,6 +1088,36 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-160": {
+      "original": "contractors-trades-icon-contractors-icons-services-160.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 431
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-161": {
+      "original": "contractors-trades-icon-contractors-icons-services-161.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 716
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-162": {
+      "original": "contractors-trades-icon-contractors-icons-services-162.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 5028
+      },
+      "dimensions": null
+    },
     "contractors-trades-icon-contractors-icons-services-163": {
       "original": "contractors-trades-icon-contractors-icons-services-163.jpg",
       "formats": [
@@ -333,6 +1133,19 @@
         "height": 732
       }
     },
+    "contractors-trades-icon-contractors-icons-services-163_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-163_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7100
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-164": {
       "original": "contractors-trades-icon-contractors-icons-services-164.jpg",
       "formats": [
@@ -342,6 +1155,19 @@
       "sizes": {
         "jpeg": 950,
         "webp": 484
+      },
+      "dimensions": {
+        "width": 66,
+        "height": 66
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-164_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-164_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 462
       },
       "dimensions": {
         "width": 66,
@@ -363,6 +1189,29 @@
         "height": 732
       }
     },
+    "contractors-trades-icon-contractors-icons-services-165_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-165_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7088
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-166": {
+      "original": "contractors-trades-icon-contractors-icons-services-166.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 5194
+      },
+      "dimensions": null
+    },
     "contractors-trades-icon-contractors-icons-services-167": {
       "original": "contractors-trades-icon-contractors-icons-services-167.jpg",
       "formats": [
@@ -372,6 +1221,19 @@
       "sizes": {
         "jpeg": 3158,
         "webp": 5334
+      },
+      "dimensions": {
+        "width": 400,
+        "height": 57
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-167_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-167_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2028
       },
       "dimensions": {
         "width": 400,
@@ -393,6 +1255,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-168_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-168_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6482
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-169": {
       "original": "contractors-trades-icon-contractors-icons-services-169.jpg",
       "formats": [
@@ -402,6 +1277,32 @@
       "sizes": {
         "jpeg": 6342,
         "webp": 5880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-169_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-169_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3374
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-16_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-16_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3492
       },
       "dimensions": {
         "width": 256,
@@ -438,6 +1339,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-170_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-170_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4836
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-171": {
       "original": "contractors-trades-icon-contractors-icons-services-171.jpg",
       "formats": [
@@ -447,6 +1361,19 @@
       "sizes": {
         "jpeg": 6234,
         "webp": 4952
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-171_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-171_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3756
       },
       "dimensions": {
         "width": 256,
@@ -468,6 +1395,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-172_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-172_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2020
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-173": {
       "original": "contractors-trades-icon-contractors-icons-services-173.jpg",
       "formats": [
@@ -477,6 +1417,19 @@
       "sizes": {
         "jpeg": 9140,
         "webp": 8956
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-173_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-173_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6512
       },
       "dimensions": {
         "width": 256,
@@ -498,6 +1451,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-174_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-174_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3634
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-175": {
       "original": "contractors-trades-icon-contractors-icons-services-175.jpg",
       "formats": [
@@ -507,6 +1473,19 @@
       "sizes": {
         "jpeg": 6333,
         "webp": 4362
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-175_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-175_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3570
       },
       "dimensions": {
         "width": 256,
@@ -528,6 +1507,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-176_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-176_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7110
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-177": {
       "original": "contractors-trades-icon-contractors-icons-services-177.jpg",
       "formats": [
@@ -537,6 +1529,19 @@
       "sizes": {
         "jpeg": 6021,
         "webp": 5072
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-177_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-177_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3334
       },
       "dimensions": {
         "width": 256,
@@ -558,6 +1563,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-178_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-178_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3534
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-179": {
       "original": "contractors-trades-icon-contractors-icons-services-179.jpg",
       "formats": [
@@ -567,6 +1585,32 @@
       "sizes": {
         "jpeg": 6860,
         "webp": 7574
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-179_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-179_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4974
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-17_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-17_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3260
       },
       "dimensions": {
         "width": 256,
@@ -603,6 +1647,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-180_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-180_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3596
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-181": {
       "original": "contractors-trades-icon-contractors-icons-services-181.jpg",
       "formats": [
@@ -612,6 +1669,19 @@
       "sizes": {
         "jpeg": 5048,
         "webp": 3646
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-181_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-181_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3432
       },
       "dimensions": {
         "width": 256,
@@ -633,6 +1703,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-182_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-182_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3492
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-183": {
       "original": "contractors-trades-icon-contractors-icons-services-183.jpg",
       "formats": [
@@ -642,6 +1725,19 @@
       "sizes": {
         "jpeg": 5667,
         "webp": 4550
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-183_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-183_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3260
       },
       "dimensions": {
         "width": 256,
@@ -663,6 +1759,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-184_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-184_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1598
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-185": {
       "original": "contractors-trades-icon-contractors-icons-services-185.jpg",
       "formats": [
@@ -672,6 +1781,19 @@
       "sizes": {
         "jpeg": 2931,
         "webp": 2502
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-185_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-185_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1432
       },
       "dimensions": {
         "width": 256,
@@ -693,6 +1815,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-186_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-186_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4860
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-187": {
       "original": "contractors-trades-icon-contractors-icons-services-187.jpg",
       "formats": [
@@ -702,6 +1837,19 @@
       "sizes": {
         "jpeg": 2528,
         "webp": 1032
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-187_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-187_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1192
       },
       "dimensions": {
         "width": 256,
@@ -723,6 +1871,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-188_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-188_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3898
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-189": {
       "original": "contractors-trades-icon-contractors-icons-services-189.jpg",
       "formats": [
@@ -732,6 +1893,32 @@
       "sizes": {
         "jpeg": 10558,
         "webp": 7688
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-189_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-189_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6982
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-18_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-18_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1598
       },
       "dimensions": {
         "width": 256,
@@ -768,6 +1955,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-190_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-190_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3228
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-191": {
       "original": "contractors-trades-icon-contractors-icons-services-191.jpg",
       "formats": [
@@ -777,6 +1977,19 @@
       "sizes": {
         "jpeg": 4596,
         "webp": 2426
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-191_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-191_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2496
       },
       "dimensions": {
         "width": 256,
@@ -798,6 +2011,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-192_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-192_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 8864
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-193": {
       "original": "contractors-trades-icon-contractors-icons-services-193.jpg",
       "formats": [
@@ -807,6 +2033,19 @@
       "sizes": {
         "jpeg": 5691,
         "webp": 5174
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-193_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-193_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3498
       },
       "dimensions": {
         "width": 256,
@@ -828,6 +2067,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-194_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-194_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7216
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-195": {
       "original": "contractors-trades-icon-contractors-icons-services-195.jpg",
       "formats": [
@@ -837,6 +2089,19 @@
       "sizes": {
         "jpeg": 13128,
         "webp": 13482
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-195_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-195_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 10608
       },
       "dimensions": {
         "width": 256,
@@ -858,6 +2123,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-196_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-196_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3700
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-197": {
       "original": "contractors-trades-icon-contractors-icons-services-197.jpg",
       "formats": [
@@ -867,6 +2145,19 @@
       "sizes": {
         "jpeg": 10323,
         "webp": 7922
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-197_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-197_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6294
       },
       "dimensions": {
         "width": 256,
@@ -888,6 +2179,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-198_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-198_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5184
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-199": {
       "original": "contractors-trades-icon-contractors-icons-services-199.jpg",
       "formats": [
@@ -897,6 +2201,32 @@
       "sizes": {
         "jpeg": 6219,
         "webp": 4456
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-199_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-199_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3128
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-19_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-19_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1432
       },
       "dimensions": {
         "width": 256,
@@ -948,6 +2278,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-200_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-200_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2768
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-201": {
       "original": "contractors-trades-icon-contractors-icons-services-201.jpg",
       "formats": [
@@ -957,6 +2300,19 @@
       "sizes": {
         "jpeg": 7112,
         "webp": 7276
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-201_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-201_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5200
       },
       "dimensions": {
         "width": 256,
@@ -978,6 +2334,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-202_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-202_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6820
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-203": {
       "original": "contractors-trades-icon-contractors-icons-services-203.jpg",
       "formats": [
@@ -987,6 +2356,19 @@
       "sizes": {
         "jpeg": 7862,
         "webp": 7892
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-203_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-203_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5608
       },
       "dimensions": {
         "width": 256,
@@ -1008,6 +2390,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-204_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-204_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-205": {
       "original": "contractors-trades-icon-contractors-icons-services-205.jpg",
       "formats": [
@@ -1017,6 +2412,19 @@
       "sizes": {
         "jpeg": 5596,
         "webp": 3446
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-205_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-205_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3266
       },
       "dimensions": {
         "width": 256,
@@ -1038,6 +2446,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-206_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-206_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4078
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-207": {
       "original": "contractors-trades-icon-contractors-icons-services-207.jpg",
       "formats": [
@@ -1047,6 +2468,19 @@
       "sizes": {
         "jpeg": 7895,
         "webp": 5554
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-207_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-207_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4578
       },
       "dimensions": {
         "width": 256,
@@ -1068,6 +2502,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-208_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-208_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3388
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-209": {
       "original": "contractors-trades-icon-contractors-icons-services-209.jpg",
       "formats": [
@@ -1077,6 +2524,32 @@
       "sizes": {
         "jpeg": 7505,
         "webp": 5536
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-209_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-209_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4578
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-20_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-20_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4860
       },
       "dimensions": {
         "width": 256,
@@ -1113,6 +2586,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-210_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-210_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1386
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-211": {
       "original": "contractors-trades-icon-contractors-icons-services-211.jpg",
       "formats": [
@@ -1122,6 +2608,19 @@
       "sizes": {
         "jpeg": 2624,
         "webp": 1700
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-211_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-211_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1252
       },
       "dimensions": {
         "width": 256,
@@ -1143,6 +2642,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-212_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-212_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2794
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-213": {
       "original": "contractors-trades-icon-contractors-icons-services-213.jpg",
       "formats": [
@@ -1152,6 +2664,19 @@
       "sizes": {
         "jpeg": 5738,
         "webp": 3822
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-213_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-213_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3172
       },
       "dimensions": {
         "width": 256,
@@ -1173,6 +2698,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-214_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-214_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3834
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-215": {
       "original": "contractors-trades-icon-contractors-icons-services-215.jpg",
       "formats": [
@@ -1182,6 +2720,19 @@
       "sizes": {
         "jpeg": 8326,
         "webp": 7374
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-215_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-215_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5642
       },
       "dimensions": {
         "width": 256,
@@ -1203,6 +2754,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-216_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-216_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3114
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-217": {
       "original": "contractors-trades-icon-contractors-icons-services-217.jpg",
       "formats": [
@@ -1212,6 +2776,19 @@
       "sizes": {
         "jpeg": 8073,
         "webp": 6264
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-217_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-217_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4414
       },
       "dimensions": {
         "width": 256,
@@ -1233,6 +2810,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-218_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-218_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6732
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-219": {
       "original": "contractors-trades-icon-contractors-icons-services-219.jpg",
       "formats": [
@@ -1242,6 +2832,32 @@
       "sizes": {
         "jpeg": 7786,
         "webp": 6262
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-219_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-219_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5276
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-21_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-21_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1192
       },
       "dimensions": {
         "width": 256,
@@ -1278,6 +2894,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-220_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-220_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3584
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-221": {
       "original": "contractors-trades-icon-contractors-icons-services-221.jpg",
       "formats": [
@@ -1287,6 +2916,19 @@
       "sizes": {
         "jpeg": 7363,
         "webp": 5518
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-221_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-221_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4104
       },
       "dimensions": {
         "width": 256,
@@ -1308,6 +2950,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-222_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-222_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7932
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-223": {
       "original": "contractors-trades-icon-contractors-icons-services-223.jpg",
       "formats": [
@@ -1317,6 +2972,19 @@
       "sizes": {
         "jpeg": 9319,
         "webp": 7112
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-223_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-223_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5682
       },
       "dimensions": {
         "width": 256,
@@ -1338,6 +3006,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-224_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-224_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4032
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-225": {
       "original": "contractors-trades-icon-contractors-icons-services-225.jpg",
       "formats": [
@@ -1347,6 +3028,19 @@
       "sizes": {
         "jpeg": 4235,
         "webp": 4080
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-225_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-225_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2892
       },
       "dimensions": {
         "width": 256,
@@ -1368,6 +3062,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-226_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-226_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3644
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-227": {
       "original": "contractors-trades-icon-contractors-icons-services-227.jpg",
       "formats": [
@@ -1377,6 +3084,19 @@
       "sizes": {
         "jpeg": 10129,
         "webp": 8270
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-227_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-227_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6546
       },
       "dimensions": {
         "width": 256,
@@ -1398,6 +3118,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-228_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-228_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3930
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-229": {
       "original": "contractors-trades-icon-contractors-icons-services-229.jpg",
       "formats": [
@@ -1407,6 +3140,32 @@
       "sizes": {
         "jpeg": 9477,
         "webp": 7264
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-229_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-229_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6244
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-22_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-22_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3898
       },
       "dimensions": {
         "width": 256,
@@ -1443,6 +3202,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-230_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-230_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3856
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-231": {
       "original": "contractors-trades-icon-contractors-icons-services-231.jpg",
       "formats": [
@@ -1452,6 +3224,19 @@
       "sizes": {
         "jpeg": 5885,
         "webp": 4706
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-231_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-231_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3730
       },
       "dimensions": {
         "width": 256,
@@ -1473,6 +3258,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-232_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-232_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4184
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-233": {
       "original": "contractors-trades-icon-contractors-icons-services-233.jpg",
       "formats": [
@@ -1482,6 +3280,19 @@
       "sizes": {
         "jpeg": 9439,
         "webp": 7146
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-233_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-233_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5898
       },
       "dimensions": {
         "width": 256,
@@ -1503,6 +3314,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-234_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-234_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5104
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-235": {
       "original": "contractors-trades-icon-contractors-icons-services-235.jpg",
       "formats": [
@@ -1512,6 +3336,19 @@
       "sizes": {
         "jpeg": 5648,
         "webp": 3894
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-235_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-235_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3530
       },
       "dimensions": {
         "width": 256,
@@ -1533,6 +3370,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-236_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-236_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3474
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-237": {
       "original": "contractors-trades-icon-contractors-icons-services-237.jpg",
       "formats": [
@@ -1542,6 +3392,19 @@
       "sizes": {
         "jpeg": 2906,
         "webp": 1782
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-237_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-237_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1568
       },
       "dimensions": {
         "width": 256,
@@ -1563,6 +3426,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-238_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-238_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2406
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-239": {
       "original": "contractors-trades-icon-contractors-icons-services-239.jpg",
       "formats": [
@@ -1572,6 +3448,32 @@
       "sizes": {
         "jpeg": 6497,
         "webp": 4880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-239_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-239_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3762
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-23_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-23_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6982
       },
       "dimensions": {
         "width": 256,
@@ -1608,6 +3510,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-240_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-240_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4232
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-241": {
       "original": "contractors-trades-icon-contractors-icons-services-241.jpg",
       "formats": [
@@ -1617,6 +3532,19 @@
       "sizes": {
         "jpeg": 3186,
         "webp": 3296
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-241_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-241_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1766
       },
       "dimensions": {
         "width": 256,
@@ -1638,6 +3566,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-242_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-242_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 8170
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-243": {
       "original": "contractors-trades-icon-contractors-icons-services-243.jpg",
       "formats": [
@@ -1647,6 +3588,19 @@
       "sizes": {
         "jpeg": 8203,
         "webp": 6020
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-243_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-243_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5712
       },
       "dimensions": {
         "width": 256,
@@ -1668,6 +3622,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-244_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-244_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3116
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-245": {
       "original": "contractors-trades-icon-contractors-icons-services-245.jpg",
       "formats": [
@@ -1677,6 +3644,19 @@
       "sizes": {
         "jpeg": 6269,
         "webp": 4528
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-245_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-245_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4208
       },
       "dimensions": {
         "width": 256,
@@ -1698,6 +3678,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-246_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-246_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3674
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-247": {
       "original": "contractors-trades-icon-contractors-icons-services-247.jpg",
       "formats": [
@@ -1707,6 +3700,19 @@
       "sizes": {
         "jpeg": 7014,
         "webp": 6706
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-247_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-247_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4774
       },
       "dimensions": {
         "width": 256,
@@ -1728,6 +3734,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-248_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-248_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3846
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-249": {
       "original": "contractors-trades-icon-contractors-icons-services-249.jpg",
       "formats": [
@@ -1737,6 +3756,32 @@
       "sizes": {
         "jpeg": 6858,
         "webp": 4956
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-249_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-249_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3872
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-24_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-24_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3228
       },
       "dimensions": {
         "width": 256,
@@ -1773,6 +3818,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-250_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-250_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3112
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-251": {
       "original": "contractors-trades-icon-contractors-icons-services-251.jpg",
       "formats": [
@@ -1782,6 +3840,19 @@
       "sizes": {
         "jpeg": 9220,
         "webp": 8296
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-251_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-251_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6334
       },
       "dimensions": {
         "width": 256,
@@ -1803,6 +3874,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-252_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-252_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5614
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-253": {
       "original": "contractors-trades-icon-contractors-icons-services-253.jpg",
       "formats": [
@@ -1812,6 +3896,19 @@
       "sizes": {
         "jpeg": 7864,
         "webp": 5894
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-253_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-253_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4652
       },
       "dimensions": {
         "width": 256,
@@ -1833,6 +3930,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-254_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-254_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7372
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-255": {
       "original": "contractors-trades-icon-contractors-icons-services-255.jpg",
       "formats": [
@@ -1842,6 +3952,19 @@
       "sizes": {
         "jpeg": 6607,
         "webp": 6014
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-255_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-255_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3980
       },
       "dimensions": {
         "width": 256,
@@ -1863,6 +3986,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-256_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-256_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4632
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-257": {
       "original": "contractors-trades-icon-contractors-icons-services-257.jpg",
       "formats": [
@@ -1872,6 +4008,19 @@
       "sizes": {
         "jpeg": 7738,
         "webp": 5336
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-257_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-257_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4540
       },
       "dimensions": {
         "width": 256,
@@ -1893,6 +4042,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-258_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-258_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3638
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-259": {
       "original": "contractors-trades-icon-contractors-icons-services-259.jpg",
       "formats": [
@@ -1902,6 +4064,32 @@
       "sizes": {
         "jpeg": 7394,
         "webp": 5278
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-259_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-259_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4616
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-25_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-25_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2496
       },
       "dimensions": {
         "width": 256,
@@ -1938,6 +4126,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-260_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-260_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3886
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-261": {
       "original": "contractors-trades-icon-contractors-icons-services-261.jpg",
       "formats": [
@@ -1947,6 +4148,19 @@
       "sizes": {
         "jpeg": 5889,
         "webp": 5354
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-261_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-261_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4138
       },
       "dimensions": {
         "width": 256,
@@ -1968,6 +4182,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-262_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-262_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6944
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-263": {
       "original": "contractors-trades-icon-contractors-icons-services-263.jpg",
       "formats": [
@@ -1982,6 +4209,29 @@
         "width": 256,
         "height": 256
       }
+    },
+    "contractors-trades-icon-contractors-icons-services-263_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-263_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6766
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-264": {
+      "original": "contractors-trades-icon-contractors-icons-services-264.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1075
+      },
+      "dimensions": null
     },
     "contractors-trades-icon-contractors-icons-services-265": {
       "original": "contractors-trades-icon-contractors-icons-services-265.jpg",
@@ -1998,6 +4248,32 @@
         "height": 96
       }
     },
+    "contractors-trades-icon-contractors-icons-services-265_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-265_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1122
+      },
+      "dimensions": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-26_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-26_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 8864
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-27": {
       "original": "contractors-trades-icon-contractors-icons-services-27.jpg",
       "formats": [
@@ -2007,6 +4283,19 @@
       "sizes": {
         "jpeg": 5691,
         "webp": 5174
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-27_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-27_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3498
       },
       "dimensions": {
         "width": 256,
@@ -2028,6 +4317,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-28_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-28_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7216
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-29": {
       "original": "contractors-trades-icon-contractors-icons-services-29.jpg",
       "formats": [
@@ -2037,6 +4339,32 @@
       "sizes": {
         "jpeg": 13128,
         "webp": 13482
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-29_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-29_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 10608
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-2_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-2_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6482
       },
       "dimensions": {
         "width": 256,
@@ -2073,6 +4401,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-30_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-30_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3700
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-31": {
       "original": "contractors-trades-icon-contractors-icons-services-31.jpg",
       "formats": [
@@ -2082,6 +4423,19 @@
       "sizes": {
         "jpeg": 10323,
         "webp": 7922
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-31_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-31_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6294
       },
       "dimensions": {
         "width": 256,
@@ -2103,6 +4457,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-32_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-32_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5184
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-33": {
       "original": "contractors-trades-icon-contractors-icons-services-33.jpg",
       "formats": [
@@ -2112,6 +4479,19 @@
       "sizes": {
         "jpeg": 6219,
         "webp": 4456
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-33_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-33_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3128
       },
       "dimensions": {
         "width": 256,
@@ -2133,6 +4513,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-34_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-34_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2768
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-35": {
       "original": "contractors-trades-icon-contractors-icons-services-35.jpg",
       "formats": [
@@ -2142,6 +4535,19 @@
       "sizes": {
         "jpeg": 7112,
         "webp": 7276
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-35_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-35_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5200
       },
       "dimensions": {
         "width": 256,
@@ -2163,6 +4569,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-36_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-36_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6820
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-37": {
       "original": "contractors-trades-icon-contractors-icons-services-37.jpg",
       "formats": [
@@ -2172,6 +4591,19 @@
       "sizes": {
         "jpeg": 7862,
         "webp": 7892
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-37_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-37_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5608
       },
       "dimensions": {
         "width": 256,
@@ -2193,6 +4625,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-38_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-38_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-39": {
       "original": "contractors-trades-icon-contractors-icons-services-39.jpg",
       "formats": [
@@ -2202,6 +4647,32 @@
       "sizes": {
         "jpeg": 5596,
         "webp": 3446
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-39_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-39_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3266
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-3_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-3_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3374
       },
       "dimensions": {
         "width": 256,
@@ -2238,6 +4709,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-40_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-40_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4078
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-41": {
       "original": "contractors-trades-icon-contractors-icons-services-41.jpg",
       "formats": [
@@ -2247,6 +4731,19 @@
       "sizes": {
         "jpeg": 7895,
         "webp": 5554
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-41_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-41_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4578
       },
       "dimensions": {
         "width": 256,
@@ -2268,6 +4765,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-42_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-42_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3388
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-43": {
       "original": "contractors-trades-icon-contractors-icons-services-43.jpg",
       "formats": [
@@ -2277,6 +4787,19 @@
       "sizes": {
         "jpeg": 7505,
         "webp": 5536
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-43_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-43_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4578
       },
       "dimensions": {
         "width": 256,
@@ -2298,6 +4821,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-44_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-44_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1386
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-45": {
       "original": "contractors-trades-icon-contractors-icons-services-45.jpg",
       "formats": [
@@ -2307,6 +4843,19 @@
       "sizes": {
         "jpeg": 2624,
         "webp": 1700
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-45_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-45_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1252
       },
       "dimensions": {
         "width": 256,
@@ -2328,6 +4877,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-46_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-46_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2794
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-47": {
       "original": "contractors-trades-icon-contractors-icons-services-47.jpg",
       "formats": [
@@ -2337,6 +4899,19 @@
       "sizes": {
         "jpeg": 5738,
         "webp": 3822
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-47_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-47_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3172
       },
       "dimensions": {
         "width": 256,
@@ -2358,6 +4933,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-48_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-48_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3834
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-49": {
       "original": "contractors-trades-icon-contractors-icons-services-49.jpg",
       "formats": [
@@ -2367,6 +4955,32 @@
       "sizes": {
         "jpeg": 8326,
         "webp": 7374
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-49_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-49_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5642
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-4_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-4_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4836
       },
       "dimensions": {
         "width": 256,
@@ -2403,6 +5017,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-50_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-50_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3114
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-51": {
       "original": "contractors-trades-icon-contractors-icons-services-51.jpg",
       "formats": [
@@ -2412,6 +5039,19 @@
       "sizes": {
         "jpeg": 8073,
         "webp": 6264
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-51_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-51_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4414
       },
       "dimensions": {
         "width": 256,
@@ -2433,6 +5073,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-52_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-52_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6732
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-53": {
       "original": "contractors-trades-icon-contractors-icons-services-53.jpg",
       "formats": [
@@ -2442,6 +5095,19 @@
       "sizes": {
         "jpeg": 7786,
         "webp": 6262
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-53_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-53_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5276
       },
       "dimensions": {
         "width": 256,
@@ -2463,6 +5129,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-54_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-54_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3584
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-55": {
       "original": "contractors-trades-icon-contractors-icons-services-55.jpg",
       "formats": [
@@ -2472,6 +5151,19 @@
       "sizes": {
         "jpeg": 7363,
         "webp": 5518
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-55_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-55_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4104
       },
       "dimensions": {
         "width": 256,
@@ -2493,6 +5185,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-56_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-56_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7932
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-57": {
       "original": "contractors-trades-icon-contractors-icons-services-57.jpg",
       "formats": [
@@ -2502,6 +5207,19 @@
       "sizes": {
         "jpeg": 9319,
         "webp": 7112
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-57_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-57_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5682
       },
       "dimensions": {
         "width": 256,
@@ -2523,6 +5241,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-58_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-58_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4032
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-59": {
       "original": "contractors-trades-icon-contractors-icons-services-59.jpg",
       "formats": [
@@ -2532,6 +5263,32 @@
       "sizes": {
         "jpeg": 4235,
         "webp": 4080
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-59_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-59_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2892
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-5_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-5_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3756
       },
       "dimensions": {
         "width": 256,
@@ -2568,6 +5325,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-60_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-60_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3644
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-61": {
       "original": "contractors-trades-icon-contractors-icons-services-61.jpg",
       "formats": [
@@ -2577,6 +5347,19 @@
       "sizes": {
         "jpeg": 10129,
         "webp": 8270
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-61_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-61_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6546
       },
       "dimensions": {
         "width": 256,
@@ -2598,6 +5381,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-62_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-62_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3930
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-63": {
       "original": "contractors-trades-icon-contractors-icons-services-63.jpg",
       "formats": [
@@ -2607,6 +5403,19 @@
       "sizes": {
         "jpeg": 9477,
         "webp": 7264
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-63_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-63_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6244
       },
       "dimensions": {
         "width": 256,
@@ -2628,6 +5437,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-64_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-64_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3856
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-65": {
       "original": "contractors-trades-icon-contractors-icons-services-65.jpg",
       "formats": [
@@ -2637,6 +5459,19 @@
       "sizes": {
         "jpeg": 5885,
         "webp": 4706
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-65_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-65_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3730
       },
       "dimensions": {
         "width": 256,
@@ -2658,6 +5493,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-66_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-66_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4184
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-67": {
       "original": "contractors-trades-icon-contractors-icons-services-67.jpg",
       "formats": [
@@ -2667,6 +5515,19 @@
       "sizes": {
         "jpeg": 9439,
         "webp": 7146
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-67_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-67_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5898
       },
       "dimensions": {
         "width": 256,
@@ -2688,6 +5549,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-68_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-68_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5104
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-69": {
       "original": "contractors-trades-icon-contractors-icons-services-69.jpg",
       "formats": [
@@ -2697,6 +5571,32 @@
       "sizes": {
         "jpeg": 5648,
         "webp": 3894
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-69_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-69_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3530
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-6_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-6_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2020
       },
       "dimensions": {
         "width": 256,
@@ -2733,6 +5633,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-70_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-70_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3474
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-71": {
       "original": "contractors-trades-icon-contractors-icons-services-71.jpg",
       "formats": [
@@ -2742,6 +5655,19 @@
       "sizes": {
         "jpeg": 2906,
         "webp": 1782
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-71_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-71_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1568
       },
       "dimensions": {
         "width": 256,
@@ -2763,6 +5689,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-72_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-72_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2406
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-73": {
       "original": "contractors-trades-icon-contractors-icons-services-73.jpg",
       "formats": [
@@ -2772,6 +5711,19 @@
       "sizes": {
         "jpeg": 6497,
         "webp": 4880
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-73_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-73_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3762
       },
       "dimensions": {
         "width": 256,
@@ -2793,6 +5745,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-74_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-74_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4232
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-75": {
       "original": "contractors-trades-icon-contractors-icons-services-75.jpg",
       "formats": [
@@ -2802,6 +5767,19 @@
       "sizes": {
         "jpeg": 3186,
         "webp": 3296
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-75_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-75_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 1766
       },
       "dimensions": {
         "width": 256,
@@ -2823,6 +5801,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-76_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-76_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 8170
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-77": {
       "original": "contractors-trades-icon-contractors-icons-services-77.jpg",
       "formats": [
@@ -2832,6 +5823,19 @@
       "sizes": {
         "jpeg": 8203,
         "webp": 6020
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-77_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-77_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5712
       },
       "dimensions": {
         "width": 256,
@@ -2853,6 +5857,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-78_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-78_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3116
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-79": {
       "original": "contractors-trades-icon-contractors-icons-services-79.jpg",
       "formats": [
@@ -2862,6 +5879,32 @@
       "sizes": {
         "jpeg": 6269,
         "webp": 4528
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-79_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-79_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4208
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-7_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-7_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6512
       },
       "dimensions": {
         "width": 256,
@@ -2898,6 +5941,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-80_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-80_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3674
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-81": {
       "original": "contractors-trades-icon-contractors-icons-services-81.jpg",
       "formats": [
@@ -2907,6 +5963,19 @@
       "sizes": {
         "jpeg": 7014,
         "webp": 6706
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-81_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-81_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4774
       },
       "dimensions": {
         "width": 256,
@@ -2928,6 +5997,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-82_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-82_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3846
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-83": {
       "original": "contractors-trades-icon-contractors-icons-services-83.jpg",
       "formats": [
@@ -2937,6 +6019,19 @@
       "sizes": {
         "jpeg": 6858,
         "webp": 4956
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-83_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-83_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3872
       },
       "dimensions": {
         "width": 256,
@@ -2958,6 +6053,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-84_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-84_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3112
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-85": {
       "original": "contractors-trades-icon-contractors-icons-services-85.jpg",
       "formats": [
@@ -2967,6 +6075,19 @@
       "sizes": {
         "jpeg": 9220,
         "webp": 8296
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-85_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-85_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6334
       },
       "dimensions": {
         "width": 256,
@@ -2988,6 +6109,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-86_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-86_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5614
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-87": {
       "original": "contractors-trades-icon-contractors-icons-services-87.jpg",
       "formats": [
@@ -2997,6 +6131,19 @@
       "sizes": {
         "jpeg": 7864,
         "webp": 5894
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-87_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-87_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4652
       },
       "dimensions": {
         "width": 256,
@@ -3018,6 +6165,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-88_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-88_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 7372
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-89": {
       "original": "contractors-trades-icon-contractors-icons-services-89.jpg",
       "formats": [
@@ -3027,6 +6187,32 @@
       "sizes": {
         "jpeg": 6607,
         "webp": 6014
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-89_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-89_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3980
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-8_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-8_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3634
       },
       "dimensions": {
         "width": 256,
@@ -3063,6 +6249,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-90_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-90_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4632
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-91": {
       "original": "contractors-trades-icon-contractors-icons-services-91.jpg",
       "formats": [
@@ -3072,6 +6271,19 @@
       "sizes": {
         "jpeg": 7738,
         "webp": 5336
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-91_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-91_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4540
       },
       "dimensions": {
         "width": 256,
@@ -3093,6 +6305,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-92_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-92_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3638
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-93": {
       "original": "contractors-trades-icon-contractors-icons-services-93.jpg",
       "formats": [
@@ -3102,6 +6327,19 @@
       "sizes": {
         "jpeg": 7394,
         "webp": 5278
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-93_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-93_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4616
       },
       "dimensions": {
         "width": 256,
@@ -3123,6 +6361,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-94_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-94_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3886
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-95": {
       "original": "contractors-trades-icon-contractors-icons-services-95.jpg",
       "formats": [
@@ -3132,6 +6383,19 @@
       "sizes": {
         "jpeg": 5889,
         "webp": 5354
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-95_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-95_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 4138
       },
       "dimensions": {
         "width": 256,
@@ -3153,6 +6417,19 @@
         "height": 256
       }
     },
+    "contractors-trades-icon-contractors-icons-services-96_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-96_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6944
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
     "contractors-trades-icon-contractors-icons-services-97": {
       "original": "contractors-trades-icon-contractors-icons-services-97.jpg",
       "formats": [
@@ -3167,19 +6444,134 @@
         "width": 256,
         "height": 256
       }
+    },
+    "contractors-trades-icon-contractors-icons-services-97_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-97_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 6766
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "contractors-trades-icon-contractors-icons-services-98": {
+      "original": "contractors-trades-icon-contractors-icons-services-98.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 651
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-99": {
+      "original": "contractors-trades-icon-contractors-icons-services-99.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1245
+      },
+      "dimensions": null
+    },
+    "contractors-trades-icon-contractors-icons-services-9_work": {
+      "original": "contractors-trades-icon-contractors-icons-services-9_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3570
+      },
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    "customer-avatar-profile-1_avatar_2": {
+      "original": "customer-avatar-profile-1_avatar_2.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "customer-review-avatar-3_avatar_1": {
+      "original": "customer-review-avatar-3_avatar_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "photography-services-enterprise": {
+      "original": "photography-services-enterprise.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2326
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "roofing-team-professional_hero_1": {
+      "original": "roofing-team-professional_hero_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5496
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "workers-crew-staff_about_1": {
+      "original": "workers-crew-staff_about_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2176
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
     }
   },
   "stats": {
-    "totalImages": 422,
-    "totalSize": 2816835,
+    "totalImages": 703,
+    "totalSize": 7352541,
     "formats": {
-      "jpeg": {
-        "count": 211,
-        "totalSize": 1554965
-      },
       "webp": {
-        "count": 211,
-        "totalSize": 1261870
+        "count": 417,
+        "totalSize": 3412598
+      },
+      "svg": {
+        "count": 73,
+        "totalSize": 76696
+      },
+      "jpeg": {
+        "count": 213,
+        "totalSize": 3863247
       }
     }
   }

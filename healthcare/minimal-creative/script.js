@@ -302,15 +302,25 @@ function showNotification(message, type = 'info') {
     const existingNotifications = document.querySelectorAll('.notification');
     existingNotifications.forEach(notification => notification.remove());
 
-    // Create notification element
+    // Create notification element safely
     const notification = document.createElement('div');
     notification.className = `notification ${type}`;
-    notification.innerHTML = `
-        <div class="notification-content">
-            <span class="notification-message">${message}</span>
-            <button class="notification-close" aria-label="Close notification">&times;</button>
-        </div>
-    `;
+
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'notification-content';
+
+    const messageSpan = document.createElement('span');
+    messageSpan.className = 'notification-message';
+    messageSpan.textContent = message;
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'notification-close';
+    closeBtn.setAttribute('aria-label', 'Close notification');
+    closeBtn.textContent = '×';
+
+    contentDiv.appendChild(messageSpan);
+    contentDiv.appendChild(closeBtn);
+    notification.appendChild(contentDiv);
 
     // Add to page
     document.body.appendChild(notification);
@@ -464,3 +474,75 @@ function handleInsuranceSelection(insuranceType) {
 
 // Initialize healthcare-specific features
 initHealthcareFeatures();
+
+// Healthcare-specific accessibility features
+document.addEventListener('DOMContentLoaded', function() {
+    // Add skip link for screen readers
+    const skipLink = document.createElement('a');
+    skipLink.href = '#main-content';
+    skipLink.className = 'skip-link';
+    skipLink.textContent = 'Skip to main content';
+    skipLink.style.cssText = `
+        position: absolute;
+        top: -40px;
+        left: 6px;
+        background: #000;
+        color: white;
+        padding: 8px;
+        text-decoration: none;
+        z-index: 1000;
+        border-radius: 4px;
+        font-size: 14px;
+    `;
+    document.body.insertBefore(skipLink, document.body.firstChild);
+
+    // Focus management for skip link
+    skipLink.addEventListener('focus', function() {
+        this.style.top = '6px';
+    });
+
+    skipLink.addEventListener('blur', function() {
+        this.style.top = '-40px';
+    });
+
+    // Add main content landmark
+    const mainElement = document.querySelector('main') || document.querySelector('.container');
+    if (mainElement) {
+        mainElement.id = 'main-content';
+        mainElement.setAttribute('role', 'main');
+    }
+
+    // Add live region for form validation errors
+    const formLiveRegion = document.createElement('div');
+    formLiveRegion.setAttribute('aria-live', 'polite');
+    formLiveRegion.setAttribute('aria-atomic', 'true');
+    formLiveRegion.style.cssText = `
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    `;
+    document.body.appendChild(formLiveRegion);
+
+    // Update live region when form validation occurs
+    function updateFormLiveRegion(message) {
+        formLiveRegion.textContent = message;
+        setTimeout(() => {
+            formLiveRegion.textContent = '';
+        }, 1000);
+    }
+
+    // Override form validation to announce errors
+    const originalValidateField = validateField;
+    validateField = function(field) {
+        const result = originalValidateField.call(this, field);
+        if (!result) {
+            const errorMsg = field.parentNode.querySelector('.error-message');
+            if (errorMsg) {
+                updateFormLiveRegion(`Error: ${errorMsg.textContent}`);
+            }
+        }
+        return result;
+    };
+});

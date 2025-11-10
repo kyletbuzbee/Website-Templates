@@ -1,8 +1,77 @@
 {
   "version": "1.0.0",
   "industry": "fitness",
-  "generated": "2025-11-09T07:39:37.850Z",
+  "generated": "2025-11-10T07:38:55.687Z",
   "images": {
+    "client-person-testimonial-2_avatar_3": {
+      "original": "client-person-testimonial-2_avatar_3.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "contact-icon-email": {
+      "original": "contact-icon-email.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 309
+      },
+      "dimensions": null
+    },
+    "contact-icon-location": {
+      "original": "contact-icon-location.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 276
+      },
+      "dimensions": null
+    },
+    "contact-icon-phone": {
+      "original": "contact-icon-phone.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 484
+      },
+      "dimensions": null
+    },
+    "customer-avatar-profile-1_avatar_2": {
+      "original": "customer-avatar-profile-1_avatar_2.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "customer-review-avatar-3_avatar_1": {
+      "original": "customer-review-avatar-3_avatar_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
     "fitness-classes-pilates": {
       "original": "fitness-classes-pilates.jpg",
       "formats": [
@@ -16,6 +85,19 @@
       "dimensions": {
         "width": 724,
         "height": 483
+      }
+    },
+    "fitness-classes-pilates_gallery": {
+      "original": "fitness-classes-pilates_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 33262
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
       }
     },
     "fitness-equipment-cable-machine": {
@@ -33,6 +115,19 @@
         "height": 3456
       }
     },
+    "fitness-equipment-cable-machine_gallery": {
+      "original": "fitness-equipment-cable-machine_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 32688
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "fitness-equipment-free-weights": {
       "original": "fitness-equipment-free-weights.jpg",
       "formats": [
@@ -46,6 +141,19 @@
       "dimensions": {
         "width": 6720,
         "height": 4480
+      }
+    },
+    "fitness-equipment-free-weights_gallery": {
+      "original": "fitness-equipment-free-weights_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 40362
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
       }
     },
     "fitness-equipment-functional-training": {
@@ -63,6 +171,19 @@
         "height": 3125
       }
     },
+    "fitness-equipment-functional-training_gallery": {
+      "original": "fitness-equipment-functional-training_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 12580
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "fitness-equipment-treadmill": {
       "original": "fitness-equipment-treadmill.jpg",
       "formats": [
@@ -76,6 +197,19 @@
       "dimensions": {
         "width": 6016,
         "height": 4016
+      }
+    },
+    "fitness-equipment-treadmill_gallery": {
+      "original": "fitness-equipment-treadmill_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 51680
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
       }
     },
     "fitness-equipment-weight-rack": {
@@ -93,6 +227,19 @@
         "height": 4498
       }
     },
+    "fitness-equipment-weight-rack_gallery": {
+      "original": "fitness-equipment-weight-rack_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 25508
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "fitness-equipment": {
       "original": "fitness-equipment.jpg",
       "formats": [
@@ -108,6 +255,19 @@
         "height": 3125
       }
     },
+    "fitness-equipment_gallery": {
+      "original": "fitness-equipment_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 12580
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "fitness-hero-group-class": {
       "original": "fitness-hero-group-class.jpg",
       "formats": [
@@ -117,6 +277,32 @@
       "sizes": {
         "jpeg": 123205,
         "webp": 107180
+      },
+      "dimensions": {
+        "width": 1000,
+        "height": 669
+      }
+    },
+    "fitness-hero-group-class_gallery": {
+      "original": "fitness-hero-group-class_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 68140
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "fitness-hero-group-class_hero": {
+      "original": "fitness-hero-group-class_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 107122
       },
       "dimensions": {
         "width": 1000,
@@ -138,6 +324,32 @@
         "height": 7597
       }
     },
+    "fitness-hero-gym-interior_gallery": {
+      "original": "fitness-hero-gym-interior_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 36098
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "fitness-hero-gym-interior_hero": {
+      "original": "fitness-hero-gym-interior_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 135614
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
     "fitness-hero-strength-training": {
       "original": "fitness-hero-strength-training.jpg",
       "formats": [
@@ -151,6 +363,32 @@
       "dimensions": {
         "width": 3836,
         "height": 2874
+      }
+    },
+    "fitness-hero-strength-training_gallery": {
+      "original": "fitness-hero-strength-training_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 39708
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "fitness-hero-strength-training_hero": {
+      "original": "fitness-hero-strength-training_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 147518
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
       }
     },
     "fitness-hero": {
@@ -181,6 +419,58 @@
       "dimensions": {
         "width": 3126,
         "height": 4744
+      }
+    },
+    "fitness-hero1_gallery": {
+      "original": "fitness-hero1_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 33394
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "fitness-hero1_hero": {
+      "original": "fitness-hero1_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 177680
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "fitness-hero_gallery": {
+      "original": "fitness-hero_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 39708
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "fitness-hero_hero": {
+      "original": "fitness-hero_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 147518
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
       }
     },
     "fitness-icon-11743981": {
@@ -363,6 +653,16 @@
         "height": 512
       }
     },
+    "fitness-icon-cup": {
+      "original": "fitness-icon-cup.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 3971
+      },
+      "dimensions": null
+    },
     "fitness-icon-detailedtreadmill": {
       "original": "fitness-icon-detailedtreadmill.jpg",
       "formats": [
@@ -377,6 +677,26 @@
         "width": 512,
         "height": 512
       }
+    },
+    "fitness-icon-dumbbell": {
+      "original": "fitness-icon-dumbbell.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 297
+      },
+      "dimensions": null
+    },
+    "fitness-icon-jump-rope": {
+      "original": "fitness-icon-jump-rope.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 3705
+      },
+      "dimensions": null
     },
     "fitness-icon-personontreadmill": {
       "original": "fitness-icon-personontreadmill.jpg",
@@ -393,20 +713,75 @@
         "height": 512
       }
     },
+    "fitness-icon-personontreadmill_avatar": {
+      "original": "fitness-icon-personontreadmill_avatar.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2950
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "fitness-icon-roller-skates": {
+      "original": "fitness-icon-roller-skates.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 3554
+      },
+      "dimensions": null
+    },
+    "fitness-icon-scales": {
+      "original": "fitness-icon-scales.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 3334
+      },
+      "dimensions": null
+    },
     "fitness-icon-treadmill": {
       "original": "fitness-icon-treadmill.jpg",
       "formats": [
         "jpeg",
+        "svg",
         "webp"
       ],
       "sizes": {
         "jpeg": 8594,
+        "svg": 335,
         "webp": 5018
       },
       "dimensions": {
         "width": 512,
         "height": 512
       }
+    },
+    "fitness-icon-weight": {
+      "original": "fitness-icon-weight.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 2770
+      },
+      "dimensions": null
+    },
+    "fitness-icon-yoga": {
+      "original": "fitness-icon-yoga.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 335
+      },
+      "dimensions": null
     },
     "fitness-icon-yogamat": {
       "original": "fitness-icon-yogamat.jpg",
@@ -438,6 +813,19 @@
         "height": 669
       }
     },
+    "fitness-team-generic-1_team": {
+      "original": "fitness-team-generic-1_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 103970
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    },
     "fitness-team-generic-2": {
       "original": "fitness-team-generic-2.jpg",
       "formats": [
@@ -453,6 +841,19 @@
         "height": 1188
       }
     },
+    "fitness-team-generic-2_team": {
+      "original": "fitness-team-generic-2_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 58352
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    },
     "fitness-team-generic-3": {
       "original": "fitness-team-generic-3.jpg",
       "formats": [
@@ -462,6 +863,19 @@
       "sizes": {
         "jpeg": 47188,
         "webp": 29760
+      },
+      "dimensions": {
+        "width": 724,
+        "height": 483
+      }
+    },
+    "fitness-team-generic-3_team": {
+      "original": "fitness-team-generic-3_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 39626
       },
       "dimensions": {
         "width": 724,
@@ -483,6 +897,19 @@
         "height": 1049
       }
     },
+    "fitness-team-generic-4_team": {
+      "original": "fitness-team-generic-4_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 65992
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    },
     "fitness-trainers-certified-crossfit": {
       "original": "fitness-trainers-certified-crossfit.jpg",
       "formats": [
@@ -496,6 +923,19 @@
       "dimensions": {
         "width": 2048,
         "height": 1049
+      }
+    },
+    "fitness-trainers-certified-crossfit_gallery": {
+      "original": "fitness-trainers-certified-crossfit_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 43064
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
       }
     },
     "fitness-training-cardio-equipment": {
@@ -512,19 +952,75 @@
         "width": 3126,
         "height": 4744
       }
+    },
+    "fitness-training-cardio-equipment_gallery": {
+      "original": "fitness-training-cardio-equipment_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 33394
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "photography-services-enterprise": {
+      "original": "photography-services-enterprise.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2326
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "roofing-team-professional_hero_1": {
+      "original": "roofing-team-professional_hero_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5496
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "workers-crew-staff_about_1": {
+      "original": "workers-crew-staff_about_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2176
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
     }
   },
   "stats": {
-    "totalImages": 68,
-    "totalSize": 33950244,
+    "totalImages": 109,
+    "totalSize": 35470472,
     "formats": {
+      "webp": {
+        "count": 64,
+        "totalSize": 16948574
+      },
+      "svg": {
+        "count": 11,
+        "totalSize": 19370
+      },
       "jpeg": {
         "count": 34,
         "totalSize": 18502528
-      },
-      "webp": {
-        "count": 34,
-        "totalSize": 15447716
       }
     }
   }

@@ -1,8 +1,90 @@
 {
   "version": "1.0.0",
   "industry": "real-estate",
-  "generated": "2025-11-09T07:39:38.028Z",
+  "generated": "2025-11-10T07:38:55.882Z",
   "images": {
+    "client-person-testimonial-2_avatar_3": {
+      "original": "client-person-testimonial-2_avatar_3.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "contact-icon-email": {
+      "original": "contact-icon-email.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 309
+      },
+      "dimensions": null
+    },
+    "contact-icon-location": {
+      "original": "contact-icon-location.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 276
+      },
+      "dimensions": null
+    },
+    "contact-icon-phone": {
+      "original": "contact-icon-phone.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 484
+      },
+      "dimensions": null
+    },
+    "customer-avatar-profile-1_avatar_2": {
+      "original": "customer-avatar-profile-1_avatar_2.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "customer-review-avatar-3_avatar_1": {
+      "original": "customer-review-avatar-3_avatar_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "photography-services-enterprise": {
+      "original": "photography-services-enterprise.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2326
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "real-estate-forsale-home": {
       "original": "real-estate-forsale-home.jpg",
       "formats": [
@@ -18,6 +100,39 @@
         "height": 3008
       }
     },
+    "real-estate-forsale-home_property": {
+      "original": "real-estate-forsale-home_property.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 35796
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 400
+      }
+    },
+    "real-estate-icon-building": {
+      "original": "real-estate-icon-building.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 362
+      },
+      "dimensions": null
+    },
+    "real-estate-icon-house": {
+      "original": "real-estate-icon-house.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 287
+      },
+      "dimensions": null
+    },
     "real-estate-portfolio-newbuild": {
       "original": "real-estate-portfolio-newbuild.jpg",
       "formats": [
@@ -31,6 +146,19 @@
       "dimensions": {
         "width": 6505,
         "height": 4337
+      }
+    },
+    "real-estate-portfolio-newbuild_property": {
+      "original": "real-estate-portfolio-newbuild_property.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 58906
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 400
       }
     },
     "real-estate-portfolio-outdoorpatio": {
@@ -48,6 +176,19 @@
         "height": 4480
       }
     },
+    "real-estate-portfolio-outdoorpatio_property": {
+      "original": "real-estate-portfolio-outdoorpatio_property.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 58672
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 400
+      }
+    },
     "real-estate-portfolio-pool": {
       "original": "real-estate-portfolio-pool.jpg",
       "formats": [
@@ -62,19 +203,62 @@
         "width": 6720,
         "height": 4480
       }
+    },
+    "real-estate-portfolio-pool_property": {
+      "original": "real-estate-portfolio-pool_property.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 57858
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 400
+      }
+    },
+    "roofing-team-professional_hero_1": {
+      "original": "roofing-team-professional_hero_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5496
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "workers-crew-staff_about_1": {
+      "original": "workers-crew-staff_about_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2176
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
     }
   },
   "stats": {
-    "totalImages": 8,
-    "totalSize": 22918678,
+    "totalImages": 23,
+    "totalSize": 23143978,
     "formats": {
+      "webp": {
+        "count": 14,
+        "totalSize": 9600420
+      },
+      "svg": {
+        "count": 5,
+        "totalSize": 1718
+      },
       "jpeg": {
         "count": 4,
         "totalSize": 13541840
-      },
-      "webp": {
-        "count": 4,
-        "totalSize": 9376838
       }
     }
   }

@@ -17,7 +17,9 @@ const localStorageMock = {
   setItem: vi.fn(),
   removeItem: vi.fn(),
   clear: vi.fn(),
-  get length() { return 0; },
+  get length() {
+    return 0;
+  },
   key: vi.fn(),
 };
 
@@ -29,7 +31,9 @@ const sessionStorageMock = {
   setItem: vi.fn(),
   removeItem: vi.fn(),
   clear: vi.fn(),
-  get length() { return 0; },
+  get length() {
+    return 0;
+  },
   key: vi.fn(),
 };
 

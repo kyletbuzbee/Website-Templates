@@ -13,14 +13,31 @@ function initializeNavigation() {
     const header = document.querySelector('.header');
     const navLinks = document.querySelectorAll('.nav-links a');
 
-    // Sticky header on scroll
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 100) {
-            header.classList.add('sticky');
-        } else {
-            header.classList.remove('sticky');
-        }
-    });
+    // Sticky header using IntersectionObserver
+    // Create a sentinel element at the top of the page
+    const scrollSentinel = document.createElement('div');
+    scrollSentinel.style.cssText = `
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        pointer-events: none;
+    `;
+    document.body.insertBefore(scrollSentinel, document.body.firstChild);
+
+    // Use IntersectionObserver for header styling
+    const headerObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                header.classList.remove('sticky');
+            } else {
+                header.classList.add('sticky');
+            }
+        });
+    }, { threshold: 0 });
+
+    headerObserver.observe(scrollSentinel);
 
     // Smooth scrolling for navigation links
     navLinks.forEach(link => {
@@ -129,15 +146,24 @@ function showNotification(message, type = 'info') {
     const existingNotifications = document.querySelectorAll('.notification');
     existingNotifications.forEach(notification => notification.remove());
 
-    // Create notification element
+    // Create notification element safely
     const notification = document.createElement('div');
     notification.className = `notification ${type}`;
-    notification.innerHTML = `
-        <div class="notification-content">
-            <span class="notification-message">${message}</span>
-            <button class="notification-close">&times;</button>
-        </div>
-    `;
+
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'notification-content';
+
+    const messageSpan = document.createElement('span');
+    messageSpan.className = 'notification-message';
+    messageSpan.textContent = message;
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'notification-close';
+    closeBtn.textContent = '×';
+
+    contentDiv.appendChild(messageSpan);
+    contentDiv.appendChild(closeBtn);
+    notification.appendChild(contentDiv);
 
     // Add to page
     document.body.appendChild(notification);
@@ -152,70 +178,14 @@ function showNotification(message, type = 'info') {
     }, 5000);
 
     // Close button functionality
-    const closeBtn = notification.querySelector('.notification-close');
-    closeBtn.addEventListener('click', () => {
+    const notificationCloseBtn = notification.querySelector('.notification-close');
+    notificationCloseBtn.addEventListener('click', () => {
         notification.classList.remove('show');
         setTimeout(() => notification.remove(), 300);
     });
 }
 
-// Add notification styles dynamically
-const notificationStyles = `
-    .notification {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        max-width: 400px;
-        z-index: 10000;
-        transform: translateX(100%);
-        transition: transform 0.3s ease;
-    }
 
-    .notification.show {
-        transform: translateX(0);
-    }
-
-    .notification-content {
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-left: 4px solid;
-    }
-
-    .notification.success .notification-content {
-        border-left-color: #10b981;
-    }
-
-    .notification.error .notification-content {
-        border-left-color: #ef4444;
-    }
-
-    .notification.info .notification-content {
-        border-left-color: #3b82f6;
-    }
-
-    .notification-close {
-        background: none;
-        border: none;
-        font-size: 1.5rem;
-        cursor: pointer;
-        color: #6b7280;
-        padding: 0;
-        margin-left: 1rem;
-    }
-
-    .notification-close:hover {
-        color: #374151;
-    }
-`;
-
-const styleSheet = document.createElement('style');
-styleSheet.textContent = notificationStyles;
-document.head.appendChild(styleSheet);
 
 // Form validation enhancement
 function enhanceFormValidation() {
@@ -277,27 +247,38 @@ function validateField(field) {
 // Initialize form validation
 document.addEventListener('DOMContentLoaded', function() {
     enhanceFormValidation();
+
+    // Add live region for form validation errors
+    const formLiveRegion = document.createElement('div');
+    formLiveRegion.setAttribute('aria-live', 'polite');
+    formLiveRegion.setAttribute('aria-atomic', 'true');
+    formLiveRegion.style.cssText = `
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    `;
+    document.body.appendChild(formLiveRegion);
+
+    // Update live region when form validation occurs
+    function updateFormLiveRegion(message) {
+        formLiveRegion.textContent = message;
+        setTimeout(() => {
+            formLiveRegion.textContent = '';
+        }, 1000);
+    }
+
+    // Override form validation to announce errors
+    const originalValidateField = validateField;
+    validateField = function(field) {
+        const result = originalValidateField.call(this, field);
+        if (!result) {
+            const errorMsg = field.parentNode.querySelector('.field-error');
+            if (errorMsg) {
+                updateFormLiveRegion(`Error: ${errorMsg.textContent}`);
+            }
+        }
+        return result;
+    };
 });
-
-// Add form validation styles
-const formValidationStyles = `
-    .field-error {
-        color: #ef4444;
-        font-size: 0.875rem;
-        margin-top: 0.25rem;
-    }
-
-    input.invalid, textarea.invalid, select.invalid {
-        border-color: #ef4444;
-        box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
-    }
-
-    input.valid, textarea.valid, select.valid {
-        border-color: #10b981;
-        box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
-    }
-`;
-
-const validationStyleSheet = document.createElement('style');
-validationStyleSheet.textContent = formValidationStyles;
-document.head.appendChild(validationStyleSheet);

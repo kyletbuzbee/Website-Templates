@@ -117,8 +117,8 @@ async function distributeAssets() {
         const ext = restOfFilename.substring(lastDotIndex + 1).toLowerCase();
 
         // Validate extension
-        if (!['jpg', 'jpeg', 'png', 'webp'].includes(ext)) {
-            console.warn(`⚠️  Skipping ${filename}: Invalid extension '${ext}'. Supported: jpg, jpeg, png, webp`);
+        if (!['jpg', 'jpeg', 'png', 'webp', 'svg'].includes(ext)) {
+            console.warn(`⚠️  Skipping ${filename}: Invalid extension '${ext}'. Supported: jpg, jpeg, png, webp, svg`);
             continue;
         }
 
@@ -255,7 +255,25 @@ async function convertImageForDistribution(inputPath, outputPath, format, analys
  * Basic image processing when advanced analysis is not available
  */
 async function processImageBasic(inputPath, industry, restOfName, targetDir) {
-    // Create multiple formats for better browser support
+    const ext = path.extname(inputPath).toLowerCase().substring(1); // Get extension without dot
+
+    // Handle SVG files differently - just copy them
+    if (ext === 'svg') {
+        const newFilename = `${industry}-${restOfName}.svg`;
+        const targetPath = path.join(targetDir, newFilename);
+
+        // Skip if SVG already exists
+        if (fs.existsSync(targetPath)) {
+            console.log(`  ⏭️  ${newFilename} already exists, skipping`);
+            return;
+        }
+
+        console.log(`  → ${newFilename} (copied)`);
+        await fs.copyFile(inputPath, targetPath);
+        return;
+    }
+
+    // Create multiple formats for raster images
     const formats = ['webp', 'jpeg']; // Basic fallback formats
 
     for (const format of formats) {
@@ -423,6 +441,21 @@ async function isValidIndustryFolder(folderPath) {
  */
 async function checkIfTargetFilesExist(inputPath, industry, restOfName, targetDir) {
     try {
+        const ext = path.extname(inputPath).toLowerCase().substring(1); // Get extension without dot
+
+        // For SVG files, just check if the SVG version exists
+        if (ext === 'svg') {
+            const expectedFilename = `${industry}-${restOfName}.svg`;
+            const expectedPath = path.join(targetDir, expectedFilename);
+
+            return {
+                allExist: fs.existsSync(expectedPath),
+                existingFiles: fs.existsSync(expectedPath) ? [expectedFilename] : [],
+                missingFiles: fs.existsSync(expectedPath) ? [] : [expectedFilename],
+                expectedFormats: ['svg']
+            };
+        }
+
         // Determine what formats would be generated for this image
         let expectedFormats = [];
 

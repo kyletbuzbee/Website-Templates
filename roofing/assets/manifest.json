@@ -1,8 +1,90 @@
 {
   "version": "1.0.0",
   "industry": "roofing",
-  "generated": "2025-11-09T07:39:38.050Z",
+  "generated": "2025-11-10T07:38:55.919Z",
   "images": {
+    "client-person-testimonial-2_avatar_3": {
+      "original": "client-person-testimonial-2_avatar_3.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "contact-icon-email": {
+      "original": "contact-icon-email.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 309
+      },
+      "dimensions": null
+    },
+    "contact-icon-location": {
+      "original": "contact-icon-location.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 276
+      },
+      "dimensions": null
+    },
+    "contact-icon-phone": {
+      "original": "contact-icon-phone.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 484
+      },
+      "dimensions": null
+    },
+    "customer-avatar-profile-1_avatar_2": {
+      "original": "customer-avatar-profile-1_avatar_2.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "customer-review-avatar-3_avatar_1": {
+      "original": "customer-review-avatar-3_avatar_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "photography-services-enterprise": {
+      "original": "photography-services-enterprise.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2326
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "roofing-": {
       "original": "roofing-.jpg",
       "formats": [
@@ -29,6 +111,19 @@
         "height": 600
       }
     },
+    "roofing-about-certified-team_team": {
+      "original": "roofing-about-certified-team_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 35336
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    },
     "roofing-crew-residential": {
       "original": "roofing-crew-residential.jpg",
       "formats": [
@@ -38,6 +133,19 @@
       "sizes": {
         "jpeg": 9825,
         "webp": 8932
+      },
+      "dimensions": {
+        "width": 231,
+        "height": 218
+      }
+    },
+    "roofing-crew-residential_team": {
+      "original": "roofing-crew-residential_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 11610
       },
       "dimensions": {
         "width": 231,
@@ -59,6 +167,32 @@
         "height": 600
       }
     },
+    "roofing-gallery-before-after_gallery": {
+      "original": "roofing-gallery-before-after_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 33788
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "roofing-gallery-before-after_work": {
+      "original": "roofing-gallery-before-after_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 33788
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
     "roofing-hero-professional-crew": {
       "original": "roofing-hero-professional-crew.jpg",
       "formats": [
@@ -73,6 +207,42 @@
         "width": 800,
         "height": 600
       }
+    },
+    "roofing-hero-professional-crew_gallery": {
+      "original": "roofing-hero-professional-crew_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 76250
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "roofing-hero-professional-crew_hero": {
+      "original": "roofing-hero-professional-crew_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 86960
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    },
+    "roofing-house-1": {
+      "original": "roofing-house-1.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 287
+      },
+      "dimensions": null
     },
     "roofing-image-": {
       "original": "roofing-image-.jpg",
@@ -104,6 +274,32 @@
         "height": 225
       }
     },
+    "roofing-logo-homehero_gallery": {
+      "original": "roofing-logo-homehero_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 9406
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "roofing-logo-homehero_hero": {
+      "original": "roofing-logo-homehero_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 3298
+      },
+      "dimensions": {
+        "width": 225,
+        "height": 225
+      }
+    },
     "roofing-team-members-photoshoot": {
       "original": "roofing-team-members-photoshoot.jpg",
       "formats": [
@@ -118,15 +314,58 @@
         "width": 275,
         "height": 183
       }
+    },
+    "roofing-team-members-photoshoot_team": {
+      "original": "roofing-team-members-photoshoot_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 12298
+      },
+      "dimensions": {
+        "width": 275,
+        "height": 183
+      }
+    },
+    "roofing-team-professional_hero_1": {
+      "original": "roofing-team-professional_hero_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5496
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "workers-crew-staff_about_1": {
+      "original": "workers-crew-staff_about_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2176
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
     }
   },
   "stats": {
-    "totalImages": 14,
-    "totalSize": 371116,
+    "totalImages": 33,
+    "totalSize": 687556,
     "formats": {
       "webp": {
-        "count": 8,
-        "totalSize": 178992
+        "count": 23,
+        "totalSize": 494076
+      },
+      "svg": {
+        "count": 4,
+        "totalSize": 1356
       },
       "jpeg": {
         "count": 6,

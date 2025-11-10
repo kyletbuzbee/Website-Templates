@@ -1,7 +1,7 @@
 // Business Professional Fitness Template JavaScript
 
 document.addEventListener('DOMContentLoaded', function() {
-// Initialize all interactive features
+    // Initialize all interactive features
     initializeNavigation();
     initializeTrainers();
     initializeTestimonials();
@@ -15,14 +15,31 @@ function initializeNavigation() {
     const header = document.querySelector('.header');
     const navLinks = document.querySelectorAll('.nav-links a');
 
-    // Sticky header on scroll
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 100) {
-            header.classList.add('sticky');
-        } else {
-            header.classList.remove('sticky');
-        }
-    });
+    // Sticky header using IntersectionObserver
+    // Create a sentinel element at the top of the page
+    const scrollSentinel = document.createElement('div');
+    scrollSentinel.style.cssText = `
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        pointer-events: none;
+    `;
+    document.body.insertBefore(scrollSentinel, document.body.firstChild);
+
+    // Use IntersectionObserver for header styling
+    const headerObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                header.classList.remove('sticky');
+            } else {
+                header.classList.add('sticky');
+            }
+        });
+    }, { threshold: 0 });
+
+    headerObserver.observe(scrollSentinel);
 
     // Smooth scrolling for navigation links
     navLinks.forEach(link => {
@@ -180,15 +197,25 @@ function showNotification(message, type = 'info') {
     const existingNotifications = document.querySelectorAll('.notification');
     existingNotifications.forEach(notification => notification.remove());
 
-    // Create notification element
+    // Create notification element safely
     const notification = document.createElement('div');
     notification.className = `notification ${type}`;
-    notification.innerHTML = `
-        <div class="notification-content">
-            <span class="notification-message">${message}</span>
-            <button class="notification-close">&times;</button>
-        </div>
-    `;
+
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'notification-content';
+
+    const messageSpan = document.createElement('span');
+    messageSpan.className = 'notification-message';
+    messageSpan.textContent = message;
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'notification-close';
+    closeBtn.textContent = '×';
+    closeBtn.setAttribute('aria-label', 'Close notification');
+
+    contentDiv.appendChild(messageSpan);
+    contentDiv.appendChild(closeBtn);
+    notification.appendChild(contentDiv);
 
     // Add to page
     document.body.appendChild(notification);
@@ -203,70 +230,14 @@ function showNotification(message, type = 'info') {
     }, 5000);
 
     // Close button functionality
-    const closeBtn = notification.querySelector('.notification-close');
-    closeBtn.addEventListener('click', () => {
+    const notificationCloseBtn = notification.querySelector('.notification-close');
+    notificationCloseBtn.addEventListener('click', () => {
         notification.classList.remove('show');
         setTimeout(() => notification.remove(), 300);
     });
 }
 
-// Add notification styles dynamically
-const notificationStyles = `
-    .notification {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        max-width: 400px;
-        z-index: 10000;
-        transform: translateX(100%);
-        transition: transform 0.3s ease;
-    }
 
-    .notification.show {
-        transform: translateX(0);
-    }
-
-    .notification-content {
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-left: 4px solid;
-    }
-
-    .notification.success .notification-content {
-        border-left-color: #10b981;
-    }
-
-    .notification.error .notification-content {
-        border-left-color: #ef4444;
-    }
-
-    .notification.info .notification-content {
-        border-left-color: #3b82f6;
-    }
-
-    .notification-close {
-        background: none;
-        border: none;
-        font-size: 1.5rem;
-        cursor: pointer;
-        color: #6b7280;
-        padding: 0;
-        margin-left: 1rem;
-    }
-
-    .notification-close:hover {
-        color: #374151;
-    }
-`;
-
-const styleSheet = document.createElement('style');
-styleSheet.textContent = notificationStyles;
-document.head.appendChild(styleSheet);
 
 // Form validation enhancement
 function enhanceFormValidation() {
@@ -328,30 +299,49 @@ function validateField(field) {
 // Initialize form validation
 document.addEventListener('DOMContentLoaded', function() {
     enhanceFormValidation();
+
+    // Add accessibility features
+    setupAccessibilityFeatures();
 });
 
-// Add form validation styles
-const formValidationStyles = `
-    .field-error {
-        color: #ef4444;
-        font-size: 0.875rem;
-        margin-top: 0.25rem;
+// Accessibility features for form validation
+function setupAccessibilityFeatures() {
+    // Add live region for dynamic content updates
+    const liveRegion = document.createElement('div');
+    liveRegion.setAttribute('aria-live', 'polite');
+    liveRegion.setAttribute('aria-atomic', 'true');
+    liveRegion.style.cssText = `
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    `;
+    document.body.appendChild(liveRegion);
+
+    // Update live region when form validation occurs
+    function updateLiveRegion(message) {
+        liveRegion.textContent = message;
+        setTimeout(() => {
+            liveRegion.textContent = '';
+        }, 1000);
     }
 
-    input.invalid, textarea.invalid, select.invalid {
-        border-color: #ef4444;
-        box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
-    }
+    // Override form validation to announce errors
+    const originalValidateField = validateField;
+    validateField = function(field) {
+        const result = originalValidateField.call(this, field);
+        if (!result) {
+            const errorMsg = field.parentNode.querySelector('.field-error');
+            if (errorMsg) {
+                updateLiveRegion(`Error: ${errorMsg.textContent}`);
+            }
+        }
+        return result;
+    };
+}
 
-    input.valid, textarea.valid, select.valid {
-        border-color: #10b981;
-        box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
-    }
-`;
 
-const validationStyleSheet = document.createElement('style');
-validationStyleSheet.textContent = formValidationStyles;
-document.head.appendChild(validationStyleSheet);
 
 // Live stats simulation for premium gym experience
 function initializeLiveStats() {
@@ -360,20 +350,56 @@ function initializeLiveStats() {
     if (heroSection) {
         const statsContainer = document.createElement('div');
         statsContainer.className = 'live-stats';
-        statsContainer.innerHTML = `
-            <div class="stat-item">
-                <div class="stat-number" id="memberCount">1,247</div>
-                <div class="stat-label">Active Members</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" id="classAttendance">89%</div>
-                <div class="stat-label">Class Attendance</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" id="equipmentUtilization">94%</div>
-                <div class="stat-label">Equipment Usage</div>
-            </div>
-        `;
+
+        // Create stat items safely
+        const memberItem = document.createElement('div');
+        memberItem.className = 'stat-item';
+
+        const memberNumber = document.createElement('div');
+        memberNumber.className = 'stat-number';
+        memberNumber.id = 'memberCount';
+        memberNumber.textContent = '1,247';
+
+        const memberLabel = document.createElement('div');
+        memberLabel.className = 'stat-label';
+        memberLabel.textContent = 'Active Members';
+
+        memberItem.appendChild(memberNumber);
+        memberItem.appendChild(memberLabel);
+
+        const attendanceItem = document.createElement('div');
+        attendanceItem.className = 'stat-item';
+
+        const attendanceNumber = document.createElement('div');
+        attendanceNumber.className = 'stat-number';
+        attendanceNumber.id = 'classAttendance';
+        attendanceNumber.textContent = '89%';
+
+        const attendanceLabel = document.createElement('div');
+        attendanceLabel.className = 'stat-label';
+        attendanceLabel.textContent = 'Class Attendance';
+
+        attendanceItem.appendChild(attendanceNumber);
+        attendanceItem.appendChild(attendanceLabel);
+
+        const utilizationItem = document.createElement('div');
+        utilizationItem.className = 'stat-item';
+
+        const utilizationNumber = document.createElement('div');
+        utilizationNumber.className = 'stat-number';
+        utilizationNumber.id = 'equipmentUtilization';
+        utilizationNumber.textContent = '94%';
+
+        const utilizationLabel = document.createElement('div');
+        utilizationLabel.className = 'stat-label';
+        utilizationLabel.textContent = 'Equipment Usage';
+
+        utilizationItem.appendChild(utilizationNumber);
+        utilizationItem.appendChild(utilizationLabel);
+
+        statsContainer.appendChild(memberItem);
+        statsContainer.appendChild(attendanceItem);
+        statsContainer.appendChild(utilizationItem);
 
         // Insert before hero actions
         const heroActions = heroSection.querySelector('.hero-actions');
@@ -454,63 +480,3 @@ function animateNumberChange(element, from, to, duration, suffix = '') {
 
     requestAnimationFrame(update);
 }
-
-// Add live stats styles
-const liveStatsStyles = `
-    .live-stats {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-        margin: 2rem 0;
-        flex-wrap: wrap;
-    }
-
-    .stat-item {
-        text-align: center;
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
-        border-radius: 12px;
-        padding: 1.5rem;
-        min-width: 120px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        transition: all 0.3s ease;
-    }
-
-    .stat-item:hover {
-        transform: translateY(-3px);
-        background: rgba(255, 255, 255, 0.15);
-    }
-
-    .stat-number {
-        font-size: 2rem;
-        font-weight: 800;
-        color: #fbbf24;
-        margin-bottom: 0.5rem;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .stat-label {
-        font-size: 0.9rem;
-        color: rgba(255, 255, 255, 0.9);
-        font-weight: 500;
-    }
-
-    @media (max-width: 768px) {
-        .live-stats {
-            gap: 1rem;
-        }
-
-        .stat-item {
-            min-width: 100px;
-            padding: 1rem;
-        }
-
-        .stat-number {
-            font-size: 1.5rem;
-        }
-    }
-`;
-
-const liveStatsStyleSheet = document.createElement('style');
-liveStatsStyleSheet.textContent = liveStatsStyles;
-document.head.appendChild(liveStatsStyleSheet);

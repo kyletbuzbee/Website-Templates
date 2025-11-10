@@ -1,8 +1,77 @@
 {
   "version": "1.0.0",
   "industry": "healthcare",
-  "generated": "2025-11-09T07:39:37.980Z",
+  "generated": "2025-11-10T07:38:55.808Z",
   "images": {
+    "client-person-testimonial-2_avatar_3": {
+      "original": "client-person-testimonial-2_avatar_3.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "contact-icon-email": {
+      "original": "contact-icon-email.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 309
+      },
+      "dimensions": null
+    },
+    "contact-icon-location": {
+      "original": "contact-icon-location.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 276
+      },
+      "dimensions": null
+    },
+    "contact-icon-phone": {
+      "original": "contact-icon-phone.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 484
+      },
+      "dimensions": null
+    },
+    "customer-avatar-profile-1_avatar_2": {
+      "original": "customer-avatar-profile-1_avatar_2.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "customer-review-avatar-3_avatar_1": {
+      "original": "customer-review-avatar-3_avatar_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
     "healthcare-facilities-x-ray": {
       "original": "healthcare-facilities-x-ray.jpg",
       "formats": [
@@ -16,6 +85,19 @@
       "dimensions": {
         "width": 3000,
         "height": 3750
+      }
+    },
+    "healthcare-facilities-x-ray_gallery": {
+      "original": "healthcare-facilities-x-ray_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 20968
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
       }
     },
     "healthcare-hero-medical-equipment": {
@@ -33,6 +115,32 @@
         "height": 2000
       }
     },
+    "healthcare-hero-medical-equipment_gallery": {
+      "original": "healthcare-hero-medical-equipment_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 18888
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "healthcare-hero-medical-equipment_hero": {
+      "original": "healthcare-hero-medical-equipment_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 58136
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
     "healthcare-hero-medical-team": {
       "original": "healthcare-hero-medical-team.jpg",
       "formats": [
@@ -46,6 +154,32 @@
       "dimensions": {
         "width": 3000,
         "height": 2055
+      }
+    },
+    "healthcare-hero-medical-team_gallery": {
+      "original": "healthcare-hero-medical-team_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 15052
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "healthcare-hero-medical-team_hero": {
+      "original": "healthcare-hero-medical-team_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 48912
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
       }
     },
     "healthcare-hero-patient-care": {
@@ -63,6 +197,32 @@
         "height": 2000
       }
     },
+    "healthcare-hero-patient-care_gallery": {
+      "original": "healthcare-hero-patient-care_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 26568
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "healthcare-hero-patient-care_hero": {
+      "original": "healthcare-hero-patient-care_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 78114
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
     "healthcare-hero-team-scrubs": {
       "original": "healthcare-hero-team-scrubs.jpg",
       "formats": [
@@ -76,6 +236,32 @@
       "dimensions": {
         "width": 3000,
         "height": 3000
+      }
+    },
+    "healthcare-hero-team-scrubs_gallery": {
+      "original": "healthcare-hero-team-scrubs_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 38788
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "healthcare-hero-team-scrubs_hero": {
+      "original": "healthcare-hero-team-scrubs_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 182596
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
       }
     },
     "healthcare-hero-waiting-room": {
@@ -93,6 +279,142 @@
         "height": 408
       }
     },
+    "healthcare-hero-waiting-room_gallery": {
+      "original": "healthcare-hero-waiting-room_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 22728
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "healthcare-hero-waiting-room_hero": {
+      "original": "healthcare-hero-waiting-room_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 17474
+      },
+      "dimensions": {
+        "width": 612,
+        "height": 408
+      }
+    },
+    "healthcare-hospital-medical-15": {
+      "original": "healthcare-hospital-medical-15.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 351
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-19": {
+      "original": "healthcare-hospital-medical-19.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 335
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-2": {
+      "original": "healthcare-hospital-medical-2.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 302
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-22": {
+      "original": "healthcare-hospital-medical-22.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 319
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-26": {
+      "original": "healthcare-hospital-medical-26.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1897
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-27": {
+      "original": "healthcare-hospital-medical-27.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 2082
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-31": {
+      "original": "healthcare-hospital-medical-31.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1855
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-35": {
+      "original": "healthcare-hospital-medical-35.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 1850
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-42": {
+      "original": "healthcare-hospital-medical-42.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 3965
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-43": {
+      "original": "healthcare-hospital-medical-43.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 4834
+      },
+      "dimensions": null
+    },
+    "healthcare-hospital-medical-5": {
+      "original": "healthcare-hospital-medical-5.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 388
+      },
+      "dimensions": null
+    },
     "healthcare-services-cardiology": {
       "original": "healthcare-services-cardiology.jpg",
       "formats": [
@@ -106,6 +428,19 @@
       "dimensions": {
         "width": 3000,
         "height": 2159
+      }
+    },
+    "healthcare-services-cardiology_work": {
+      "original": "healthcare-services-cardiology_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 22428
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
       }
     },
     "healthcare-services-primary-care": {
@@ -123,6 +458,19 @@
         "height": 408
       }
     },
+    "healthcare-services-primary-care_work": {
+      "original": "healthcare-services-primary-care_work.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 21406
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 408
+      }
+    },
     "healthcare-team-cardiology": {
       "original": "healthcare-team-cardiology.jpg",
       "formats": [
@@ -132,6 +480,19 @@
       "sizes": {
         "jpeg": 27111,
         "webp": 16704
+      },
+      "dimensions": {
+        "width": 612,
+        "height": 408
+      }
+    },
+    "healthcare-team-cardiology_team": {
+      "original": "healthcare-team-cardiology_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 22184
       },
       "dimensions": {
         "width": 612,
@@ -152,19 +513,75 @@
         "width": 612,
         "height": 323
       }
+    },
+    "healthcare-team-orthopedics_team": {
+      "original": "healthcare-team-orthopedics_team.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 13354
+      },
+      "dimensions": {
+        "width": 612,
+        "height": 323
+      }
+    },
+    "photography-services-enterprise": {
+      "original": "photography-services-enterprise.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2326
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "roofing-team-professional_hero_1": {
+      "original": "roofing-team-professional_hero_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5496
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "workers-crew-staff_about_1": {
+      "original": "workers-crew-staff_about_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2176
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
     }
   },
   "stats": {
-    "totalImages": 20,
-    "totalSize": 4262391,
+    "totalImages": 55,
+    "totalSize": 4901584,
     "formats": {
+      "webp": {
+        "count": 31,
+        "totalSize": 1958588
+      },
+      "svg": {
+        "count": 14,
+        "totalSize": 19247
+      },
       "jpeg": {
         "count": 10,
         "totalSize": 2923749
-      },
-      "webp": {
-        "count": 10,
-        "totalSize": 1338642
       }
     }
   }

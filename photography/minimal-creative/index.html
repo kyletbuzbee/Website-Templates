@@ -42,12 +42,8 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h2 class="hero-title">
-                        Every Moment
-                        <span class="hero-accent">Tells a Story</span>
+        <section class="hero hero-with-image">
+            <div class="hero-container"> style="background-image: url('../assets/images/photography-hero-road.webp'); background-size: cover; background-position: center;"
                     </h2>
                     <p class="hero-subtitle">Award-winning photographer specializing in portraits, weddings, events, and commercial photography. I capture the authentic emotions and beautiful details that make each moment unforgettable.</p>
 
@@ -66,22 +62,22 @@
                     <p class="section-subtitle">Professional photography for every occasion and purpose</p>
                 </div>
                 <div class="services-grid">
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">👨‍👩‍👧‍👦</div>
                         <h3 class="service-title">Portrait Photography</h3>
                         <p class="service-description">Beautiful, natural portraits for individuals, families, and children. Studio or location shoots with professional lighting and expert retouching.</p>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">💒</div>
                         <h3 class="service-title">Wedding Photography</h3>
                         <p class="service-description">Complete wedding day coverage from ceremony to reception. Candid moments, formal portraits, and all the emotions in between.</p>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">🎭</div>
                         <h3 class="service-title">Event Photography</h3>
                         <p class="service-description">Corporate events, parties, celebrations, and special occasions. Professional documentation with artistic flair.</p>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">🏢</div>
                         <h3 class="service-title">Commercial Photography</h3>
                         <p class="service-description">Product photography, architectural shots, and commercial imagery for businesses. High-quality images that tell your brand story.</p>
@@ -145,7 +141,11 @@
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        
+        
+
+        
+<section id="contact" class="contact">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Let's Create Something Beautiful</h2>
@@ -158,21 +158,21 @@
                             <p>Every photography project begins with a complimentary consultation where we discuss your vision, timeline, and goals. I want to understand your unique story and how we can best capture it through photography.</p>
                             <div class="contact-details">
                                 <div class="contact-item">
-                                    <div class="contact-icon">📞</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-phone.svg" alt="Contact Icon Phone" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Phone</div>
                                         <div class="contact-value">(555) 123-4567</div>
                                     </div>
                                 </div>
                                 <div class="contact-item">
-                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-email.svg" alt="Contact Icon Email" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Email</div>
                                         <div class="contact-value">hello@artisanlensphoto.com</div>
                                     </div>
                                 </div>
                                 <div class="contact-item">
-                                    <div class="contact-icon">📍</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-location.svg" alt="Contact Icon Location" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Studio</div>
                                         <div class="contact-value">456 Creative Avenue, Arts District</div>
@@ -238,7 +238,25 @@
                 </div>
             </div>
         </section>
-    </main>
+    <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Work</h2>
+                    <p class="section-subtitle">See our professional results</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="../assets/images/photography-hero-seamless.webp" alt="Photography Hero Seamless" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../assets/images/photography-ideas-trippy.webp" alt="Photography Ideas Trippy" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../assets/images/photography-services-enterprise.webp" alt="Photography Services Enterprise" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section></main>
 
     <footer class="footer">
         <div class="container">
@@ -268,7 +286,7 @@
                     <div class="footer-section">
                         <h4>Follow</h4>
                         <div class="social-links">
-                            <a href="#" aria-label="Instagram" class="social-link">📷</a>
+                            <a href="#" aria-label="Instagram" class="social-link"><img src="../assets/images/photography-camera-1.svg" alt="Photography Camera 1" loading="lazy" class="service-icon-img"></a>
                             <a href="#" aria-label="Facebook" class="social-link">📘</a>
                             <a href="#" aria-label="Pinterest" class="social-link">📌</a>
                         </div>

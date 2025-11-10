@@ -10,6 +10,7 @@ import './components/ThemeToggle';
 import './components/ContactForm';
 import './components/Navigation';
 import './components/Hero';
+import './components/Icon';
 
 // Custom elements are automatically registered when imported
 // They will be initialized when their tags are found in the DOM
@@ -1015,7 +1016,8 @@ document.addEventListener('click', event => {
 // Register service worker for PWA functionality
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker
+      .register('/sw.js')
       .then(registration => {
         console.log('✅ Service Worker registered:', registration.scope);
 

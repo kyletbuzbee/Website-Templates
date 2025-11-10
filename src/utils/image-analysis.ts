@@ -45,7 +45,8 @@ export async function analyzeImageContent(imagePath: string) {
     // Color analysis
     const { channels } = stats;
     const isGrayscale =
-      !channels || channels.length === 1 ||
+      !channels ||
+      channels.length === 1 ||
       (channels.length >= 3 &&
         channels[0]?.mean === channels[1]?.mean &&
         channels[1]?.mean === channels[2]?.mean);
@@ -223,7 +224,10 @@ async function getImageHistogram(imagePath: string): Promise<number[]> {
 
     return histogram;
   } catch (error) {
-    console.warn(`Could not generate histogram for ${imagePath}:`, error instanceof Error ? error.message : 'Unknown error');
+    console.warn(
+      `Could not generate histogram for ${imagePath}:`,
+      error instanceof Error ? error.message : 'Unknown error',
+    );
     return new Array(256).fill(1); // Uniform distribution fallback
   }
 }

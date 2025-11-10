@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Customization Engine - Demo</title>
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="customization-header">
+    <div class="container">
+      <h1>🎨 Template Customization Engine</h1>
+      <p>Real-time customization of colors, fonts, and styling for your website templates</p>
+    </div>
+  </header>
+
+  <!-- Customization Controls -->
+  <section class="customization-controls">
+    <div class="container">
+      <div class="controls-grid">
+        <!-- Color Picker -->
+        <div class="control-panel">
+          <color-picker id="colorPicker"></color-picker>
+        </div>
+
+        <!-- Font Selector -->
+        <div class="control-panel">
+          <font-selector id="fontSelector"></font-selector>
+        </div>
+
+        <!-- Rich Text Editor -->
+        <div class="control-panel">
+          <h3 style="margin-top: 0; color: var(--color-black);">📝 Content Editor</h3>
+          <p style="color: var(--color-gray-600); margin-bottom: 1rem;">Edit text content directly in templates</p>
+          <rich-text-editor
+            placeholder="Enter your custom content here..."
+            maxlength="500"
+            data-storage-key="demo-content">
+          </rich-text-editor>
+        </div>
+
+        <!-- Export Manager -->
+        <div class="control-panel">
+          <export-manager id="exportManager"></export-manager>
+        </div>
+
+        <!-- Media Selector -->
+        <div class="control-panel">
+          <media-selector id="mediaSelector" type="both"></media-selector>
+        </div>
+
+        <!-- SEO Optimizer -->
+        <div class="control-panel">
+          <seo-optimizer id="seoOptimizer"></seo-optimizer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Preview -->
+  <section class="live-preview">
+    <div class="container">
+      <h2>📱 Live Preview</h2>
+      <p>See your changes applied instantly to this sample template</p>
+
+      <!-- Sample Hero Section -->
+      <div class="preview-hero">
+        <h1 class="preview-heading">Your Business Name</h1>
+        <p class="preview-subtitle">Professional services that drive results and exceed expectations</p>
+        <button class="preview-button">Get Started Today</button>
+      </div>
+
+      <!-- Sample Content Section -->
+      <div class="preview-content">
+        <h2 class="preview-section-title">Why Choose Us?</h2>
+        <div class="preview-features">
+          <div class="preview-feature">
+            <h3>Expertise</h3>
+            <p>Years of experience in delivering exceptional results for our clients.</p>
+          </div>
+          <div class="preview-feature">
+            <h3>Quality</h3>
+            <p>We maintain the highest standards in everything we do.</p>
+          </div>
+          <div class="preview-feature">
+            <h3>Reliability</h3>
+            <p>Count on us to deliver on time, every time.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sample Contact Section -->
+      <div class="preview-contact">
+        <h2 class="preview-contact-title">Get In Touch</h2>
+        <form class="preview-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="preview-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Export Section -->
+  <section class="export-section">
+    <div class="container">
+      <h2>💾 Export Your Custom Template</h2>
+      <div class="export-options">
+        <button class="export-btn export-html">📄 Download HTML</button>
+        <button class="export-btn export-zip">📦 Download ZIP</button>
+        <button class="export-btn export-preview">👁️ Preview Template</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script type="module">
+    import {
+      ColorPicker,
+      FontSelector,
+      RichTextEditor,
+      ExportManager,
+      SEOOptimizer,
+      MediaSelector
+    } from '/src/components/index.ts';
+
+    // Initialize components
+    const colorPicker = document.getElementById('colorPicker');
+    const fontSelector = document.getElementById('fontSelector');
+
+    // Set up event listeners
+    if (colorPicker) {
+      colorPicker.onChange = (scheme) => {
+        console.log('Color scheme changed:', scheme);
+        // Update preview styles
+        updatePreviewStyles();
+      };
+    }
+
+    if (fontSelector) {
+      fontSelector.onChange = (scheme) => {
+        console.log('Font scheme changed:', scheme);
+        // Update preview styles
+        updatePreviewStyles();
+      };
+    }
+
+    function updatePreviewStyles() {
+      // Force re-render of preview elements with new CSS variables
+      const previewElements = document.querySelectorAll('.preview-heading, .preview-subtitle, .preview-button, .preview-section-title, .preview-contact-title');
+      previewElements.forEach(el => {
+        // Trigger reflow to apply new styles
+        el.style.display = 'none';
+        el.offsetHeight; // Trigger reflow
+        el.style.display = '';
+      });
+    }
+
+    // Export functionality
+    document.querySelectorAll('.export-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const action = e.target.classList.contains('export-html') ? 'html' :
+                      e.target.classList.contains('export-zip') ? 'zip' : 'preview';
+
+        switch(action) {
+          case 'html':
+            exportAsHTML();
+            break;
+          case 'zip':
+            exportAsZIP();
+            break;
+          case 'preview':
+            openTemplatePreview();
+            break;
+        }
+      });
+    });
+
+    function exportAsHTML() {
+      // Get current styles
+      const styles = getComputedStyles();
+
+      // Create HTML content
+      const html = createCustomHTML(styles);
+
+      // Download as file
+      downloadFile('custom-template.html', html, 'text/html');
+    }
+
+    function exportAsZIP() {
+      alert('ZIP export functionality coming soon! 🚧');
+    }
+
+    function openTemplatePreview() {
+      // Open in new window with current customizations
+      const previewWindow = window.open('', '_blank');
+      if (previewWindow) {
+        const styles = getComputedStyles();
+        const html = createCustomHTML(styles);
+        previewWindow.document.write(html);
+        previewWindow.document.close();
+      }
+    }
+
+    function getComputedStyles() {
+      const root = document.documentElement;
+      const styles = {};
+
+      // Get CSS custom properties
+      const cssVars = [
+        '--color-primary', '--color-secondary', '--color-accent',
+        '--color-white', '--color-black', '--color-gray-600',
+        '--font-heading', '--font-body'
+      ];
+
+      cssVars.forEach(varName => {
+        styles[varName] = getComputedStyle(root).getPropertyValue(varName).trim();
+      });
+
+      return styles;
+    }
+
+    function createCustomHTML(styles) {
+      return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Template</title>
+  <style>
+    :root {
+      --color-primary: ${styles['--color-primary'] || '#2563eb'};
+      --color-secondary: ${styles['--color-secondary'] || '#64748b'};
+      --color-accent: ${styles['--color-accent'] || '#f59e0b'};
+      --color-white: ${styles['--color-white'] || '#ffffff'};
+      --color-black: ${styles['--color-black'] || '#0f172a'};
+      --color-gray-600: ${styles['--color-gray-600'] || '#475569'};
+      --font-heading: ${styles['--font-heading'] || 'Inter, sans-serif'};
+      --font-body: ${styles['--font-body'] || 'Inter, sans-serif'};
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-black);
+      background: var(--color-white);
+      margin: 0;
+      padding: 0;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      margin: 0 0 2rem 0;
+    }
+
+    .btn {
+      background: var(--color-accent);
+      color: var(--color-black);
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Your Business Name</h1>
+    <p>Professional services that drive results</p>
+    <button class="btn">Get Started Today</button>
+  </div>
+</body>
+</html>`;
+    }
+
+    function downloadFile(filename, content, mimeType) {
+      const blob = new Blob([content], { type: mimeType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // Initialize preview styles
+    updatePreviewStyles();
+  </script>
+</body>
+</html>

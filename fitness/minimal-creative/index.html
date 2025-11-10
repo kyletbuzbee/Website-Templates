@@ -42,11 +42,12 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="hero-container">
+        <section class="hero hero-with-image">
+            <div class="hero-container"> style="background-image: url('../assets/images/fitness-hero-strength-training.webp'); background-size: cover; background-position: center;"
                 <div class="hero-content">
                     <h2 class="hero-title">
                         Unleash Your Potential
+                        
                         <span class="hero-accent">Achieve Your Goals</span>
                     </h2>
                     <p class="hero-subtitle">Join our community of fitness enthusiasts and achieve your health and wellness goals with expert guidance and state-of-the-art equipment.</p>
@@ -74,23 +75,23 @@
                     <p class="section-subtitle">Everything you need to reach your fitness goals</p>
                 </div>
                 <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">💪</div>
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
+                        <div class="service-icon"><img src="../assets/images/fitness-icon-dumbbell.svg" alt="Fitness Icon Dumbbell" loading="lazy" class="service-icon-img"></div>
                         <h3 class="service-title">Personal Training</h3>
                         <p class="service-description">One-on-one training sessions tailored to your fitness goals and needs with certified professional trainers.</p>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">🏋️</div>
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
+                        <div class="service-icon"><img src="../assets/images/fitness-icon-weight.svg" alt="Fitness Icon Weight" loading="lazy" class="service-icon-img"></div>
                         <h3 class="service-title">Strength Training</h3>
                         <p class="service-description">State-of-the-art equipment and programs for building strength and muscle with expert guidance.</p>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">🧘</div>
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
+                        <div class="service-icon"><img src="../assets/images/fitness-icon-yoga.svg" alt="Fitness Icon Yoga" loading="lazy" class="service-icon-img"></div>
                         <h3 class="service-title">Yoga & Wellness</h3>
                         <p class="service-description">Mind-body wellness classes including yoga, meditation, and stress relief in a calming environment.</p>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">🏃</div>
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
+                        <div class="service-icon"><img src="../assets/images/fitness-icon-treadmill.svg" alt="Fitness Icon Treadmill" loading="lazy" class="service-icon-img"></div>
                         <h3 class="service-title">Group Classes</h3>
                         <p class="service-description">High-energy group fitness classes for all skill levels and interests, from HIIT to dance cardio.</p>
                     </div>
@@ -108,7 +109,7 @@
                     </div>
                     <div class="about-image">
                         <div class="about-image">
-              <img src="assets/workers-crew-staff_about_1.webp" alt="About us" loading="lazy">
+              <img src="../assets/images/workers-crew-staff_about_1.webp" alt="About us" loading="lazy">
             </div>
                     </div>
                 </div>
@@ -153,7 +154,11 @@
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        
+        
+
+        
+<section id="contact" class="contact">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Start Your Journey Today</h2>
@@ -166,21 +171,21 @@
                             <p>Experience everything Peak Performance has to offer with our complimentary trial week. No commitment required, just results.</p>
                             <div class="contact-details">
                                 <div class="contact-item">
-                                    <div class="contact-icon">📞</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-phone.svg" alt="Contact Icon Phone" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Phone</div>
                                         <div class="contact-value">(555) 123-4567</div>
                                     </div>
                                 </div>
                                 <div class="contact-item">
-                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-email.svg" alt="Contact Icon Email" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Email</div>
                                         <div class="contact-value">info@peakperformancegym.com</div>
                                     </div>
                                 </div>
                                 <div class="contact-item">
-                                    <div class="contact-icon">📍</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-location.svg" alt="Contact Icon Location" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Location</div>
                                         <div class="contact-value">123 Fitness Street, Downtown</div>
@@ -239,7 +244,20 @@
                 </div>
             </div>
         </section>
-    </main>
+    <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Work</h2>
+                    <p class="section-subtitle">See our professional results</p>
+                </div>
+                <div class="gallery-filters">
+                    <button class="gallery-filter active" data-filter="lightbox">Lightbox</button>
+                    <button class="gallery-filter" data-filter="carousel">Carousel</button>
+                    <button class="gallery-filter" data-filter="grid">Grid</button>
+                </div>
+                <image-gallery id="fitness-gallery"></image-gallery>
+            </div>
+        </section></main>
 
     <footer class="footer">
         <div class="container">

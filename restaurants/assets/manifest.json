@@ -1,0 +1,159 @@
+{
+  "version": "1.0.0",
+  "industry": "restaurants",
+  "generated": "2025-11-10T07:38:55.909Z",
+  "images": {
+    "client-person-testimonial-2_avatar_3": {
+      "original": "client-person-testimonial-2_avatar_3.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "contact-icon-email": {
+      "original": "contact-icon-email.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 309
+      },
+      "dimensions": null
+    },
+    "contact-icon-location": {
+      "original": "contact-icon-location.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 276
+      },
+      "dimensions": null
+    },
+    "contact-icon-phone": {
+      "original": "contact-icon-phone.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 484
+      },
+      "dimensions": null
+    },
+    "customer-avatar-profile-1_avatar_2": {
+      "original": "customer-avatar-profile-1_avatar_2.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "customer-review-avatar-3_avatar_1": {
+      "original": "customer-review-avatar-3_avatar_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "photography-services-enterprise": {
+      "original": "photography-services-enterprise.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2326
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "restaurants-coffee-3": {
+      "original": "restaurants-coffee-3.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 386
+      },
+      "dimensions": null
+    },
+    "restaurants-plate-2": {
+      "original": "restaurants-plate-2.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 344
+      },
+      "dimensions": null
+    },
+    "restaurants-utensils-1": {
+      "original": "restaurants-utensils-1.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 330
+      },
+      "dimensions": null
+    },
+    "roofing-team-professional_hero_1": {
+      "original": "roofing-team-professional_hero_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5496
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "workers-crew-staff_about_1": {
+      "original": "workers-crew-staff_about_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2176
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
+    }
+  },
+  "stats": {
+    "totalImages": 12,
+    "totalSize": 14479,
+    "formats": {
+      "webp": {
+        "count": 6,
+        "totalSize": 12350
+      },
+      "svg": {
+        "count": 6,
+        "totalSize": 2129
+      }
+    }
+  }
+}

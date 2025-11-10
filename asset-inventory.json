@@ -1,0 +1,3079 @@
+{
+  "contractors-trades": {
+    "minimal-creative": {
+      "images": [
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-electrical.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-electrical.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--hvac-airconditioning.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--hvac-airconditioning.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--projects-swinginghammer.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--projects-swinginghammer.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-blueprint.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-blueprint.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractors-icon-hardhat.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractors-icon-hardhat.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-electrical.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-electrical.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--hvac-airconditioning.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--hvac-airconditioning.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--projects-swinginghammer.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--projects-swinginghammer.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-blueprint.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-blueprint.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractors-icon-hardhat.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractors-icon-hardhat.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "business-professional": {
+      "images": [
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--hvac-airconditioning.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--hvac-airconditioning.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--projects-swinginghammer.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--projects-swinginghammer.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-blueprint.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-blueprint.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractors-icon-hardhat.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractors-icon-hardhat.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--hvac-airconditioning.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--hvac-airconditioning.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--projects-swinginghammer.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--projects-swinginghammer.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-blueprint.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-blueprint.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractors-icon-hardhat.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractors-icon-hardhat.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "professional-enterprise": {
+      "images": [
+        {
+          "src": "../assets/images/contractors-trades-icon-contractors-icon-hardhat.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractors-icon-hardhat.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-electrical.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-electrical.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../../../assets/images/workers-crew-staff.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\workers-crew-staff.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/maintenance-project-roofing.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\maintenance-project-roofing.png",
+          "exists": false,
+          "type": "raster",
+          "category": "work"
+        },
+        {
+          "src": "../../../assets/images/construction-banner.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\construction-banner.png",
+          "exists": false,
+          "type": "raster",
+          "category": "hero"
+        },
+        {
+          "src": "../../../assets/images/roofing-installation-work.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\roofing-installation-work.png",
+          "exists": false,
+          "type": "raster",
+          "category": "work"
+        },
+        {
+          "src": "../../../assets/images/customer-avatar-profile-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\customer-avatar-profile-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/customer-person-testimonial-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\customer-person-testimonial-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/customer-review-avatar-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\customer-review-avatar-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/contractors-trades--hvac-airconditioning.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--hvac-airconditioning.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--projects-swinginghammer.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--projects-swinginghammer.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-blueprint.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-blueprint.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractors-icon-hardhat.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractors-icon-hardhat.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "../../../assets/images/workers-crew-staff.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\workers-crew-staff.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/maintenance-project-roofing.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\maintenance-project-roofing.png",
+          "exists": false,
+          "type": "raster",
+          "category": "work"
+        },
+        {
+          "src": "../../../assets/images/construction-banner.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\construction-banner.png",
+          "exists": false,
+          "type": "raster",
+          "category": "hero"
+        },
+        {
+          "src": "../../../assets/images/roofing-installation-work.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\roofing-installation-work.png",
+          "exists": false,
+          "type": "raster",
+          "category": "work"
+        },
+        {
+          "src": "../../../assets/images/customer-avatar-profile-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\customer-avatar-profile-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/customer-person-testimonial-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\customer-person-testimonial-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/customer-review-avatar-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\customer-review-avatar-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/contractors-trades-icon-contractors-icon-hardhat.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractors-icon-hardhat.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-electrical.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-electrical.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-toolbox.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-toolbox.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--hvac-airconditioning.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--hvac-airconditioning.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades--projects-swinginghammer.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades--projects-swinginghammer.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractor-icon-blueprint.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractor-icon-blueprint.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contractors-trades-icon-contractors-icon-hardhat.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contractors-trades-icon-contractors-icon-hardhat.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\contractors-trades\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    }
+  },
+  "fitness": {
+    "minimal-creative": {
+      "images": [
+        {
+          "src": "../assets/images/fitness-icon-dumbbell.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-dumbbell.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-weight.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-weight.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-yoga.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-yoga.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-treadmill.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-treadmill.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/workers-crew-staff_about_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\workers-crew-staff_about_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/fitness-icon-dumbbell.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-dumbbell.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-weight.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-weight.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-yoga.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-yoga.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-treadmill.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-treadmill.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/workers-crew-staff_about_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\workers-crew-staff_about_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "business-professional": {
+      "images": [
+        {
+          "src": "../assets/images/fitness-icon-weight.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-weight.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-dumbbell.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-dumbbell.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-yoga.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-yoga.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-treadmill.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-treadmill.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/workers-crew-staff_about_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\workers-crew-staff_about_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-classes-pilates.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-classes-pilates.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-equipment-cable-machine.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-equipment-cable-machine.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-trainers-certified-crossfit.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-trainers-certified-crossfit.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-hero-group-class.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-hero-group-class.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/fitness-icon-weight.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-weight.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-dumbbell.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-dumbbell.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-yoga.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-yoga.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-icon-treadmill.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-icon-treadmill.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/workers-crew-staff_about_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\workers-crew-staff_about_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-classes-pilates.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-classes-pilates.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-equipment-cable-machine.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-equipment-cable-machine.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-trainers-certified-crossfit.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-trainers-certified-crossfit.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-hero-group-class.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-hero-group-class.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        }
+      ]
+    },
+    "professional-enterprise": {
+      "images": [
+        {
+          "src": "../assets/images/workers-crew-staff_about_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\workers-crew-staff_about_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-classes-pilates.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-classes-pilates.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-equipment-cable-machine.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-equipment-cable-machine.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-trainers-certified-crossfit.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-trainers-certified-crossfit.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-hero-group-class.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-hero-group-class.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/workers-crew-staff_about_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\workers-crew-staff_about_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/fitness-classes-pilates.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-classes-pilates.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-equipment-cable-machine.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-equipment-cable-machine.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-trainers-certified-crossfit.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-trainers-certified-crossfit.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/fitness-hero-group-class.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\fitness\\assets\\images\\fitness-hero-group-class.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        }
+      ]
+    }
+  },
+  "healthcare": {
+    "minimal-creative": {
+      "images": [
+        {
+          "src": "../assets/images/healthcare-hospital-medical-2.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-2.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hospital-medical-19.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-19.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hero-medical-equipment.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hero-medical-equipment.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/healthcare-team-cardiology.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-team-cardiology.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/healthcare-services-primary-care.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-services-primary-care.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/healthcare-facilities-x-ray.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-facilities-x-ray.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/healthcare-hospital-medical-2.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-2.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hospital-medical-19.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-19.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hero-medical-equipment.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hero-medical-equipment.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/healthcare-team-cardiology.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-team-cardiology.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/healthcare-services-primary-care.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-services-primary-care.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/healthcare-facilities-x-ray.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-facilities-x-ray.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        }
+      ]
+    },
+    "business-professional": {
+      "images": [
+        {
+          "src": "../assets/images/healthcare-hospital-medical-2.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-2.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hospital-medical-19.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-19.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hero-medical-equipment.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hero-medical-equipment.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/healthcare-team-cardiology.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-team-cardiology.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/healthcare-services-primary-care.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-services-primary-care.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/healthcare-facilities-x-ray.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-facilities-x-ray.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/healthcare-hospital-medical-2.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-2.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hospital-medical-19.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-19.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hero-medical-equipment.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hero-medical-equipment.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/healthcare-team-cardiology.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-team-cardiology.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/healthcare-services-primary-care.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-services-primary-care.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/healthcare-facilities-x-ray.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-facilities-x-ray.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        }
+      ]
+    },
+    "professional-enterprise": {
+      "images": [
+        {
+          "src": "../assets/images/healthcare-hospital-medical-2.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-2.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hospital-medical-5.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-5.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../../../assets/images/healthcare-team-professional.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\healthcare-team-professional.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/doctor-profile-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\doctor-profile-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/doctor-profile-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\doctor-profile-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/doctor-profile-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\doctor-profile-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/healthcare-hospital-medical-2.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-2.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../../../assets/images/patient-testimonial-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\patient-testimonial-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/patient-testimonial-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\patient-testimonial-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/patient-testimonial-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\patient-testimonial-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/healthcare-hero-medical-equipment.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hero-medical-equipment.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/healthcare-team-cardiology.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-team-cardiology.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/healthcare-services-primary-care.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-services-primary-care.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/healthcare-facilities-x-ray.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-facilities-x-ray.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "../../../assets/images/healthcare-team-professional.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\healthcare-team-professional.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/doctor-profile-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\doctor-profile-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/doctor-profile-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\doctor-profile-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/doctor-profile-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\doctor-profile-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/patient-testimonial-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\patient-testimonial-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/patient-testimonial-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\patient-testimonial-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/patient-testimonial-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\patient-testimonial-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/healthcare-hospital-medical-2.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-2.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hospital-medical-5.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-5.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hospital-medical-2.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hospital-medical-2.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/healthcare-hero-medical-equipment.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-hero-medical-equipment.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/healthcare-team-cardiology.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-team-cardiology.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/healthcare-services-primary-care.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-services-primary-care.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/healthcare-facilities-x-ray.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\healthcare-facilities-x-ray.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "gallery"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\healthcare\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    }
+  },
+  "photography": {
+    "minimal-creative": {
+      "images": [
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-hero-seamless.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-hero-seamless.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/photography-ideas-trippy.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-ideas-trippy.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-services-enterprise.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-services-enterprise.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-hero-seamless.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-hero-seamless.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/photography-ideas-trippy.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-ideas-trippy.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-services-enterprise.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-services-enterprise.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "business-professional": {
+      "images": [
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-hero-seamless.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-hero-seamless.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/photography-ideas-trippy.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-ideas-trippy.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-services-enterprise.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-services-enterprise.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-hero-seamless.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-hero-seamless.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/photography-ideas-trippy.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-ideas-trippy.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-services-enterprise.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-services-enterprise.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "professional-enterprise": {
+      "images": [
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-hero-seamless.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-hero-seamless.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/photography-ideas-trippy.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-ideas-trippy.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-services-enterprise.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-services-enterprise.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-hero-seamless.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-hero-seamless.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/photography-ideas-trippy.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-ideas-trippy.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-services-enterprise.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-services-enterprise.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/photography-camera-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\photography\\assets\\images\\photography-camera-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    }
+  },
+  "real-estate": {
+    "minimal-creative": {
+      "images": [
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "business-professional": {
+      "images": [
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "professional-enterprise": {
+      "images": [
+        {
+          "src": "../../../assets/images/luxury-home-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\luxury-home-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../../../assets/images/commercial-building-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\commercial-building-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../../../assets/images/suburban-home-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\suburban-home-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../../../assets/images/apartment-complex-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\apartment-complex-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../../../assets/images/real-estate-team-professional.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\real-estate-team-professional.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/agent-profile-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\agent-profile-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/agent-profile-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\agent-profile-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/agent-profile-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\agent-profile-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../../../assets/images/client-testimonial-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\client-testimonial-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/client-testimonial-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\client-testimonial-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/client-testimonial-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\client-testimonial-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "../../../assets/images/luxury-home-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\luxury-home-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "other"
+        },
+        {
+          "src": "../../../assets/images/commercial-building-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\commercial-building-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "property"
+        },
+        {
+          "src": "../../../assets/images/suburban-home-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\suburban-home-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "other"
+        },
+        {
+          "src": "../../../assets/images/apartment-complex-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\apartment-complex-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "property"
+        },
+        {
+          "src": "../../../assets/images/real-estate-team-professional.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\real-estate-team-professional.png",
+          "exists": false,
+          "type": "raster",
+          "category": "team"
+        },
+        {
+          "src": "../../../assets/images/agent-profile-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\agent-profile-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/agent-profile-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\agent-profile-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/agent-profile-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\agent-profile-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/client-testimonial-1.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\client-testimonial-1.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/client-testimonial-2.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\client-testimonial-2.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        },
+        {
+          "src": "../../../assets/images/client-testimonial-3.png",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\assets\\images\\client-testimonial-3.png",
+          "exists": false,
+          "type": "raster",
+          "category": "avatar"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-building.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-building.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/real-estate-icon-house.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\real-estate\\assets\\images\\real-estate-icon-house.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        }
+      ]
+    }
+  },
+  "restaurants": {
+    "minimal-creative": {
+      "images": [
+        {
+          "src": "../assets/images/restaurants-utensils-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\restaurants-utensils-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/restaurants-utensils-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\restaurants-utensils-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "business-professional": {
+      "images": [
+        {
+          "src": "../assets/images/restaurants-utensils-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\restaurants-utensils-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/restaurants-utensils-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\restaurants-utensils-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    },
+    "professional-enterprise": {
+      "images": [
+        {
+          "src": "../assets/images/restaurants-utensils-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\restaurants-utensils-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/restaurants-utensils-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\restaurants-utensils-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\restaurants\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        }
+      ]
+    }
+  },
+  "roofing": {
+    "minimal-creative": {
+      "images": [
+        {
+          "src": "../assets/images/roofing-team-professional_hero_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-team-professional_hero_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/roofing-house-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-house-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/roofing-house-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-house-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/roofing-crew-residential_about_3.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-crew-residential_about_3.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/customer-review-avatar-3_avatar_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\customer-review-avatar-3_avatar_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/customer-avatar-profile-1_avatar_2.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\customer-avatar-profile-1_avatar_2.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/client-person-testimonial-2_avatar_3.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\client-person-testimonial-2_avatar_3.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-crew-residential.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-crew-residential.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-gallery-before-after.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-gallery-before-after.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/roofing-team-members-photoshoot.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-team-members-photoshoot.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "../assets/images/roofing-crew-residential_about_3.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-crew-residential_about_3.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/roofing-team-professional_hero_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-team-professional_hero_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "hero"
+        },
+        {
+          "src": "../assets/images/roofing-house-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-house-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/roofing-house-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-house-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/customer-review-avatar-3_avatar_1.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\customer-review-avatar-3_avatar_1.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/customer-avatar-profile-1_avatar_2.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\customer-avatar-profile-1_avatar_2.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/client-person-testimonial-2_avatar_3.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\client-person-testimonial-2_avatar_3.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "avatar"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-crew-residential.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-crew-residential.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-gallery-before-after.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-gallery-before-after.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/roofing-team-members-photoshoot.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-team-members-photoshoot.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        }
+      ]
+    },
+    "business-professional": {
+      "images": [
+        {
+          "src": "../assets/images/roofing-house-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-house-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-crew-residential.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-crew-residential.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-gallery-before-after.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-gallery-before-after.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/roofing-team-members-photoshoot.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-team-members-photoshoot.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "icons": [],
+      "missing": [
+        {
+          "src": "assets\\workers-crew-staff_about_1.webp",
+          "absolutePath": "assets\\workers-crew-staff_about_1.webp",
+          "exists": false,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "existing": [
+        {
+          "src": "../assets/images/roofing-house-1.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-house-1.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "property"
+        },
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-email.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-email.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/contact-icon-location.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-location.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-crew-residential.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-crew-residential.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-gallery-before-after.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-gallery-before-after.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/roofing-team-members-photoshoot.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-team-members-photoshoot.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        }
+      ]
+    },
+    "professional-enterprise": {
+      "images": [
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-crew-residential.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-crew-residential.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-gallery-before-after.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-gallery-before-after.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/roofing-team-members-photoshoot.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-team-members-photoshoot.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        }
+      ],
+      "icons": [],
+      "missing": [],
+      "existing": [
+        {
+          "src": "../assets/images/contact-icon-phone.svg",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\contact-icon-phone.svg",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-crew-residential.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-crew-residential.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "other"
+        },
+        {
+          "src": "../assets/images/roofing-gallery-before-after.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-gallery-before-after.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "work"
+        },
+        {
+          "src": "../assets/images/roofing-team-members-photoshoot.webp",
+          "absolutePath": "C:\\Users\\kylet\\OneDrive\\PROJECTS\\Website Templates\\ProductionReadyTemplates\\roofing\\assets\\images\\roofing-team-members-photoshoot.webp",
+          "exists": true,
+          "type": "vector",
+          "category": "team"
+        }
+      ]
+    }
+  }
+}

@@ -43,12 +43,8 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h2 class="hero-title">
-                        Enterprise Fitness
-                        <span class="hero-accent">Excellence</span>
+        <section class="hero hero-with-image">
+            <div class="hero-container"> style="background-image: url('../assets/images/fitness-hero-strength-training.webp'); background-size: cover; background-position: center;"
                     </h2>
                     <p class="hero-subtitle">Transform workplace wellness with advanced fitness solutions. Elite Fitness Pro delivers comprehensive corporate wellness programs, real-time health analytics, and enterprise-grade fitness management platforms that drive employee engagement and business results.</p>
 
@@ -75,7 +71,7 @@
                     <p class="section-subtitle">Advanced fitness and wellness platforms designed for large organizations</p>
                 </div>
                 <div class="services-grid">
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">🏢</div>
                         <h3 class="service-title">Corporate Wellness Programs</h3>
                         <p class="service-description">Customized wellness initiatives that integrate fitness tracking, health challenges, and employee engagement programs. Reduce healthcare costs while improving productivity and morale.</p>
@@ -84,7 +80,7 @@
                             <span class="feature-tag">Health Challenges</span>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">📊</div>
                         <h3 class="service-title">Advanced Health Analytics</h3>
                         <p class="service-description">Real-time health metrics, predictive analytics, and comprehensive reporting dashboards. Track wellness program ROI and make data-driven decisions for employee health.</p>
@@ -93,7 +89,7 @@
                             <span class="feature-tag">ROI Tracking</span>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">🔒</div>
                         <h3 class="service-title">Enterprise Security</h3>
                         <p class="service-description">Bank-level encryption, HIPAA compliance, and enterprise-grade security protocols. Your employee health data is protected with the highest standards of privacy and security.</p>
@@ -102,7 +98,7 @@
                             <span class="feature-tag">End-to-End Security</span>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">🌐</div>
                         <h3 class="service-title">System Integration</h3>
                         <p class="service-description">Seamless integration with HR systems, benefits platforms, and existing wellness programs. API-first architecture ensures compatibility with your technology ecosystem.</p>
@@ -111,7 +107,7 @@
                             <span class="feature-tag">API Platform</span>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">👥</div>
                         <h3 class="service-title">Team Challenges</h3>
                         <p class="service-description">Engaging fitness challenges and competitions that boost team morale and participation. Gamified wellness programs that drive sustained healthy behaviors across your organization.</p>
@@ -120,7 +116,7 @@
                             <span class="feature-tag">Gamification</span>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
                         <div class="service-icon">🎯</div>
                         <h3 class="service-title">Personalized Coaching</h3>
                         <p class="service-description">AI-powered personalized fitness coaching and nutrition guidance. One-on-one virtual coaching sessions and 24/7 access to certified fitness professionals.</p>
@@ -205,14 +201,18 @@
                     </div>
                     <div class="about-image">
                         <div class="about-image">
-              <img src="assets/workers-crew-staff_about_1.webp" alt="Enterprise wellness" loading="lazy">
+              <img src="../assets/images/workers-crew-staff_about_1.webp" alt="Enterprise wellness" loading="lazy">
             </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        
+        
+
+        
+<section id="contact" class="contact">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Enterprise Wellness Consultation</h2>
@@ -225,14 +225,14 @@
                             <p>Our enterprise wellness specialists work directly with your HR, benefits, and C-suite teams to design and implement comprehensive wellness programs. Schedule a personalized consultation to discover how Elite Fitness Pro can revolutionize your corporate wellness strategy.</p>
                             <div class="contact-details">
                                 <div class="contact-item">
-                                    <div class="contact-icon">📞</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-phone.svg" alt="Contact Icon Phone" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Enterprise Sales</div>
                                         <div class="contact-value">(555) 123-4567</div>
                                     </div>
                                 </div>
                                 <div class="contact-item">
-                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-email.svg" alt="Contact Icon Email" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Email</div>
                                         <div class="contact-value">enterprise@elitefitnesspro.com</div>
@@ -334,7 +334,28 @@
                 </div>
             </div>
         </section>
-    </main>
+    <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Work</h2>
+                    <p class="section-subtitle">See our professional results</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="../assets/images/fitness-classes-pilates.webp" alt="Fitness Classes Pilates" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../assets/images/fitness-equipment-cable-machine.webp" alt="Fitness Equipment Cable Machine" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../assets/images/fitness-trainers-certified-crossfit.webp" alt="Fitness Trainers Certified Crossfit" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../assets/images/fitness-hero-group-class.webp" alt="Fitness Hero Group Class" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section></main>
 
     <footer class="footer">
         <div class="container">

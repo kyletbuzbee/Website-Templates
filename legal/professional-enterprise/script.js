@@ -215,16 +215,30 @@ function showNotification(message, type = 'info') {
     const existingNotifications = document.querySelectorAll('.notification');
     existingNotifications.forEach(notification => notification.remove());
 
-    // Create notification element
+    // Create notification element safely
     const notification = document.createElement('div');
     notification.className = `notification notification-${type}`;
-    notification.innerHTML = `
-        <div class="notification-content">
-            <span class="notification-icon">${type === 'success' ? '✓' : type === 'error' ? '✕' : 'ℹ'}</span>
-            <span class="notification-message">${message}</span>
-        </div>
-        <button class="notification-close" aria-label="Close notification">×</button>
-    `;
+
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'notification-content';
+
+    const iconSpan = document.createElement('span');
+    iconSpan.className = 'notification-icon';
+    iconSpan.textContent = type === 'success' ? '✓' : type === 'error' ? '✕' : 'ℹ';
+
+    const messageSpan = document.createElement('span');
+    messageSpan.className = 'notification-message';
+    messageSpan.textContent = message;
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'notification-close';
+    closeBtn.setAttribute('aria-label', 'Close notification');
+    closeBtn.textContent = '×';
+
+    contentDiv.appendChild(iconSpan);
+    contentDiv.appendChild(messageSpan);
+    notification.appendChild(contentDiv);
+    notification.appendChild(closeBtn);
 
     // Add styles
     notification.style.cssText = `
@@ -246,8 +260,8 @@ function showNotification(message, type = 'info') {
     document.body.appendChild(notification);
 
     // Handle close button
-    const closeBtn = notification.querySelector('.notification-close');
-    closeBtn.addEventListener('click', () => {
+    const notificationCloseBtn = notification.querySelector('.notification-close');
+    notificationCloseBtn.addEventListener('click', () => {
         notification.remove();
     });
 
@@ -260,54 +274,7 @@ function showNotification(message, type = 'info') {
     }, 5000);
 }
 
-// Add notification animations
-const notificationStyles = document.createElement('style');
-notificationStyles.textContent = `
-    @keyframes slideInRight {
-        from {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
-    }
 
-    @keyframes slideOutRight {
-        from {
-            transform: translateX(0);
-            opacity: 1;
-        }
-        to {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-    }
-
-    .notification-content {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-    }
-
-    .notification-close {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.25rem;
-        cursor: pointer;
-        padding: 0;
-        margin-left: 0.5rem;
-        opacity: 0.8;
-        transition: opacity 0.2s;
-    }
-
-    .notification-close:hover {
-        opacity: 1;
-    }
-`;
-document.head.appendChild(notificationStyles);
 
 // Intersection Observer for animations
 function createIntersectionObserver() {
@@ -341,18 +308,31 @@ function initializeUrgencyHandling() {
                 if (!urgencyNotice) {
                     const notice = document.createElement('div');
                     notice.className = 'urgency-notice';
-                    notice.innerHTML = `
-                        <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 1rem; margin-top: 1rem;">
-                            <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
-                                <span style="color: #dc2626; font-size: 1.25rem;">🚨</span>
-                                <strong style="color: #dc2626;">Emergency Legal Notice</strong>
-                            </div>
-                            <p style="color: #991b1b; font-size: 0.875rem; margin: 0;">
-                                For true legal emergencies requiring immediate action, please contact emergency services or local law enforcement.
-                                This form is for scheduling legal consultations.
-                            </p>
-                        </div>
-                    `;
+
+                    const noticeContent = document.createElement('div');
+                    noticeContent.style.cssText = 'background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 1rem; margin-top: 1rem;';
+
+                    const headerDiv = document.createElement('div');
+                    headerDiv.style.cssText = 'display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;';
+
+                    const iconSpan = document.createElement('span');
+                    iconSpan.textContent = '🚨';
+                    iconSpan.style.cssText = 'color: #dc2626; font-size: 1.25rem;';
+
+                    const titleStrong = document.createElement('strong');
+                    titleStrong.textContent = 'Emergency Legal Notice';
+                    titleStrong.style.cssText = 'color: #dc2626;';
+
+                    const textP = document.createElement('p');
+                    textP.textContent = 'For true legal emergencies requiring immediate action, please contact emergency services or local law enforcement. This form is for scheduling legal consultations.';
+                    textP.style.cssText = 'color: #991b1b; font-size: 0.875rem; margin: 0;';
+
+                    headerDiv.appendChild(iconSpan);
+                    headerDiv.appendChild(titleStrong);
+                    noticeContent.appendChild(headerDiv);
+                    noticeContent.appendChild(textP);
+                    notice.appendChild(noticeContent);
+
                     this.closest('.form-group').appendChild(notice);
                 }
             } else {
@@ -446,8 +426,30 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Scroll event for active navigation
-    window.addEventListener('scroll', updateActiveNavLink);
+    // Use IntersectionObserver for active navigation highlighting
+    const navObserverOptions = {
+        threshold: 0.5,
+        rootMargin: '-50% 0px -50% 0px'
+    };
+
+    const navObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const sectionId = entry.target.getAttribute('id');
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${sectionId}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        });
+    }, navObserverOptions);
+
+    // Observe sections for navigation highlighting
+    sections.forEach(section => {
+        navObserver.observe(section);
+    });
 
     // Form validation on blur
     formInputs.forEach(input => {
@@ -517,8 +519,7 @@ function debounce(func, wait) {
     };
 }
 
-// Use debounced scroll handler
-window.addEventListener('scroll', debounce(updateActiveNavLink, 10));
+
 
 // Add loading states for better UX
 function addLoadingState(element) {
@@ -589,4 +590,38 @@ document.addEventListener('DOMContentLoaded', function() {
     legalDisclaimer.className = 'sr-only';
     legalDisclaimer.textContent = 'This website provides general legal information and does not constitute legal advice. Please consult with a qualified attorney for your specific legal needs.';
     document.body.insertBefore(legalDisclaimer, document.body.firstChild);
+
+    // Add live region for form validation errors
+    const formLiveRegion = document.createElement('div');
+    formLiveRegion.setAttribute('aria-live', 'polite');
+    formLiveRegion.setAttribute('aria-atomic', 'true');
+    formLiveRegion.style.cssText = `
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    `;
+    document.body.appendChild(formLiveRegion);
+
+    // Update live region when form validation occurs
+    function updateFormLiveRegion(message) {
+        formLiveRegion.textContent = message;
+        setTimeout(() => {
+            formLiveRegion.textContent = '';
+        }, 1000);
+    }
+
+    // Override form validation to announce errors
+    const originalValidateField = validateField;
+    validateField = function(field) {
+        const result = originalValidateField.call(this, field);
+        if (!result) {
+            const errorMsg = field.parentNode.querySelector('.error-message');
+            if (errorMsg) {
+                updateFormLiveRegion(`Error: ${errorMsg.textContent}`);
+            }
+        }
+        return result;
+    };
 });

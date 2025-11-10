@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScrolling();
     initFormValidation();
     initScrollAnimations();
+    initGallery();
 });
 
 /**
@@ -243,15 +244,25 @@ function showNotification(message, type = 'info') {
     const existingNotifications = document.querySelectorAll('.notification');
     existingNotifications.forEach(notification => notification.remove());
 
-    // Create notification element
+    // Create notification element safely
     const notification = document.createElement('div');
     notification.className = `notification ${type}`;
-    notification.innerHTML = `
-        <div class="notification-content">
-            <span class="notification-message">${message}</span>
-            <button class="notification-close" aria-label="Close notification">&times;</button>
-        </div>
-    `;
+
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'notification-content';
+
+    const messageSpan = document.createElement('span');
+    messageSpan.className = 'notification-message';
+    messageSpan.textContent = message;
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'notification-close';
+    closeBtn.setAttribute('aria-label', 'Close notification');
+    closeBtn.textContent = '×';
+
+    contentDiv.appendChild(messageSpan);
+    contentDiv.appendChild(closeBtn);
+    notification.appendChild(contentDiv);
 
     // Add to page
     document.body.appendChild(notification);
@@ -313,6 +324,80 @@ function debounce(func, wait) {
 }
 
 /**
+ * Initialize Gallery Component
+ */
+function initGallery() {
+    const galleryElement = document.getElementById('fitness-gallery');
+    const filterButtons = document.querySelectorAll('.gallery-filter');
+
+    if (!galleryElement) return;
+
+    // Gallery images data - using optimized gallery images
+    const galleryImages = [
+        {
+            src: '../assets/images/fitness-classes-pilates_gallery.webp',
+            alt: 'Pilates Class in Action',
+            title: 'Pilates Classes',
+            description: 'Strengthen your core with our expert-led Pilates sessions'
+        },
+        {
+            src: '../assets/images/fitness-equipment-cable-machine_gallery.webp',
+            alt: 'Modern Cable Machine Equipment',
+            title: 'State-of-the-Art Equipment',
+            description: 'Train with the latest fitness technology and equipment'
+        },
+        {
+            src: '../assets/images/fitness-trainers-certified-crossfit_gallery.webp',
+            alt: 'Certified CrossFit Trainer',
+            title: 'Certified Trainers',
+            description: 'Learn from experienced, certified fitness professionals'
+        },
+        {
+            src: '../assets/images/fitness-hero-group-class_gallery.webp',
+            alt: 'Group Fitness Class',
+            title: 'Group Classes',
+            description: 'Join our energetic group fitness classes for all levels'
+        }
+    ];
+
+    // Initialize gallery with lightbox mode by default
+    galleryElement.setOptions({
+        type: 'lightbox',
+        images: galleryImages
+    });
+
+    // Set up filter button functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const filterType = this.getAttribute('data-filter');
+
+            // Update active button state
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+
+            // Update gallery type
+            let galleryType = 'lightbox';
+            switch (filterType) {
+                case 'lightbox':
+                    galleryType = 'lightbox';
+                    break;
+                case 'carousel':
+                    galleryType = 'carousel';
+                    break;
+                case 'grid':
+                    galleryType = 'grid';
+                    break;
+            }
+
+            galleryElement.setOptions({
+                type: galleryType,
+                images: galleryImages
+            });
+        });
+    });
+}
+
+/**
  * Handle window resize events
  */
 let resizeTimeout;
@@ -331,4 +416,41 @@ window.addEventListener('resize', function() {
             }
         }
     }, 250);
+});
+
+// Accessibility features for form validation
+document.addEventListener('DOMContentLoaded', function() {
+    // Add live region for dynamic content updates
+    const liveRegion = document.createElement('div');
+    liveRegion.setAttribute('aria-live', 'polite');
+    liveRegion.setAttribute('aria-atomic', 'true');
+    liveRegion.style.cssText = `
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    `;
+    document.body.appendChild(liveRegion);
+
+    // Update live region when form validation occurs
+    function updateLiveRegion(message) {
+        liveRegion.textContent = message;
+        setTimeout(() => {
+            liveRegion.textContent = '';
+        }, 1000);
+    }
+
+    // Override form validation to announce errors
+    const originalValidateField = validateField;
+    validateField = function(field) {
+        const result = originalValidateField.call(this, field);
+        if (!result) {
+            const errorMsg = field.parentNode.querySelector('.error-message');
+            if (errorMsg) {
+                updateLiveRegion(`Error: ${errorMsg.textContent}`);
+            }
+        }
+        return result;
+    };
 });

@@ -42,12 +42,8 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h2 class="hero-title">
-                        Elevate Your
-                        <span class="hero-accent">Fitness Journey</span>
+        <section class="hero hero-with-image">
+            <div class="hero-container"> style="background-image: url('../assets/images/fitness-hero-strength-training.webp'); background-size: cover; background-position: center;"
                     </h2>
                     <p class="hero-subtitle">Elite Fitness Center provides a premium fitness experience with state-of-the-art equipment, certified personal trainers, and comprehensive wellness programs designed for those who demand excellence in their health and fitness pursuits.</p>
 
@@ -74,8 +70,8 @@
                     <p class="section-subtitle">Comprehensive wellness solutions for optimal health</p>
                 </div>
                 <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">🏋️</div>
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
+                        <div class="service-icon"><img src="../assets/images/fitness-icon-weight.svg" alt="Fitness Icon Weight" loading="lazy" class="service-icon-img"></div>
                         <h3 class="service-title">Personal Training</h3>
                         <p class="service-description">One-on-one training sessions with certified professionals featuring customized workout programs, nutritional guidance, and progress tracking using advanced fitness assessment tools.</p>
                         <div class="service-features">
@@ -83,8 +79,8 @@
                             <span class="feature-tag">Progress Tracking</span>
                         </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">💪</div>
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
+                        <div class="service-icon"><img src="../assets/images/fitness-icon-dumbbell.svg" alt="Fitness Icon Dumbbell" loading="lazy" class="service-icon-img"></div>
                         <h3 class="service-title">Strength Training</h3>
                         <p class="service-description">Access to premium strength training equipment including free weights, resistance machines, and functional training areas designed for optimal muscle development and power gains.</p>
                         <div class="service-features">
@@ -92,8 +88,8 @@
                             <span class="feature-tag">Resistance Machines</span>
                         </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">🧘</div>
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
+                        <div class="service-icon"><img src="../assets/images/fitness-icon-yoga.svg" alt="Fitness Icon Yoga" loading="lazy" class="service-icon-img"></div>
                         <h3 class="service-title">Wellness Programs</h3>
                         <p class="service-description">Comprehensive wellness initiatives including yoga, meditation, stress management, and nutritional counseling led by certified wellness specialists and nutrition experts.</p>
                         <div class="service-features">
@@ -101,8 +97,8 @@
                             <span class="feature-tag">Nutrition Counseling</span>
                         </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">🏃</div>
+                    <div class="service-card" style="height: auto; display: flex; flex-direction: column;">
+                        <div class="service-icon"><img src="../assets/images/fitness-icon-treadmill.svg" alt="Fitness Icon Treadmill" loading="lazy" class="service-icon-img"></div>
                         <h3 class="service-title">Group Fitness</h3>
                         <p class="service-description">High-energy group fitness classes including HIIT, spin, dance cardio, and specialized training sessions led by experienced instructors in our premium group fitness studio.</p>
                         <div class="service-features">
@@ -124,7 +120,7 @@
                     </div>
                     <div class="about-image">
                         <div class="about-image">
-              <img src="assets/workers-crew-staff_about_1.webp" alt="About us" loading="lazy">
+              <img src="../assets/images/workers-crew-staff_about_1.webp" alt="About us" loading="lazy">
             </div>
                     </div>
                 </div>
@@ -169,7 +165,11 @@
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        
+        
+
+        
+<section id="contact" class="contact">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Begin Your Elite Fitness Journey</h2>
@@ -182,21 +182,21 @@
                             <p>Elite Fitness Center offers flexible membership options designed to accommodate various fitness goals and lifestyles. Our premium memberships include access to all facilities, complimentary personal training sessions, and priority class booking.</p>
                             <div class="contact-details">
                                 <div class="contact-item">
-                                    <div class="contact-icon">📞</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-phone.svg" alt="Contact Icon Phone" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Phone</div>
                                         <div class="contact-value">(555) 123-4567</div>
                                     </div>
                                 </div>
                                 <div class="contact-item">
-                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-email.svg" alt="Contact Icon Email" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Email</div>
                                         <div class="contact-value">membership@elitefitnesscenter.com</div>
                                     </div>
                                 </div>
                                 <div class="contact-item">
-                                    <div class="contact-icon">📍</div>
+                                    <div class="contact-icon"><img src="../assets/images/contact-icon-location.svg" alt="Contact Icon Location" loading="lazy" class="contact-icon-img"></div>
                                     <div class="contact-text">
                                         <div class="contact-label">Location</div>
                                         <div class="contact-value">789 Fitness Boulevard, Health District</div>
@@ -277,7 +277,28 @@
                 </div>
             </div>
         </section>
-    </main>
+    <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Work</h2>
+                    <p class="section-subtitle">See our professional results</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="../assets/images/fitness-classes-pilates.webp" alt="Fitness Classes Pilates" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../assets/images/fitness-equipment-cable-machine.webp" alt="Fitness Equipment Cable Machine" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../assets/images/fitness-trainers-certified-crossfit.webp" alt="Fitness Trainers Certified Crossfit" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../assets/images/fitness-hero-group-class.webp" alt="Fitness Hero Group Class" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section></main>
 
     <footer class="footer">
         <div class="container">

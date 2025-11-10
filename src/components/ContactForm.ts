@@ -11,7 +11,9 @@ class ContactForm extends HTMLElement {
   constructor() {
     super();
     this.endpoint = this.getAttribute('endpoint') || '/api/contact';
-    this.fields = (this.getAttribute('fields')?.split(',') || ['name', 'email', 'message']).map(f => f.trim());
+    this.fields = (this.getAttribute('fields')?.split(',') || ['name', 'email', 'message']).map(f =>
+      f.trim(),
+    );
   }
 
   connectedCallback(): void {

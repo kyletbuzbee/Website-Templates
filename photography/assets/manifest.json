@@ -1,8 +1,87 @@
 {
   "version": "1.0.0",
   "industry": "photography",
-  "generated": "2025-11-09T07:39:38.012Z",
+  "generated": "2025-11-10T07:38:55.861Z",
   "images": {
+    "client-person-testimonial-2_avatar_3": {
+      "original": "client-person-testimonial-2_avatar_3.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "contact-icon-email": {
+      "original": "contact-icon-email.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 309
+      },
+      "dimensions": null
+    },
+    "contact-icon-location": {
+      "original": "contact-icon-location.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 276
+      },
+      "dimensions": null
+    },
+    "contact-icon-phone": {
+      "original": "contact-icon-phone.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 484
+      },
+      "dimensions": null
+    },
+    "customer-avatar-profile-1_avatar_2": {
+      "original": "customer-avatar-profile-1_avatar_2.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "customer-review-avatar-3_avatar_1": {
+      "original": "customer-review-avatar-3_avatar_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 784
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 200
+      }
+    },
+    "photography-camera-1": {
+      "original": "photography-camera-1.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 339
+      },
+      "dimensions": null
+    },
     "photography-hero-road": {
       "original": "photography-hero-road.jpg",
       "formats": [
@@ -18,6 +97,32 @@
         "height": 3039
       }
     },
+    "photography-hero-road_gallery": {
+      "original": "photography-hero-road_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 70456
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "photography-hero-road_hero": {
+      "original": "photography-hero-road_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 338350
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
     "photography-hero-seamless": {
       "original": "photography-hero-seamless.jpg",
       "formats": [
@@ -27,6 +132,32 @@
       "sizes": {
         "jpeg": 9440,
         "webp": 8878
+      },
+      "dimensions": {
+        "width": 183,
+        "height": 275
+      }
+    },
+    "photography-hero-seamless_gallery": {
+      "original": "photography-hero-seamless_gallery.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 20312
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "photography-hero-seamless_hero": {
+      "original": "photography-hero-seamless_hero.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 9896
       },
       "dimensions": {
         "width": 183,
@@ -47,19 +178,72 @@
         "width": 278,
         "height": 181
       }
+    },
+    "photography-lens-2": {
+      "original": "photography-lens-2.jpg",
+      "formats": [
+        "svg"
+      ],
+      "sizes": {
+        "svg": 339
+      },
+      "dimensions": null
+    },
+    "photography-services-enterprise": {
+      "original": "photography-services-enterprise.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2326
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      }
+    },
+    "roofing-team-professional_hero_1": {
+      "original": "roofing-team-professional_hero_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 5496
+      },
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "workers-crew-staff_about_1": {
+      "original": "workers-crew-staff_about_1.jpg",
+      "formats": [
+        "webp"
+      ],
+      "sizes": {
+        "webp": 2176
+      },
+      "dimensions": {
+        "width": 800,
+        "height": 600
+      }
     }
   },
   "stats": {
-    "totalImages": 6,
-    "totalSize": 2818670,
+    "totalImages": 21,
+    "totalSize": 3271781,
     "formats": {
+      "webp": {
+        "count": 13,
+        "totalSize": 1582006
+      },
+      "svg": {
+        "count": 5,
+        "totalSize": 1747
+      },
       "jpeg": {
         "count": 3,
         "totalSize": 1688028
-      },
-      "webp": {
-        "count": 3,
-        "totalSize": 1130642
       }
     }
   }

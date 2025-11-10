@@ -318,8 +318,8 @@ class ABTestingManager {
 
     // Return variant based on traffic allocation
     return normalizedValue < experiment.trafficAllocation
-      ? (experiment.variants[1] || 'B') // Variant B
-      : (experiment.variants[0] || 'A'); // Variant A
+      ? experiment.variants[1] || 'B' // Variant B
+      : experiment.variants[0] || 'A'; // Variant A
   }
 
   /**

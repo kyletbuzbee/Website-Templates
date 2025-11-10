@@ -103,21 +103,33 @@ class EliteFitnessApp {
         const animateElements = document.querySelectorAll('.service-card, .metric-card, .about-image');
         animateElements.forEach(el => observer.observe(el));
 
-        // Header background on scroll
+        // Header background on scroll using IntersectionObserver
         const header = document.querySelector('.header');
-        let lastScrollY = window.scrollY;
 
-        window.addEventListener('scroll', () => {
-            const currentScrollY = window.scrollY;
+        // Create a sentinel element at the top of the page
+        const scrollSentinel = document.createElement('div');
+        scrollSentinel.style.cssText = `
+            position: absolute;
+            top: 100px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            pointer-events: none;
+        `;
+        document.body.insertBefore(scrollSentinel, document.body.firstChild);
 
-            if (currentScrollY > 100) {
-                header.classList.add('header-scrolled');
-            } else {
-                header.classList.remove('header-scrolled');
-            }
+        // Use IntersectionObserver for header styling
+        const headerObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    header.classList.remove('header-scrolled');
+                } else {
+                    header.classList.add('header-scrolled');
+                }
+            });
+        }, { threshold: 0 });
 
-            lastScrollY = currentScrollY;
-        });
+        headerObserver.observe(scrollSentinel);
     }
 
     // Simulate enterprise analytics dashboard updates
@@ -208,92 +220,141 @@ class EliteFitnessApp {
             position: relative;
         `;
 
-        modalContent.innerHTML = `
-            <button class="modal-close" style="
-                position: absolute;
-                top: 1rem;
-                right: 1rem;
-                background: none;
-                border: none;
-                font-size: 1.5rem;
-                cursor: pointer;
-                color: #6b7280;
-                padding: 0.5rem;
-                border-radius: 50%;
-                transition: all 0.2s;
-            ">&times;</button>
-
-            <div style="text-align: center; margin-bottom: 2rem;">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">🏢</div>
-                <h2 style="color: #1e40af; margin-bottom: 0.5rem; font-size: 1.5rem;">Enterprise Corporate Portal</h2>
-                <p style="color: #6b7280; font-size: 0.9rem;">Secure access for enterprise clients</p>
-            </div>
-
-            <div style="margin-bottom: 2rem;">
-                <h3 style="color: #1f2937; margin-bottom: 1rem; font-size: 1.1rem;">Portal Features Include:</h3>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="display: flex; align-items: center; margin-bottom: 0.75rem; color: #374151;">
-                        <span style="color: #10b981; margin-right: 0.75rem; font-size: 1.2rem;">✓</span>
-                        Advanced Analytics Dashboard
-                    </li>
-                    <li style="display: flex; align-items: center; margin-bottom: 0.75rem; color: #374151;">
-                        <span style="color: #10b981; margin-right: 0.75rem; font-size: 1.2rem;">✓</span>
-                        User Management & Permissions
-                    </li>
-                    <li style="display: flex; align-items: center; margin-bottom: 0.75rem; color: #374151;">
-                        <span style="color: #10b981; margin-right: 0.75rem; font-size: 1.2rem;">✓</span>
-                        Custom Reporting Tools
-                    </li>
-                    <li style="display: flex; align-items: center; margin-bottom: 0.75rem; color: #374151;">
-                        <span style="color: #10b981; margin-right: 0.75rem; font-size: 1.2rem;">✓</span>
-                        Real-time Health Metrics
-                    </li>
-                    <li style="display: flex; align-items: center; margin-bottom: 0.75rem; color: #374151;">
-                        <span style="color: #10b981; margin-right: 0.75rem; font-size: 1.2rem;">✓</span>
-                        API Integration Hub
-                    </li>
-                </ul>
-            </div>
-
-            <div style="background: #f8fafc; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">
-                <h4 style="color: #1e40af; margin-bottom: 0.5rem; font-size: 1rem;">Enterprise Access Required</h4>
-                <p style="color: #6b7280; font-size: 0.85rem; margin: 0;">
-                    This portal is exclusively for existing Elite Fitness Pro enterprise clients. Contact our enterprise sales team to learn about implementation and access options.
-                </p>
-            </div>
-
-            <div style="display: flex; gap: 1rem; justify-content: center;">
-                <button class="modal-btn modal-btn-primary" style="
-                    background: #1e40af;
-                    color: white;
-                    border: none;
-                    padding: 0.75rem 1.5rem;
-                    border-radius: 8px;
-                    font-weight: 600;
-                    cursor: pointer;
-                    transition: all 0.2s;
-                ">Contact Sales</button>
-                <button class="modal-btn modal-btn-secondary" style="
-                    background: white;
-                    color: #1e40af;
-                    border: 2px solid #1e40af;
-                    padding: 0.75rem 1.5rem;
-                    border-radius: 8px;
-                    font-weight: 600;
-                    cursor: pointer;
-                    transition: all 0.2s;
-                ">Learn More</button>
-            </div>
+        // Create modal content safely using DOM methods
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'modal-close';
+        closeBtn.textContent = '×';
+        closeBtn.style.cssText = `
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #6b7280;
+            padding: 0.5rem;
+            border-radius: 50%;
+            transition: all 0.2s;
         `;
+
+        const headerDiv = document.createElement('div');
+        headerDiv.style.cssText = 'text-align: center; margin-bottom: 2rem;';
+
+        const iconDiv = document.createElement('div');
+        iconDiv.textContent = '🏢';
+        iconDiv.style.cssText = 'font-size: 3rem; margin-bottom: 1rem;';
+
+        const titleH2 = document.createElement('h2');
+        titleH2.textContent = 'Enterprise Corporate Portal';
+        titleH2.style.cssText = 'color: #1e40af; margin-bottom: 0.5rem; font-size: 1.5rem;';
+
+        const subtitleP = document.createElement('p');
+        subtitleP.textContent = 'Secure access for enterprise clients';
+        subtitleP.style.cssText = 'color: #6b7280; font-size: 0.9rem;';
+
+        headerDiv.appendChild(iconDiv);
+        headerDiv.appendChild(titleH2);
+        headerDiv.appendChild(subtitleP);
+
+        const featuresDiv = document.createElement('div');
+        featuresDiv.style.cssText = 'margin-bottom: 2rem;';
+
+        const featuresTitle = document.createElement('h3');
+        featuresTitle.textContent = 'Portal Features Include:';
+        featuresTitle.style.cssText = 'color: #1f2937; margin-bottom: 1rem; font-size: 1.1rem;';
+
+        const featuresList = document.createElement('ul');
+        featuresList.style.cssText = 'list-style: none; padding: 0;';
+
+        const features = [
+            'Advanced Analytics Dashboard',
+            'User Management & Permissions',
+            'Custom Reporting Tools',
+            'Real-time Health Metrics',
+            'API Integration Hub'
+        ];
+
+        features.forEach(feature => {
+            const li = document.createElement('li');
+            li.style.cssText = 'display: flex; align-items: center; margin-bottom: 0.75rem; color: #374151;';
+
+            const checkSpan = document.createElement('span');
+            checkSpan.textContent = '✓';
+            checkSpan.style.cssText = 'color: #10b981; margin-right: 0.75rem; font-size: 1.2rem;';
+
+            const textSpan = document.createTextNode(feature);
+
+            li.appendChild(checkSpan);
+            li.appendChild(textSpan);
+            featuresList.appendChild(li);
+        });
+
+        featuresDiv.appendChild(featuresTitle);
+        featuresDiv.appendChild(featuresList);
+
+        const noticeDiv = document.createElement('div');
+        noticeDiv.style.cssText = 'background: #f8fafc; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;';
+
+        const noticeTitle = document.createElement('h4');
+        noticeTitle.textContent = 'Enterprise Access Required';
+        noticeTitle.style.cssText = 'color: #1e40af; margin-bottom: 0.5rem; font-size: 1rem;';
+
+        const noticeText = document.createElement('p');
+        noticeText.textContent = 'This portal is exclusively for existing Elite Fitness Pro enterprise clients. Contact our enterprise sales team to learn about implementation and access options.';
+        noticeText.style.cssText = 'color: #6b7280; font-size: 0.85rem; margin: 0;';
+
+        noticeDiv.appendChild(noticeTitle);
+        noticeDiv.appendChild(noticeText);
+
+        const buttonsDiv = document.createElement('div');
+        buttonsDiv.style.cssText = 'display: flex; gap: 1rem; justify-content: center;';
+
+        const contactBtn = document.createElement('button');
+        contactBtn.className = 'modal-btn modal-btn-primary';
+        contactBtn.textContent = 'Contact Sales';
+        contactBtn.style.cssText = `
+            background: #1e40af;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        `;
+
+        const learnMoreBtn = document.createElement('button');
+        learnMoreBtn.className = 'modal-btn modal-btn-secondary';
+        learnMoreBtn.textContent = 'Learn More';
+        learnMoreBtn.style.cssText = `
+            background: white;
+            color: #1e40af;
+            border: 2px solid #1e40af;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        `;
+
+        buttonsDiv.appendChild(contactBtn);
+        buttonsDiv.appendChild(learnMoreBtn);
+
+        modalContent.appendChild(closeBtn);
+        modalContent.appendChild(headerDiv);
+        modalContent.appendChild(featuresDiv);
+        modalContent.appendChild(noticeDiv);
+        modalContent.appendChild(buttonsDiv);
 
         // Add modal to page
         modalOverlay.appendChild(modalContent);
         document.body.appendChild(modalOverlay);
 
         // Event listeners
-        const closeBtn = modalContent.querySelector('.modal-close');
-        const contactBtn = modalContent.querySelector('.modal-btn-primary');
-        const learnMoreBtn = modalContent.querySelector('.modal-btn-secondary');
+        const modalCloseBtn = modalContent.querySelector('.modal-close');
+        const modalContactBtn = modalContent.querySelector('.modal-btn-primary');
+        const modalLearnMoreBtn = modalContent.querySelector('.modal-btn-secondary');
 
         const closeModal = () => {
             modalOverlay.style.animation = 'fadeOut 0.3s ease-in';
@@ -643,349 +704,44 @@ document.addEventListener('DOMContentLoaded', () => {
     new EliteFitnessApp();
     new EnterpriseContactForm();
     new EnterpriseAnalytics();
+
+    // Add accessibility features
+    setupAccessibilityFeatures();
 });
 
-// Add CSS for mobile menu and enterprise animations
-const additionalStyles = `
-<style>
-/* Mobile Navigation */
-@media (max-width: 768px) {
-    .hamburger {
-        display: flex;
+// Accessibility features for form validation
+function setupAccessibilityFeatures() {
+    // Add live region for dynamic content updates
+    const liveRegion = document.createElement('div');
+    liveRegion.setAttribute('aria-live', 'polite');
+    liveRegion.setAttribute('aria-atomic', 'true');
+    liveRegion.style.cssText = `
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    `;
+    document.body.appendChild(liveRegion);
+
+    // Update live region when form validation occurs
+    function updateLiveRegion(message) {
+        liveRegion.textContent = message;
+        setTimeout(() => {
+            liveRegion.textContent = '';
+        }, 1000);
     }
 
-    .nav-menu {
-        position: fixed;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: white;
-        flex-direction: column;
-        padding: 2rem;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        transform: translateY(-100%);
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3s ease;
-        z-index: 999;
-    }
-
-    .nav-menu-open {
-        transform: translateY(0);
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .nav-link {
-        padding: 1rem 0;
-        border-bottom: 1px solid #e2e8f0;
-        font-size: 1.125rem;
-    }
-
-    .nav-link:last-child {
-        border-bottom: none;
-    }
+    // Override form validation to announce errors
+    const originalValidateField = EnterpriseContactForm.prototype.validateField;
+    EnterpriseContactForm.prototype.validateField = function(field) {
+        const result = originalValidateField.call(this, field);
+        if (!result) {
+            const errorMsg = field.parentNode.querySelector('.field-error-message');
+            if (errorMsg) {
+                updateLiveRegion(`Error: ${errorMsg.textContent}`);
+            }
+        }
+        return result;
+    };
 }
-
-/* Header scroll effect */
-.header-scrolled {
-    background-color: rgba(255, 255, 255, 0.95) !important;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Enterprise Analytics Styles */
-.analytics-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 4rem;
-    margin-top: 4rem;
-}
-
-.analytics-metrics {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-}
-
-.metric-card {
-    background: linear-gradient(135deg, #1e40af 0%, #3730a3 100%);
-    color: white;
-    padding: 2.5rem 2rem;
-    border-radius: 16px;
-    text-align: center;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-    opacity: 0;
-    transform: translateY(30px);
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.metric-card::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
-    opacity: 0;
-    transition: var(--transition);
-}
-
-.metric-card:hover::before {
-    opacity: 1;
-}
-
-.metric-card.animate-in {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.metric-value {
-    font-size: 3rem;
-    font-weight: 800;
-    display: block;
-    margin-bottom: 0.75rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.metric-label {
-    font-size: 1.125rem;
-    opacity: 0.9;
-    margin-bottom: 1.5rem;
-    font-weight: 500;
-}
-
-.metric-change {
-    font-size: 0.875rem;
-    font-weight: 700;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    display: inline-block;
-}
-
-.metric-change.positive {
-    background-color: rgba(34, 197, 94, 0.2);
-    color: #22c55e;
-    border: 1px solid rgba(34, 197, 94, 0.3);
-}
-
-.metric-change.negative {
-    background-color: rgba(239, 68, 68, 0.2);
-    color: #ef4444;
-    border: 1px solid rgba(239, 68, 68, 0.3);
-}
-
-.metric-change.neutral {
-    background-color: rgba(156, 163, 175, 0.2);
-    color: #9ca3af;
-    border: 1px solid rgba(156, 163, 175, 0.3);
-}
-
-.analytics-features {
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
-}
-
-.analytics-features .feature-item h4 {
-    color: var(--text-color);
-    margin-bottom: 1rem;
-    font-size: 1.25rem;
-    font-weight: 700;
-}
-
-.analytics-features .feature-item p {
-    color: var(--text-light);
-    line-height: 1.7;
-    font-size: 1rem;
-}
-
-/* Enterprise Features */
-.enterprise-features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin-top: 3rem;
-}
-
-.enterprise-features .feature-item {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 12px;
-    border-left: 5px solid var(--primary-color);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: var(--transition);
-}
-
-.enterprise-features .feature-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-}
-
-.enterprise-features .feature-item h4 {
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-    font-size: 1.25rem;
-    font-weight: 700;
-}
-
-.enterprise-features .feature-item p {
-    color: var(--text-light);
-    margin: 0;
-    line-height: 1.6;
-}
-
-/* Form validation styles */
-.field-error {
-    border-color: #ef4444 !important;
-    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1) !important;
-}
-
-.field-error-message {
-    color: #ef4444;
-    font-size: 0.875rem;
-    margin-top: 0.75rem;
-    font-weight: 600;
-    display: block;
-}
-
-/* Animation classes */
-@keyframes slideInRight {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.animate-in {
-    animation: slideInRight 0.8s ease-out forwards;
-}
-
-/* Service card hover effects */
-.service-card {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.service-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-}
-
-.service-card:hover .service-icon {
-    transform: scale(1.1);
-}
-
-/* Button hover effects */
-.btn {
-    position: relative;
-    overflow: hidden;
-}
-
-.btn::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    transition: width 0.6s, height 0.6s;
-}
-
-.btn:hover::before {
-    width: 300px;
-    height: 300px;
-}
-
-/* Loading animation for form submission */
-.btn:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
-}
-
-/* Footer certifications */
-.footer-certifications {
-    display: flex;
-    gap: 1.5rem;
-    margin-top: 2rem;
-    flex-wrap: wrap;
-}
-
-.certification {
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    color: #e2e8f0;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-/* Form row layout for responsive design */
-.form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-}
-
-@media (max-width: 640px) {
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Enterprise-specific responsive adjustments */
-@media (max-width: 1024px) {
-    .analytics-content {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-
-    .enterprise-features {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Enterprise-specific enhancements */
-.hero-accent {
-    background: linear-gradient(135deg, #fbbf24, #f59e0b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.service-features {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    margin-top: 2rem;
-}
-
-.feature-tag {
-    background: linear-gradient(135deg, var(--primary-color), #3730a3);
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.875rem;
-    font-weight: 600;
-    display: inline-block;
-    margin: 0.25rem;
-}
-</style>
-`;
-
-// Inject additional styles
-document.head.insertAdjacentHTML('beforeend', additionalStyles);
